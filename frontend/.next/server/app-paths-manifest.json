@@ -1,9 +1,15 @@
 {
-  "/api/documents/route": "app/api/documents/route.js",
   "/api/contradictions/route": "app/api/contradictions/route.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/contradictions/run/route": "app/api/contradictions/run/route.js",
+  "/api/documents/reingest/route": "app/api/documents/reingest/route.js",
+  "/api/documents/route": "app/api/documents/route.js",
   "/api/graph/route": "app/api/graph/route.js",
+  "/api/ingest/route": "app/api/ingest/route.js",
+  "/api/query/route": "app/api/query/route.js",
+  "/admin/page": "app/admin/page.js",
   "/chat/page": "app/chat/page.js",
+  "/page": "app/page.js",
   "/graph/page": "app/graph/page.js",
-  "/contradictions/page": "app/contradictions/page.js",
-  "/admin/page": "app/admin/page.js"
+  "/contradictions/page": "app/contradictions/page.js"
 }

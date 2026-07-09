@@ -26,7 +26,7 @@ const TYPE_COLORS: Record<string, string> = {
 };
 
 export function KnowledgeGraph({ data }: KnowledgeGraphProps) {
-  const fgRef = useRef<ForceGraphMethods | null>(null);
+  const fgRef = useRef<ForceGraphMethods<GraphNodeWithValue, { source: string; target: string }> | undefined>(undefined);
   const containerRef = useRef<HTMLDivElement | null>(null);
   const [dimensions, setDimensions] = useState({ width: 800, height: 600 });
   const [searchTerm, setSearchTerm] = useState("");

@@ -12,19 +12,16 @@ export async function GET() {
     }
     const documents = response.data ?? [];
 
-    const chunkCountsResponse = await supabaseAdmin
-      .from("chunks")
-      .select("doc_id", { count: "exact", head: false })
-      .group("doc_id");
-    if (chunkCountsResponse.error) {
-      throw chunkCountsResponse.error;
+    const chunkRowsResponse = await supabaseAdmin.from("chunks").select("doc_id");
+    if (chunkRowsResponse.error) {
+      throw chunkRowsResponse.error;
     }
-    const counts = (chunkCountsResponse.data ?? []).reduce((acc: Record<string, number>, row) => {
+    const counts = (chunkRowsResponse.data ?? []).reduce((acc: Record<string, number>, row: any) => {
       if (row.doc_id) {
-        acc[row.doc_id] = row.count as number;
+        acc[row.doc_id] = (acc[row.doc_id] || 0) + 1;
       }
       return acc;
-    }, {});
+    }, {} as Record<string, number>);
 
     const payload = documents.map((document) => ({
       ...document,

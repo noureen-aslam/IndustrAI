@@ -16,10 +16,10 @@ export async function POST(request: Request) {
     if (chunksResponse.error) {
       throw chunksResponse.error;
     }
-    const chunkIds = (chunksResponse.data ?? []).map((item) => item.chunk_id);
+    const chunkIds = ((chunksResponse.data ?? []) as any[]).map((item) => item.chunk_id);
 
     if (chunkIds.length) {
-      const relResponse = await supabaseAdmin.from("relationships").delete().in_("source_chunk_id", chunkIds);
+      const relResponse = await supabaseAdmin.from("relationships").delete().in("source_chunk_id", chunkIds);
       if (relResponse.error) {
         throw relResponse.error;
       }

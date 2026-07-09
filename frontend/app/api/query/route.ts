@@ -5,10 +5,6 @@ const COHERE_API_KEY = process.env.COHERE_API_KEY;
 const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY;
 const SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL;
 
-if (!COHERE_API_KEY || !ANTHROPIC_API_KEY || !SUPABASE_URL) {
-  throw new Error("Missing required environment variables for query route.");
-}
-
 interface RequestBody {
   question: string;
   doc_type_filter?: string;
@@ -24,6 +20,15 @@ interface MatchChunkRow {
   page: number;
   text: string;
   similarity: number;
+}
+
+interface ClaudeContentBlock {
+  type: string;
+  text?: string;
+}
+
+interface ClaudeMessagesResponse {
+  content: ClaudeContentBlock[];
 }
 
 // NOTE: The Python pipeline uses sentence-transformers all-MiniLM-L6-v2 (384-dim).
@@ -42,7 +47,8 @@ async function createEmbedding(text: string): Promise<number[]> {
     }),
   });
   if (!response.ok) {
-    throw new Error("Failed to create embedding.");
+    const errText = await response.text();
+    throw new Error(`Failed to create embedding: ${errText}`);
   }
   const body = (await response.json()) as CohereEmbeddingResponse;
   if (!body.data?.[0]?.embedding) {
@@ -58,31 +64,42 @@ function buildContext(chunks: MatchChunkRow[]): string {
 }
 
 async function callClaude(context: string, question: string): Promise<string> {
-  const prompt = `You are a private industrial document assistant. Answer only from the provided context, never hallucinate, cite sources in brackets as [Source: doc_id, page X], and return \"I don't have enough information\" if the context is insufficient.\n\nCONTEXT:\n${context}\n\nQUESTION: ${question}\n\nAnswer:`;
+  const prompt = `You are a private industrial document assistant. Answer only from the provided context, never hallucinate, cite sources in brackets as [Source: doc_id, page X], and return "I don't have enough information" if the context is insufficient.\n\nCONTEXT:\n${context}\n\nQUESTION: ${question}`;
 
-  const response = await fetch("https://api.anthropic.com/v1/complete", {
+  const response = await fetch("https://api.anthropic.com/v1/messages", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      Authorization: `Bearer ${ANTHROPIC_API_KEY}`,
+      "x-api-key": ANTHROPIC_API_KEY as string,
+      "anthropic-version": "2023-06-01",
     },
     body: JSON.stringify({
-      model: "claude-sonnet-4-6",
-      prompt,
-      max_tokens_to_sample: 500,
+      model: "claude-sonnet-5",
+      max_tokens: 500,
       temperature: 0,
-      stop_sequences: ["\n\n"],
+      messages: [{ role: "user", content: prompt }],
     }),
   });
+
   if (!response.ok) {
-    throw new Error("Claude API request failed.");
+    const errText = await response.text();
+    throw new Error(`Claude API request failed: ${errText}`);
   }
-  const body = await response.json();
-  return body.completion?.trim() ?? "";
+
+  const body = (await response.json()) as ClaudeMessagesResponse;
+  const textBlock = body.content?.find((block) => block.type === "text");
+  return (textBlock?.text ?? "").trim();
 }
 
 export async function POST(request: Request) {
   try {
+    if (!COHERE_API_KEY || !ANTHROPIC_API_KEY || !SUPABASE_URL) {
+      return NextResponse.json(
+        { error: "Server misconfiguration: missing required environment variables." },
+        { status: 500 }
+      );
+    }
+
     const payload = (await request.json()) as RequestBody;
     const question = payload.question?.trim();
     if (!question) {
@@ -90,31 +107,56 @@ export async function POST(request: Request) {
     }
 
     const embedding = await createEmbedding(question);
-    const rpcResult = await supabaseAdmin.rpc<MatchChunkRow>("match_chunks", {
+
+    const rpcResult = await supabaseAdmin.rpc("match_chunks", {
       query_embedding: embedding,
       match_count: 5,
       filter_doc_type: payload.doc_type_filter ?? null,
     });
+
     if (rpcResult.error) {
       throw new Error(rpcResult.error.message);
     }
-    const chunks = (rpcResult.data ?? []).filter(
-      (chunk): chunk is MatchChunkRow => typeof chunk.similarity === "number" && chunk.similarity >= 0.25
+
+    const rawChunks = (rpcResult.data ?? []) as MatchChunkRow[];
+    const chunks = rawChunks.filter(
+      (chunk) => typeof chunk.similarity === "number" && chunk.similarity >= 0.25
     );
+
+    // Short-circuit: no relevant chunks means no point paying for a Claude call.
+    if (chunks.length === 0) {
+      await supabaseAdmin.from("query_log").insert({
+        user_id: "web_user",
+        question,
+        answer: "I don't have enough information.",
+        cited_chunk_ids: [],
+        confidence_score: 0,
+      });
+
+      return NextResponse.json({
+        answer: "I don't have enough information.",
+        sources: [],
+        confidence: 0,
+      });
+    }
 
     const context = buildContext(chunks);
     const answer = await callClaude(context, question);
-    const confidence = chunks.length
-      ? chunks.reduce((sum, chunk) => sum + chunk.similarity, 0) / chunks.length
-      : 0;
+    const confidence =
+      chunks.reduce((sum, chunk) => sum + chunk.similarity, 0) / chunks.length;
 
-    await supabaseAdmin.table("query_log").insert({
+    const { error: logError } = await supabaseAdmin.from("query_log").insert({
       user_id: "web_user",
       question,
       answer,
       cited_chunk_ids: chunks.map((chunk) => chunk.chunk_id),
       confidence_score: confidence,
     });
+
+    if (logError) {
+      // Don't fail the whole request just because logging failed.
+      console.error("query_log insert failed:", logError.message);
+    }
 
     return NextResponse.json({
       answer,
@@ -126,6 +168,8 @@ export async function POST(request: Request) {
       confidence,
     });
   } catch (error: unknown) {
-    return NextResponse.json({ error: (error as Error).message }, { status: 500 });
+    const message = error instanceof Error ? error.message : "Unknown error occurred.";
+    console.error("Query route error:", message);
+    return NextResponse.json({ error: message }, { status: 500 });
   }
 }

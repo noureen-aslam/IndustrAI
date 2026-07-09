@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { LucideProps, MessageSquare, Activity, Upload, AlertTriangle } from "lucide-react";
+import React from "react";
 
 const navItems = [
   { label: "Chat", href: "/chat", icon: MessageSquare },
@@ -11,7 +12,7 @@ const navItems = [
 interface NavItemProps {
   href: string;
   label: string;
-  Icon: (props: LucideProps) => JSX.Element;
+  Icon: React.ComponentType<LucideProps>;
 }
 
 function NavItem({ href, label, Icon }: NavItemProps) {
