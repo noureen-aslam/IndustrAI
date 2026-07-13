@@ -44,6 +44,7 @@ async function createEmbedding(text: string): Promise<number[]> {
     body: JSON.stringify({
       model: "embed-english-light-v3.0",
       texts: [text],
+      input_type: "text",
     }),
   });
   if (!response.ok) {
