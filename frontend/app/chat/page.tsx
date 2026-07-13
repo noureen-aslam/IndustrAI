@@ -10,7 +10,13 @@ export default function ChatPage() {
   useEffect(() => {
     fetch("/api/documents")
       .then((response) => response.json())
-      .then((data) => setDocuments(data ?? []))
+      .then((data) => {
+        if (!Array.isArray(data)) {
+          setDocuments([]);
+          return;
+        }
+        setDocuments(data);
+      })
       .catch(() => setDocuments([]));
   }, []);
 

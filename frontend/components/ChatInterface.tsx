@@ -64,6 +64,7 @@ export function ChatInterface({ documents }: ChatInterfaceProps) {
   const bottomRef = useRef<HTMLDivElement | null>(null);
 
   const documentMap = useMemo(() => {
+    if (!Array.isArray(documents)) return {};
     return documents.reduce<Record<string, Document>>((acc, doc) => {
       acc[doc.doc_id] = doc;
       return acc;
