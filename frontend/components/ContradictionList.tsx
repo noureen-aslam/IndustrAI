@@ -19,7 +19,8 @@ export function ContradictionList({
   onSeverityChange,
   onRunDetector,
 }: ContradictionListProps) {
-  const filtered = contradictions.filter((item) => activeSeverity === "all" || item.severity === activeSeverity);
+  const safeContradictions = Array.isArray(contradictions) ? contradictions : [];
+  const filtered = safeContradictions.filter((item) => activeSeverity === "all" || item.severity === activeSeverity);
 
   return (
     <div className="space-y-6">

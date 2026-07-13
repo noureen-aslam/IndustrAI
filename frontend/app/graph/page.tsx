@@ -10,7 +10,13 @@ export default function GraphPage() {
   useEffect(() => {
     fetch("/api/graph")
       .then((response) => response.json())
-      .then((data) => setGraphData(data))
+      .then((data) => {
+        if (!data || !Array.isArray(data.nodes) || !Array.isArray(data.links)) {
+          setGraphData({ nodes: [], links: [] });
+          return;
+        }
+        setGraphData(data);
+      })
       .catch(() => setGraphData({ nodes: [], links: [] }));
   }, []);
 

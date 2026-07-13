@@ -12,7 +12,7 @@ export default function ContradictionsPage() {
     const url = severity ? `/api/contradictions?severity=${severity}` : "/api/contradictions";
     const response = await fetch(url);
     const data = await response.json();
-    setContradictions(data ?? []);
+    setContradictions(Array.isArray(data) ? data : []);
   };
 
   useEffect(() => {

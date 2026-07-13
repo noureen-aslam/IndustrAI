@@ -1,9 +1,9 @@
 {
+  "/api/graph/route": "app/api/graph/route.js",
   "/api/documents/route": "app/api/documents/route.js",
   "/api/contradictions/route": "app/api/contradictions/route.js",
-  "/chat/page": "app/chat/page.js",
-  "/page": "app/page.js",
-  "/admin/page": "app/admin/page.js",
   "/graph/page": "app/graph/page.js",
+  "/chat/page": "app/chat/page.js",
+  "/admin/page": "app/admin/page.js",
   "/contradictions/page": "app/contradictions/page.js"
 }

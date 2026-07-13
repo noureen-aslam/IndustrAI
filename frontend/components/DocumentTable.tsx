@@ -9,9 +9,10 @@ interface DocumentTableProps {
 }
 
 export function DocumentTable({ documents, onReingest }: DocumentTableProps) {
+  const safeDocuments = Array.isArray(documents) ? documents : [];
   const sortedDocuments = useMemo(
-    () => [...documents].sort((a, b) => (a.processed_at < b.processed_at ? 1 : -1)),
-    [documents]
+    () => [...safeDocuments].sort((a, b) => (a.processed_at < b.processed_at ? 1 : -1)),
+    [safeDocuments]
   );
 
   if (!sortedDocuments.length) {

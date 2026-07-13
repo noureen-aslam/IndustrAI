@@ -32,16 +32,19 @@ export function KnowledgeGraph({ data }: KnowledgeGraphProps) {
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedNode, setSelectedNode] = useState<GraphNodeWithValue | null>(null);
 
+  const safeNodes = Array.isArray(data?.nodes) ? data.nodes : [];
+  const safeLinks = Array.isArray(data?.links) ? data.links : [];
+
   const nodes = useMemo(
     () =>
-      data.nodes.map((node) => ({
+      safeNodes.map((node) => ({
         ...node,
-        val: data.links.filter((link) => link.source === node.id || link.target === node.id).length + 1,
+        val: safeLinks.filter((link) => link.source === node.id || link.target === node.id).length + 1,
       })),
-    [data.nodes, data.links]
+    [safeNodes, safeLinks]
   );
 
-  const links = useMemo(() => data.links, [data.links]);
+  const links = useMemo(() => safeLinks, [safeLinks]);
   const visibleNodes = useMemo(() => {
     if (!searchTerm.trim()) return nodes;
     return nodes.filter((node) => node.name.toLowerCase().includes(searchTerm.toLowerCase()));
