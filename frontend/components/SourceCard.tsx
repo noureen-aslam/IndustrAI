@@ -23,14 +23,30 @@ export function SourceCard({ docId, page, similarity, docType, filename }: Sourc
   }, [docType, filename]);
 
   return (
-    <div className="rounded-xl border border-slate-700 bg-surface p-4">
-      <div className="flex items-center justify-between gap-2">
-        <span className="text-sm font-semibold text-text-primary">{filename}</span>
-        <span className={`rounded-full px-2 py-1 text-[11px] text-white ${badgeClass}`}>{docType}</span>
+    <div className="rounded-[24px] border border-slate-700 bg-slate-950/90 p-4 shadow-sm transition hover:-translate-y-0.5 hover:border-slate-500">
+      <div className="flex items-start justify-between gap-3">
+        <div>
+          <p className="text-sm font-semibold text-text-primary truncate">{filename}</p>
+          <p className="mt-1 text-[11px] uppercase tracking-[0.24em] text-text-secondary">
+            {docType.replace(/_/g, " ")}
+          </p>
+        </div>
+        <span className={`rounded-full px-2 py-1 text-[11px] font-semibold text-white ${badgeClass}`}>
+          {docType}
+        </span>
       </div>
-      <p className="mt-2 text-sm text-text-secondary">Page {page}</p>
-      <p className="mt-1 text-sm text-text-secondary">Similarity {Math.round(similarity * 100)}%</p>
-      <a href={sourceUrl} target="_blank" rel="noreferrer" className="mt-3 inline-block text-sm font-medium text-accent-blue hover:text-white">
+
+      <div className="mt-4 grid gap-2 text-sm text-text-secondary">
+        <p>Page {page}</p>
+        <p>Similarity {Math.round(similarity * 100)}%</p>
+      </div>
+
+      <a
+        href={sourceUrl}
+        target="_blank"
+        rel="noreferrer"
+        className="mt-4 inline-flex items-center gap-2 text-sm font-medium text-accent-blue transition hover:text-white"
+      >
         Open source document
       </a>
     </div>
