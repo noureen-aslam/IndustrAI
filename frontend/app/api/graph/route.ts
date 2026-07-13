@@ -17,13 +17,13 @@ export async function GET() {
       throw relationshipsResponse.error;
     }
 
-    const nodes = (entitiesResponse.data ?? []).map((entity) => ({
+    const nodes = (entitiesResponse.data ?? []).map((entity: any) => ({
       id: entity.entity_id,
       name: entity.name,
       type: entity.entity_type,
     }));
 
-    const links = (relationshipsResponse.data ?? []).map((relationship) => ({
+    const links = (relationshipsResponse.data ?? []).map((relationship: any) => ({
       source: relationship.source_entity_id,
       target: relationship.target_entity_id,
       type: relationship.relationship_type,

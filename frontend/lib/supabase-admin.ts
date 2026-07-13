@@ -15,4 +15,6 @@ if (supabaseUrl && supabaseServiceRoleKey) {
   console.warn("SUPABASE_URL or SUPABASE_SERVICE_ROLE_KEY not set; supabaseAdmin will be unavailable until runtime.");
 }
 
-export const supabaseAdmin = _supabaseAdmin as unknown as ReturnType<typeof createClient>;
+// Use `any` for the admin client to avoid strict RPC typing issues during build-time.
+// The runtime client is still created correctly when environment variables are present.
+export const supabaseAdmin: any = _supabaseAdmin as any;

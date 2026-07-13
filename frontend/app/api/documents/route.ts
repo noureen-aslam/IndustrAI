@@ -23,7 +23,7 @@ export async function GET() {
       return acc;
     }, {} as Record<string, number>);
 
-    const payload = documents.map((document) => ({
+    const payload = documents.map((document: any) => ({
       ...document,
       num_chunks: counts[document.doc_id] ?? 0,
     }));
