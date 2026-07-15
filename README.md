@@ -53,7 +53,7 @@ cd pipeline
 python watcher.py
 ```
 
-The watcher polls `pipeline/data/raw/` every `WATCH_INTERVAL_SECONDS` and runs ingestion, embedding, and entity extraction for new or modified PDFs.
+The watcher polls `pipeline/data/processed/raw/` every `WATCH_INTERVAL_SECONDS` and runs ingestion, embedding, and entity extraction for new or modified PDFs.
 
 ## Frontend
 

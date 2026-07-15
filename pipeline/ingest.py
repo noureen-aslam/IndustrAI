@@ -11,7 +11,7 @@ import pytesseract
 from pdf2image import convert_from_path
 
 ROOT_DIR = Path(__file__).resolve().parent
-DATA_RAW_DIR = ROOT_DIR / "data" / "raw"
+DATA_RAW_DIR = ROOT_DIR / "data" / "processed" / "raw"
 DATA_PROCESSED_DIR = ROOT_DIR / "data" / "processed"
 CHUNKS_DIR = DATA_PROCESSED_DIR / "chunks"
 TEXT_EXTRACTED_DIR = DATA_PROCESSED_DIR / "text_extracted"
@@ -177,7 +177,7 @@ def main() -> None:
     processed_index = read_document_index()
     pdf_files = scan_raw_documents()
     if not pdf_files:
-        print("No PDF documents found in data/raw/.")
+        print("No PDF documents found in data/processed/raw./")
         return
 
     for file_path, doc_type in pdf_files:
