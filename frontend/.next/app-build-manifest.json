@@ -21,31 +21,6 @@
       "static/chunks/main-app.js",
       "static/chunks/app/api/documents/route.js"
     ],
-    "/admin/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/admin/page.js"
-    ],
-    "/graph/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/graph/page.js"
-    ],
-    "/contradictions/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/contradictions/page.js"
-    ],
-    "/api/graph/route": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/api/graph/route.js"
-    ],
-    "/api/contradictions/route": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/api/contradictions/route.js"
-    ],
     "/api/query/route": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",

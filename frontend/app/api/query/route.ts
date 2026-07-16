@@ -43,8 +43,8 @@ async function createEmbedding(text: string): Promise<number[]> {
     },
     body: JSON.stringify({
       model: "embed-english-light-v3.0",
-      texts: [text],
-      input_type: "text",
+      input: [text],
+       input_type: "search_query",
     }),
   });
   if (!response.ok) {
