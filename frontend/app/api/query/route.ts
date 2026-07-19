@@ -12,7 +12,7 @@ interface RequestBody {
 }
 
 interface CohereEmbeddingResponse {
-  data: Array<{ embedding?: number[] } | number[]>;
+  embeddings: number[][];
 }
 
 interface MatchChunkRow {
@@ -41,7 +41,8 @@ async function createEmbedding(text: string): Promise<number[]> {
     },
     body: JSON.stringify({
       model: "embed-english-light-v3.0",
-      inputs: [text],
+      texts: [text],
+      input_type: "search_query",
     }),
   });
 
@@ -53,19 +54,11 @@ async function createEmbedding(text: string): Promise<number[]> {
     throw new Error(`Failed to create embedding: ${JSON.stringify(body)}`);
   }
 
-  if (!body.data || body.data.length === 0) {
+  if (!body.embeddings || body.embeddings.length === 0) {
     throw new Error("Invalid embedding response.");
   }
 
-  const maybeArray = body.data[0];
-  if (Array.isArray(maybeArray)) {
-    return maybeArray as number[];
-  }
-  if (maybeArray && typeof maybeArray === "object" && Array.isArray(maybeArray.embedding)) {
-    return maybeArray.embedding;
-  }
-
-  throw new Error("Invalid embedding response format.");
+  return body.embeddings[0];
 }
 
 function buildContext(chunks: MatchChunkRow[]): string {
@@ -175,10 +168,10 @@ export async function POST(request: Request) {
     }
 
     const chunks: MatchChunkRow[] = ((data ?? []) as MatchChunkRow[]).filter(
-  (chunk) =>
-    typeof chunk.similarity === "number" &&
-    chunk.similarity >= 0.25
-);
+      (chunk) =>
+        typeof chunk.similarity === "number" &&
+        chunk.similarity >= 0.25
+    );
 
     if (chunks.length === 0) {
       return NextResponse.json({
