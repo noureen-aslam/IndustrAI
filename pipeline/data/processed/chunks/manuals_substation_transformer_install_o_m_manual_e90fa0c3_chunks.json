@@ -1,0 +1,803 @@
+[
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p1_1",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 1,
+    "text": "Substation transformer installation, operation, and maintenance \ninstructions and parts replacement information\nCOOPER POWER\nSERIES\nEffective June 2016\nSupersedes S210-15-10 February 2013\nSubstation  \nTransformers \nMN202002EN",
+    "word_count": 24
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p2_1",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 2,
+    "text": "DISCLAIMER OF WARRANTIES AND LIMITATION OF LIABILITY The information, recommendations, descriptions and safety notations in this document are based on Eaton Corporation\u2019s (\u201cEaton\u201d) experience and judgment and may not cover all contingencies. If further information is required, an Eaton sales office should be consulted. Sale of the product shown in this literature is subject to the terms and conditions outlined in appropriate Eaton selling policies or other contractual agreement between Eaton and the purchaser. THERE ARE NO UNDERSTANDINGS, AGREEMENTS, WARRANTIES, EXPRESSED OR IMPLIED, INCLUDING WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE OR MERCHANTABILITY, OTHER THAN THOSE SPECIFICALLY SET OUT IN ANY EXISTING CONTRACT BETWEEN THE PARTIES. ANY SUCH CONTRACT STATES THE ENTIRE OBLIGATION OF EATON. THE CONTENTS OF THIS DOCUMENT SHALL NOT BECOME PART OF OR MODIFY ANY CONTRACT BETWEEN THE PARTIES. In no event will Eaton be responsible to the purchaser or user in contract, in tort (including negligence), strict liability or other- wise for any special, indirect, incidental or consequential damage or loss whatsoever, including but not limited to damage or loss of use of equipment, plant or",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p2_2",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 2,
+    "text": "for any special, indirect, incidental or consequential damage or loss whatsoever, including but not limited to damage or loss of use of equipment, plant or power system, cost of capital, loss of power, additional expenses in the use of existing power facilities, or claims against the purchaser or user by its customers resulting from the use of the information, recom- mendations and descriptions contained herein. The information contained in this manual is subject to change without notice. ii SubStation tranSformer inStallation and partS replacement information MN202002EN JUNE 2016",
+    "word_count": 88
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p3_1",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 3,
+    "text": "Contents DISCLAIMER OF WARRANTIES AND LIMITATION OF LIABILITY . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . II SAFETY FOR LIFE . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .Iv SAFETY INFORMATION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p3_2",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 3,
+    "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .Iv Safety instructions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . iv PRODuCT INFORMATION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p3_3",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 3,
+    "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .1 Acceptance and initial inspection . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p3_4",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 3,
+    "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .1 Handling . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .1 Storage . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p3_5",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 3,
+    "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .1 Quality standards. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .1 INSTALLATION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p3_6",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 3,
+    "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2 Installation location . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .2 Connections . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p3_7",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 3,
+    "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .2 Final inspection . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .2 ACCESSORIES . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p3_8",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 3,
+    "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4 Liquid level gauge . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .4 Liquid temperature gauge . . . . . . . . . . . . . . . . . . . . . .",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p3_9",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 3,
+    "text": "Liquid temperature gauge . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .4 Pressure-vacuum gauge . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .5 Pressure relief device . . . . . . . . . . . . . . . . . . . . . . . . .",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p3_10",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 3,
+    "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .5 Winding temperature gauge . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .6 Transformer cooling fans . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p3_11",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 3,
+    "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .6 High voltage bushings . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .7 Low voltage bushings . . . . . . . . . . . . . . . . . . . . . . . . . .",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p3_12",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 3,
+    "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .7 De-energized tap-changer . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .8 Insulating liquid . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p3_13",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 3,
+    "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .8 Vacuum fault interrupter (VFI) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .9 MAINTENANCE . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p3_14",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 3,
+    "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .11 Periodic inspection . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .11 Removing and replacing bushings . . . . . . . . . . . . . . . . . . . . . . . .",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p3_15",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 3,
+    "text": "bushings . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .11 Removing and replacing draw lead type bushings . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .11 Removing and replacing fixed stud or spade type bushings . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p3_16",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 3,
+    "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . .12 Cover removal . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .13 Insulating liquid maintenance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p3_17",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 3,
+    "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . .14 APPLICABLE STANDARDS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14 R-TEMP FLuID-FILLED TRANSFORMERS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14 Dielectric strength . . . . . . . . . . . . . . . . . . . . . . . . . .",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p3_18",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 3,
+    "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .14 PEAK\u2122 AND ENvIROTEMP\u2122 FR3\u2122 FLuID-FILLED TRANSFORMERS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15 Spare parts and service . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p3_19",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 3,
+    "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .15 PREvENTATIvE MAINTENANCE INSTRuCTIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16 iii SubStation tranSformer inStallation and partS replacement information MN202002EN JUNE 2016",
+    "word_count": 97
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p4_1",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 4,
+    "text": "The instructions in this manual are not intended as a substitute for proper training or adequate experience in the safe operation of the equipment described. Only competent technicians who are familiar with this equipment should install, operate, and service it. A competent technician has these qualifications: \u2022 Is thoroughly familiar with these instructions. \u2022 Is trained in industry-accepted high and low-voltage safe operating practices and procedures. \u2022 Is trained and authorized to energize, de-energize, clear, and ground power distribution equipment. \u2022 Is trained in the care and use of protective equipment such as arc flash clothing, safety glasses, face shield, hard hat, rubber gloves, clampstick, hotstick, etc. Following is important safety information. For safe installa- tion and operation of this equipment, be sure to read and understand all cautions and warnings. Safety instructions Following are general caution and warning statements that apply to this equipment. Additional statements, related to specific tasks and procedures, are located throughout the manual. Safety for life ! SAFETY FOR LIFE ! SAFETY FOR LIFE Eaton meets or exceeds all applicable industry standards relating to product",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p4_2",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 4,
+    "text": "throughout the manual. Safety for life ! SAFETY FOR LIFE ! SAFETY FOR LIFE Eaton meets or exceeds all applicable industry standards relating to product safety in its Cooper Power\u2122 series products. We actively promote safe practices in the use and maintenance of our products through our service literature, instructional training programs, and the continuous efforts of all Eaton employees involved in product design, manufacture, marketing, and service. We strongly urge that you always follow all locally approved safety procedures and safety instructions when working around high voltage lines and equipment, and support our \u201cSafety For Life\u201d mission. Safety information DANGER Hazardous voltage . Contact with hazardous voltage will cause death or severe personal injury . Follow all locally approved safety procedures when working around high- and low-voltage lines and equipment . G103 .3 WARNING Before installing, operating, maintaining, or testing this equipment, carefully read and understand the contents of this manual . Improper operation, handling or maintenance can result in death, severe personal injury, and equipment damage . G101 .0 WARNING This equipment is not intended to protect human",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p4_3",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 4,
+    "text": "handling or maintenance can result in death, severe personal injury, and equipment damage . G101 .0 WARNING This equipment is not intended to protect human life . Follow all locally approved procedures and safety practices when installing or operating this equipment . Failure to comply can result in death, severe personal injury and equipment damage . G102 .1 WARNING Power distribution and transmission equipment must be properly selected for the intended application . It must be installed and serviced by competent personnel who have been trained and understand proper safety procedures . These instructions are written for such personnel and are not a substitute for adequate training and experience in safety procedures . Failure to properly select, install or maintain power distribution and transmission equipment can result in death, severe personal injury, and equipment damage . G122 .3 This manual may contain four types of hazard statements: DANGER Indicates an imminently hazardous situation which, if not avoided, will result in death or serious injury . WARNING Indicates a potentially hazardous situation which, if not avoided, could result in death or",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p4_4",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 4,
+    "text": "not avoided, will result in death or serious injury . WARNING Indicates a potentially hazardous situation which, if not avoided, could result in death or serious injury . CAuTION Indicates a potentially hazardous situation which, if not avoided, may result in minor or moderate injury . CAuTION Indicates a potentially hazardous situation which, if not avoided, may result in equipment damage only . Hazard Statement Definitions iv SubStation tranSformer inStallation and partS replacement information MN202002EN JUNE 2016",
+    "word_count": 77
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p5_1",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 5,
+    "text": "Product information CAuTION Do not Exceed Transformer Ratings . Transformers should be operated only at the ratings specified on the transformer nameplate . Prolonged overload operation will measurably shorten the projected service life of a mineral oil-filled transformer . Eaton\u2019s Cooper Power\u2122 series PEAK\u2122 transformers may help to extend insulation life and can be operated at higher capacities than traditional units while still exceeding ANSI\u00ae standard insulation life . Introduction This manual has been prepared to assist competent techni- cians in the installation, operation and service of primary or secondary unit- or open-type substation trans-formers. Substation transformers are designed for installation on three-phase systems. All units are constructed for in-door or outdoor mounting on a concrete pad with high and low voltage cables entering operating compartments through enclosed sidewall mounted bushings (unit-type transform- ers) or through cover or sidewall mounted bushings (open- type transformers). Although every effort has been made to anticipate normal installation, operation and servicing problems, these instruc- tions do not cover all possible variations in equipment or application conditions. All possible installation, operation or service contingencies are",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p5_2",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 5,
+    "text": "and servicing problems, these instruc- tions do not cover all possible variations in equipment or application conditions. All possible installation, operation or service contingencies are not discussed. If additional infor- mation is required, contact a factory representative. It is important that personnel using these instructions be fully acquainted with industry accepted high and low voltage safe operating practices and procedures. These instructions are not intended as a substitute for proper training or adequate experience in the safe operation of the equipment described. Read this manual first Read and understand the contents of this manual and follow all locally approved procedures and safety practices before installing or operating this equipment. Additional information These instructions cannot cover all details or variations in the equipment, procedures, or process described, nor to provide directions for meeting every possible contingency during installation, operation, or maintenance. For additional information, contact your Eaton representative. Acceptance and initial inspection It is important that a thorough inspection of the transformer be made before it is unloaded from the carrier. 1. Ensure that all parts listed on the bill of",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p5_3",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 5,
+    "text": "a thorough inspection of the transformer be made before it is unloaded from the carrier. 1. Ensure that all parts listed on the bill of lading are present. 2. Before unloading the transformer, make an inspection to detect any signs of damage or mishandling. Locate any accessory parts that may have been shipped separately. 3. If any damage is detected or shortages are noticed, write a brief description on the freight bill. Normally, the transformer is shipped FOB point of manufacture, and it is the customer's responsibility to file a claim against the carrier. If the transformer was shipped FOB destina- tion, notify your factory representative. He or she will, with the inspector's report, take the necessary steps to file a claim against the carrier. Handling For unloading, lifting hooks are provided near the top of the transformer tank. Cable pull angles should not be over 30\u00b0 from vertical. Otherwise, spreaders should be used to hold the lifting cables apart to avoid any bending of the structure or lifting hooks. WARNING Do not attempt to lift the transformer by placing",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p5_4",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 5,
+    "text": "hold the lifting cables apart to avoid any bending of the structure or lifting hooks. WARNING Do not attempt to lift the transformer by placing a con- tinuous loop of cable or chain around the unit or lifting lugs . Improper handling can result in death, severe per- sonal injury and equipment damage . If the transformer cannot be lifted by crane, it may be skidded or moved with rollers. When jacking a transformer to insert rollers underneath it, insure that at least two jacks are used and that two adjacent corners are raised simulta- neously and evenly to avoid warping the base. Jacks may be placed only at the corners of the transformer base. Do not place jacks under cooler assemblies, valves, or sheet metal parts. When using rollers, use as many as necessary to distribute the weight uniformly. To pull, attach pulling eyes to the holes in the base at either end of the transformer. Do not attach pulling lines to moldings or other sheet metal parts of the transformer. Storage Whenever possible, the transformer should be stored",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p5_5",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 5,
+    "text": "the transformer. Do not attach pulling lines to moldings or other sheet metal parts of the transformer. Storage Whenever possible, the transformer should be stored at its permanent location. The insulating liquid should be at its proper level and the gas space pressurized with dry nitrogen to approximately two psig. Then it should be tightly sealed so that no moisture or air can enter the tank. Periodic inspection should determine that the pressure gauge does not remain at zero, and proper liquid level is maintained at all times. The transformer should not be stored in the presence of corrosive gases (e.g., chlorine). Exterior surfaces of the trans- former should be maintained against rust and corrosion. Before placing a transformer into service after an ex-tended storage time, check fans, alarm and control circuits, and the dielectric strength of the insulating liquid. Quality standards ISO 9001 certified quality management system 1 SubStation tranSformer inStallation and partS replacement information MN202002EN JUNE 2016",
+    "word_count": 159
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p6_1",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 6,
+    "text": "Installation Installation location The transformer should be located on a concrete pad of sufficient strength to support the weight of the unit. The pad must be level. The location of the transformer, whether indoor or outdoor, should provide for adequate accessibility, ventilation and ease of inspection. The transformer should be at least 24 inches from any obstruction. These are the recommendations of the manufacturer for operation purposes; see your local codes for additional guidelines. Location in areas of corrosive chemicals should be avoided. These substation transformers are built to operate at altitudes up to 3300 feet at 30\u00b0C average and 40\u00b0C maximum ambient, unless otherwise specified. Before operating a standard transformer at higher altitudes, contact your factory representative. Adequate ventilation must be provided. For indoor installations, room air inlets should be located at floor level; the air outlets should be located as high as the room will permit. The number and size of the air inlets depends upon the rating of the transformer. In general, about 20 square feet each of inlet and outlet area should be provided for each",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p6_2",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 6,
+    "text": "inlets depends upon the rating of the transformer. In general, about 20 square feet each of inlet and outlet area should be provided for each 1000 kVA of transformer capacity. If the ventilation system is adjustable, it should be locked permanently open to avoid overheating of the transformer in case of operator error. Connections Connections must be made without placing undue stress on the bushing terminals. Conductors should be securely fastened in place and supported properly, with allowance for expansion and contraction. Make sure that the tap connection is proper for the required voltage. Changes in tap connections must be done ONLY with the transformer high voltage and low voltage circuits completely \"DE-ENERGIZED\". Safely verify that there is no voltage present at the terminals. WARNING Do not change connections on a transformer that is energized . Ground all circuits before making any trans- former connection . Failure to observe precautions when making connections can result in exposure to high volt- ages, which can cause death, severe personal injury or damage to the equipment . WARNING Do not make any connections,",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p6_3",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 6,
+    "text": "in exposure to high volt- ages, which can cause death, severe personal injury or damage to the equipment . WARNING Do not make any connections, except as authorized by the nameplate or schematic . Improper connections can result in severe personal injury and damage to the equipment . Transformers equipped with an internal terminal board are normally shipped with the higher voltage connected, unless otherwise specified by the customer. A secure and effective low resistance ground is essential for protection. The transformer must be grounded perma- nently by connecting a heavy ground cable to the ground pad located at the bottom of the tank. If the transformer is designed for operation in a solidly grounded neutral system, the neutral connection should be solidly and permanently grounded with minimum resistance. WARNING Improper grounding may result in personal injury or damage to the equipment . Lightning arresters are recommended for every trans-former installation. Arresters of proper rating should be located as close as possible to the transformer terminations. When alarm contacts or controls are supplied with the transformer accessories, a connection box",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p6_4",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 6,
+    "text": "should be located as close as possible to the transformer terminations. When alarm contacts or controls are supplied with the transformer accessories, a connection box may be provided to facilitate termination of the customer's cable or conduit. Final inspection The final inspection can be done in three major steps: Electrical, Internal and External. WARNING Do not tamper with interlocks, alarm or control circuits . Doing so can produce unsafe conditions for operators or result in damage to the equipment . Electrical inspection should determine that: 1. All external connections have been made properly (phasing of connections to terminal bushings, etc.). 2. All connections are tight and secure. 3. All accessory contact circuits are operational. 4. Current transformer circuits, if supplied, have secondar- ies either shorted or connected through their load. 5. Tap changer is operative and properly positioned. 6. The correct transformer ratio exists for units furnished with internal terminal board. 7. There is no grounding of windings that are not intended to be grounded. A 1000-volt megger test is recommended. 8. There is continuity in all windings. 9. The",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p6_5",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 6,
+    "text": "grounding of windings that are not intended to be grounded. A 1000-volt megger test is recommended. 8. There is continuity in all windings. 9. The dielectric strength of the insulating liquid is 30 kV minimum when new. (Refer to section for \"Testing Insulating Liquid\" in this manual.) 10. The neutral and ground connections have been properly made. 2 SubStation tranSformer inStallation and partS replacement information MN202002EN JUNE 2016",
+    "word_count": 68
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p7_1",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 7,
+    "text": "If an internal inspection is required, assure that: 1. There is no evidence of moisture. 2. All available bolted connections are tight. 3. There has been no shifting of any parts or any other damage. The external inspection should determine that: 1. All scratches have been painted. 2. The bushings are clean. 3. The accessories are operative. 4. There are no tools, or other objects, left on top of the transformer or inside any enclosure. 5. The liquid level is correct. 6. The transformer holds positive pressure. 7. The manhole covers are tightly bolted. 8. All protective covers are closed and bolted tight. 9. The mechanical pressure relief device is reset. CAuTION Whenever it is necessary to open a liquid-filled trans- former, insure that the liquid temperature is higher than the outside air temperature . Otherwise, internal moisture condensation may occur, which could lead to failure of the transformer . CAuTION Before breaking the seal of any handhole, manhole or bushing hole, bleed internal pressure to zero . Seals should not be broken in the presence of fog, rain or",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p7_2",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 7,
+    "text": "of any handhole, manhole or bushing hole, bleed internal pressure to zero . Seals should not be broken in the presence of fog, rain or snow, or if there is any evidence of condensation on the transformer tank . If even a very slight amount of such moisture enters the transformer tank, it can decrease the dielectric strength of the cooling liquid to danger- ously low levels, which can result in damage to the equipment . CAuTION Only authorized personnel should be permitted on top of the transformer and every precaution should be taken to avoid dropping objects into the transformer . Workers should not have anything in their pockets (such as pens, pencils, coins, etc .) and their clothing should not have loose metal buttons, badges, buckles, etc . Wristwatches should also be removed . When dropped into the transformer tank, such objects can cause equipment malfunction and damage . 3 SubStation tranSformer inStallation and partS replacement information MN202002EN JUNE 2016",
+    "word_count": 162
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p8_1",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 8,
+    "text": "Accessories Liquid level gauge A liquid level indicator is provided to aid in the systematic inspection of the transformer under load. It consists of a float-arm inside the tank, an indicating pointer and a magnetic coupling between the two across a liquid-tight separation. Under normal operating conditions, the pointer should be between the lo/min and hi/max level markings. The gauge may be furnished with SPDT (Single Pole Double Throw) alarm contacts to give a remote annunciation of low liquid level. For contact wiring and terminal points, see the accessory connection diagram furnished with the transformer. Liquid temperature gauge The temperature gauge is furnished to indicate the top liquid temperature in the tank in degrees Centigrade. The temperature-sensitive element is mounted in a leak-proof well, permitting removal of the thermometer without lower- ing the oil level. The device is furnished with an additional red pointer to show the highest temperature attained since the last reset. To reset the maximum indicator, turn the knob in the center of the dial. The thermometer can be furnished with two SPDT contacts for a high",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p8_2",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 8,
+    "text": "reset the maximum indicator, turn the knob in the center of the dial. The thermometer can be furnished with two SPDT contacts for a high temperature alarm, for energizing a fan circuit or for a low temperature alarm. The trip settings are indicated by the red tick marks on the edges of the dial. For additional wiring and contact settings, refer to the schematic furnished with the transformer. Figure 1 . Liquid level gauge . Figure 2 . Liquid temperature gauge . 4 SubStation tranSformer inStallation and partS replacement information MN202002EN JUNE 2016",
+    "word_count": 93
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p9_1",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 9,
+    "text": "Pressure-vacuum gauge The pressure-vacuum gauge indicates whether the gas space in the tank is under positive or negative pressure. The pressure will vary depending on the transformer temperature. If the transformer is de-energized or operating under light load in low ambients, the pressure may be negative. Notee: If the indicator reads zero and does not change under any load condition, the transformer should be checked for a possible leak in the seal. If sufficient air has been absorbed by the liquid during shipment or storage, the transformer may operate indefinitely in the vacuum range, depending upon the loading conditions. This, in itself, is not cause for concern, provided the pressure vacuum gauge does not remain on zero for any length of time an indication of a leak. The transformer can safely operate in pressures ranging from -2 to +6 psig. The unit may be equipped with pressure vacuum switches with two SPDT contacts for remote alarm on positive and negative pressure. For wiring and contact ratings, refer to the schematic furnished with the transformer. When required, the pressure gauge is",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p9_2",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 9,
+    "text": "alarm on positive and negative pressure. For wiring and contact ratings, refer to the schematic furnished with the transformer. When required, the pressure gauge is furnished with a pressure regulator that will automatically regulate the tank pressure between 7.0 psig positive and 3.0 psig negative. The pressure regulator is fitted with a valve and fitting to take gas samples. Pressure relief device All substation transformers are furnished with a mechanical pressure relief valve (PRV) or pressure relief device (PRD). The cover-mounted PRD consists of a self-resetting, spring- loaded diaphragm and a mechanical operation indicator. Should the tank pressure increase above that for which the device is set, the gas pressure will lift the diaphragm and let the gas escape quickly. Immediately after the pressure returns to normal, the diaphragm will reset and reseal the transformer. A mechanical indicator will protrude vertically. This must be reset manually to indicate subsequent operations. Contacts are optional. For wiring information, refer to the schematic furnished with the transformer. Figure 4 . Pressure relief device . Figure 3 . Pressure-vacuum gauge . 5 SubStation tranSformer",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p9_3",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 9,
+    "text": "information, refer to the schematic furnished with the transformer. Figure 4 . Pressure relief device . Figure 3 . Pressure-vacuum gauge . 5 SubStation tranSformer inStallation and partS replacement information MN202002EN JUNE 2016",
+    "word_count": 33
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p10_1",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 10,
+    "text": "Winding temperature gauge Transformers may be furnished with a winding temperature gauge as optional equipment. A temperature sensitive stem is mounted in a leakproof well, permitting removal of both the instrument and stem without lowering the liquid level. The well is heated by both the surrounding liquid and a heater element which is energized from a current transformer mounted inside the tank to simulate the hot spot winding temperature gradient. The combination of the two temperatures is indicated on the gauge. An additional red pointer is furnished to show the highest temperature attained since the last reset. The maximum indicator is resettable by means of a pushbutton through the bottom of the dial bezel. The gauge has three separate SPDT switches for fan control and alarm circuits. For wiring the contact settings, refer to the schematic furnished with the transformer. The equipment is calibrated to indicate the hottest spot of the transformer windings. All contacts are factory set to operate at the temperatures shown in the connection diagram. If readjustment of the contacts is desired, consult the factory for detailed",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p10_2",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 10,
+    "text": "are factory set to operate at the temperatures shown in the connection diagram. If readjustment of the contacts is desired, consult the factory for detailed instruction. Transformer cooling fans In order to increase the transformer load without overheating the windings, a set of fans can be furnished as an optional item. Fan control consists of a contact on either the liquid temperature gauge or the winding temperature gauge (when furnished), and \"Manual-Auto\" control switch. For continuous run, the switch is turned to the \"Manual\" position. In the \"Auto\" position, the fans are controlled by the contacts on the temperature gauge. For contact and temperature settings, refer to the schematic furnished with the transformer. WARNING Fan guards are furnished and installed for your protection . Do not remove fan guards or probe into the fan with long objects . Doing so can result in severe personal injury and equipment damage . Refer to wiring schematic for control equipment supplied. Figure 5 . Winding temperature gauge . Figure 6 . Transformer cooling fan . 6 SubStation tranSformer inStallation and partS replacement information",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p10_3",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 10,
+    "text": "control equipment supplied. Figure 5 . Winding temperature gauge . Figure 6 . Transformer cooling fan . 6 SubStation tranSformer inStallation and partS replacement information MN202002EN JUNE 2016",
+    "word_count": 28
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p11_1",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 11,
+    "text": "High voltage bushings High voltage leads for ratings 2.4 kV and up are normally brought through the tank end wall using a cycloaliphatic epoxy or porcelain bushing. To prevent excessive mechanical loading of the bushing, only flexible connections should be made to the bushing terminal. The bushing should never be used as a structural member to support other current- carrying parts. Care must be taken in handling the bushing to avoid cracking the porcelain or damaging its surface. Should it become necessary to replace a bushing or its gasket, proceed as follows: 1. Vent the tank to the atmosphere until pressure is zero. 2. Lower the liquid level to a point below the bushing level. 3. Remove the nuts and washers used to clamp the flange of the bushing. 4. Pull the bushing outward as far as necessary to replace the gasket and/or to unfasten the cable connection at bushing inner end. Only in rare circumstances will there be insufficient slack in the cable leads to facilitate bushing replacement through the wall. The alternative means of gaining access to the",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p11_2",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 11,
+    "text": "circumstances will there be insufficient slack in the cable leads to facilitate bushing replacement through the wall. The alternative means of gaining access to the connections is through the manhole. When reinstalling the bushing, install a new gasket in the gasket recess on the underside of the flange to insure that the gasket is properly seated in the groove. A flat washer and lock washer should be placed between the mounting nut and the flange. After the nuts are finger tight, each one should be tightened to a torque of 60\u00b15 inch pounds. After completion, pressure test the transformer. When condenser-type bushings are used, supplementary leaflets forming a part of the complete instruction book will be provided. Low voltage bushings Low voltage leads for ratings in the 1.2 kV Class are normally brought through the tank wall using an indoor bushing. This is a cast resin, cycloaliphatic epoxy or porcelain bushing. The low voltage bushing should not be used as a structural member. As a rule, only flexible connections should be made to any bushing. Avoid rigid connections between the",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p11_3",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 11,
+    "text": "should not be used as a structural member. As a rule, only flexible connections should be made to any bushing. Avoid rigid connections between the bushing and other bus supports to eliminate thermal expansion forces to the bushing. If a bushing is damaged and leaking transformer coolant, contact your factory representative for proper repair procedures. Figure 7 . High voltage bushing . Figure 8 . Low voltage bushings . 7 SubStation tranSformer inStallation and partS replacement information MN202002EN JUNE 2016",
+    "word_count": 80
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p12_1",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 12,
+    "text": "De-energized tap-changer WARNING Do not operate the tap-changer while the transformer is energized . Doing so can result in severe personal injury and equipment damage . The tap-changer provides a means of changing the voltage ratio of a de-energized transformer without breaking the transformer seal. It is operated by means of a rotatable handle located on the side of the transformer. The tap- changer is normally provided with five or seven positions, as indicated on the tap-changer dial plate and transformer instruction nameplate. Insulating liquid The insulating liquid in substation transformers is either conventional transformer oil, R-Temp\u2122 fluid or Envirotemp\u2122 FR3\u2122 fluid. When makeup liquid is required, use only approved fluid of the same type that is in the transformer. It is important to check the proper liquid level in the transformer at all times by periodically observing the liquid level gauge. In addition, the dielectric strength of the insulating liquid must be maintained at a high value. It is recommended that a sample be taken of the liquid and tested within one week after energization, and annually thereafter. Figure",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p12_2",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 12,
+    "text": "a high value. It is recommended that a sample be taken of the liquid and tested within one week after energization, and annually thereafter. Figure 9 . De-energized tap-changer . 8 SubStation tranSformer inStallation and partS replacement information MN202002EN JUNE 2016",
+    "word_count": 41
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p13_1",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 13,
+    "text": "Vacuum fault interrupter (VFI) Eaton\u2019s Cooper Power series VFI transformers utilize vacuum interrupters to provide fault current interruption and load make/break switching capabilities. The VFI transformer uses the same technology used in Eaton\u2019s Cooper Power series VFI pad-mounted switchgear. VFI transformers can be specified for either transformer protection or loop protection. A VFI transformer with transformer protection protects the transformer and provides proper coordination with upstream protective devices. A VFI transformer with loop protection protects the loop or downstream section of a feeder. Consequently, when a fault occurs downstream, the VFI breaker trips and isolates the fault, leaving the transformer load uninterrupted. The VFI interrupter mechanism in a VFI transformer has a hotstick-operable handle located on the faceplate of the transformer, with the operating mechanisms configured for ganged three-phase operation (see Figure 24). The VFI interrupter mechanism is opened by pulling the operation handle down to the open position. The VFI interrupter mechanism is closed by briskly pushing the handle up, into the closed position. If the VFI interrupter mechanism has tripped as the result of a fault or overload",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p13_2",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 13,
+    "text": "by briskly pushing the handle up, into the closed position. If the VFI interrupter mechanism has tripped as the result of a fault or overload condition, the mechanism must be reset before it can be closed. To reset the mechanism, firmly pull the operation handle down toward the ground until the latch resets. After the latch has been successfully re-set, the VFI interrupter mechanism can be closed normally. Figure 10 . vFI operating handle . IMPORTANT For 75\u00b0C AWR transformers, applications with maximum ambient temperatures exceeding 30\u00b0C or loading in excess of nameplate rating, contact your Eaton representative . WARNING Hazardous voltage . Can cause severe injury, death, or damage to equipment . \u2022 Do not operate loadbreak equipment if a fault condition is suspected . Doing so can cause an explosion or fire . \u2022 Use a hotstick to operate transformer loadbreak equipment . \u2022 After operating transformer loadbreak equipment, check that voltages at transformer terminals are the expected values . Checking voltages verifies that loadbreak equipment operated properly and that electrical circuit conditions are as expected . \u2022",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p13_3",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 13,
+    "text": "transformer terminals are the expected values . Checking voltages verifies that loadbreak equipment operated properly and that electrical circuit conditions are as expected . \u2022 Before servicing transformer secondary connected equipment, verify that all transformer secondary terminals have zero voltage and ground the transformer secondary terminals following industry accepted safe grounding practices . Grounding secondary terminals protects against situations such as a standby generator energizing transformer from the secondary circuit . \u2022 Before servicing transformer, ALWAYS de-energize the transformer from a remote upstream source and then proceed to ground all primary and secondary transformer terminals following industry accepted safe grounding practices . Grounding secondary terminals protects against situations such as a standby generator energizing transformer from the secondary circuit . \u2022 Follow industry accepted safety practices. Utilize protective clothing and equipment when working with loadbreak equipment . WARNING Three-phase pad-mounted transformers use conventional transformer oil, R-Temp fluid, or Envirotemp\u2122 FR3\u2122 fluid for an insulating liquid . When the insulating liquid temperature is less than -20\u00b0C (-4\u00b0F) for conventional transformer oil, less than 0\u00b0C (32\u00b0F) for R-Temp fluid or less than",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p13_4",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 13,
+    "text": ". When the insulating liquid temperature is less than -20\u00b0C (-4\u00b0F) for conventional transformer oil, less than 0\u00b0C (32\u00b0F) for R-Temp fluid or less than -10\u00b0C (14\u00b0F) for Envirotemp\u2122 FR3\u2122 fluid, viscosity is reduced, which may reduce make and break capabilities of loadbreak devices . Below these temperatures, under-oil loadbreak accessories should not be used to make or break a load . Instead, de-energize transformer from a remote upstream source before operating under-oil loadbreak devices . 9 SubStation tranSformer inStallation and partS replacement information MN202002EN JUNE 2016",
+    "word_count": 87
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p14_1",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 14,
+    "text": "Current-sensing transformers (CTs) located inside the VFI transformer provide line current information to the electronic control. When line current exceeds the minimum trip setting, the control initiates a signal which causes the VFI interrupter mechanism to trip and then interrupt the circuit. All three phases will open when the VFI interrupter mechanism is tripped, regardless of whether the trip was single-phase or three-phase initiated. Refer to Service Information S285-75-1, Tri-Phase, TPG, and TPG with SCADA Electronic Control Installation and Operation Instructions for electronic control operation instructions. Standard electrical ratings for Eaton VFI transformers are as follows: Continuous Current (max) . . . . . . . . . . . . . . . . . . . . . 600 A Interrupting Current (sym./asym.). . . . . . . . . . . 12 kA/20 kA Momentary Current 10 cycles (asym.) . . . . . . . . . . . . 20 kA 1-Second Withstand Current (sym.). . . . . . . . . . . . . . 12 kA Making Current (sym.) .",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p14_2",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 14,
+    "text": "20 kA 1-Second Withstand Current (sym.). . . . . . . . . . . . . . 12 kA Making Current (sym.) . . . . . . . . . . . . . . . . . . . . . . . . 12 kA For further information on Eaton VFI transformers including additional ratings, contact your Eaton representative. 10 SubStation tranSformer inStallation and partS replacement information MN202002EN JUNE 2016",
+    "word_count": 75
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p15_1",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 15,
+    "text": "Maintenance Periodic inspection 1. External: Periodically check the condition of the paint and finish, especially when the transformer is exposed to inclement atmospheric conditions. If weathering takes place, clean the tank thoroughly, wipe off any insulating liquid that might have been spilled on the surface and repaint with a factory approved paint. Occasionally, inspect and tighten all bolted joints and check for leaks. 2. Regularly inspect all gauges. The liquid level must remain normal, considering the temperature effect. Refill when samples have been taken. Prolonged periods of zero pressure could indicate a gas leak and should be checked out. The liquid temperature should not rise higher than the design value on the nameplate, plus ambient temperature. 3. Liquid samples should be taken periodically and analyzed as indicated under \"Sampling\". It is recom- mended that you keep a log of the test values to determine when reconditioning or replenishing service is required. Removing and replacing bushings Bushing construction falls into two general categories: \"draw lead\" type as represented by Figure 12 and bottom connected types with a fixed center stud or",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p15_2",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 15,
+    "text": "Bushing construction falls into two general categories: \"draw lead\" type as represented by Figure 12 and bottom connected types with a fixed center stud or internal spade as represented by Figure 13. The method for removing bushings will differ depending upon the type of construction. The two methods are dealt with separately in the written material that follows. Before any work commences, standard safety precautions must be observed. WARNING Before working with bushings, make sure that the transformer is de-energized and that all circuits to and from the transformer are grounded in order to discharge any stored energy and prevent accidental re-energization . Failure to do so may result in death, severe personal injury and equipment damage . Additional precautions include the following: \u2022 Lock in the \u201copen\u201d position disconnect switches in the supply lines to and from the transformer. \u2022 If the transformer is under vacuum or pressure, bring the tank to ambient pressure. \u2022 If the bushing to be removed is below the liquid level, lower the level sufficiently to prevent fluid loss. \u2022 To protect from the",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p15_3",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 15,
+    "text": "\u2022 If the bushing to be removed is below the liquid level, lower the level sufficiently to prevent fluid loss. \u2022 To protect from the atmosphere and contaminants, store in clean, dry, sealed containers any removed liquid that will be returned to the transformer. Removing and replacing draw lead type bushings Removing 1. Unscrew and remove the top terminal cap, exposing the threaded stud end of the draw lead cable. In some cases, the threaded stud will be held by a pin that must also be removed. 2. Fasten a pull wire, cord or rod to the stud in order to guide the lead through the bushing\u2019s bore and prevent it from falling into the opening when the bushing is removed. (In some cases, the lead will be of sufficient thickness to be self-supporting; if so, this part of the procedure can be omitted). 3. Remove the bushing mounting clamp nuts at the tank to release the mounting clamp plate and free the bushing for removal. 4. Remove the bushing, guiding the draw lead conductor and terminal stud through the",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p15_4",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 15,
+    "text": "release the mounting clamp plate and free the bushing for removal. 4. Remove the bushing, guiding the draw lead conductor and terminal stud through the base of the bushing. Figure 11 . Draw lead type bushing . 11 SubStation tranSformer inStallation and partS replacement information MN202002EN JUNE 2016",
+    "word_count": 48
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p16_1",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 16,
+    "text": "Replacing Replacement draw lead type bushings can be installed by following the removal procedure in reverse order. Clamp bolts should be tightened as specified in Table 1. The gasket under the bushing mounting flange and the top gasket should be new or in good condition to ensure a positive seal. The gasket mating surfaces must be clean and smooth. The threaded stud is keyed to the inside of the bushing to prevent rotation while the terminal cap is being tightened. It is important to have the threaded stud correctly seated. This can be accomplished by pulling the stud up and turning it until it is aligned and seated. Removing and replacing fixed stud or spade type bushings Removing 1. Remove inspection cover (manhole) nearest to bushing, only after all precautions outlined under \"Removing and Replacing Bushings\" have been taken. 2. To remove the inspection cover: A. Thoroughly clean the cover. Remove all dirt, grease and moisture. B. Release and remove cover bolts. C. Remove the cover. Lift vertically to prevent damage to bolt or cover gaskets. 3. Unbolt the connections\u2013usually",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p16_2",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 16,
+    "text": "moisture. B. Release and remove cover bolts. C. Remove the cover. Lift vertically to prevent damage to bolt or cover gaskets. 3. Unbolt the connections\u2013usually flexible straps\u2013from the bottom end of the bushing stud. 4. Remove the bushing mounting clamp nuts at the tank to release the mounting clamp plate and free the bushing for removal. 5. Remove the bushing. Replacing Replacement bushings can be installed by following the removal procedure in reverse order. Clamp bolts should be tightened as specified in Table 1. The gasket under the bushing mounting flange should be new or in good condition, and the gasket mating surfaces must be clean and smooth. After installing and connecting the new bushing, replace the inspection opening cover, making certain the gasket is in good condition and the gasket mating surfaces are clean and smooth. Return to the transformer any liquid removed and check for the correct level. A brief pressure test of the transformer at 5 psig to confirm the integrity of the seals around all openings above the liquid level is recommended. A solution of soap",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p16_3",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 16,
+    "text": "the transformer at 5 psig to confirm the integrity of the seals around all openings above the liquid level is recommended. A solution of soap and water will give indication of a leak by the presence of bubbles. Bushing Clamps 4-hole Aluminum Cast Bushing Clamps 70-80 in.-lbs. Molded Tri-Clamp Bushing 40-60 in.-lbs. All other 3- & 4-hole Bushing Clamps 40-60 in.-lbs. 2-hole Bushing Clamps 55-65 in.-lbs. TABLE 1 Torque values Internal Spade Bushings 1/2\" Steel (Grade 8) 50 ft.-lbs. 3/8\" Steel (Grade 8) 50 ft.-lbs. Internal Stud Bushings 3/8\"-16 Brass Nuts 16 ft.-lbs. 5/8\"-11 Aluminum Nuts 60 ft.-lbs. 5/8\"-11 Brass Nuts 75 ft.-lbs. 1\"-14 Brass Nuts 121 ft.-lbs. Bushing Lead Block, \u00bd\u201d Steel Hardware 110 ft.-lbs. Figure 12 . Fixed stud and spade type bushings . 12 SubStation tranSformer inStallation and partS replacement information MN202002EN JUNE 2016",
+    "word_count": 137
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p17_1",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 17,
+    "text": "Cover removal (For Envirotemp\u2122 FR3\u2122 fluid-filled units, see \u201cInsulating Liquid Maintenance\u201d Section before continuing.) Transformers that have been system connected should be de-energized, grounded, and disconnected before being opened for inspection. Substation transformers may have either bolt-on or weld- in-place main tank covers. Access to the interior of a trans- former with a bolt-on main tank cover without handholes requires removal of the entire cover. Access to the interior of the welded-in-place main tank cover design is typically through manhole or handholes. WARNING Before the tank cover, manhole cover or handhole cover is removed, the transformer tank must be vented to zero pressure by activating the pressure relief valve . Failure to do so may result in severe personal injury, death or property damage . CAuTION If the main tank cover, manhole cover, handhole cover or access cover must be removed for internal inspection or service of the transformer, precautions must be taken to prevent dirt or moisture from entering the opened unit . Contamination of the insulating fluid will prevent the transformer from operating properly and may cause serious",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p17_2",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 17,
+    "text": "dirt or moisture from entering the opened unit . Contamination of the insulating fluid will prevent the transformer from operating properly and may cause serious damage to the transformer . WARNING Transformers must never be opened or serviced while system is connected, ungrounded or energized . Tampering with the covers or cover seals of a transformer that has not been de-energized, grounded and disconnected may result in severe personal injury, death or property damage . To remove a bolt-on main tank cover 1. Thoroughly clean the cover. Remove all dirt, grease and moisture. 2. Relieve internal tank pressure by manually operating the pressure relief valve. 3. Remove the hardware (3/8\u201d inch nuts using a 9/16\u201d socket) which attaches the cover to the tank. 4. Gently pry the cover upward, making sure that the cover gasket does not come in contact with the transformer insulating liquid. Lift vertically to prevent damage to cover, bolts, and tank gasket. 5. Remove the gasket sections from the tank flange, noting the location and orientation (up/down) of each piece. To reinstall the bolt-on main tank",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p17_3",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 17,
+    "text": "gasket. 5. Remove the gasket sections from the tank flange, noting the location and orientation (up/down) of each piece. To reinstall the bolt-on main tank cover 1. Return the gasket sections to their original positions and orientation. 2. Reinstall the cover, using 25 ft-lbs. torque to tighten the cover hardware. After installing all the nuts, re-torque each nut to insure the proper torque is achieved. 3. Remove the pressure relief valve and pressurize the headspace to insure that there are no leaks. The pres- sure should not exceed 7 psig. The established pres- sure should be maintained for at least four hours to insure that all the seals are proper. To remove a bolted-on manhole or handhole cover 1. Thoroughly clean the cover. Remove all dirt, grease and moisture. 2. Relieve internal tank pressure by manually operating the pressure relief valve. 3. Remove the hardware (3/8\u201d inch nuts using a 9/16\u201d socket) which attaches the cover to the tank. 4. Gently pry the cover upward, making sure that the cover gasket does not come in contact with the transformer insulating",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p17_4",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 17,
+    "text": "cover to the tank. 4. Gently pry the cover upward, making sure that the cover gasket does not come in contact with the transformer insulating liquid. Lift vertically to prevent damage to cover, bolts, and tank gasket. 5. Remove the gasket sections from the manhole flange, noting the location and orientation (up/down) of each piece. To reinstall the bolt-on manhole or handhole cover 1. Return the gasket sections to their original positions and orientation. 2. Reinstall the manhole/handhole cover, using 25 ft-lbs. torque to tighten the hardware. After installing all the nuts, re-torque each nut to insure the proper torque is achieved. 3. Remove the pressure relief valve and pressurize the headspace to insure that there are no leaks. The pres- sure should not exceed 7 psig. The established pres- sure should be maintained for at least four hours to insure that all the seals are proper. 4. Reinstall the access cover using 25 ft-lbs. torque to tighten the access cover hardware. WARNING If the need arises to open a welded tank unit by cutting welds, purge all gas space",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p17_5",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 17,
+    "text": "torque to tighten the access cover hardware. WARNING If the need arises to open a welded tank unit by cutting welds, purge all gas space with nitrogen and keep nitrogen flowing during cutting operations . Failure to do so may cause gases to explode in the tank. 13 SubStation tranSformer inStallation and partS replacement information MN202002EN JUNE 2016",
+    "word_count": 58
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p18_1",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 18,
+    "text": "Insulating liquid maintenance Sampling insulating liquid Notee: A sample of the liquid should be taken when the unit is warmer than the surrounding air to avoid conden- sation of moisture on the liquid. Liquid samples must be drawn from the sampling valve located at the bottom of the transformer tank. Containers used for sampling liquid should be clean and dry large mouth glass bottles. Do not permit the fluid to splash into the receiving container. Splashing can introduce air and moisture into the fluid. Rinse the bottle three times with the liquid being sampled. Make sure the liquid being sampled is representa- tive of the liquid in the unit. Test samples should be taken only after the liquid has settled for some time \u2013 eight hours for a barrel, up to several days for a large transformer. Cold insulating liquid is much slower in settling. Liquid samples from the trans- former should be taken from the sampling valve at the bottom of the tank. WARNING Do not lower fluid in tank to a level below the top of the core",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p18_2",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 18,
+    "text": "the sampling valve at the bottom of the tank. WARNING Do not lower fluid in tank to a level below the top of the core clamp . Insufficient fluid risks unit failure, which could result in severe personal injury or death to exposed personnel . When sampling, a metal or non rubber hose must be used because oil leaches the sulfur found in rubber. The presence of sulfur can prove harmful to transformer components. When drawing samples from the bottom of the transformer or large tank, sufficient liquid must first be drawn off to ensure that the sample will be from the bottom of the tank, and not the liquid stored in the sampling pipe. Testing insulating liquid For testing the dielectric strength of insulating liquids, follow the procedure specified by the American Society for Testing Materials in ASTM D-877, \"Standard Method for Testing Electrical Insulating Oils.\" If, at any time, the dielectric strength of the liquid drops below 26 kV, it should be filtered until it tests at 26 kV or better. Filtering insulating liquid Transformer oil, R-Temp fluid",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p18_3",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 18,
+    "text": "the liquid drops below 26 kV, it should be filtered until it tests at 26 kV or better. Filtering insulating liquid Transformer oil, R-Temp fluid or Envirotemp\u2122 FR3\u2122 fluid can be filtered by means of a filter press. The filter press is effective for removing all types of foreign matter, including finely divided carbon and small amounts of moisture. The purifier equipment consists of a specifically proportioned filter press, a positive volume gear pump, driving motor, combined drip pan and mixing tank, necessary piping, valves, strainer, gauges and a drying oven. Filtration should be continued until the dielectric test of the insulating liquid is 26 kV or better. CAuTION When filtering any insulating fluid, the filtering equipment must be free of contaminants and other liquids . The presence of other liquids may alter the physical and electrical characteristics of the fluid . Applicable standards 1. IEEE Std C57.91\u2122-2011 standard, \"Guide for Loading Mineral Oil Immersed Transformers.\" 2. IEEE Std C57.93\u2122-2007 standard \"Guide for Installation and Maintenance of Liquid Immersed Power Transformers.\" 3. IEEE Std C57.106\u2122-2006 standard, \"Guide for Acceptance and",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p18_4",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 18,
+    "text": "Transformers.\" 2. IEEE Std C57.93\u2122-2007 standard \"Guide for Installation and Maintenance of Liquid Immersed Power Transformers.\" 3. IEEE Std C57.106\u2122-2006 standard, \"Guide for Acceptance and Maintenance of Insulating Oil in Equipment.\" 4. ASTM Specification #D 877, \"The Standard Method of Testing Electrical Insulating Oils.\" 5. IEEE Std C57.121\u2122-1998 standard, \u201cGuide for Acceptance and Maintenance of Less Flammable Hydrocarbon Fluid in Transformers.\u201d R-Temp fluid-filled transformers Periodic maintenance tests for R-Temp fluid-filled transformers should be performed on essentially the same schedule as would be used for conventional mineral oil-filled transformers of similar application. The same type of sampling techniques should be used. Basic recommended tests for R-Temp fluid-filled transformers are dielectric strength, moisture content, and flash and fire point. Dielectric strength Although the transformer should operate satisfactorily with a fluid dielectric strength of 22 kV, an R-Temp fluid dielectric strength below 25 kV is an indication of excessive contamination. In this case, the R-Temp fluid should be replaced or filtered to remove the moisture or particulate contamination. The dielectric strength of R-Temp fluid should be tested in accordance with ASTM D 877.",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p18_5",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 18,
+    "text": "replaced or filtered to remove the moisture or particulate contamination. The dielectric strength of R-Temp fluid should be tested in accordance with ASTM D 877. 14 SubStation tranSformer inStallation and partS replacement information MN202002EN JUNE 2016",
+    "word_count": 36
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p19_1",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 19,
+    "text": "Flash and fire points Relatively small percentages (2-3%) of transformer oil or contaminants may substantially reduce the flash and fire point of R-Temp fluid. If it is suspected that the fluid may have been exposed to contamination, the flash and fire point should be measured in accordance with ASTM D-92. A fire point lower than 300\u00b0C probably indicates some contamination by lower fire point material. If flash or fire points fall below the minimum values required, retrofilling may be required. Drain and refill If it is necessary to drain and refill the transformer, special care should be taken to avoid the entrapment of gas bubbles in the system. Sufficient time should be allowed between refilling and energization of the transformer to be sure that any gas bubbles created during the process have dissipated. Contact your Eaton representative for additional handling guidelines. PEAK\u2122 and Envirotemp\u2122 FR3\u2122 fluid-filled transformers Periodic maintenance should be performed on the same schedule as would be used for units of similar application filled with transformer oil. The same type of sampling techniques should be used (ASTM-D923). Basic",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p19_2",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 19,
+    "text": "schedule as would be used for units of similar application filled with transformer oil. The same type of sampling techniques should be used (ASTM-D923). Basic recommended tests for Envirotemp\u2122 FR3\u2122 fluid are dielectric strength, moisture content and flash and fire points. Acceptance values should meet or exceed those shown in IEC 61203, \"Guide for Maintenance of Transformer Esters in Equipment\". CAuTION When the insulating fluid temperature is less than \u201310\u00baC (14\u00baF), no-load tap changers and energized loadbreak switches should not be operated and the Bay-O-Net fuses should not be used to make or break a load . (Operations at lower temperatures may be possible provided it is certified by the switching device manufacturer for loadbreak operation in Envirotemp\u2122 FR3\u2122 fluid at lower temperatures .) If the transformer cover or manhole must be removed for internal service, exposure time to ambient air should be minimal. Avoid exposure times greater than 24 hours. Immediately after service is completed, replace the cover or manhole. Then, purge and recharge the headspace with dry nitrogen. The procedure for recharging the headspace with nitrogen should include",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p19_3",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 19,
+    "text": "completed, replace the cover or manhole. Then, purge and recharge the headspace with dry nitrogen. The procedure for recharging the headspace with nitrogen should include the following steps: 1. Fill headspace with dry nitrogen to a pressure of 2-3 psig. 2. Vent headspace to atmospheric pressure. 3. Refill headspace with nitrogen to 2-3 psig. 4. Verify that the unit is hermetically sealed. If the manhole cover or non-flapper style Bay-O-Net fuses are removed for more than 24 hours, any oxygen absorber packet(s) should be replaced. Transformer oil contamination Envirotemp\u2122 FR3\u2122 fluid is fully miscible with oil. There is no known detrimental performance impact when Envirotemp\u2122 FR3\u2122 fluid is mixed with mineral oil. Conversely, except for some reduction in flash and fire points, the same is true for oil mixed in with Envirotemp\u2122 FR3\u2122 fluid. More than 7% mineral oil in Envirotemp\u2122 FR3\u2122 fluid is required to drop the fire point to below 300\u00baC. To maintain its exceptional environmental classification, contamination of Envirotemp\u2122 FR3\u2122 dielectric coolant by any other fluids should be avoided. Contact your Eaton representative for additional handling guidelines.",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p19_4",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 19,
+    "text": "its exceptional environmental classification, contamination of Envirotemp\u2122 FR3\u2122 dielectric coolant by any other fluids should be avoided. Contact your Eaton representative for additional handling guidelines. Spare parts and service We suggest that you keep one spare set of gaskets for the manhole and any gasket-type bushings used. Other renewal parts may be ordered through your local factory representative. When replacing components, including gaskets, on a PEAK transformer ensure they are rated for PEAK level operating temperatures. When ordering parts or requesting service, provide a complete description of the part or the problem and the complete transformer serial number as listed on the nameplate. 15 SubStation tranSformer inStallation and partS replacement information MN202002EN JUNE 2016",
+    "word_count": 114
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p20_1",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 20,
+    "text": "Preventative maintenance instructions If any issues are found regarding the below, contact PS-WarrantyServices@ Eaton.com for assistance on transformers under warranty. Additionally, these reports must be available upon request to maintain warranty period. Transformer Exterior Maintenance Items to Inspect Points to be Checked Remedial Action Frequency Exterior Surfaces Inspect for evidence of tampering, battered metal, gouges, etc. Check for any damage that would allow the entrance of wires or other metallic devices. Any such damage should be repaired immediately. Annual Paint or Protective Coatings Inspect for scratches or weathering. Any such damage should be touched up immediately. Annual Tank Leaks Check tank exterior for signs of a leak. Any such leaks should be repaired immediately. Annual General Location Check the area around the transformer for stored tools, materials, equipment or debris. Anything on or against the transformer should be removed. Annual General Location Walk completely around unit and listen for abnormal noises; should be a steady hum without intermittent rattling Any such abnormal noises should be reported and investigated. Annual Pad Verify that pad has not tilted resulting in a transformer",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p20_2",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 20,
+    "text": "hum without intermittent rattling Any such abnormal noises should be reported and investigated. Annual Pad Verify that pad has not tilted resulting in a transformer that is more than 5\u00b0 from horizontal. If pad support is compromised or out of level greater than 5\u00b0, repair it immediately. Annual Nameplates Abnormal or unexpected fading of nameplates or decals. Contact your Eaton representative for replacement nameplates and decals as necessary. Annual Unusual Odors Smells of fluid or burning. This could be indicative of an unseen leak under the base. Also, inspect the concrete around the perimeter of the transformer base for oil spotting. Any such abnormal odors should be reported and investigated. Annual Cabinet Interior Maintenance Items to Inspect Points to be checked Remedial Action Frequency Gauges and Controls Check for proper operation. Repair or replace damaged or defective equipment. Annual Equipment Leaks Inspect drain cocks, plugs, fuse mountings, and switches. Look for evidence of insulating liquid seepage around tank-wall gaskets, seals, etc. Repair as required. Replacement of gaskets or seals in the tank wall may require that the tank be opened",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p20_3",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 20,
+    "text": "seepage around tank-wall gaskets, seals, etc. Repair as required. Replacement of gaskets or seals in the tank wall may require that the tank be opened and the insulating liquid lowered to the appropriate level. For instruction on opening the tank and for draining and replacing the insulating liquid, refer to the Insulating Liquid Maintenance section. Annual Tank Pressure Check that pressure/vacuum gauge does not remain at zero for an extended period of time. It is preferable that a given unit not cycle between negative and positive pressures on a daily basis. Commissioning pressures have been documented in a separate paper based on the top fluid temperature. Any observed readings lower than -2 psig or greater than +7 psig indicate a condition that can and should be corrected. If the pressure/vacuum gauge remains at zero for an extended period of time this may be evidence of air leakage in and out of the tank. A leak test should be performed by adding nitrogen to the airspace and observing for loss of pressure over an interval of a minimum of 12 hours.",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p20_4",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 20,
+    "text": "test should be performed by adding nitrogen to the airspace and observing for loss of pressure over an interval of a minimum of 12 hours. If the pressure is lost, locate the leak and repair immediately. Annual WARNING Hazardous voltage . Can cause severe injury, death, or damage to equipment . De-energize transformer from a remote upstream source before opening cabinet and doing cabinet interior inspection or maintenance . Check that all transformer terminals and bushings have zero voltage . Ground transformer following industry accepted safe grounding practices . 16 SubStation tranSformer inStallation and partS replacement information MN202002EN JUNE 2016",
+    "word_count": 100
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p21_1",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 21,
+    "text": "Items to Inspect Points to be checked Remedial Action Frequency Dielectric Fluid Level Check dielectric fluid level gauge. Note that the fluid level gauge has a notation as to the expected level when the unit has an average internal fluid temperature of 25\u00b0C. A reading above this zone is normal when at full operating temperature and does not indicate that the transformer is operating at a temperature higher than the nameplate rating. If the dielectric fluid level is below the nominal level, check transformer for signs of a leak. If a leak is observed, repair immediately. If no leak is observed, add oil to bring level to nominal operating level. Annual Fluid Temperature Check liquid temperature gauge for elevated temperature. Reset the drag hand if one exists. Compare temperature to that of similar units. Note that the maximum top fluid temperature as noted by the draghand is a function of the maximum loading on the hottest day. A rule of thumb for a typical maximum reading would be nameplate rated temperature rise minus 10\u00b0C plus the maximum ambient peak experienced",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p21_2",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 21,
+    "text": "hottest day. A rule of thumb for a typical maximum reading would be nameplate rated temperature rise minus 10\u00b0C plus the maximum ambient peak experienced in the area. Example: 65\u00b0C - 10\u00b0C + 40\u00b0C = 95\u00b0C. Similar units should be within 3\u00b0C of each other at the same location. If temperature is elevated compared to other similar transformers, have unit serviced immediately to determine source of elevation. Annual Fusing If bayonet fuses have been extracted, fluid might be present from that activity and may not be indicative of a leak. Annual Cable Connections If there are signs of overheating, check for loose connections or discolored spades (paddles). The tin plating will achieve a rainbow coloring if a particular terminal is experiencing an over temperature condition. Tighten any loose connections immediately. Any damage or discoloration that is observed should be addressed immediately by a qualified technician. Annual Bushings Check condition of the HV and LV bushings. Observe for any indication of dirt, breakage, general damage, heat damage or flashover. Note that excess dielectric grease from the separable dead front connectors can",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p21_3",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 21,
+    "text": "Observe for any indication of dirt, breakage, general damage, heat damage or flashover. Note that excess dielectric grease from the separable dead front connectors can liquefy from the heat and appear like an internal fluid leak. If the bushings are dirty, clean them immediately. Any damage that is observed should be addressed immediately by a qualified technician. Annual Cubicle Padlock Check that all cubicles are locked. Replace any missing locks immediately. Annual LV Bushing Cantilever Check for excessive cable weight or stiff cable conductors putting upward or downward pressure on the bushings due to pad settling. Immediately adjust cable/conductor position to eliminate pressure. Annual Pressure Relief Valve Check for dirt, debris and operation. Replace immediately if damage. Clean if dirty or clogged with debris. Annual Lightning Arresters Check for damage or breakage and an intact and tight ground connection. Replace damaged arresters and tighten or secure any lose ground connections. Annual Dissolved Gas Analysis Items to Inspect Points to be checked Remedial Action Frequency Oil Sample Take an oil sample and send it to a third party tester to check",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p21_4",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 21,
+    "text": "to Inspect Points to be checked Remedial Action Frequency Oil Sample Take an oil sample and send it to a third party tester to check dissolved gas levels. Compare dissolved gas analysis results to the baseline result. Look for abrupt changes in dissolved gas levels. Any abrupt changes should be investigated immediately. Annual 17 SubStation tranSformer inStallation and partS replacement information MN202002EN JUNE 2016",
+    "word_count": 64
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p22_1",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 22,
+    "text": "This page is intentionally left blank.\n18\nSubStation tranSformer inStallation and partS replacement information   MN202002EN   JUNE 2016",
+    "word_count": 17
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p23_1",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 23,
+    "text": "This page is intentionally left blank.\n19\nSubStation tranSformer inStallation and partS replacement information   MN202002EN   JUNE 2016",
+    "word_count": 17
+  },
+  {
+    "chunk_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3_p24_1",
+    "doc_id": "manuals_substation_transformer_install_o_m_manual_e90fa0c3",
+    "filename": "Substation Transformer Install_O&M Manual.pdf",
+    "doc_type": "Substation Transformer Install_O&M Manual.pdf",
+    "page": 24,
+    "text": "Eaton is a registered trademark.\nAll trademarks are property  \nof their respective owners.\nFor Eaton's Cooper Power series product \ninformation call 1-877-277-4636 or visit:  \nwww.eaton.com/cooperpowerseries.\n!\nSAFETY\nFOR LIFE\nEaton\n1000 Eaton Boulevard\nCleveland, OH 44122\nUnited States\nEaton.com\nEaton\u2019s Power Systems Division\n2300 Badger Drive\nWaukesha, WI  53188\nUnited States\nEaton.com/cooperpowerseries\n\u00a9 2016 Eaton\nAll Rights Reserved\nPrinted in USA\nPublication No. MN202002EN\nJune 2016",
+    "word_count": 66
+  }
+]

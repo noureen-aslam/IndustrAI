@@ -1,0 +1,353 @@
+[
+  {
+    "chunk_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5_p1_1",
+    "doc_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5",
+    "filename": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "doc_type": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "page": 1,
+    "text": "Kyte Powertech Limited \nRegistered Office & Plant: \nDublin Road, Cavan, Ireland \nW: www.kytepowertech.com \n \n \n \nYour partner in energy solutions \n \n \nInstallation and maintenance instructions \nfor liquid-filled distribution transformers",
+    "word_count": 26
+  },
+  {
+    "chunk_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5_p2_1",
+    "doc_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5",
+    "filename": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "doc_type": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "page": 2,
+    "text": "Kyte Powertech Limited \nRegistered Office & Plant: \nDublin Road, Cavan, Ireland \nW: www.kytepowertech.com \n \n \n \nContents \nCaution ....................................................................................................................................................... 3 \nGenerally applicable conditions ................................................................................................................. 3 \nWarranty conditions ............................................................................................................................... 3 \nTransportation ........................................................................................................................................ 4 \nTransportation by truck .......................................................................................................................... 4 \nTransportation by rail or sea .................................................................................................................. 4 \nMoving distribution transformers .......................................................................................................... 4 \nAcceptance procedure ............................................................................................................................ 4 \nStorage of transformers .............................................................................................................................. 5 \nPreparation and checking of transformers before storage. ..................................................................... 5 \nMonitoring and checking of transformers during storage...................................................................... 5 \nStorage after being taken out of operation. ............................................................................................ 5 \nInstalling and connecting liquid-filled distribution transformers .............................................................. 6 \nInstallation.............................................................................................................................................. 6 \nConnections............................................................................................................................................ 6 \nEarthing .................................................................................................................................................. 6 \nPutting into operation ................................................................................................................................. 7 \nExternal check ........................................................................................................................................ 7 \nElectrical measurements before putting into operation. ........................................................................ 7 \nEnergizing .............................................................................................................................................. 7 \nParallel operation ................................................................................................................................... 8 \nMaintenance ............................................................................................................................................... 9 \nAnnual external check............................................................................................................................ 9 \nTwo-yearly maintenance ........................................................................................................................ 9 \nLiquid sampling and analysis..................................................................................................................... 9 \nKyte Powertech After Sales Service ........................................................................................................ 10 \nAccessories .............................................................................................................................................. 10 \nStandards .................................................................................................................................................. 11 \nEnd of life ................................................................................................................................................ 11 \nAnnex: Insulation resistance measurement (Megger test) ....................................................................... 12 \nMeasuring procedure: .......................................................................................................................... 12",
+    "word_count": 166
+  },
+  {
+    "chunk_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5_p3_1",
+    "doc_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5",
+    "filename": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "doc_type": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "page": 3,
+    "text": "Kyte Powertech Limited Registered Office & Plant: Dublin Road, Cavan, Ireland W: www.kytepowertech.com Caution When lifting or moving the transformer, care should be taken to ensure that the bushings, the cooling fins and the other accessories are not damaged by the lifting apparatus, pulling tools or adjacent obstacles. Before energizing the transformer, a basic visual electrical & mechanical component check-up should be completed. Check that: > The transformer is not damaged. > The fins are not damaged. > There are no oil leaks. > The paint is not damaged. > The bushings & accessories are not damaged. Never open a hermetically sealed transformer. Please contact our After Sales Service department for instructions. Never open such a transformer at oil temperatures higher than 20\u00b0C (thermometer pocket reading) since hot oil may be ejected. The tap-changer handle must not be operated when the transformer is energized (must be OFF-CIRCUIT)! In case of presence of an expansion tank: remove the gasket from the fitted breather or replace the blind flange and install the breather. Refer to the Technical Data Sheet (TDS) and Material",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5_p3_2",
+    "doc_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5",
+    "filename": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "doc_type": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "page": 3,
+    "text": "remove the gasket from the fitted breather or replace the blind flange and install the breather. Refer to the Technical Data Sheet (TDS) and Material Safety Data Sheets (MSDS) for all safety measures and precautions about fire hazard, exposure to skin or contamination of materials such as the cooling liquid and paints. Generally applicable conditions We are delighted that you have purchased a Kyte Powertech transformer. It was manufactured using the latest techniques, tested in full and subjected to a thorough final inspection before delivery. Despite these precautions difficulties may still arise during transportation, installation or operation. That is why we advise you to read the following instructions carefully. A transformer is an electrical appliance and should therefore be handled according to the applicable national safety instructions. Remarks: This manual applies to liquid-filled \u201cDistribution Transformers\u201d which covers the range of transformers up to some 5MVA/36kV, not only used for distribution of electricity but also for energy supply to light industry and generator step-up applications. This range typically uses transformers with finned tanks. If you have opted for a transformer tank",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5_p3_3",
+    "doc_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5",
+    "filename": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "doc_type": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "page": 3,
+    "text": "energy supply to light industry and generator step-up applications. This range typically uses transformers with finned tanks. If you have opted for a transformer tank with radiators, other instructions are partly applicable. Consult us about these. This manual applies to liquid-filled transformers in which the liquid can either be: > Mineral oil as per IEC 60296. > Silicone fluid as per IEC 60836. > Synthetic ester as per IEC 61099. > Natural (vegetal) ester as per supplier\u2019s TDS. Warranty conditions The transformer typically comes with a factory warranty against construction defects that applies for 12 months after being put into operation, with a maximum of 18 months after leaving the factory. Any deviations from this must be established contractually. The warranty is limited to the repair or possible replacement of the transformer and this repair or replacement does not extend the original warranty. If difficulties arise during the warranty period and afterwards, the service department of Kyte Powertech can be contacted. They will give you the necessary assistance. In case of any interpretation disputes, the \u2018General terms and conditions of",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5_p3_4",
+    "doc_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5",
+    "filename": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "doc_type": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "page": 3,
+    "text": "of Kyte Powertech can be contacted. They will give you the necessary assistance. In case of any interpretation disputes, the \u2018General terms and conditions of sale\u2019 of Kyte Powertech shall take precedence over these instructions and the \u2018Special agreements\u2019 shall take precedence over the \u2018General terms and conditions of sale\u2019.",
+    "word_count": 50
+  },
+  {
+    "chunk_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5_p4_1",
+    "doc_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5",
+    "filename": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "doc_type": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "page": 4,
+    "text": "Kyte Powertech Limited Registered Office & Plant: Dublin Road, Cavan, Ireland W: www.kytepowertech.com Transportation Distribution transformers are shipped \u2018ready for installation\u2019, which means filled with the insulating liquid and with accessories fitted (or occasionally supplied separately). Transportation by truck The transformers must be tightly secured at the top and bottom on the truck. At the bottom by nailing down the skid, by using rubber mats or other means; fixed rollers should be clamped. The transformer must be tightly secured at the top via the lifting lugs or via special transport securing lugs. If securing straps are used, make sure they do not pull on the fins or fin reinforcements. If the transformer is fitted with an expansion tank and a silica gel breather, see about hermetic sealing. Transportation by rail or sea Transformers are usually packed in sturdy crates, boxes or containers. When packed in crates, the transformer\u2019s lifting lugs can be used to lift the entire equipment. Under no circumstances may moisture be allowed to penetrate the transformer. For hermetically sealed transformers \u2013 those with gas cushions as well",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5_p4_2",
+    "doc_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5",
+    "filename": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "doc_type": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "page": 4,
+    "text": "the entire equipment. Under no circumstances may moisture be allowed to penetrate the transformer. For hermetically sealed transformers \u2013 those with gas cushions as well as those with integral filling \u2013 this is not a problem. The liquid cannot meet the surrounding air. For transformers with an expansion tank the infiltration of air during transportation and storage is prevented by: > Either placing a gasket in the de-aerator (breather) cap (which must be removed before the transformer is energized). > Or replacing the silica gel air breather by a blind flange that prevents the infiltration of air. In that case the air breather is supplied separately. Assembly instructions are included with the air breather. Moving distribution transformers In order to move a transformer, the following accessories are required, depending on the transformer\u2019s size and the directions: > A set of rollers, the wheels of which can be changed very simply in a longitudinal or diagonal direction. > Lifting lugs on the main cover. > Reinforcement of the bottom of the transformer tank allowing transportation by forklift, and > If necessary,",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5_p4_3",
+    "doc_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5",
+    "filename": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "doc_type": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "page": 4,
+    "text": "direction. > Lifting lugs on the main cover. > Reinforcement of the bottom of the transformer tank allowing transportation by forklift, and > If necessary, upon special request, jacking bosses and/or (fixed or detachable) lugs on the roller base or carriage. Attention: Never lift a transformer under the cooler fins. Never use the bushings (high voltage (HV) or low voltage (LV) insulators) to guide the transformer when moving it. Nor should the fins or fin reinforcements (round bar on top and bottom of the fins) be pulled on. The securing lugs are not to be used to manipulate the transformer; they must be used exclusively to secure the transformer during transport. Acceptance procedure Upon arrival of a transformer and its accessories everything should be closely inspected. The following points should be checked: > Is the crate or box damaged? > Is there rust or is the paint on the transformer or its accessories damaged? > Are the transformer tank or accessories damaged? > Are there leaks? > If the liquid level is visible, is it high enough? > Is the",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5_p4_4",
+    "doc_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5",
+    "filename": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "doc_type": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "page": 4,
+    "text": "Are the transformer tank or accessories damaged? > Are there leaks? > If the liquid level is visible, is it high enough? > Is the delivery complete? Check the number of transformers, the number of boxes of accessories and check that all accessories are fitted or present. > Check the information on the rating plate. All deviations should immediately be marked on the delivery note (CMR) and should immediately be reported to Kyte Powertech. If no report has been received within 24 hours of arrival at the customer\u2019s, it shall be assumed that the delivery arrived complete and in good condition. In connection with transportation insurance, the following procedure is to be applied in the event of damage: > If no transportation by sea preceded transportation by land and you did not receive an insurance certificate: - Declare the transport company liable by means of a comment on the delivery note and a registered letter. - Do what is necessary to limit the damage and to avoid additional damage.",
+    "word_count": 169
+  },
+  {
+    "chunk_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5_p5_1",
+    "doc_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5",
+    "filename": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "doc_type": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "page": 5,
+    "text": "Kyte Powertech Limited Registered Office & Plant: Dublin Road, Cavan, Ireland W: www.kytepowertech.com - Inform Kyte Powertech. > If transportation by sea preceded transportation by land and/or you received an insurance certificate: - Follow the instructions on the back of the insurance certificate carefully. Do not sign a \u2018clean\u2019 proof of receipt but record your reservations on these documents. - Inform Kyte Powertech. > In case of transportation by rail: have the authorities at the station the delivery was collected from draw up a report. This acceptance procedure must be repeated after each transportation stage, so that the origin of the damage can be established. Storage of transformers Preparation and checking of transformers before storage. > If an air breather is provided, it must be fitted and filled with dry silica gel. Fill the oil lock and fit it under the air breather. The liquid level is checked and, if necessary, liquid is added. For more information about this, see chapter \u2018Maintenance\u2019. > Any damage to the paint is touched up. Contact Kyte Powertech for the correct procedure. > If",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5_p5_2",
+    "doc_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5",
+    "filename": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "doc_type": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "page": 5,
+    "text": "more information about this, see chapter \u2018Maintenance\u2019. > Any damage to the paint is touched up. Contact Kyte Powertech for the correct procedure. > If a Buchholz relay is provided, the transport protection (test button lock) is removed. > If an explosion vent is fitted, replace the blank plate by the foil membrane. Storage is limited to 1 to 2 weeks. If it lasts longer than this, the expansion tank and, if provided, the air breather must be installed, and the transformer must be filled or topped up with the liquid provided. Storage should preferably occur in a dry, ventilated area, unless the transformer is protected by a condensation-free cover. Monitoring and checking of transformers during storage. Preferably only fully assembled, liquid-filled transformers are stored for a long period of time. The following checks must be carried out during storage: > Check the air breather, if fitted. Check the status of the silica gel (its colour indicates whether it is dry or wet; see chapter for technical data on accessories). Check the level of the oil lock. > Check the",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5_p5_3",
+    "doc_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5",
+    "filename": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "doc_type": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "page": 5,
+    "text": "colour indicates whether it is dry or wet; see chapter for technical data on accessories). Check the level of the oil lock. > Check the transformer for leaks. > Check that there is no damage to the paint and that there is no rust. If any defects are established, they should either be remedied immediately or Kyte Powertech should be informed as quickly as possible. Storage after being taken out of operation. Before the transformer is stored, a full check as described in the \u2018Acceptance procedure\u2019 paragraph should take place. Responsibility for correct storage lies with the customer. Attention should be paid to the following: > The possibility for the liquid to expand must be guaranteed. > Contact of the liquid with the air must be avoided. > The transformer must always be stored filled with liquid.",
+    "word_count": 137
+  },
+  {
+    "chunk_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5_p6_1",
+    "doc_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5",
+    "filename": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "doc_type": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "page": 6,
+    "text": "Kyte Powertech Limited Registered Office & Plant: Dublin Road, Cavan, Ireland W: www.kytepowertech.com Installing and connecting liquid-filled distribution transformers During installation, the following rules must be followed in order to ensure that the transformer operates correctly: Installation The local regulations for installing liquid-filled transformers in buildings, on a pole, in a cabinet or in the open air must be followed to the letter in relation to, among others, fire safety, protection against leaking. (sump or oil-retaining tank), accessibility, electrical regulations The place where the transformer is set up must be adequately ventilated in order to enable dissipation of the heat given off by the transformer. We are at your disposal to do relevant calculations and to explain the precautions that need to be taken. For distribution transformers set up in buildings or steel sheet substations this implies a regular supply of fresh air from outside, adequate ventilation and enough free space in all directions around the transformer. Liquid sample plug, tap changer and any other operating and protection equipment must be easily accessible. Monitoring apparatus such as thermometers must be",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5_p6_2",
+    "doc_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5",
+    "filename": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "doc_type": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "page": 6,
+    "text": "the transformer. Liquid sample plug, tap changer and any other operating and protection equipment must be easily accessible. Monitoring apparatus such as thermometers must be clearly visible and/or readable. Setting up the transformer completely parallel with a wall is not advisable as this may increase the noise. Anti-vibration pads under the wheels may reduce the transfer of noise vibrations to the ground. The area in which the transformer is placed must be inaccessible to pets, birds, rodents, ... We once again remind you that lifting the transformer under the cooling fins is absolutely forbidden. This will create leaks. Connections Electrical and other connections. Always ensure that connection of the cables and busbars to the bushings is done without any tensile force being exerted on the bushings that can lead to leakage by the gasket or cracks in the bushings. A flexible connection is highly recommended in all cases. In this way, expansion of the conductors due to temperature differences cannot lead to leaks or cracks. When using plug connections on the HV, the instructions of the manufacturer of the connectors",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5_p6_3",
+    "doc_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5",
+    "filename": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "doc_type": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "page": 6,
+    "text": "due to temperature differences cannot lead to leaks or cracks. When using plug connections on the HV, the instructions of the manufacturer of the connectors are to be observed. To avoid any stress on the plug connection, the HV cables should be supported within 50 cm from the plug connection. The first 50 cm of the cable should not be bended, after this distance the bending radius as per instructions of the cable manufacturer should be respected. Ensure that all connections have large, solid and clean contact surfaces. When connecting different materials, precautions should be taken to avoid electrolytic couples. These connections can be made using cable lugs, flat busbars or adapted clamps. Each feeder conductor must have a sufficiently large section. Whenever the transformer\u2019s HV and LV porcelain bushings are worked on, it must be ensured that the lower nut on the bushing remains in position. This ensures that the transformer remains sealed. Use 2 spanners when tightening the other nuts on the bushing to prevent the bushing from twisting. Earthing The transformer tank must be connected to the",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5_p6_4",
+    "doc_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5",
+    "filename": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "doc_type": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "page": 6,
+    "text": "2 spanners when tightening the other nuts on the bushing to prevent the bushing from twisting. Earthing The transformer tank must be connected to the HV earthing system. Therefore, earthing bolts or bosses are fixed onto the cover, the roller carriage or the base of the transformer tank. The electrical resistance of the earthing terminal is usually specified by the power supply company. Ensure that the connection point is kept clean.",
+    "word_count": 71
+  },
+  {
+    "chunk_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5_p7_1",
+    "doc_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5",
+    "filename": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "doc_type": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "page": 7,
+    "text": "Kyte Powertech Limited Registered Office & Plant: Dublin Road, Cavan, Ireland W: www.kytepowertech.com Putting into operation After setting up and connecting the transformer, the following steps must be carried out sequentially to put it into operation: External check > Check that the various transport protection measures have been removed: Buchholz test button lock, air-breather plugs, seal in filler cap of expansion tank, polystyrene blocks in cooling fins, \u2026 > Check the ambient temperature and ventilation of the premises. > Check for leaks, rust and damage; (check that the drain plug does not leak, that the sampling plug and any filter press valves are completely closed). > Check the setting up and operation of the various accessories, dial plates of measuring apparatus and the colour of the silica gel in the air-breather, if present, must be visible and readable at a safe distance from the live parts. > Check the colour of the silica gel (if applicable) since this indicates its dryness. If needed, the silica gel must be dried or replaced. > Check the liquid level via the oil level",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5_p7_2",
+    "doc_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5",
+    "filename": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "doc_type": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "page": 7,
+    "text": "applicable) since this indicates its dryness. If needed, the silica gel must be dried or replaced. > Check the liquid level via the oil level indicator (if applicable). Attention: Never top up a hermetically sealed transformer yourself as there may be overpressure or under pressure in the transformer tank. > Check whether bushings, apparatus and control units are dirty. They must be clean at all times. > Open HV and LV air-filled cable boxes: check for condensation, water penetration and leaks. > Check the compound level in the HV cable junction box (if applicable). > Tighten all bushings and electrical connections, including those in the boxes, using a torque spanner; see chapter \u2018Connections\u2019. > Check that the transformer is properly earthed. > Remove all foreign objects from the conductors, from the cover and from the cable boxes. If the transformer is in a distribution station or substation, all foreign objects must be removed from this area. > In case of dual voltage on the LV and/or HV side, check that the connecting strips or change-over switches are in the correct",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5_p7_3",
+    "doc_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5",
+    "filename": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "doc_type": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "page": 7,
+    "text": "area. > In case of dual voltage on the LV and/or HV side, check that the connecting strips or change-over switches are in the correct position to form the required connection group and voltage. Electrical measurements before putting into operation. All transformers that leave the factory have been submitted to the routine tests and measurements in accordance with IEC 60076, and a test certificate is issued. To electrically test the transformer again after transportation, setting up or installation, Kyte Powertech specifies the following tests: > An insulation test using a 2500 or 5000 Volt \u2018Megger\u2019 (see Annex) > A continuity test of the connections and windings, and. > A check of the auxiliary devices and accessories (correct operation, setting and checking of the contacts, cabling, checking of test equipment). Attention: Never pressurise transformers to check the pressure valve and/or pressure relay. Energizing Energizing should be carried out by an authorized person and the locally applicable safety instructions should be observed. Conditions for Energizing The transformer should be initially energized without load and with the tap changer in the position equivalent",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5_p7_4",
+    "doc_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5",
+    "filename": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "doc_type": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "page": 7,
+    "text": "safety instructions should be observed. Conditions for Energizing The transformer should be initially energized without load and with the tap changer in the position equivalent to the rated no-load voltage. Measure the voltages between the LV phases themselves and to the earth. For safety reasons we strongly advise against measuring directly on the LV transformer terminals. If these voltages deviate from the rated no-load voltage; it can be adjusted (see procedure below). The transformer is left with no load for a few hours. During this period the sound, temperature and liquid levels \u2013 if visible \u2013 are checked regularly. > The transformer may now run under load. A gradually increasing load with intermediate checks is recommended. > Adjusting the low voltage. If the voltage on the LV side both at no load and under load deviates from the rated value and this must be adjusted, the procedure is as follows: - De-energize the transformer at the HV and LV side and earth it properly.",
+    "word_count": 164
+  },
+  {
+    "chunk_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5_p8_1",
+    "doc_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5",
+    "filename": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "doc_type": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "page": 8,
+    "text": "Kyte Powertech Limited Registered Office & Plant: Dublin Road, Cavan, Ireland W: www.kytepowertech.com - Unlock the tap changer by lifting the knob. - Change the tap changer to the desired position. - Release the knob until the spring presses it down again and thus re-locks the tap changer. Low voltage too high (must be decreased) If the applied high voltage is higher than the rated transformer high voltage, this results in the low voltage being too high. In this case the HV tap changer knob should be put in a position that corresponds to a high voltage that is higher than the rated high voltage (see rating plate). The tap changer must be set at a lower position number. Low voltage too low (must be increased) If the applied high voltage is lower than the rated transformer high voltage this results in the low voltage being too low. In this case the HV tap changer knob should be put in a position that corresponds to a high voltage that is lower than the rated high voltage (see rating plate). The",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5_p8_2",
+    "doc_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5",
+    "filename": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "doc_type": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "page": 8,
+    "text": "knob should be put in a position that corresponds to a high voltage that is lower than the rated high voltage (see rating plate). The tap changer must be set at a higher position number. Increasing low voltage (higher tap changer knob position number compared with reference value) Decreasing low voltage (lower tap changer knob position number compared with reference value) Example (see rating plate) Position no. tap changer HV Volt LV Volt 1 15,500 2 15,250 Rated. pos. 3 15,000 400 Rated voltage 4 14,750 5 14,500 Parallel operation When running in parallel, the transformers must satisfy the relevant regulations and conditions. These are the following: > Transformers must have the same clock-hour number. The winding connections may be different. > Impedance voltages must be the same (a tolerance of maximum 10% is allowed). > Rated voltages must be equal (both HV and LV); > When continuously running in parallel, the power rating ratio must not exceed 3:1. The information for the above conditions can be found on the rating plate. Before switching to parallel operation, the following procedure",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5_p8_3",
+    "doc_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5",
+    "filename": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "doc_type": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "page": 8,
+    "text": "must not exceed 3:1. The information for the above conditions can be found on the rating plate. Before switching to parallel operation, the following procedure must be followed: > Connect the corresponding HV terminals. > Connect the corresponding LV terminals. > Provide a (preferably common) earthing on both transformer tanks. > Connect the LV neutrals. > Connect the transformers to the supply system at the HV side. The LV main switches must remain open. > Check for any difference in voltage between the corresponding LV phases. The voltmeter should show no readings. If, however, there is a difference in voltage, the cause should be traced and remedied; > If there is no difference in voltage between the corresponding LV terminals, the main lower voltage busbars may be energized at the LV side; > Parallel operation of/with dual LV transformers (so-called \u201cseven bushing\u201d transformers) is not advised; > If the tap changers are put out of their rated positions, make sure that both set HV values correspond (see rating plate). If the above conditions are not satisfied, circulation currents can occur",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5_p8_4",
+    "doc_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5",
+    "filename": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "doc_type": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "page": 8,
+    "text": "their rated positions, make sure that both set HV values correspond (see rating plate). If the above conditions are not satisfied, circulation currents can occur which can lead to damage to the transformer. For brief parallel operation (e.g. when switching over) this may be permitted. Consult IEC 60076-8 for more details. We cannot be held liable for damage to transformers or electrical installations caused by faulty connections.",
+    "word_count": 67
+  },
+  {
+    "chunk_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5_p9_1",
+    "doc_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5",
+    "filename": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "doc_type": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "page": 9,
+    "text": "Kyte Powertech Limited Registered Office & Plant: Dublin Road, Cavan, Ireland W: www.kytepowertech.com Maintenance Hermetically sealed distribution transformers are basically maintenance free. Transformers with an expansion tank require little maintenance. Annual external check This maintenance check can be carried out while the transformer remains energized. Attention: keep a safe distance from energized (live) parts. This type of maintenance comprises the following: > Assessing the various noises coming from the transformer. > Checking the ambient temperature and ventilation of the premises. > Checking for leaks, rust and damage. > Checking for dirt on the bushings, apparatus and control units. > Checking the colour of the silica gel (if applicable). > Checking the liquid level via the oil level gauge (if present). > Checking the liquid temperature (if thermometer present). > Checking local temperature rises due to contact resistances on HV and LV connections (infrared temperature measurement, discolorations). > Checking if the overpressure relief device has been activated (if present). Two-yearly maintenance This type of maintenance should be carried out while the transformer is de-energized and earthed at the HV and LV",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5_p9_2",
+    "doc_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5",
+    "filename": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "doc_type": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "page": 9,
+    "text": "activated (if present). Two-yearly maintenance This type of maintenance should be carried out while the transformer is de-energized and earthed at the HV and LV sides. Also do not forget to switch off the auxiliary voltage for the accessories! Two-yearly maintenance comprises the following: > Performing the annual external check > Remedying the comments from the yearly external inspection. > Checking the compound level in the HV cable junction box (if applicable). > Opening the HV and LV air cable boxes (if applicable), checking for condensation and water penetration. > Checking the auxiliary devices and accessories (correct operation, setting and checking of the contacts, cabling, checking of test equipment). > Checking the correct operation of the tap changer. The tap changer is tested whilst the transformer is de-energized by switching the tap changer into various positions and by measuring whether there is continuity in the internal connections. We advise transformer users to adjust the above maintenance frequency if the transformers are located in severe weather conditions and if the operating conditions allow or require a different frequency. Liquid sampling and",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5_p9_3",
+    "doc_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5",
+    "filename": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "doc_type": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "page": 9,
+    "text": "maintenance frequency if the transformers are located in severe weather conditions and if the operating conditions allow or require a different frequency. Liquid sampling and analysis Analysis of the sample of cooling liquid helps determine the condition of the transformer liquid and can also give an indication of the condition of the windings, (tap changer) switch and internal connections. Various liquid tests and analyses can be performed upon request. Sampling should best be left up to qualified personnel. The sampling procedure, described in standards IEC 60475 and IEC 60567, must be followed strictly. Sampling of hermetically sealed transformers in service (= energized) is not recommended! After a sample of the liquid has been taken, the level must be checked without opening the transformer if possible, and if necessary or in case of doubt it must be adjusted by authorised Kyte Powertech personnel. Kyte Powertech advises a 5-yearly liquid analysis for hermetically sealed transformers and a 2-yearly liquid analysis for transformers with an expansion tank. This can be adjusted if the results obtained indicate the necessity of this or if operating",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5_p9_4",
+    "doc_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5",
+    "filename": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "doc_type": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "page": 9,
+    "text": "2-yearly liquid analysis for transformers with an expansion tank. This can be adjusted if the results obtained indicate the necessity of this or if operating conditions allow or require it. Attention: Never top up with another type of liquid than the original type of liquid in the transformer!",
+    "word_count": 48
+  },
+  {
+    "chunk_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5_p10_1",
+    "doc_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5",
+    "filename": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "doc_type": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "page": 10,
+    "text": "Kyte Powertech Limited Registered Office & Plant: Dublin Road, Cavan, Ireland W: www.kytepowertech.com Kyte Powertech After Sales Service For specialized work we recommend you use the Kyte Powertech After Sales Service department. Kyte Powertech offers qualified personnel and the necessary equipment to carry out specialized jobs adequately. Included in specialized work are: > Replacement of bushings, appliances and monitoring equipment. > Opening the transformers (transformer can be under overpressure or under pressure!). > Handling and replacing the cooling liquid. > Sealing off transformer tank leaks. > Carrying out electrical measurements and their interpretation. > Interpretation of analysis of liquid samples. During office hours the After Sales Service can be reached on services@kytepowertech.com Accessories At the customer\u2019s request the transformers can be fitted with a large variety of apparatus and control equipment. More information on this (description, operation, ...) can be found on the PK sheets which are available upon request. Documentation: (list not complete) Valves/taps Oil drain/sampling tap PK 3835 Sampling valve NW 15 PK 3812 Temperature Dial thermometer 2 contacts PK 3544 Dial thermometer without contacts PK 3849 Distance",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5_p10_2",
+    "doc_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5",
+    "filename": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "doc_type": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "page": 10,
+    "text": "Oil drain/sampling tap PK 3835 Sampling valve NW 15 PK 3812 Temperature Dial thermometer 2 contacts PK 3544 Dial thermometer without contacts PK 3849 Distance thermometer 2 contacts PK 3546 Thermostat 2 contacts PK 3611 Thermostat 1 contact PK 3612 Liquid level gauges Magnetic oil level 1 1/2\u201d PK 3519 Level gauge expansion tank DIN 42555 PK 3511 Oil level gauge PK 3514 Oil level indicator 1\u201d (float type) PK 3527 Pressure relief valve 1\u201d PK 3735 Pressure relief relay 2 contacts PK 3733 Expansion tank Buchholz relay BG 25, 2 contacts PK 3710 Air dryer PK 3750 PK 3751 Vent/filling opening of expansion tank DIN 42553 Other DGPT 2 PK 3760 Oil level switch PK 3520 Bushings LV bushings 1 kV EN 50386 LV busbar bushings 1 kV EN 50387 LV bushings 3 kV DIN 42539 HV bushings 12-24-36 kV EN 50180 LV Connectors for terminal studs DIN 43675 Current carrying connections up to 1600 A DIN 46200 Plug-in bushings EN 50180",
+    "word_count": 163
+  },
+  {
+    "chunk_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5_p11_1",
+    "doc_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5",
+    "filename": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "doc_type": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "page": 11,
+    "text": "Kyte Powertech Limited Registered Office & Plant: Dublin Road, Cavan, Ireland W: www.kytepowertech.com Standards For more information on transformers in general you can have a look at the following IEC and CENELEC standards: IEC 60076 Power Transformers > IEC 60076-1: General > IEC 60076-2: Temperature rise > IEC 60076-3: Insulation levels, dielectric tests and external clearances in air > IEC 60076-5: Ability to withstand short-circuit. > IEC 60076-7: Loading guide for oil-immersed power transformers. > IEC 60076-8: Application guide > IEC 60076-10: Determination of sound levels IEC 60616 Terminal & tapping markings for power transformers. IEC 60296 Specification for unused mineral insulating oils for transformers and switchgear IEC 60422 Supervision and maintenance guide for mineral insulating oils in electrical equipment IEC 60475 Method of sampling liquid dielectrics IEC 60567 Guide for the sampling of gases and of oil from oil-filled electrical equipment and for the analysis of free and dissolved gases IEC 60599 Mineral oil-impregnated electrical equipment in service - Guide to the interpretation of dissolved and free gases analysis IEC 60836 Specifications for silicone liquids for electrical purposes IEC",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5_p11_2",
+    "doc_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5",
+    "filename": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "doc_type": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "page": 11,
+    "text": "electrical equipment in service - Guide to the interpretation of dissolved and free gases analysis IEC 60836 Specifications for silicone liquids for electrical purposes IEC 60944 Guide for the maintenance of silicone transformer liquids IEC 61099 Specification for unused synthetic organic esters for electrical purposes IEC 61203 Synthetic organic esters for electrical purposes - Guide for maintenance of transformer esters in equipment EN 60076 Identical to IEC 60076 EN 50180 Bushings above 1kV up to 36kV and from 250A to 3150A for liquid-filled transformers EN 50216 Power transformer and reactor fittings EN 50464 Three-phase oil-immersed distribution transformers 50Hz, from 50 to 2500kVA with highest voltage for equipment not exceeding 36kV. EN 50386 Bushings up to 1kV and from 250A to 5kA for liquid-filled transformers End of life The transformer is constructed in such a way that the different components can easily be recycled at the end of its life span. However, the components can only be recycled after the cooling liquid has been drained. The latter should be done with great care. The indicative relation between the different transformer materials",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5_p11_3",
+    "doc_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5",
+    "filename": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "doc_type": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "page": 11,
+    "text": "be recycled after the cooling liquid has been drained. The latter should be done with great care. The indicative relation between the different transformer materials is the following: > Cooling liquid 25% > Core material 35% > Winding material (copper and/or aluminium) 15% > Steel 20% > Insulation material 5% The insulation material is to be regarded as non-toxic waste. The transformer does not contain any PCBs, or PCTs, PCBTs or asbestos.",
+    "word_count": 72
+  },
+  {
+    "chunk_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5_p12_1",
+    "doc_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5",
+    "filename": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "doc_type": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "page": 12,
+    "text": "Kyte Powertech Limited Registered Office & Plant: Dublin Road, Cavan, Ireland W: www.kytepowertech.com Annex: Insulation resistance measurement (Megger test) The Megger test measures the insulation resistance between the HV and LV windings and between the windings and the earth. Any short-circuit to the earth or low insulation resistance due to the presence of water in oil and windings or because of a high dissipation factor of the liquid can be detected in this way. The following instructions shall be observed when carrying out this measurement: > Remove HV and LV connections from the bushings. > Clean the bushings. > Carry out the measurement in dry conditions (no rain, fog, snow). > Carry out the measurement by measuring directly on the transformer terminals. > After each measurement, the transformer should be discharged (extremely dangerous capacitive voltage!). > The transformer tank must be correctly connected to the earth. Measuring procedure: 3 measurements are carried out, preferably with an electronic megger. For use and settings of the measuring device and to read (*) the scale values: check the appropriate manual. > HV to",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5_p12_2",
+    "doc_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5",
+    "filename": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "doc_type": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "page": 12,
+    "text": "an electronic megger. For use and settings of the measuring device and to read (*) the scale values: check the appropriate manual. > HV to earth with 5000 or 2500 Volt (**) > LV to earth with 2500 Volt (**), and > HV to LV with 5000 or 2500 Volt (**) (*) Value should be read when the meter needle is stable (generally after 1 minute). (**) The voltage applied during megger testing must never exceed the test voltage of the transformer. Measurement may be carried out on any HV and LV phase as the three phases are interconnected internally. If the values measured are less than 10 MOhm / kV, the cause must be established. For example: For a transformer with a rated high voltage of 15 kV the values must be minimum 10 x 15 = 150 MOhm (also for the low voltage).",
+    "word_count": 145
+  },
+  {
+    "chunk_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5_p13_1",
+    "doc_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5",
+    "filename": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "doc_type": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "page": 13,
+    "text": "kyte POWERTECH < Recommended Torque Values for Various Connections [Threadsice | | oe | mo | ome | me | mie | zo | mao | mee | mes | ms | [spannersize | to | ts | ow | ow | oe | ot | oo | as | cs | a5 | ries | fore | um | om | im | im | im | nm | em | im | im | im | Nm | AiBushings Low \u00a5oltage (L\u00a5) 1. Fixing of bushing stem (13a): DIN 42530 EN 50386 2. Connection between nuts (13 bic) 3. Fixing of flag connctor to terminal stem (bolt instainless steel) (6a) 4. Connection to flag surface (6b) (Bolts 8.8 steel) 5. Connection monobloc on frame with buna and cork High \u00a5oltage (H\u00a5) 1. Fizing of top terminal stem (9a) (Terminal and nut in brass) 2. Connection to terminal stem (Sbic) Terminal stud and two nuts in brass) 3. Fixing of base (12) (Stud and nut in stainless steel) (with buna and cork. B?L\u00a5 Connezcting busbar Interconnection (bolt in 8.8",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5_p13_2",
+    "doc_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5",
+    "filename": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "doc_type": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "page": 13,
+    "text": "nuts in brass) 3. Fixing of base (12) (Stud and nut in stainless steel) (with buna and cork. B?L\u00a5 Connezcting busbar Interconnection (bolt in 8.8 steel) C # Lid to frame Bolt and nut in stainless steel D? Busbar Bushings Fixing on the lid Top piece into bottom piece (m6) E? \u00a5alves Gasket (Bolt and nut 42 with cup washer) F ? Flanges Gasket (Bolt and nut 42 with cup washer) G? Connections boz on cover Threaded stud and nut 42 with cup washer Kyte Powertech Limited vy. Registered Office & Plant: Dublin Road, Cavan, Ireland W: www.kytepowertech.com",
+    "word_count": 98
+  },
+  {
+    "chunk_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5_p14_1",
+    "doc_id": "manuals_liquid_filled_transformer_maintenance_manual_b3340ca5",
+    "filename": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "doc_type": "Liquid-Filled Transformer Maintenance Manual.pdf",
+    "page": 14,
+    "text": "Kyte Powertech Limited \nRegistered Office & Plant: \nDublin Road, Cavan, Ireland \nW: www.kytepowertech.com \n \n \n \nRecommended Torque Values for Various Connections \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nHV & LV \nBushing arrangement",
+    "word_count": 24
+  }
+]

@@ -1,0 +1,1109 @@
+[
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p1_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 1,
+    "text": "Process Flow / Instrumentation Drawings \u2014\nP&FD / P&ID\n\nIt\u2019s a detailed story told through Symbology\n\nAmerican Water Works Association\n\nVersion \u2014 1.1, October 2020 Pacific Northwest Section\n\nPrepared by the Training Coordination\nCommittee, PNWS-AWWA",
+    "word_count": 35
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p2_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 2,
+    "text": "Acknowledgements:\nAuthor:\nButch Perry | KCWTD Infrastructure Coordinator \n(retired)\nToday\u2019s Presenters:\nKenny Packard \u2013 HDR\nJeff Lundt \u2013 KCWTD (almost retired)\nContent & Goals:\n\u2022To provide an understanding of what process flow and \ninstrumentation drawings can tell us about how things \nwork\nSymbology\nAn 1877 dictionary defines the word as \"the art of \nexpressing through symbols.\"",
+    "word_count": 56
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p3_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 3,
+    "text": "Outline:\nWorkshop topics\nUnderstanding a P&ID Layout\n \n- The difference between P&ID and PFD\n \n- Symbology\n \n- Equipment\n \n- Piping that connects the equipment\n \n- Lines and instruments used to monitor \n \n  and control the process\nVersion - 1.1, October 2020\nProcess Flow / Instrumentation Drawings\n3",
+    "word_count": 46
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p4_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 4,
+    "text": "Symbols \u2013 They Tell a Story\nToki\nKoru\nHei-Matu\nSign of power \u2013 \nworn by chiefs\nNew life, growth, \nstrength, and \npeace\nStrength, good \nluck, and safe \ntravel across \nwater",
+    "word_count": 30
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p5_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 5,
+    "text": "Symbols & Story Telling\n\n(\u00a9 SK ill % EAH ye en ew\n\n= 200 of REC HH OLS P\n\na WETS Re SBE\nSah arto i pee ce if\n\nVersion - 1.1, October 2020 Process Flow / Instrumentat ion Drawings 5",
+    "word_count": 41
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p6_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 6,
+    "text": "Evolution of Symbols\nVersion - 1.1, October 2020\nProcess Flow / Instrumentation Drawings\n6",
+    "word_count": 14
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p7_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 7,
+    "text": "The Basics\n\u2022 There is a national standard for symbols\n\u2013  AutoCAD P&ID ISA \u2013 International society of \nautomation\n\u2013 AutoCAD P&ID PIP \u2013 Process Industry Practices\n\u2013 AutoCAD P&ID ISO \u2013 International Organization for \nStandardization \n\u2022 Plus many user (or designer) defined \n\u201cunique\u201d symbols\n\u2022 Symbols change over time\n\u2013 Get the symbol guide for when the drawings \nwere developed\nVersion - 1.1, October 2020\nProcess Flow / Instrumentation Drawings\n7",
+    "word_count": 72
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p8_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 8,
+    "text": "Where Can P&IDs Used?\n\u2022 Everywhere in our conveyance and treatment \nsystems:\n\u2013 Operator training\n\u2013 Developing SOPs\n\u2013 Process troubleshooting\n\u2013 Distribution/conveyance information\n\u2013 Storage information\nVersion - 1.1, October 2020\nProcess Flow / Instrumentation Drawings\n8",
+    "word_count": 38
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p9_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 9,
+    "text": "Where Can P&IDs Used?\n\u2022 Everywhere in our conveyance and treatment \nsystems:\n\u2013 Chemical feed systems\n\u2013 Hazard monitoring \u2013 type and location\n\u2013 Sampling type and location\n\u2013 Security\n\u2013 Auxiliary services\nVersion - 1.1, October 2020\nProcess Flow / Instrumentation Drawings\n9",
+    "word_count": 44
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p10_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 10,
+    "text": "ae a\nSAT he\nNe\n\nBut Not the rai ;",
+    "word_count": 10
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p11_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 11,
+    "text": "The Process Flow Diagram\n\u2022 Shows the flow of process or chemical \nmaterials and the equipment involved in \nthe process. \n\u2022 Shows the relationships between the \nmajor components in the system and \ndoesn't show details.  \n\u2022 Sometimes used for visitor information and \nnew employee training.\nVersion - 1.1, October 2020\nProcess Flow / Instrumentation Drawings\n11",
+    "word_count": 56
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p12_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 12,
+    "text": "A PFD should include:\n\u2022 Process Piping \n\u2022 Major equipment symbols, names and \nidentification numbers \n\u2022 Control, valves and valves that affect \noperation of the system\n\u2022 Interconnection with other systems \nVersion - 1.1, October 2020\nProcess Flow / Instrumentation Drawings\n12",
+    "word_count": 42
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p13_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 13,
+    "text": "A PFD should include:\n\u2022 Major bypass and recirculation lines \nVersion - 1.1, October 2020\nProcess Flow / Instrumentation Drawings\n13\n\u2022 Sometimes system ratings and operational \nvalues as minimum, normal and maximum \nflow, temperature and pressure \n\u2022 Composition of fluids",
+    "word_count": 41
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p14_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 14,
+    "text": "More Basics\n\u2022 Process always flows from left to right\n\u2022 The whole process doesn\u2019t always fit on one \ndrawing\n\u2022 Drawing numbers on the left side tells where \nthe process is coming from\n\u2022 Drawing number on the right side tells where \nthe process is going to\nVersion - 1.1, October 2020\nProcess Flow / Instrumentation Drawings\n14",
+    "word_count": 59
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p15_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 15,
+    "text": "PRETREATMENT\n\n\u2014 ia) ee,\nob | * ScuM\nae a ee ell\n\nOVERFLOW TRASH\nSECONDARY ois PRIMARY\n\nSe\n\nA\u2014b Ik wie MT | DRY SLUDGE FINISHING\nSLUDGE DRYER - bL\u2014}\u2014_\nDIGESTION aT: METHANE\n\nVersion - 1.1, October 2020 Process Flow / Instrumentation Drawings\n\n15",
+    "word_count": 44
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p16_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 16,
+    "text": "Simple Process Flow\n\nPretreatment SA Seperation\n\nVersion - 1.1, October 2020 Process Flow / Instrumentation Drawings 16",
+    "word_count": 17
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p17_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 17,
+    "text": "Process Flow Diagram\n\nClosed-Loop Indirect System\n\nCHECK VALVE\n\nDRAIN\n\nVersion - 1.1, October 2020 Process Flow / Instrumentation Drawings 17",
+    "word_count": 20
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p18_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 18,
+    "text": "Version - 1.1, October 2020\nProcess Flow / Instrumentation Drawings\n18",
+    "word_count": 11
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p19_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 19,
+    "text": "The Process & Instrumentation Diagram\n\u2022 Process & Instrumentation Diagram (P&ID) \nshow what is in the PFD \n\u2013 plus the instrumentation to monitor the \nprocess \n\u2013 plus how it is controlled. \n\u2022 A P&ID shows the relationships between \nthe all components in the system and \nshows details.  \n\u2022 P&IDs are applied in programming, startup \nand trouble shooting.\nVersion - 1.1, October 2020\nProcess Flow / Instrumentation Drawings\n19",
+    "word_count": 68
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p20_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 20,
+    "text": "How A P&ID is Set Up\nVersion - 1.1, October 2020\nProcess Flow / Instrumentation Drawings\n20\nPhoto caption\nProcess flow diagram is \nshown here\nLocal control is shown here\nRemote control & monitoring is shown here\nDwg # for the previous \ndrawing in the process\nPhoto caption\nDwg # for the next \ndrawing in the process",
+    "word_count": 57
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p21_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 21,
+    "text": "A P&ID Should Include:\n\u2022 Instrumentation and designations\n\u2022 Mechanical equipment with names & numbers\n\u2022 All valves & their identifications\n\u2022 Process piping, sizes & identification\nVersion - 1.1, October 2020\nProcess Flow / Instrumentation Drawings\n21",
+    "word_count": 38
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p22_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 22,
+    "text": "A P&ID Should Include:\n\u2022 Miscellaneous \u2013 vents, drains, special fittings, \nsampling lines, reducers & increasers\n\u2022 Permanent start-up & flush lines\n\u2022 Flow directions\nVersion - 1.1, October 2020\nProcess Flow / Instrumentation Drawings\n22",
+    "word_count": 36
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p23_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 23,
+    "text": "A P&ID Should Also Include:\n\u2022 Interconnections references\n \n\u2022 Control inputs and outputs, interlocks Interfaces for \nclass changes\n\u2022 Quality level \n\u2022 Annunciation inputs\nVersion - 1.1, October 2020\nProcess Flow / Instrumentation Drawings\n23",
+    "word_count": 35
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p24_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 24,
+    "text": "A P&ID Should Also Include:\n\u2022 Computer control system input \n\u2022 Vendor and contractor interfaces \n\u2022 Identification of components and subsystems \ndelivered by others \n\u2022 Intended physical sequence of the equipment\nVersion - 1.1, October 2020\nProcess Flow / Instrumentation Drawings\n24",
+    "word_count": 42
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p25_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 25,
+    "text": "A P&ID Should Not Include:\n\u2022 Equipment rating or capacity\n \n\u2022 Manual switches and indicating lights \n\u2022 Primary instrument tubing and valves \nVersion - 1.1, October 2020\nProcess Flow / Instrumentation Drawings\n25",
+    "word_count": 33
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p26_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 26,
+    "text": "A P&ID Should Not Include:\n\u2022 Pressure temperature and flow data\n\u2022 Elbows and similar standard fittings \n\u2022 Extensive explanatory notes\nVersion - 1.1, October 2020\nProcess Flow / Instrumentation Drawings\n26",
+    "word_count": 32
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p27_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 27,
+    "text": "P&IDs Work With the Process Narratives\n\u2022 Process narrative is the text description of \nthe process, instrumentation, monitoring & \ncontrol\nVersion - 1.1, October 2020\nProcess Flow / Instrumentation Drawings\n27\n\u2022 Operating set points\n\u2022 Decision trees\n\u2022 Describes the process\n\u2022 Describes the equipment\n\u2022 Manual operation\n\u2022 Automatic operation",
+    "word_count": 52
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p28_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 28,
+    "text": "Who Uses P&IDs?\nYOU DO!  When:\nVersion - 1.1, October 2020\nProcess Flow / Instrumentation Drawings\n28\n\u2022 Planning a project\n\u2022 Writing a job safety analysis \n(JSA)\n\u2022 Lockout before a repair or \nmaintenance\n\u2022 Troubleshooting when \nproblems arise\n\u2022 Process hazard review\n\u2022 Training new employees",
+    "word_count": 48
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p29_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 29,
+    "text": "Version - 1.1, October 2020\n\nwa Simple Process and Instrument Diagram\n\n\"\na\n\nProcess Flow / Instrumentation Drawings\n\n29",
+    "word_count": 19
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p30_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 30,
+    "text": "MEST PORT EATON PUNT SESIADARY TEATMEN\nFULL SYSTEM OVERVIEW\nHOT WATER SYSTEM \u2014 PHW/SHW | N19-\u201400\nPROCESS FLOW DIAGRA\n\u00b0 r\n\nGraphic from KCWTD Color can help understanding\n\nVersion - 1.1, October 2020 Process Flow / Instrumentation Drawings 30",
+    "word_count": 39
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p31_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 31,
+    "text": "What The Parts Tell Us \u2014 Title Block\n\nCAD CONTROL DATE: FILE NAME:\nDMS/PIDS 21 January 2015 N16\u201403.DWG\n\nWEST POINT TREATMENT PLANT SECONDARY TREATMENT FACILITIES SCALE: NONE\n\nDRAWING NO:\n\nDIGESTER _\nGAS SYSTEM. NTO\u201408\n\nNi6-O.\n\nADDED MISSING FA VALVES PER CWL 1178\nINCORPORATED REVS FROM CO0583C11 \u2014 CWL1137\n\nADD VALVE NUMBERS \u2014 CWL 1067\n\nADDED DUAL FLAME ARRESTOR PER 1300337 \u2014 CWL 890\n\nREVISION\n\nORIGINAL INFORMATION\n\nDRAWING:\n\nDESIGNED: FILE NO.:\nDCS W87\n\nDRAWN: CHECKED:\nLJL RHS\n\nRECOMMENDED:/APPROVED:\n\nImages from KCWTD\n\nORIG. CONTRACT:\nW/F57\u2014-91\n\nFACILITY DRAWING ISSUED:\n\nDECEMBER 1997\n\nKing County\n\nVersion - 1.1, October 2020 Process Flow / Instrumentation Drawings 31",
+    "word_count": 101
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p32_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 32,
+    "text": "Abbreviations . . a \u2018 a \u2018 . a . FLOW STREAM [DENTIFICATION ABBREVIATIONS & LETTER SYMBOLS EQUIPMENT TAG PREFIX sie \u2018tne Deore oes Es Shot a 3 Bene: Fa Vora a Fe Fa foe a a aan, Tee rey tine ou Somer oe =| QET aka \u201cso ASTDe SHIT CO = Saschton Fa ah Sars th Eine 2\u00b0 bette Yeon wo Mau = moe te aie ir seasaron tie Li Petar S Seregeonyeeh nadir Oe sero Fd Suter ts tt Game Pomeroy \u00a9 Serdae sro Fs inee bees tee mcr a ik % \u2014 Seaneuo be Sein receorer a Sen roan cor Gs arma Sia ce Beane me Bare & DLT te Lon mee soa Ss ketene a Seabee cecmae arte a PLUNT EFFLUEST us ery = \u2018EACON on * \u00ab= MaTTOY ChenceR Be ferme te Foto Uae Bra Firat soma aro % Rass 5 Ee FA Eiger Foot oust ie eres Low pes Bite Mas som Ao coco Se Ritam BR ag a ftom Fs i o St Saree g FH fant tas fa ECan Es cs sen",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p32_2",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 32,
+    "text": "Bite Mas som Ao coco Se Ritam BR ag a ftom Fs i o St Saree g FH fant tas fa ECan Es cs sen rats a tee Set Sew seieTe Pero ' at Se Ca \u2018 Attu Sat Stiri cane Se aera & See Fa ene Sacre hea rear oon SS Gime MALE stacww oboe auent awe stu 2 vous i itn waco Fr ieontne Stent oO & antes Ey abuses A fer Sr Gabe ST remus at co m Yon seoce ean at Fi mone\u2019 8\u201d Gerat oa fr Fis Beko Ter =e on Se a cant \u00ae hore & Sem stor ph omen Shearer emu & aie ried & Gerwe Ble Roses S eee oe LE HOD Ten Ea no, Pua ce are Se Shere wee mo Power nanny a SHU sae ost m Fler sustox SY Shey sone hee have a Ed Pt Luo re Fetes satstem Wesabe Settee errs fn Sow % Sree asm Mes Fy tein Ea Fetes sr Manet Samer ms ie = comer Ea Sepiaot near Ea Slike rere Se Bina ewcite",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p32_3",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 32,
+    "text": "Sow % Sree asm Mes Fy tein Ea Fetes sr Manet Samer ms ie = comer Ea Sepiaot near Ea Slike rere Se Bina ewcite an] 2 el Grucon ca * Erokar a tain Sa aaerL 08 fu Me ewe Ben Benbow comet me, EA theres se czamne m= Sse, nea sceveren fa fee ce 5 Bare Ed Berp tse 3 irae eee Hat ow Sas SB ever Bee EA Sib sore = oped Fa Ia Guanes $2, Satan SN ae a \u2018tine mevae cwesTe) = reve rte i Pat heen St} tex) pos or SLUDGE, TRANGFERED DIESTED \u00bb A, SOE nL Fall Last posiTion sa \u2018SLECTICn 3 i FLAME AESTOR: m spor Be ihott fe fussed don 3) Bem? fe he sa a ica Fy Se ecatsre Shoe Shs tens : = = = Sa a ee hate Sy Hues 2 Soe F Somemest Ey tear some Iroc ure Boa Hepsroanest Smee ST ST fe (ODE CH Ome CAS FUEL \u00ab \u2018SECONOMRY FLUENT u Wacl/ce # BZwow scm oe ane Fa ah os NATED, SECOMCANT LOOP HEATING - Wan",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p32_4",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 32,
+    "text": "fe (ODE CH Ome CAS FUEL \u00ab \u2018SECONOMRY FLUENT u Wacl/ce # BZwow scm oe ane Fa ah os NATED, SECOMCANT LOOP HEATING - Wan AarowaT Soe Ste a OAR bor & Fosor OL caw a \u2018STUDD Prosar EFFLIENT = yon wee = ga = 0m Ar Tike ALE Se Sousecoesrr =~ to Tete Tot come nea . EY ENE crestor La cL rea r Bue FEE Betuaestarox 6 coma. te & mpegs os GATE OPERATOR HYORMULIC GOL SUPPLY Tes \u2018SLIDGE. THIRENED SLEMTED @ i foe Me THERMAL ASS FLONWETER ae rene Tera een canoe Sawer , ae P PUMP & georeor ec PG PRESSURE GAGE bi DH _ DOMESTIC HOT WATER Ebdon Pe me em Pv | PRESSURE VESSEL DEIONIZED WATER ce haute we rater DRAIN Bacar = DIGESTED SLUDGE PRESSURE INDICATING XMITTER 4 DIESEL FUEL PROGRAMMABLE LOGIC CNTRLER = PRESSURE SWITCH te Ey PRESSURE SWITCH HIGH tr ~ PRESSURE SWITCH HIGH-HIGH ba PRESSURE SWITCH HIGH-LOW } | | PRESSURE SWITCH LOW Res em PRESSURE SWITCH LOW-LOW ABBREVIATIONS 7 = ty) T& C v \u00a9 v \u00b0 v =",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p32_5",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 32,
+    "text": "SWITCH HIGH-LOW } | | PRESSURE SWITCH LOW Res em PRESSURE SWITCH LOW-LOW ABBREVIATIONS 7 = ty) T& C v \u00a9 v \u00b0 v = v \u00a5 D v * Version - 1.1, October 2020 Process Flow / Instrumentation Drawings 32",
+    "word_count": 41
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p33_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 33,
+    "text": "Instrument Identification\n\nALARM ALARM AUTO.\n\n[ALARM ALARM AUTO\nUSER'S CHOICE USER'S CHOICE\nFAIL ERROR\nABNORMAL\n\nSi CCREIEVG LETTERS\ntell Mast FLY EE Cee rere\noe) WLW POR Phe) wre!\nou core\n\n06) /STED Se Ae\n\nINSTRUMENT\n\nLON SYMAt\n\nVSD Wiser cones | bet\nwow eth Th \u2018Seer comreo erin\nAPMPrOs IH .\n\nImages from KCWTD\n\nVersion - 1.1, October 2020 Process Flow / Instrumentation Drawings\n\nee]\nur on\n\n33",
+    "word_count": 69
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p34_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 34,
+    "text": "Line Legend\n\nEe al MAIN PROCESS FLOW\n\n(WITH TYPICAL DIRECTION OF FLOW SHOWN)\n\n_ SECONDARY PROCESS FLOW\n\n(WITH TYPICAL DIRECTION OF FLOW SHOWN)\n\nSola deasienia detente dienientedestente dented\n\nCONNECTING LINES\n\n1 |\n|\n\nVersion - 1.1, October 2020 Process Flow / Instrumentation Drawings\n\nPRIMARY PROCESS\n\nSECONDARY PROCESS\n\nANALOG SIGNAL (4 TO 20 mAdc, ETC.)\nDISCRETE SIGNAL (ON/OFF, ETC.)\nMECHANICAL LINK\n\nSOFTWARE OR DATA LINK\n\nPNEUMATIC SIGNAL\n\nFILLED SYSTEM SIGNAL (CAPILLARY)\nHYDRAULIC SYSTEM SIGNAL\n\nGUIDED ELECTROMAGNETIC SIGNAL\nUNGUIDED ELECTROMAGNETIC SIGNAL\nEQUIPMENT POWER FEEDER\n\nPACKAGE SYSTEMS BREAK\n\nNON-CONNECTING LINES\n\n34",
+    "word_count": 88
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p35_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 35,
+    "text": "Tag Numbers\n\nEQUIPMENT IDENTIFICATION SYSTEM\n\nEQUIPMENT IS CALLED OUT BY ITS PREFIX FOLLOWED\nBY A NUMBER, ENCLOSED AS SHOWN:\n\nRAW SEWAGE\nPUMP NO. 1A b EQUIPMENT NAME\n\n854101 \u2014\u2014 EQUIPMENT DESIGNATION\n\n~\u00a3________ ast THREE piers (111)\nINDICATE SEQUENTIAL\nNUMBER OF EQUIPMENT\n\nFIRST THREE DIGITS (854)\n\nINDICATE EQUIPMENT\n\nASSOCIATED WITH THE GEORGETOWN\nWET WEATHER TREATMENT STATION\n\nEQUIPMENT PREFIX\n\nVersion - 1.1, October 2020 Process Flow / Instrumentation Drawings 35",
+    "word_count": 68
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p36_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 36,
+    "text": "Interface Symbols\n\nLi? \u2014\u2014\n\nREMARK LINE 1\nREMARK LINE 2\n\nWI\n\nREMARK LINE 1\nREMARK LINE 2\n\nVersion - 1.1, October 2020\n\nPROCESS/\nSIGNAL FLOW INTERFACE\nAA =CONNECTOR NUMBER\n\nREMARK LINE 1 P101 = DESTINATION DRAWING NO.\nREMARK LINE 2\nPROCESS/\n[P02 > SIGNAL FLOW INTERFACE\nBB = CONNECTOR NUMBER\nREMARK LINE 1 P102 = SOURCE DRAWING NO.\nREMARK LINE 2\nFROM PROCESS EXTERNAL\nTO PROJECT\nES aN ELECTRIC SUPPLY\nES: DEFINES TYPE OF SUPPLY\nEXAMPLE:\nTO PROCESS EXTERNAL 120=120VAC, SINGLE PHASE\nFROM PROJECT\n\nProcess Flow / Instrumentation Drawings 36",
+    "word_count": 90
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p37_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 37,
+    "text": "Construction Status\n\nBLS\n\n\u2018*\nSO\n\n.\noe.\nxs\n\n\u201c\n\nS\naa\n\u2018\neS\n\neK\nSs\n\n.\nxs\nx2\n\n+\nXS\n\nx SAP\nx\n\nos\nx\n+\n\nOr\n\nVv\n\nee\n\nPas \u2014Z\n7",
+    "word_count": 32
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p38_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 38,
+    "text": "Va Ive Sy mM bo | S i baesoure CONTROL\n\nREGULATED SIDE\n\nbd GATE\nK Xi 14 BACK PRESSURE\nDX KNIFE GATE CONTROL VALVE\nIl BUTTERFLY Ee\nPRESSURE SAFETY (RELIEF)\nDed GLOBE\n/ACUUM RELI\nped it 45 VACUUM RELIEF\nVv\nbed V-BALL 7] PRESSURE AND VACUUM RELIEF\nWN DIAPHRAGM\nRUPTURE DISK\n4 PINCH\npy NEEDLE hy RUPTURE DISK\nkA PLUG 4 AIR AND/OR VACUUM RELEASE\neo ECCENTRIC PLUG Res PRESSURE RELIEF PINCH\nkO|l BALL CHECK\n\u2122 SWING CHECK ie VACUUM RELIEF PINCH\nKI cial Pra THERMOSTATICALLY\noA BALANCING CONTROLLED VALVE\ni BLAST GATE > 3-WAY VALVE\n\nVersion - 1.1, October 2020 Process Flow / Instrumentation Drawings 38",
+    "word_count": 107
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p39_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 39,
+    "text": "Gate Symbols\n\na SLUICE\nBUTTERFLY\nCJ) FLAP\nc\u2014 FABRICATED SLIDE\na SHEAR\nS MUD VALVE\nTELESCOPE VALVE\n\nVersion - 1.1, October 2020 Process Flow / Instrumentation Drawings",
+    "word_count": 27
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p40_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 40,
+    "text": "Actuator Symbols\n\nXX\nPNEUMATIC DIAPHRAM ELECTROHYDRAULIC\nXX SPRING-OPPOSED\nXX HYDRAULIC\nXX PNEUMATIC CYLINDER\n, 7 SINGLE OR DOUBLE ACTING\nACTUATED BY ONE INPUT\nXX DIGITAL\nTy MANUAL +\n4 SPRING\nNOTE:\nXX ON LOSS OF PRIMARY POWER\n9 ELECTRIC MOTOR (PNEUMATIC, ELECTRICAL OR HYDRAULIC)\nXX: FO =FAIL OPEN\nXx FC = FAIL CLOSED\n1 SOLENOID FL = FAIL TO LAST POSITION\nFI = FAIL INDETERMINATE\n\nVersion - 1.1, October 2020 Process Flow / Instrumentation Drawings 40",
+    "word_count": 76
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p41_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 41,
+    "text": "Mechanical Equipment Symbols\n\no- p).\n\nRECEIVER, PRESSURE\nQ) GENERATOR (a) VESSEL OR SCRUBBER\n\neo PUMP, CENTRIFUGAL REDUCED PRESSURE\n\u2014\u2014 BACKFLOW PREVENTER\n\nSILENCER\n\nL [| SPEED SENSOR (RPM) (\n\nVersion - 1.1, October 2020 Process Flow / Instrumentation Drawings 41",
+    "word_count": 39
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p42_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 42,
+    "text": "Primary Element Symbols\n\nLe\n\n(8) ULTRASONIC LEVEL\nee ELEMENT\n\nM MAGNETIC FLOW TUBE\n\n; BUBBLER\n\noo\n\nc\n.\n\n<> VARIABLE AREA\n=\u2014@-> FLOW INDICATOR\nFLOAT SWITCH (ROTAMETER)\n(HIGH WATER LEVEL)\n\n[8] UTILITY METER\nRA DIAPHRAGM SEAL\n\nVersion - 1.1, October 2020 Process Flow / Instrumentation Drawings 42",
+    "word_count": 47
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p43_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 43,
+    "text": "Miscellaneous Symbols\n\nS18, sigur ciass a YANAAVA'S\nNaH\neB DIAPHRAGM SEAL\nI-K\u2014\u2014_J\nY Vv\n\na\nSI\n\nBLIND FLANGE Ba\nAIR GAP co\nVENT TO ATMOSPHERE cy\n\u2014_\u2014 PIPE REDUCER a)\n4\" X 2\"\n\nIN-LINE STATIC MIXER\n\nINLET GUIDE VANE\n\nINLET SILENCER/FILTER\n\nINLINE SILENCER\n\nVENT SILENCER\n\nFILTER\n\nMULTIVANE LOUVER/DAMPI\n\nSINGLE VANE LOUVER/DAM\n\nHofoefedre\n\nVersion - 1.1, October 2020 Process Flow / Instrumentation Drawings\n\nMIXER\n\nELECTRIC MOTOR\n\nSAMPLE CONNECTION\n\nFLUSHING CONNECTION\nPURGE OR FLUSHING DEVICE\n\nHOSE ADAPTOR - WITH CAP\n\nSPIRAL TUBE EXCHANGER\n\nHEAT EXCHANGER\n\nHEAT EXCHANGER, PLATE\nTYPE\n\nHEAT EXCHANGER,\nSPIRAL TYPE\n\nHEAT EXCHANGER,\nSTRAIGHT TUBE TYPE\n\n43",
+    "word_count": 97
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p44_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 44,
+    "text": "Functional Logic Diagrams\n\nFIELD DEVICE ,\nFOR DESCRIPTION PLC VO\nSEE TABLE\nPLC VO AND\nPANEL FRONT ACCESSIBLE ON\nDEVICE OIT AND SCADA\nINTERNAL PANEL PLC /O AND\nDEVICE ACCESSIBLE ON OIT\n*\nAUXILIARY PANEL METROTEL I/O\nFRONT DEVICE\n+ VED HUMAN\n7 INTERFACE MODULE\nINTERNAL AUXILIARY OR\nPANEL DEVICE ww MCC HUMAN\nMACHINE INTERFACE\nDEVICE INTEGRAL TO\nONE PANEL MOUNTED * HIM VED HUMAN\nDEVICE INTERFACE MODULE\nOR\nHMI = MCC HUMAN\n\nMACHINE INTERFACE\n\nVersion - 1.1, October 2020 Process Flow / Instrumentation Drawings 44",
+    "word_count": 86
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p45_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 45,
+    "text": "Header\n\nPLC INTERFACES\n\n4 ANALOG INPUT 4 DISCRETE INPUT C)] CABLE CONNECTION\nVo ANALOG OUTPUT \u00a5 DISCRETE OUTPUT\n(Analog = continuous) (Discrete = on/off)\n\nob SSO OO a ANALOG SIGNAL LINE\n\nb\u20144-\u20144\u2014-+~\u2014\u2014\u2014 _ DISCRETE SIGNAL LINE\n\n-\u2014 0 \u2014\u2014~ 0 \u2014\u2014) __ NETWORK CABLE\n\nVersion - 1.1, October 2020 Process Flow / Instrumentation Drawings 45",
+    "word_count": 55
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p46_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 46,
+    "text": "Instrumentation Identification\n\nMEASURED OR INITIATING VARIABLE\nA_| ANALYSIS:\n\nBURNER FLAME\n\n=\nCONDUCTIVITY (ELECTRICAL)\nee ee POWER SUPPLY\nVOLTAGE EF) a -\u2014 FUNCTION\n\nSG\n\nGAUGING (DIMENSIONAL)\n| -H | HAND (MANUALLY INITIATED) [| PWR FUN\n\n|_| CURRENT (ELECTRICAL)\nee LIC\n= =m\n\noRmcE RESTRICTION [| \u2014\u2014\u2014SSSC\u2014~S t  packace LEGEND\n\nORIFICE (RESTRICTION)\n\na\n* SUCCEEDING LETTER\nMULTIFUNCTION MULTIFUNCTION\nVALVE, DANPER,\nOR LOUVER\n123456 -\u2014 TAG NUMBER\n\u2014\nOR PLC OUTPUT\nUNCLASSIFIED FINAL\nCONTROL ELEMENT\n\nVersion - 1.1, October 2020 Process Flow / Instrumentation Drawings 46",
+    "word_count": 83
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p47_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 47,
+    "text": "Take a Break\n\nRIENDLY CORK FRIENDLY CORK (\n\nVersion - 1.1, October 2020 Process Flow / Instrumentation Drawings 47",
+    "word_count": 19
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p48_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 48,
+    "text": "An Example or Two\nCarkeek Sodium Bisulfite System \nReplacement\nAlki CSO Treatment Plant Sodium \nHypochlorite System",
+    "word_count": 16
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p49_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 49,
+    "text": "Graphic from KCWTD\n\nCarkeek Wet Weather Treatment System \u2014\nSodium Bisulfite Dosing\n\nPipers Creek Trail\nPipers Creek Tra\\\\\n\nVersion - 1.1, October 2020 Process Flow / Instrumentation Drawings",
+    "word_count": 28
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p50_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 50,
+    "text": "'0749\u00b0 @",
+    "word_count": 2
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p50_2",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 50,
+    "text": "\"\n\nVersion - 1.1, October 2020\n\neer 2\n\nProcess Flow / Instrumentation Drawings\n\n\u00b0 20 40\n\n20 10\nSCALE IN FEET\n\nCetied\n\nSo8:07 49+",
+    "word_count": 24
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p50_3",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 50,
+    "text": "\" Ww.\n\n50",
+    "word_count": 3
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p51_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 51,
+    "text": "Version - 1.1, October 2020\nProcess Flow / Instrumentation Drawings\n51\nSBS Tanks\nChem Dosing \nPumps\nStrainer\nChlorine Analyzers\nSamplers\nControl Panels\nFill Station",
+    "word_count": 24
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p52_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 52,
+    "text": "ia SBS Storage & Strainer Graphic from KCWTD # a ] r = a 2 rY \u00a3 a \u00a3 ny A zt TANKNO. 4 TANK NO 2 S02GAS MONITOR LEVEL 0-100% ALARA LEVEL 0-100% ALARM ALARM C-HOPPM \u2018awn FO ON (am? ~ au uy (ari SenR SERA SORA x w + i i TRUCK UNLOADING PANEL LCP 510, 601 \\ FIELD : f ; i \u2014 - sane f ran tania | | tame2 con. asin so2cas LEVEL ALARM LEVEL | + ALARM \u2018ALARM 0-10 PPM Al Lah aN | 1 [uae Uh 1054 - 1054\" 510542) | | 1054. Sro543) Sgsa L ' aA a T 4 PLE REMOTE #4 V0 \\ - a e- uae t (uty aN HYPOCHLORITE PANEL osay Cary PHLSI0, 541 (RELOCATED) os eos SAMPLE ROOM ; i \\ | awsiosat hi i t ' . 1 SIMPLEX STRAINER we 2. WAY BALL VALVE \\ @ sess]. | (EN (om avsios4i | | ' G \u2018stent \u2018sy0sat ! = OSs 51054 = BVSTOOXD , 2 \\ 2a 1 b 3 Zz \\ = 6 _\u2014\u2014\u2014",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p52_2",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 52,
+    "text": "avsios4i | | ' G \u2018stent \u2018sy0sat ! = OSs 51054 = BVSTOOXD , 2 \\ 2a 1 b 3 Zz \\ = 6 _\u2014\u2014\u2014 \\ = \\ & evstOe B SoDLMESULETE t |__ evst0saaa 2 GIRCULATION PUNE 1 8 SODUMBISULATE P5051 | \\ 5 TANK NO.1 NOTOR CHECK VALVE t Bvsiosaac | q TS1541 Tastes | CHVSO5414, ! i BALL CHECK VALVE. statin eaeks | SBS GRC. PUMP. it = aorreuss a = Soatisiatie | ESI OSS fos\\ \u2014 + pvst0saig ! puss \\ DVEIOSAIA | avsi0ea8 ! DUsIORAAR \u2019 \u2018 1 | gt } 1 r ' CAUSTIC SCRUBBER DVS405416 a y $8 CIRC. PUMP. ISOLATION VALVE \u2018SOR510546 ! \u201c ovstosaio fe Sab atest | ; c t CALIBRATION COLUVN, fam\\_(o8 oe \\ rh a ' (__MEstosi \u2018520340 520340 avis |\u201c (\u2014 para (18>, (Gir 1 SPECIALCABLE) = = \u00e9s SIMPLEX STRAINER ee EP t ' , a all a a \u2014__ Bvei05486 LJ a (_pvsnsit\u20ac ! e a \\. q er DUPLEX STRAINER eon _\u2014\u2014 } \u2019 ASSEMBLY ha \\ SEPST0045 9 ms 2 5 \u2018SODIUM BISULFITE,",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p52_3",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 52,
+    "text": "LJ a (_pvsnsit\u20ac ! e a \\. q er DUPLEX STRAINER eon _\u2014\u2014 } \u2019 ASSEMBLY ha \\ SEPST0045 9 ms 2 5 \u2018SODIUM BISULFITE, = a b 2 TANK NO.2 iq i 2) w 510542 ae \u2014 it el 3 a | Dwstosasa | [ Bystosase coverosa2 S| = i \" 1 DVS105420 x Dvstesi2e | { BV510545D 4 ovstossec \u2014\u2014_\u2014 \\ - a STOEE | evsinsasr Dysiesae / pysias420 DECHLORINATION CHEMICAL aa LY aa a eas STORAGE ROOM CONTAINMENT BASIN SUMP PUMPS T CaS TERRA TE INFORMATION ONLY = es RR RES A NET MEAT ER TINE STATS an = 90% REVIEW nai laine SODIUM BISULFITE DOSING | p.g9001 ins uni ' ig County SYSTEM P&iD 1 OF 3 ae 1 EG = [Aw one MARCH 2022 \u2014 # [= 0 \u00a9 Ly v Tc v Vv 7 v = v s v * Version - 1.1, October 2020 Process Flow / Instrumentation Drawings 52",
+    "word_count": 157
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p53_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 53,
+    "text": "i ia SBS Storage & Strainer Graphic from KCWTD A a B r cs a 3 / 3 ny = A A A TANKNO.4 TANKNO.2 8020S MONITOR LEVEL 0-100% ALARM LEVEL 0-100% ALARM ALARM GHOPPM ye a RED a RED ~ Coy ui anee sem Sesnk Scape Sosa, TA oe ho 7 7 \u2018 TRUCK UNLOADING PANEL LCP 510, 501 i: i} 1 bd FIELD \\ 5 ! 1 \\ i H i f ; ! 4 + ; 5 tani | 7 Tank 4 tank | | tauea cont, east soocas | | soaaas LEVEL | ALARM LEVEL | + ALARM ALARM ARM | | -10PPM \\ fem aN | | ven) Ne sat - 1054\" 162] | | oud | Szg3a L ' i 1 ' Bs t t PLE REMOTE #0 I I I z = \u2014t i * Sane . A \\iPOCKLORTE Pane ar ay PHLS{0, S81 RELOCATED) LOH) soy SAMPLE ROOM = ; J i i I | awvstosaa 3 hi mo \u2014_ _| } i 1 1 SIMPLEX STRAINER aa 3-WAY BALL VALVE f",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p53_2",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 53,
+    "text": "ROOM = ; J i i I | awvstosaa 3 hi mo \u2014_ _| } i 1 1 SIMPLEX STRAINER aa 3-WAY BALL VALVE f G sess], ee BNE 105410 ! 5 \u2018510541 st054t ' ' ot aaTGHOD 1 | es 1 b 8 z | = go 1 = | & BVSTOXKHE gl SODUM B SULFITE t Bv5105400 2 GrRCULATION PUNE | FA SODIUM BISULFITE | ' 5 TANK NO.1 NGTOR: CHECK VALVE t Bvsiosaac | q 7910541 Tastes | CHVSO5414, ! BALL CHECK VALVE statin eaeks | BS GRC. PUMP 1 r aR S aoe ee LATION VALVE \u201c. HS \\ / DV510541G 1 esis Fey i DVBIOSAIA t 4 i ere ESTOS PT ! DVSIO5A18 a S ! t wot 1 1 \u2018i fe ' causrie ScRUBRER verse J} oh pump | SOLATION VALVE SCRS0546 | \u201c ovsosto cvsrosaie | os f | CALIBRATION COLUMN far fo 1 T \u2018MES10545 ~ \u2018520340 \"520340 C i QUO 5gaeH awstoss |\u201c pyar \u2014 (ey (Cu SPECIAL CABLE) SIMPLEX STRAINER s es? Ee 7 . ? _ ] \u2018. DVS10511E",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p53_3",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 53,
+    "text": "\"520340 C i QUO 5gaeH awstoss |\u201c pyar \u2014 (ey (Cu SPECIAL CABLE) SIMPLEX STRAINER s es? Ee 7 . ? _ ] \u2018. DVS10511E 1 a BYEIOS SS: = [_sepsose2 [[pyswsee | = Eon \u2018. q er DUPLEX STRAINER eon i 7 \"ASSENBLY H sePen0sds Z| 1 FI 5 ; 7A fp-20002 > L 2 \"10542 \u2014\u2014 Sas 3 a \\ Byes I . E | pystosasa { | evetasese ovetosa2 S| i ; I DVSIOEBA oversize | | waren] | _ ovetestec y bo _ 4 BvST05\u00a25C \u2014\u2014__ Bvsi0s4sF \u2014 (aie, 4 pvstosaan 510843 DECHLORINATION CHEMICAL rn STORAGE ROOM ane aan vero 0 erga -2EELAIRART SGV DEANS Tae | Nae . canencneheetner eeitctormen | NevEbER 2 =e, : DECHLONNATONSYSTEN HODF.CATIONS wwsi0: 90% REVIEW inor shs_giueae SODIUM BISULFITE DOSING | p.gg901 RTE ing County SYSTEM P&ID 1 OF 3 aa TER RS \u00a9 a ee wascH ance = Eo \u00a9 Ly v Tc v 7 v r \u00a5 = v S v Version - 1.1, October 2020 Process Flow / Instrumentation Drawings 53",
+    "word_count": 174
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p54_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 54,
+    "text": "SBS Pumping | A irl re E ry = A A # = METERNG PUMP 2 METERING FUMP + Sons vac PLORENOTE #410 oer , 1 1 i i i \\ | I I I | ( 1 t 1 1 T | it o +b os + a 1 1 PNLSTOGI0 RELOCATED) ! I | 4 t b { cocaTev owas | T { sone { \u2018 ; F SAMPLE ROOM t t |= = = 4------- \u2014------ ' ! 4\u2014\u2014-=\u2014------ | ' | san checvaye | | ; i BALL VALVE i 1 wesi0542 \"50542 i i 1 | [avstosata_} 1 i \\ DIAPHRAGM VALVE | 1 1 \\ \\ \\aweroea {vetoes | | | \\ 4 t Ne T r 7 G2 (WASH WATER) | 7 sna ae peer - wae | soot nnucice H \\ 1 | | OFERATION BLDG.| TOUTILITY STATION i 1 i | Hvac canTROL PANEL | pte 1 METERING PUMP NO. 4 PRESSURE i 1 if AND 3\u00b0 CONNECTION Ss i i f RELIEF VALVE i 1 DIAPHRAGM VALVE 1 1 et",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p54_2",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 54,
+    "text": "1 METERING PUMP NO. 4 PRESSURE i 1 if AND 3\u00b0 CONNECTION Ss i i f RELIEF VALVE i 1 DIAPHRAGM VALVE 1 1 et | i | PRVSTOSA| ! \\ sunbens I | | ane 4 ' 7 t ' 1 a [rar | \u2014 | 1 CY i | 1 1\\ Ser @ YX PSI ! |_est05a2 loons ' fe) FLUSH WATER ! \\rHaRRARDE 1 | owsosar ' SEE NOTE 1 DIAPHRAGM VALVE T Dvsi05aF | H | { 10543 SRRIGEEA | ~ Ly I . \\ . ! o* y (eran 1 AQHSB. 4/2\" SB m __112\"s8 [ Hy FROM SODIUN | DIAPHRAGIA VALVE 13 MAGNETIC. \u2018 sauvave | \u2014\u2014_ Seren IEP \\ ie 3 [vetoes || SALLIE | Towenmacuvauve |, exuroneckvauve | ogacen = 1 Y-STRAINER Dvowsazk > CHYSIO04A, | baie : /. 1 pee | cer @oxeel ! 2 (FLUSH WATER i ! yo fram XE) (7) Pe : | ony | ae (ey PRESSURE meas Boss? a 1 a RELIEF VALVE FS SRSA \u00e9 3 Seas pie SOAS S) Pavsiosse Fyco4a \u2014_sisiossio | me",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p54_3",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 54,
+    "text": "ony | ae (ey PRESSURE meas Boss? a 1 a RELIEF VALVE FS SRSA \u00e9 3 Seas pie SOAS S) Pavsiosse Fyco4a \u2014_sisiossio | me | esicsss | | c2 WATER i > i C2 (CARRIER WATER) c | 3a c2 Lie's8 is 2 > Lt xh c Lt OY i wowtow 7 / STATIC NIER | PREVENTER \u2014/ souenow vive / \\\\ PRESSURE REGULATING \\ MXE10543 id i BVS1054a8 A) pever054a I 510544 | CHT S| eystoseac | Fisto5aa / DECHLORINATION CHEMICAL STORAGE ROOM \u2014\u2014 FIELD o DESHLOR cua >> |, \u00b0 |) INSTALL WATHS PRE IAMETERS UecTREAM g ii PRELIMINARY ISSUE DRAWING ee | wwe pa ea sao tes \u00a3 INFORMATION ONLY\u2019 oeainoniso: i alae \u00a5 DECHLORINATION SYSTEM MODIFICATIONS: uae : 90% REVIEW \u201cEacey [iene |e, SODIUM BISULFITE DOSING | p.gqg02 3 7 ing County : sicitergoa irc ng SYSTEM P&ID 2 OF 3 ae eR ES S 1 EMSDICECR TON = re wife 0 S ' v : \u00a5 : v v v + Version - 1.1, October 2020 Process Flow / Instrumentation Drawings 54",
+    "word_count": 178
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p55_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 55,
+    "text": "z 5 SBS Pumping Graphic from KCWTD \u20ac # a a a = a a / 3 ny = i A A a WETERINO PUNE2 WeTERING FUME | cowaren \u2014 SoOuMBNgULEME specp reo opcepRer FAULT. RUN RUNMING SPEEDFED srecprer FAULT. ALN UNHINC Lowen ojaera P \u00e9 x) [en [on Ax [an sal Lon] Lon iA I sfoezr@o sibaRer sfbgartr shogaRh stop sfanreo sberper sloquyrty slosjr slopeyRt 1058 Figsas| = _pLoRewore ain eS in ae < = 1 I 1 1 ! ' rod | ' | | ! i , 4 { @------ \u00b0 - e----- \u00a2 e---\u00e9- 1 4 \u2014 T i 7 f > ! ' ' | ! a =) ! i t Gig ga] CODATED ON WALL) ' \\ ce ' ' | { | i T ' gure genes | \u2018 | 4 1 1 i le | ' SAMPLE ROOM % ! { J \\ ' ' i 1 (Ry | parece i ! 1 aa) saLLcneckvave | svsrosea |< | ' vss [enstesea || L 1 wh * DAPHRAGI VALVE 4 4 .",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p55_2",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 55,
+    "text": "(Ry | parece i ! 1 aa) saLLcneckvave | svsrosea |< | ' vss [enstesea || L 1 wh * DAPHRAGI VALVE 4 4 . { ! ovale! S 4] ovsioseas | b t I Ny \\ : > : + tot 1 PERISTALTE PUMP NO.2 : oysrest24 | PS10s42 1 i a ' a 1 ! NOTES: A SeTAT RELIEF VALVE \\ cry H 1. INSTALL WITH 5 PIPE DIAMETERS UPSTREAM 1 ae Dvstosaia. 1 (res PIPE RUN REQUIRED. ' 054 ' \u2018 1 \u2018SEE NOTE1 4 FROM SODIUM T Fanatic pt 1 MAGNETIC r id Peis Cuvieset9 \u2014\u2014 BALL valve Pans XE) DUSHRAGH VALVE i fe Bystoseaa fs = ah bvsiusaiK sx poet sepsis a sosed oh ET C2WATER s a % Los g ovpros3 > Xt tas Ket 1O2k- od 1+ LIA PRESGURE REGULATING ss a VALVE q \u2014irsiesa 4 SOLENOID VALVE BALLVALVE __Paveesea BALANCE VALVE BALL CHECK VALVE Bal L sv510544 BUS1NS448 BNVS10544 CHVS105\u00a24 ~\u2014{_Bvsto5aac DECHLORINATION CHEMICAL l J STORAGE ROOM FIELD TO DECHLOR. a ! 4 INFORMATION ONLY Se ERE TE Ey DEE HLDRNAION SYGiEAL",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p55_3",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 55,
+    "text": "BUS1NS448 BNVS10544 CHVS105\u00a24 ~\u2014{_Bvsto5aac DECHLORINATION CHEMICAL l J STORAGE ROOM FIELD TO DECHLOR. a ! 4 INFORMATION ONLY Se ERE TE Ey DEE HLDRNAION SYGiEAL BODIE GATIONS \u2018pave We: g ROIETRC \u00e9 90% REVIEW \"3 ingto SODIUM BISULFITE DOSING | p.g9902 ae in juni \u00e9 ig County SYSTEM P&ID 2 OF 3 os ane fc aa ea wasn ane = eo \u00a9 Ly v Tc v 7 v \u00a5 = v S v Version - 1.1, October 2020 Process Flow / Instrumentation Drawings 55",
+    "word_count": 84
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p56_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 56,
+    "text": "fabs Fujin? onan 97800 RASAD F-69009 de [Lava NED R00 Final Effluent Sampler & Analyzer a 2 rN \\ i (NEW) EFFLUENT C12 ERFLUENT ANALYZ=R RESIDUAL pH EFFLUENT OsrrN ofan eianacrzer | neste [AX] eval HYPOCHLORINATION Ss I WARY CONTROL PAWEL NL 20044 + 1 T MAIN CONTROL ROOM I i ' \\ I i \\ t EFFLUENT SANALE | Avo1o2e2rLT Aroio.gezcl_Avat0 26201 pF ven saMeue \\ q \u2018SOLENOID VALVE 1 EFFLUENT SAMPLER \u2018SOLENOID VALVE | EFFLUENT SAMPLE r ul Sew | fault CAL aun \u2018OBEN | SPR iow on ~ r KN ' | foe ' sjoxoyd ( ! | if i t 1 \u2018 i + H HY#OCHLORITE SONTROL PANEL | 1 | f i . PNL \u00a710541 (RELOCATED) i i | i H 7 BALL VALVE i t BALL VALVE 1 i ' BVSIOSHE i t (avsiosias ! i if ' 62.ELUSHING WATER) { i i 1 COWATER i ! T SOLENOID VALVE | f SUPPLY | ! (-\u201csvsiessas > ! i i 4 ouvave ft H o_ ; { r BV5105440 AIT ! i { BALL",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p56_2",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 56,
+    "text": "VALVE | f SUPPLY | ! (-\u201csvsiessas > ! i i 4 ouvave ft H o_ ; { r BV5105440 AIT ! i { BALL VALVE NEEDLE VALVE | H os Bvorooca, | NvsI05\u00a24A | | i \u20180299 \\ | 1 FINAL EFFLUENT : % colt SE Saou cnecevaive | \\ neck vatve ' 1 > SAPSIOB4E evsi0503 cust0saB |. UTILITY STATION = NT 4 (EXISTING) BALL VALVE, l \u2018540503 ! BYSTOS4H ico BALL VALVE = J SAMPLING FLOW BOX N aoe J (=) row SOLENOID VALVE / gt SNITCH 4 [ svei0saia | b PRESSURE eiiewe REGULATING VALVE vag xa ry y, EEO ee cla ANALYZER 6 GRAS SAMPLE PORT ies! CONNECT DRAIN Balt valve BALL VALVE austosos | TOTRENSH BUSSES SvsTOsOSE \u2014 BALL VALVE BALL VALVE % \\ ~ BVS105031 BVS10503F 1D i L_ssiosoe _] connect F DUPLEX STRAINER \\.Se0NEVT oROPOLT DRA 70 es] ~ / tes05038 \u2018TRENGH BALL VALVE \u201c - a \u2014vsioses3 \u2014] OS BALL VALVE EFFLUENT NG es \u2122 BV5105036 SAMPLE PUNP Y oavave ff BV510503H , \u00ab . J ia BALL valve BALL VALVE",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p56_3",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 56,
+    "text": "\u2014vsioses3 \u2014] OS BALL VALVE EFFLUENT NG es \u2122 BV5105036 SAMPLE PUNP Y oavave ff BV510503H , \u00ab . J ia BALL valve BALL VALVE aus ol BVS105036 ByS105030 ~ DISCONNECT conas aupuc port | BALL VALVE SOLENOID VALVE [_wvr06058 \u2014} svstes0a SAMPLE ROOM PRELIMINARY ISSUE DRAWING. \"RBULGER | NONE SEN ASTENATESTRES VET SnSION AUGUST 2022 _ CCARKEER WET NEATHER TREATMENT STATION _ UT INFORMATION: ONLY\u2019 Sees [a \u00a5 DECHLORINATION SYSTEM RIODIFICATIONS 90% REVIEW fic osc: |ia2Tis EFFLUENT CHLORINE (J escney | e732 | ing County! ANALYZER AND EFFLUENT 1 REVEDUEESOR TON = aR AuiglleT 20% SAMPLER P & ID = + v z v : v v : \u00a5 7 Version - 1.1, October 2020 Process Flow / Instrumentation Drawings",
+    "word_count": 121
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p57_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 57,
+    "text": "Final Effluent Sampler & Analyzer Graphic from KCWTD \u20ac # a a rn = a EI ry \u00a3 a = i A 4 eFFLUENT oL2 errLuenT ANALYZER RESDUAL otto clzanacvaer \u2014! avcetog08 i 5 HHvEooHLORINATON q Ll PLo RENOTE #21/0 \u00a2 CONTROL PANEL ZH iEXISTING) ie ! IMAIN CONTROL PANEL PN 820611 \u00b0 i | | i EFFLUENT SaMPLe | AvsioaeasLt arsiozazot_avsta.28u0L RUE | SOLENOID VALVE i EFFLUENT SAMPLER SOLENOID VALVE, EFFLUENT SAMPLE. i ag OPEN i FAULT CALL RUN ar FLOWON 4 ' A 6 [sn _ a) \u2018 9 sflogogc siege Fogo po i * if ! t | | 1 HYPOCHLORITE CONTROL PANEL \\ t } ql PNL 510541 (RELOCATED) i \\ 1 i a t BALL VALVE ; ' BALL VALVE t | evatosaee | I : bvstbetec 1 ! | i _ _\u2014 Cer c0002 ied - 1 T = [P-s0004 2 \u2014e > coWaTeR Ne \\ Ed ! BALL VALVE i SOLENOID VALVE % i Sires | : ' a ae \\ evstoceet i / |g) Stosaga \u2014 St05448 (at i Z { mae",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p57_2",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 57,
+    "text": "VALVE i SOLENOID VALVE % i Sires | : ' a ae \\ evstoceet i / |g) Stosaga \u2014 St05448 (at i Z { mae ee ae (a \\ T 106440 * 1 | es | aL. valve een ' y 4 ByETOETEL ae t D iF FINAL EFFLUENT a a HOSE 1 oe COMPLIANCE SAMPLER Se NE \u2018, CHECK VALVE i 3 Er) L SaPsI0se4 (-evst060a TF, cvstossee a \\ Poy EXITING) ; ss (a t SOLENOID VALVE Lo Js nese: ae 74 A genie i SVSIOS\u00ab4A } SAMPLING FLOW BOK BvS05I ai in REOUIATNOVAWE | |__tumae oN (\u00ae\\ (#8 How . CVETOEHA L. ae eyes \u2018once a | #\u201d T ia : pvst0sa i sd _vst0so3E Tye x2 EFFLUENT 1 bd GRAB SAMPLE PORT : istoPeee : o_ CONNECT DRAIN BALL VALVE. AIS10503 5 (sv anaes c \u2018BvET05000 rs : : H [J y | 51050: hy BALL VALVE BALL VALVE CONNECT e 4 . BV5105031 | Bvstoscce DRAIN TO. e F ee seesiasoa 2 SAO E \u2018SAMPLE PUMP. \u2018 REDUOER Nc BALL VALVE EVSIOB03 3 \\ 9",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p57_3",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 57,
+    "text": "4 . BV5105031 | Bvstoscce DRAIN TO. e F ee seesiasoa 2 SAO E \u2018SAMPLE PUMP. \u2018 REDUOER Nc BALL VALVE EVSIOB03 3 \\ 9 ~~ pvsies0aH | i 4 \u2018 3 [ | \u2018 DAL VALWE BALLvaLVe ure .. Ban vawve 1 * BV510803B BV510502D_ - DISCONNECT ua BYS10500F GRAB SAMPLE PORT | _SEDIMENT DROPOUT BALL VALVE. * SOLENOID VALVE MES105094. 3 Bystososa a ca g \u00a5, BALL VALVE to > \u2014everes8 | ; z tie Eff) | SAMPLE ROOM & ade INFORMATION ONLY ane Proce Ey ECHL ORRATION GVETEH GROLIER TIONS \u2018pave We: ceed 90% REVIEW = EFFLUENT CHLORINE ww510- ath \u00b0 1822 KingCounty| ANALYZER AND EFFLUENT | P-60003 Bere ACT RO: WANG 7 TER [REP E258! be ReaD [oo wae 002 SAMPLER P & ID ES \u00a9 v Tc v 7 v r \u00a5 = v s v Version - 1.1, October 2020 Process Flow / Instrumentation Drawings 57",
+    "word_count": 152
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p58_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 58,
+    "text": "_Pre-Dechlor Analyzer \u00a2 t ~ if ! it 1 i 1 1 i 1 <q r iT i 1 1 \u2018BVSIOSAXK in \u00ab DIAPHRAGM SEAL EFFLUENT SAMPLE FLOWON OFEN LAY E PLO REMOTE 44100 HYPOCHLORITE PNLDT0, 941 i 1 i i 1 (RELOCATED) i i 1 SOLENOID VALVE 'SV510546C PRE-DECHLOR SAMPLE rlowen PRE-DEGHLOR GL2 ANALYZER tow igh EAU PPM FLOWON | Aras Os sf 1 it 1 ae ee ' i ' i ! | ! | i i ' i | | BALLVALVE ' H t [ Bvsiosaai i I t \\ i ! nee BALL VALVE NCEOLE VALVE [- evstos04F | nvstoseas | ~ CHECK VALVE CHECK VALVE VETO [Cchvetoseee \u2014} BALL VALVE \u201c | <i ne \u20182050! BALL VALYE ne sins i aE FS) FLOW | rosoa SwaTCH C1 WATER SUPPLY Yo CONNECT DRAIN TO TRENCH LES ORR eae PRE-DECHLOR. REDUCER \u2018LZ ANALYZER souenoovatve \u2014anaue oat \u2018SYS10504 YS 105044 seal \u2014\u2014! a J es BALL VALVE: z BALL VALVE eee / BALL VALVE _honoad! Tee \u2014] = avarosnad | (REPLACED) [[svstosaie ae ot Laver | < aoe",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p58_2",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 58,
+    "text": "J es BALL VALVE: z BALL VALVE eee / BALL VALVE _honoad! Tee \u2014] = avarosnad | (REPLACED) [[svstosaie ae ot Laver | < aoe ~ ee OUELEX STRANER \"Ty HEBEL | \u00a9 \\ _~ 'SEPE10604 eg a a 2 ew vave + pF Kt = Ye Nose | I - BALL VALVE . BALL VALVE, \\ j (FieLo | YN viens [svsiesoro AMPLE PUNE GRAB SAMPLE PORT BALL VALVE \\_ [= vsiasoaa DECHLORINATION CHEMICAL STORAGE ROOM FIELD Version - 1.1, October 2020 Process Flow / Ins rumentation Drawings INFORMATION ONLY \u201cER TERERS = DECHLORINATION SYSTEM MODIFICATIONS, eee 51 0- 90% REVIEW \u201crae |e PRE-DECHLORINATION | B/Bgng4 sucuerae come CHLORINE ANALYZER P & ID Fore . 7 7 3 y - y . 7 58",
+    "word_count": 125
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p59_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 59,
+    "text": "Pre-Dechlor Analyzer Graphic from KCWTD a A \u00ae a rs nm 3 a E A = a A 4 PRE-DECHLOR SANPLE EFFLUENT SAMPLE FLOWON, A PREDECHLOR.SAMPLEPUMP \"\"\" FLaWON amfonon PRE-DECHLOR CL2 ANALYZER RUN ow OPEN i BL Bs a & ES =; = | | ! ! | | | HYPOCHLORITE PNLS\u20180, 541 (RELOCATED) i \\ i 7 i} \\ ' 1 \\ 1 i t | | 4 i ALL VALVE f 1 P \\ evsionss | i i 1 Co fron > \u2014\u2014F + T t : cawaren ne i t 1 soLeNaio VALVE ! \\ j ciwarer SUPPLY i i Svstos4ac i ' r \u2018SUPPLY ' xs ' 1 ' \\ i . | \\ 4 4 f ma ' ' e t. BALLVALVE t (os \\ \\ + 1 | evstosss0 ! \\ 1 { 1 ' Hosted | i ! { \\ es ! ! | 1 | BALLVALVE weeo.e vave | \\ t % \\ DIAPHRAGM SEAL ETc NvsiCD 4a - | i ! > MESiOs048 ' \\ Hose oT t CHECK VALVE CHECK",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p59_2",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 59,
+    "text": "vave | \\ t % \\ DIAPHRAGM SEAL ETc NvsiCD 4a - | i ! > MESiOs048 ' \\ Hose oT t CHECK VALVE CHECK VALVE, i t + 4 eae! | BALL VALVE vst0604 \\ crvsrases i \\ | b \u2018| I [ evstososi \" S Sy (any | t _ ALL VALVE \\ | t evstastas szasge ' \\ Ab a i 1 (7) a Hew if i \u2018sr0s0q SWITCH \\ 1 ' q \u2018 t DIAPHRAGM SEAL 3 | ' NESTOSOA suetione FRE RERAIBE \\ REDUCER | SOLENOID VALVE J BALL VALVE ar veal t owes [ evsioro4s | Asion0s | i sv BALL VALVE . BALL VALUE (REPLACED) | zt vst soc [eee BALL VALVE 2 a DUPLEX STRAINER __svsicsnas L fA | SEPstosoa E ai * BALL VALVE, Spies RAN q Q, ~ |___3y5105040 LI . BALL VALVE \u00a3 | feeTeonLO . quick eaLL valve \u2014{__avsiasoa i & SAMPLE PUMP RAE SAMPLE PORT DISCONNECT BVSTOSOHE SEDIMENT OROPOUT H FSIGscs BALLVALVE: ae Hi Y | evsics0a) i SAMPLE ROOM 0 i 5 DECHLORINATION \u00e9 CHEMICAL STORAGE",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p59_3",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 59,
+    "text": "RAE SAMPLE PORT DISCONNECT BVSTOSOHE SEDIMENT OROPOUT H FSIGscs BALLVALVE: ae Hi Y | evsics0a) i SAMPLE ROOM 0 i 5 DECHLORINATION \u00e9 CHEMICAL STORAGE ROOM = | FIELD INFORMATION ONLY paar Proce 2 DESHI ORRLATION aVaTEH MRODIRIER TIONS \u2018pave We: 510 0, saute oROIECTKE ww 90% REVIEW Tiber\u201d \"hs gingeounty| uf RE-DECHLORINATION | p.gq004 aT g CHLORINE ANALYZER P & ID aeexre \u00a9 Sas SEER wasn 230 = yo \u00a9 v Ly v Tc v F Vv 7 v = v s v Version - 1.1, October 2020 Process Flow / Instrumentation Drawings 59",
+    "word_count": 95
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p60_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 60,
+    "text": "Intermediate Chlorine Analyzer\n\na A 2 a a a 2 rm\" a A . - 2 a \u201c\n\n> INTERMEDIATE CL? ANALYZER: INTERMEDATE CL2 INTERMEDIATE\nae a es\na t a\nse ee\nEe ~~ ae [re]\n. ena \u2014 :\nvous sna ee :\npresto, S01 MAIN CONTROL PAMEL Pri $20811 1\nMAIN CONTROL ROOM a\n\nN01 OTR Chk MATS Coe vont Spay Mecbn ir Pep earn 172 YANE HS AED ng Laeak WNRHC AER\n\nHi s &\n\nat Feomweren \u2014(eustinay\ni i] [Few a,\ni Hl INFORMATION ONLY nA ay \\ DECHLORINATION SYSTEM MODIFICATIONS\nHY 90% REVIEW |i = / > INTERMEDIATE PROCESS AND\ntke \u2014 See , INSTRUMENTATION DIAGRAM\nexeeel= Ly as cm + = ow = 7 |\n\nVersion - 1.1, October 2020 Process Flow / Instrumentation Drawings 60",
+    "word_count": 133
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p61_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 61,
+    "text": "Intermediate Chlorine Analyzer Graphic from KCWTD \u20ac # a B ry cs a 3 / 3 ny = fh A A ry INTERMEDIATE CL2 ANALYZER INTERMEDIATE CL2_ INTERMEDIATE \u00e9 RESIDUAL ANALYZER \u2018SAMPLE FLOW: ig OSPrM. RESIDUAL FAH 10504 f = \u2018yusoy axH [ese a Sroep? i HYPOCHLORINATION CONTROL PANEL ry T SLR MAIN CONTROL PANEL PNLS20.611 { 1 MAIN CONTROL ROOM 1 i 4 OPEN SEM|AUTO LEADILAG UPSON FAULT RESET POWER ON ALARM i i 0-50 MGD 060 MSD co MGD Kee ees EN oo | | P | 1 a | BM TOR RO BOK \u2014\u2014BALLVALVE Eom 1 PNLS10, S41 r i a ee | BVBTO5AK \u2014 i \\ ' i t t T ' rl i x \u2018enone : ce \u2018 \\ ! ! cowaTER i DIAPHRAGH SEAL BALL VALVE 1 SOLENOID VALVE | i 1 SUPPLY 7 MES1 05028 BYS10502F 4 sv510544D | | ! B 1 i aa evstesea2 | NEEDLE VALVE | ' ! DIAPHRAGH SEAL 2 \u2014T eae 1 | fete ~ see | 1 Is - \u00e9 \\ CHECK VALVE \u2018E wee '",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p61_2",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 61,
+    "text": "VALVE | ' ! DIAPHRAGH SEAL 2 \u2014T eae 1 | fete ~ see | 1 Is - \u00e9 \\ CHECK VALVE \u2018E wee ' ! t SY \u2014evstos = nal fF 5:05? tow ! , | BVSIOS@ Os Sigs HAL Jae iz \u201cevar | 1 ' \\ % \\h \\ BNSI 05441 ss (oe, (7) i ! 1 \\ a H \\ . \u2018510502 \u201840592 1 I \u2018Oo T ia ' ' a: Cay & REDUCER \u2018CL2 ANALYZER 1 1 |___svstosa2 4 19502 \\ BALL VALVE, \u201805 PPM | 4 BVETCSORE AISIOEOE | | 4 INTERMEDIATE NC @ rxte TRENCH | ' 5 SAMPLE PUMP N PEDUSER, \u2018 BALL VALVE i i Fy a |____svstos020 ! g 4 \u2018 BALL VALVE , Quick, . BALL VALVE i & BVSt06028 DISCONNECT ~ . BVS10602H \\ : (\u2014\u201cssioas asic \u2018 AVSIOSI2A H ! 4 i SAMPLE ROOM 1 ! LC re ee ee oe 4} - a (rn, \u2018 (ey \u2018s10110 z / [3 ia ns seas cso MoD 0-50 NED. \u00a325) | FIELD (EXISTING) (EXisTING) Ege? SERRE EE TET ARTIENT",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p61_3",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 61,
+    "text": "a (rn, \u2018 (ey \u2018s10110 z / [3 ia ns seas cso MoD 0-50 NED. \u00a325) | FIELD (EXISTING) (EXisTING) Ege? SERRE EE TET ARTIENT OF WAT RAL RESGU FOES PARES we gals INFORMATION ONLY eae ERE RT Py AL OORUTON EYE TDN oan an eae Enemas ; WW510- ae 90% REVIEW \u201cTike \u201cine gne County | INTERMEDIATE PROCESS AND | p.g9005 EaGoe im uni Ente maT gCounty INSTRUMENTATION DIAGRAM [ener \u20ac288: Do REVERR, AE _ DATE AR SO \u00a9 Ly v Tc v 7 v r \u00a5 = v S v Version - 1.1, October 2020 Process Flow / Instrumentation Drawings 61",
+    "word_count": 103
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p62_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 62,
+    "text": "Aerial Photo from\n\nAlki Wet Weather Treatment Google Maps\n\nSystem Hypochlorite System\n\ns\n\nMS Jd UojwWeg\n\n=\na\na\nc\nS\ni\n=\nG\n(os)\n\no\nS\n\nx\n\nVersion - 1.1, October 2020 Process Flow / Instrumentation Drawings",
+    "word_count": 38
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p63_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 63,
+    "text": "Graphic from KCWTD\n\n% \u2018 A G rN a rN w\n\n\u2018CEPA NENT OF WATURAL RESOURCES AR\nWASTEWATER TREATWENT WICK\n\n\u2018erect g0128 ae C80 Fypactate Pure Rast emetnsrarti NO 20120101 LAWE HI\n\nLemaeh HLE EDOM KCWTE221ShD Cus aa\n\nVersion - 1.1, October 2020 Process Flow / Instrumentation Drawings 63",
+    "word_count": 49
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p64_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 64,
+    "text": ". . Graphic from KCWTD Chemical Feed System Schematic GENERAL NOTES: WOTUSED FLOAT VALVE KEY NOTES: CONTRACTOR TO GOORDINATE WITH THE PROJECT. REPRESENTATIVE TO MAINTAIN ONE EXISTING PUMP \u2018THROUGH THE INSTALLATION, TESTING, ANO \u2018COMMISSIONING OF THE PROPOSED IMPROVEMENTS, REMOVE TRE REMAMUING PUAIP AND ASSOCIATED PIPING UPON ACCEPTANCE OF THE PROPOSED IMPROVEMENTS. REMOVE AND SALVAGE CALIBRATION COLUMN, WPF 2, REMOVE EXISTING PUMP SUPPORTS AND BRACING. REMOVE PARTIAL PORTIONS OF CUT GRATING AND REPLACE GRATING WITH FULL SECTIONS AS REMOVE AND SALVAGE ROTOMETER. TYP. OF 3. \u2018COORDINATE WITH PROJECT REPRESENTATIVE TO { GAUSHIC TO GIRO \u2018STREET PUMPING STATION (ras) aac. 25%-15%) \u2018CALIBRATION COL (SEALED) (TYP) 4 CHEMICAL \u2018VENT TO 2 NADOL srcausTIC +\" TOsaRD PUMP 4 FILLLINE. ist - SO -Tom INFLUENT FM 4\u00b0 CHEMICAL VENT i Tos\" INFLUENT FM LEGEN! 13> INDICATES SIE BELOW GRATING ouexcascomect . io TeawsTON ROM eeLOW GRATING AEC acne te) oie NGF xa ron process neraunent Set Sena acne ete Eoratg RETA OTST TERRE AT TOTS BLHOKENSON WARD {WASTEWATER TREATWENT IER ALKIWET WEATHER TREATMENT FACILITY J PAULSON | NOSGALE preter ye maton *6-1128126 \u2014 on CHEMICAL",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p64_2",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 64,
+    "text": "RETA OTST TERRE AT TOTS BLHOKENSON WARD {WASTEWATER TREATWENT IER ALKIWET WEATHER TREATMENT FACILITY J PAULSON | NOSGALE preter ye maton *6-1128126 \u2014 on CHEMICAL STORAGE AND mma Reome | FEED ROOM DEMO D-M101 P| S.MINGUS | _CONBICTT SYSTEM SCHEMATIC = Version - 1.1, October 2020 Process Flow / Instrumentation Drawings 64",
+    "word_count": 52
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p65_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 65,
+    "text": "2ypafecn61 2012, Ae CSO Fp Psp Rep Meenanes- E20 MC Lap:\n\nORDER ALS EOMON KOWTD.20 SD Ova Bort\nPibrfsa an azz shana by Haneece\nfects newTisictaes ene teekderttan7Boeg\n\nices\"\n\n. Graphic from KCWTD\nChemical Feed System Plans\n\nEQUIPMENT LIST.\nlave\n\nov\n\nEXTEND VENT TH\nFLBOW AND SCREEN\n\ny,\n\n--\u2014-\u2014-\u2014\n\n| | sili ii s\n\nKEE\n\n\u2018SETAT 40 PSI (2)\n\neee: 2\n\nops\nWw wv\n\nLom opal\n\nNOTES:\n| 77 REFER 10 SPECIFICATION SECTION 11009\nEQUIPMENT LIST.\n\n\u2014 24\" CONTAINMENT PIPE\n\nTO HEADWORKS:\nGENERAL NOTES: -\n\n7 SEE 8002 FOR PROCESS INSTALMENT\nELEMENT. PIPING, VALVE, & EQUIPMENT\n\nSYMBOLS.\n2. ALL PVC PRING SHALL HE CLEAR PER SPEC\nSECTION 15064 UNLESS NOTED OTHERWISE,\n\nKEY NOTES:\n\n7) PROVINE TRUE UNION CONNECTION ON\nBOTH SIDES OF EQUIPMENT.\n\nLEGEND:\n\nINDICATES SIDE BELOW GRATING\n17> ~ TRANSITION PROM BELOW GRATING\n1B TOABCVE\n\noT OSTEO\n\u2018masiownth reATucN eR. aay 2017\nAU WiET WEATHER REATMENT PACALTY\nJ PAULSON \" LORTE PUMP \"\n\neesenremawe (PUN ower CHEMICAL FEED\n\nsay oth eal SYSTEM SCHEMATIC\n\nS.MINGUS | CO1BACIT\n\n16-1128126\n\nVersion - 1.1, October 2020 Process Flow / Instrumentation Drawings 65",
+    "word_count": 179
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p66_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 66,
+    "text": "The Real Thing!\n\nPhotos from KCWTD\n\nVersion - 1.1, October 2020 Process Flow / Instrumentation Drawings 66",
+    "word_count": 17
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p67_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 67,
+    "text": "unc \u2014\n\nPRESSURE/\nVACUUM\nVALVE\n\n=\n\nVENT TO\nROOF \u2014\n\n7400 501\n\n(NAOCL 12,5%-15%)\n\nP 400 510\n\n4\" CHEMICAL\nVENT\n\\\nCALIBRATION COL \u00a9\n(SEALED) (TYP)\n2NaocL = J] .\nFILL LINE 1 CAUSTIC\nTo 24\"\nINFLUENT FM Or\n\nConcentrated hypo tank\n\nPhotos & graphics from KCWTD\n\nVersion - 1.1, October 2020 Process Flow / Instrumentation Drawings 67",
+    "word_count": 58
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p68_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 68,
+    "text": "TING WITH FULL SECTIONS AS.\n\nVENT TO.\nROOF (TYP)\n\n3ALVAGE ROTOMETER. TYP. OF 3.\n\nMITH PROJECT REPRESENTATIVE TO\niG VALVES AS NEEDED TO ISOLAT,\nP TO REMAIN IN OPERATION.\n\n7400 502\n\n(NAOCL 4-5%)\n\n1\u00b0 C1 LINE\n\n4\" TO 63RD PUMP\ney\n\n4\" CHEMICAL\nVENT\n\nPRESSURE/\n\nf\n\nL\n\n! VACUUM\nsad VALVE\n\n|\n\nPhotos & graphics from KCWTD\n\nDiluted hypo tank\n\nVersion - 1.1, October 2020 Process Flow / Instrumentation Drawings 68",
+    "word_count": 71
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p69_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 69,
+    "text": "| a n ks CALIBRATION COL\n(SEALED) (TYP)\n\n\u2018ai 1\" CAUSTIC\n\nFM Or fi 2h\n\nFM\n4\na YX .\nw 6\" CHEMICAL\n1\" CAUSTIC | VENT TO ROOF\na |\n7400503] }- \u2014 \u2014 \u2014 \u2014 \u2014 \u2014 \u2014 4\n(CAUSTIC)\nLEGEND:\n\nPe 4) 1B~-\u2014 INDICATES SIDE BELOW GRATING\n\n1 \u2014 TRANSITION FROM BELOW GRATING\n1B TO ABOVE\n\nNOTE:\n\nT. SEE P002 FOR PROCESS INSTRUMENT\nELEMENT, PIPING, VALVE, & EQUIPMENT\nSYMROQIS\n\n2\" CAUSTIC\nFILL LINE\n\nCaustic tank\n\nPhotos & graphics from KCWTD\n\nVersion - 1.1, October 2020 Process Flow / Instrumentation Drawings 69",
+    "word_count": 94
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p70_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 70,
+    "text": "7 |\nRVE Pat ba\n\nET AT 40 PSI\n\nsi\n\nDUPLEX\nSTRAINER\n\nBv3 v4\" SPIGOT\novis\n\novi0 aia\n\n3/4\" CONTAINMENT PIPE\n\nTO HEADWORKS\n\n(me400522\u2014]\n\nPhotos & Graphics\nfrom KCWTD\n\nHypochlorite Pumps\n\nVersion - 1.1, October 2020 Process Flow / Instrumentation Drawings",
+    "word_count": 41
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p71_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 71,
+    "text": "BVT\nME400521\n\na\nc\n3\nno)\n7)\n\n1\" (MATCH EXISTING)\n\nPat ba\nAf SET AT 40 PSI\n\nT wv\n\nlove rive |\nag Ora\n\nOve\nAYP.\nava 34\" SPIGOT\nf ovis\n\n\u00b0\n\na. LANCER\n\nOvi0 aia\n\nSie\n\n3/4\" CONTAINMENT PIPE\n\nTO HEADWORKS\n\nPhotos & Graphics\nfrom KCWTD\n\na Hypochlorite Pumps\n\nVersion - 1.1, October 2020 Process Flow / Instrumentation Drawings",
+    "word_count": 60
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p72_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 72,
+    "text": "Find the Valve\n\nBV7\n\nME400521\n\n\u00b0 Ball valves\n\n1\" (MATCH EXISTING)\n\n6} @| BALL VALVE\n\n-----------@__,\n\nDUPLEX\nSTRAINER\n\n\u00a2 Diaphragm\nvalves\n\nod\n\n3/4\" SPIGOT\n\nvw | | DIAPHRAGM VALVE\n\nDvi4\n\nDvi0 3ya\"\n\n\u00b0 Circle & count &,,\n\nYi ME400522\n\n3/4\" CONTAINMENT PIPE\n\npvi2 TO HEADWORKS\n\nGraphics from KCWTD\n\nVersion - 1.1, October 2020 Process Flow / Instrumentation Drawings 72",
+    "word_count": 59
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p73_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 73,
+    "text": "Ball Valves\n\nSET AT 40 PSI \u2018C)\nerie,\n2 Q) 2\n\n400523\n\nDUPLEX\nSTRAINER\n\nREDUCER, TYP.\n\nTECHNICAL INFORMATION\n\nEXPLODED VIEW\nmead\n\n3/4\" SPIGOT\n\naon | Flanged\" \u2018Non Shock\n{DNES - ONICO) or\nPAC or CPV | Bar|\n150 P1@ 70\u00b0F\noso fon \"Non Stock\n\n\"4 vahe vermutedto \u00a9 \u00a9 A flanged valves ae rated to 150 PSI @ 70\u00b0F Non-Shock 3/4\" CONTAINMENT PIPE\n\nTO HEADWORKS\nYo\n\nFM400521\n\nPhotos & graphics from KCWTD\n\n& Haywood Valve\nVersion - 1.1, October 2020 Process Flow / Instrumentation Drawings 73",
+    "word_count": 86
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p74_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 74,
+    "text": "Diaphragm\nValves\n\n400523\n\nREDUCER,\n\n3/4\" SPIGOT\n\n3/4\" CONTAINMENT PIPE\n\nTO HEADWORKS\n\nDiaphragm Diaphragm\n\nPhotos & graphics from KCWTD & GlobalSpec\n\nOpen Closed\nVersion - 1.1, October 2020 Process Flow / Instrumentation Drawings 74",
+    "word_count": 33
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p75_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 75,
+    "text": "PRV1 PG1\n\nM400523\n\nREDUCER, TYP.\n\n3/4\" SPIGOT\novi4\nDvt0 3/4\"\n(1) _\u2014 3/4\" CONTAINMENT PIPE\nr] pv pvi2 r TO HEADWORKS\ni FM400521\n\nPhotos & graphics from KCWTD & Wikipedia\n\nVersion - 1.1, October 2020 Process Flow / Instrumentation Drawings 75",
+    "word_count": 41
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p76_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 76,
+    "text": "Pressure Relief\nValves\n\n1\" (MATCH EXISTING)\n\n[__p400523 [|\n\n523\nDUPLEX NAY, T\nSTRAINER\nSCHOO > <\nBvI2\nDv7| (M)\n\n400523\n\nREDUCER, TYP.\n\na BV3 3/4\" SPIGOT\n@H> pvi4\nOe\nDvt0 aia\"\n(1) 3/4\u201d CONTAINMENT PIPE\nr] pv pvi2 , TO HEADWORKS\nME400522_] 7 7H 3\n| FM400521\n\nPhotos & graphics from KCWTD\n\nVersion - 1.1, October 2020 Process Flow / Instrumentation Drawings 76",
+    "word_count": 63
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p77_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 77,
+    "text": "'coitaustiestionstionstionstions padtsusteesttonstiensttenstiamsttenstiestiemtientienn 1\n\nPressure Indicator & ..\nDiaphragm\n\n@\u00ae\n\n1\" (MATCH EXISTING)\n\nj, See ea\n\n400523\n\nREDUCER, TYP.\n\nID CAP\nING 7\"\nLINE\n3/4\" SPIGOT\nDV10 3/4\"\n(1) 3/4\" CONTAINMENT PIPE\n] pv pvi2 , TO HEADWORKS\ny PHL\nMd FM400521\n\nPhotos & graphics from KCWTD\n\nVersion - 1.1, October 2020 Process Flow / Instrumentation Drawings 77",
+    "word_count": 57
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p78_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 78,
+    "text": "Strainer\n\n|\n|\n|\n|\n| E|\n|\n| i\ng\n| 8\n| 8\n| 3\n| 7 400522 ME: 400 SXX\n2 PRV3 Dv13\nS SET AT 40 PSI \u2018C) a .\nre sito,\nSTRAINER\n} (M) FIL\n400523\n3/4\" SPIGOT 1\nDV14\nDv10 314\"\n(1) _-\u2014 3/4\" CONTAINMENT PIPE\nii pv pvi2 , TO HEADWORKS\nMl FM400521\n\nTO 63RD PS\n\nPhotos & graphics from KCWTD\n\nVersion - 1.1, October 2020 Process Flow / Instrumentation Drawings 78",
+    "word_count": 79
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p79_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 79,
+    "text": "Indicator |\n\n1\" (MATCH EXISTING)\n\nDUPLEX\nSTRAINER\n\n400523\n\nREDUCER, TYP.\n\n3/4\" CONTAINMENT PIPE\n\nTO HEADWORKS\n\n(\\ Fwao0s2 7)\n\nPhotos & graphics from KCWTD\n\nVersion - 1.1, October 2020 Process Flow / Instrumentation Drawings 79",
+    "word_count": 34
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p80_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 80,
+    "text": "Version - 1.1, October 2020\nProcess Flow / Instrumentation Drawings\n80\nPhotos from KCWTD\nSolenoid Valve\nImages from Cla-Val via YouTube\nhttps://www.youtube.com/watch?app=\ndesktop&v=suAV0RiXNsc",
+    "word_count": 23
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p81_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 81,
+    "text": "1 a Ad ino | Fas HS HS. HS: its ren Rv] RVD, (PRY Rv: ae wipe. kaso 1 T Hy. SPEED TSTART. T 4] SPEED TSTARL/. = Pers in CHASE TO VAULT FLOW cpeilaose orm cose lle sues FORE sereo UE enn AUTO PRESSURE sYoKE OPEN lG.ose oPcN cLoseD open PaessuRe stile ayes SEH spcep SUBMrumnins cai aura Peesgure opci |oosc open cLosey SSS 2BES crow f5PA ont esos Fan sny sy Pas) Por Fis) Pen (isn) Gonteony N Gs) Pe CAN NP SAPS PN CoN Fo Fe Po Goolisonrsnsn (oN | fis ene \u2018Reeva) ferv: fev) KPARSUAKPLARP LA Kid A } Key Kase] kS0o] eRe WeRv. ere Brow Kasaq KPLANP2AK Pend Kee Keed heed Grad Koso, Kemval ltevatteevafierva| hrcu, | (sea aoa |h soo | ee a es ee Se ee ee ee a ee ee Zot | [ Zee ][ 280 ][ Fe SSC] Tis] 2] a] is] CeO) is] [eet] er soe] eo] aT] LF Fai Zeb | [Zeb |[ 290 |[ese] [Ter] [0] ess] Cer Fo \u2018Trey2] [Pevz|[Pevz|[re enced] Ceo) fe Ce Cec] Pe) [so]",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p81_2",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 81,
+    "text": "soe] eo] aT] LF Fai Zeb | [Zeb |[ 290 |[ese] [Ter] [0] ess] Cer Fo \u2018Trey2] [Pevz|[Pevz|[re enced] Ceo) fe Ce Cec] Pe) [so] ert revilreveevi 2eus| [Pevs|[Pevs||eess| [Pon [R69 BRoy] [459 i & 4 oy F y 4 e Y f va t 1 1 i : \\ i \\ ' \\ ' \\ 1 1 ' ! ro ' MMPS) pe steeds rl re \u2014 sa rn sen [a I i L a | \\ 19 : | 569! fone ' el P, | No ! t as, | { pe | FLOWMETER ie H VAULT 860 330 ZONE < ! TO_fanik 1 ae ! T { <_Pip-3 TA ~< i H Lj 1 H \\ | | no | H 1 H 7a 5 i H | H 14 ! H | ' Y H 0 701 | yo | | Pr FROM TANK. i au t { 459\u00b0 ZONE a] Pio-3 > \u00bb\u2014 pertipes < < H i Ne No fei i 59 iH PRY Pl 1 Next Slide | = i \u2014 {a {a",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p81_3",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 81,
+    "text": "Pio-3 > \u00bb\u2014 pertipes < < H i Ne No fei i 59 iH PRY Pl 1 Next Slide | = i \u2014 {a {a att T { i ' \u00a5uc yoo i a ! Ag ae J | 5 Tee ec cic ce UN UN ee eee ge 3 Ed 7 = ~~ _ \u2014 == peer oer _ 7 7s re _ \u2014 == eee eer \u2014 =e _\u2014 a _ \u2014 == aoe 3 Pave] Cra] [ ] Po Pe (lena Fit50_] 4 PRESSURE PRESSURE FUTURE} POTABLE PRESSURE MAGNETIC: Fy REDUCING VALVE REDUCING VALVE POTABLE REL LYE 3] ROM $60 PZ TO TS0HE EROM_A58 PZ TO WATER PULP 3 a PZ S30_PZ HHP 459 PZ : 100% SUBMITTAL E = desea ar _ aoe mows | emery: wr Ay _ | [reac rewu ee [rere ers we DIVISION STREET g = Murray Smith Ass cites, Inc, | PUBLIC UTILITY DISTRIGT| TANK AND BOOSTER PUN STATION 3 A \u201c ne | Ska f NO. 1 of SKAGIT COUNTY 2 Tapineers/ Planners ae Pip g sirens ec Pa c=",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p81_4",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 81,
+    "text": "BOOSTER PUN STATION 3 A \u201c ne | Ska f NO. 1 of SKAGIT COUNTY 2 Tapineers/ Planners ae Pip g sirens ec Pa c= 2707 Calby Aveoor, Suile 1110 PEONE 4202620009 i} Se. PID2 4 Know what's below. Tmt Fife I-25 aera [SEH fae feo meee 3] tt Taking capers) | Me iTtete youd. =e puaue umuiry pisrmicr a =n 3 | oan",
+    "word_count": 64
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p82_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 82,
+    "text": "1 us . HS HS\n\n| jew3] MViain Control jew a\n\n{ t Hl. SPEED TSTARI/, e sank\n\n| SPRL |GAOSe SPRL cLOSED TEMP uP EDEL SPEED! SION RUNING FALL AUTO PRESSURE SMOKE OPEN {cLOSE OPEN GLOSED OPEN PRESSURI\n\nFaooNfzcc\\Fzso\\Vzsc\\ tan si Vfse HS vi Fran Kus Mery ron ZeoNizee\\Vzso\\kzsc\\ zso} Kei\n\nRERW24 RVZALERVZAKPRV2A KPLAL PI PI PI PLA KPLA A PLA S504 KS A KERV] RPRVRPRVIARPRVIA IGRCV} 459)\nPLC (Electrica ce] [ cb || Zed J zed] [to | iP Ist se] Las | 4] Lea] | et | [tsi] [ae] | Zee ]| 40 |[ Zeb ] [40] [1\n\n|\ni PRY2 PRV2 |/PRY\u00a52||/PRV2 Pl Pi Pl BI PI PI PI lw) 859 D, PRY! PRY PRY! PRY! SRGY || 459\nyy ae fo 4 \u00a5 tk ey YR AA\n\n2S ee\n\nRoom) Plc\n\nMcC\n\n330 ZONE\nTO TANK\n\n530 ZONE\nFROM TANK\n\nVersion - 1.1,",
+    "word_count": 148
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p83_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 83,
+    "text": "= 1601.dvg_ 1503 5/22/2012 11:00 AN VICTORIABRUDER 18.18 (LMS Tesh P:\\21585\\1 352 1585- 1100! \\CAD\\SteetFles\\ | \u2018SCADA/HM HIGH HEAD PUMP VFO (TYPICAL OF 2) SPEED SPEED\u2019 MANUAL \u2014 AUTO REF FEEDRACKRUNNING REMOTE OFF START Ds PRES PUNP DISCARGE VALVE (TYPICAL OF 2) LOW HIGH VALVE VALVE PRES PRESCLOSEN OPENED REMOTE FAULT on 7 oH wh vary, Anh, 7 Tas, fan, \u00a3m Sta, fo \u00a31 pa, fea, /70%, fa0 \u00a5 A ETHERNET ag \u2018any go amy \u2018way oy ay of, ees) Sex Sease) ay sy \\soss/ \u201cGray \u2018sos? \u00a7\u2014 wo, Go le LINK TO CONTROL BLDG \u2014e\u2014\u00bb HIGH HEAD AND am MH PUMP PLE wep2000 ome) (Goan te 1% \u201ca w 2 ETHERNET LK TO HIGH HEAD _, AND HH PUNE PLE AND SCADA Lepou0! 5} i is - (Boni ETHERNET Lk TO CONTROL BLDG AND H1SH\u2014e\u2014o\u2014! HEAD PLC AND SCADA q secen ral \u2014\u2014Lalg la mann inet -p\u2014f FAULTL pte g| | ro wertot_1 fg g aS Le peereareall petal FROM SLEARWELL | ee LZ HIGH HEAD PUMP 3 PSD: BT DESIGNED yea Rea Ie as par oxes OT \"D",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p83_2",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 83,
+    "text": "g aS Le peereareall petal FROM SLEARWELL | ee LZ HIGH HEAD PUMP 3 PSD: BT DESIGNED yea Rea Ie as par oxes OT \"D SCALE TECK EEVSIOH gr MeNguRe 1\u00b0 ASE OV Pile ie, LA \u2018onal Nigh GE HDD Pusiic Urmrry Districr xo. of Whatcom County WATER TREATMENT PLANT 2 IMPROVEMENTS: CIP NO. RW-1 HIGH HEAD PUMP STATION FRO.ECT Nor [o-1/20250) Sole TAS sows J OATE RPTL 2012",
+    "word_count": 69
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p84_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 84,
+    "text": "3 3/22/2012 11:00 AM VICTORIABRUDER 1813 (LMS Tech)\n\nRemote monitoring /\n\ncontro\n\nHIGH HEAD PUMP VFO GEICAL OF _2)\n\nSPEED\n\nMANUAL AUTO REF FEEDBACKRUNNING FAULT HAND REMOTE OFF START\nfay fay 3Y a 1 YA 1 1 1 1 v Van, Aan, (0 Tans, Aaah (0 Ta\\, Aan, (7 Tans, ATeHe\n\u2018eae? Sgas0/ Sosy \\mn/ Gow sag? sox? 6 gas\u2019 Guay\u2019 \u00abgoo? \u201cpasa? \u201cgos \\poso/ \u201cGasay\u2019 \u201cGasay\u2019 Gosoy\u2019 \u2018cosy\u2019 ose\u2019 \u2018Goxop\u2019 Gos\u2019 \u201cosop\u2019 Go\n2 \u2018 a 10 ir 1 4\nC wcp2cco = = =\nroot Rag) 30 = =\na vw\n1. fa] 0\nKeme)\n\nElectrical Rm at\nPump Station\n\n\u2018W-P2-662 >\n\nFROM CLEARWELL |\n\n2\n\nFROM CLEARWELL |\n\n=\n\nVersion - 1.1,8\n\naber 2020\n\nuA\nFUTURE PUMP 5\nPSOSO\n\nHIGH\n\nHEAD PUMP 4 |\n\nP5D40\n\nHIGH HEAD PUNP 5\nP5030\n\nProcess Flow / Instrumentation Drawings\n\nBYx12\"\n\nBFYS042\n\nlo\"x14*\n\nPCVSO31\n\nBFYSO32\n\n84",
+    "word_count": 144
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p85_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 85,
+    "text": "Take a Break\n\nVersion - 1.1, October 2020 Process Flow / Instrumentation Drawings 85",
+    "word_count": 14
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p86_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 86,
+    "text": "PROCESS\nINSTRUMENT ELEMENT, PIPING,\n\u2018VALVE, & EQUIPMENT SYMBOLS|\n\nKing County |\n\n4 nm 4\nINSTRUMENT ELEMENT , PIPING, VALVE AND EQUIPMENT SYMBOLS LEGEND\n\nPick some elements",
+    "word_count": 26
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p87_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 87,
+    "text": "Pick from each section\n\u2022 One from equipment\n\u2022 Two from valves and gates\n\u2022 One from pipeline devices\n\u2022 One primary element\n\u2022 Circle selected \n\u2022 Focus on the Process Flow Diagram\nVersion - 1.1, October 2020\nProcess Flow / Instrumentation Drawings\n87",
+    "word_count": 44
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p88_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 88,
+    "text": "REVION GERCRPTION aaeaal REWARD 8 MINGUS cortecs? King County | INSTRUMENT ELEMENT, PIPING, 2 - 2 . - . - . - . - . - . INSTRUMENT ELEMENT , PIPING. VALVE AND EQUIPMENT SYMBOLS LEGEND Onbee eee 4-555 > PRIMARY ELEMENT PIPELINE Devices\u201d XL VALVESANDGATES mw OD. mEQUIPMENT I [-\u2014\u2014\u2014# iid NORMALLY NORMALLY, PUMPS: SCREENINGS AND CONVEYORS: HEAT EXCHANGERS A cnrecruse wwe \u00a5ocee [SE phy raxmeine one _\u2014\u2014 veTuRl on FLOW Dd ontevave ers someon HEAT EXCHANGER \u2014\u2014 eT TRAP ponetles DIKPHRwOM Horo ol Hel oa vave HEAT EXCHANGER craps SCREEN, ROTARY | ares \u2014H+ prornes ons OPERATED VALVE OVERFLOW Haves HT) SE rae nutaton DO Ped cxoae vee roe \u2014 i PROPELLER 08 PRESSURE BALANCE TURBINE METER: OPERATED VALVE CLASSIFIER OR HEAT EXCHANGER, ss min sanentow ll} Gre A FH oneeour vauve Pune. GRIT WASHER SPIRAL TYPE ct SS te oes scorers Ly Stine OFE GATE VALVE Valve MEAT EXCHANGER MB OO owar T preune \u2014Zillll+\u2014 ruses ree wink I TI une STRAIGHT TUBE TYPE A. saMer Pr Qe Pikeinene FLOW INDICATOR = Be FAME cnecs MOTOR OPERATED",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p88_2",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 88,
+    "text": "T preune \u2014Zillll+\u2014 ruses ree wink I TI une STRAIGHT TUBE TYPE A. saMer Pr Qe Pikeinene FLOW INDICATOR = Be FAME cnecs MOTOR OPERATED eA CONVEYOR (ROTAMETER) Ses olsk al Fe OP HRAGM VALVE VALVE, MODULATING pnp . \u00ab RELIC?) sK:OMsing? |] surrenreyvaeve hore FAS roskessins HEAT EXCHANGER. SA Sree rurtune ok cowecnons FREER UN, eens ANGLE VALVE , ro IWALINE ANNULAR (PRESSURE HBH \u2018SUCTION Al pee, HYDROCYCLONE Row @anet \u201c crests THREE WAY VALVE SoTARY Lose HVAC RELATED 7 Fow euowerr connection i TEMPERATURE Pad PISTON OPERATED TRANSMITTER (MASS Hh seneanew wu VALVE FAN. INLINE FLOW. ETC) AND EXISTING FLOW FOUR WAY VALVE ven, HA [7 screennas vs \u2014 SUBMERSIBLE press [TE] cameraicoryy HIF unpn VANES peo cont vave TELESCOFING Vessels AND T CHILER suonene oucn me ee valve SSELS AND TANKS \u2014i\u2014 \u2018OWMETER a] CONNECTOR meovelne = Pune, RECEIVER oR Powers) Asse rw wuve bens COD restine vesse: hi eat ILTER OR SOC FLOWWETER \u20141 \u2014 cwornwe penn uD VALVE van FILTERSSILENCER, +4 orpunon aw ped ertancine cocx Neva TRANSIT) DOUBLE WALLED positive uno ruance THERMOSTATICALY SLIDE",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p88_3",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 88,
+    "text": "SOC FLOWWETER \u20141 \u2014 cwornwe penn uD VALVE van FILTERSSILENCER, +4 orpunon aw ped ertancine cocx Neva TRANSIT) DOUBLE WALLED positive uno ruance THERMOSTATICALY SLIDE AND SLUICE GATES = ER Diseacemenr HE omer Del Siirrcaeo valve BLOWERS AND COMPRESSORS METER Il Hose connection ove wear econ IK Fuca suowex on an 1 BORER n Hes row Dy ncueen EGE ster aus Kl om J) eurenrare Oa roneonessune \u201cpotaneous VORTEX FLOW Db mee AL cnecxvaive i eror care = \u2018=o Eleven + a = \u2018NORMALLY OFEN) ower , , Eouescees MOTORS AND POWER SLENCER Ke] sa. cHEoK VALVE SOMPRESSOR CORIOLIS FLOW REDUCED sop ean o ELeweNT Hoy mux PRESSURE = i SETS ccosen) QUID RIN u CONNECTION BACKFLOW PuMP pIScHAROE 1 cmense roar ueve PaeveNTER A tne ie vers een Reuter ELEMENT t VENT To ROOF BH Bese or oor (NORMALLY OPEN) SLOWER OR DRIVE (OC) FUEL AIPING VALVE SUDE GATE ROTARY LOGE SOLO BURNER, WASTE GAS |, ia) ULTRASOMC FLOW LEAK DETECTOR (NORMALLY CLOSED) = SEMENT vor ELEMENT PRESSURE AND VACUUM swice care an he RELIES VANE on RADAR oR",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p88_4",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 88,
+    "text": "GAS |, ia) ULTRASOMC FLOW LEAK DETECTOR (NORMALLY CLOSED) = SEMENT vor ELEMENT PRESSURE AND VACUUM swice care an he RELIES VANE on RADAR oR os ] (NORMALLY OPEN) Bod] courses HEAT TRACE ULTRASONIC STEAM VENT . ROTARY SCREW LeveL ELOMENT suuice care cat cy AUTOMATIC FOOT VALVE VACUUM RELIEF VALVE. (NORMALLY CLOSED) ENGINE INDER. EG satura fh Sar compressor ROTARY SLIDING onessuwe nee me DIFFUSER HEADER ee Fr wmssoe snscnencn oes _\u2014 & TUBE PNEUMATIC STII SPRAY NOZZLES \u201c Hehe LINE, SPRING COMPRESSOR SUBMERSIBLE LEVEL STRAINERS LOADED RELIEF VALVE Histon TRANSMATTER ak SIGHT GLASS GENERATOR f PRESSURE MIXERS REGMATING VALVE COMPENSATED % RAIN (SELF-CONTAINED) FI \u201d NoPPER FLOW SETER \u00b0 Q PRESSURE areR oR ; BACK PRESSURE ~ SPEED SENSOR INDICATOR REGMATING VALVE (RPM) NY ORAIN (SELFCONTAINED) valve moor INLINE STATIC TDEPATENT OF TURAL RESCURGES & PAO ae TAASTEATER TREATMENT CISION ALKI WET WEATHER TREATMENT FACILITY HYPOCHLORITE PUMP REPLACEMENT PROCESS suLy 2017 TORSTEN 16-1128126 VALVE, & EQUIPMENT SYMBOL: Pareepesereetereny",
+    "word_count": 160
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p89_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 89,
+    "text": "Make up a P&ID\n\n\u00a2 Using the symbols selected\n\nVersion - 1.1, October 2020\n\nProcess Flow / Instrumentation Drawings\n\n89",
+    "word_count": 20
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p90_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 90,
+    "text": "Draw A Part of Your System\nCan you think of a part of your system \nand sketch it up?",
+    "word_count": 19
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p91_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 91,
+    "text": "Version - 1.1, October 2020\nProcess Flow / Instrumentation Drawings\n91",
+    "word_count": 11
+  },
+  {
+    "chunk_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2_p92_1",
+    "doc_id": "pid_samples_process_flowinstrumentation_drawings_guide_e8cd96e2",
+    "filename": "Process FlowInstrumentation Drawings Guide.pdf",
+    "doc_type": "Process FlowInstrumentation Drawings Guide.pdf",
+    "page": 92,
+    "text": "Questions, Comments and Suggestions?",
+    "word_count": 4
+  }
+]

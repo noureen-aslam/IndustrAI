@@ -1,0 +1,1298 @@
+[
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p1_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 1,
+    "text": "OPERATION and MAINTENANCE \n MANUAL\nCOMPRESSOR MODELS\n      \n \n \nThis manual contains important safety information.\nDo not destroy this manual.\nThis manual must be available to the personnel who operate and maintain this machine.\n 501 Sanford Ave\nMocksville, N.C. 27028\n \nBook 22610380 (4/05)\n                P185WJD\n              XP185WJD\n \nCODE: E",
+    "word_count": 44
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p2_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 2,
+    "text": "CALIFORNIA\nProposition 65 Warning\nDiesel engine exhaust and some of its constituents are known \nto the State of California to cause cancer, birth defects, and other \nreproductive harm.",
+    "word_count": 28
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p3_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 3,
+    "text": "1 - 1 TABLE OF CONTENTS Manual-Name TITLE PAGE FOREWORD. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1-1 Foreword. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1-2 DRAWBAR NOTICE. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p3_2",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 3,
+    "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2-1 Drawbar Notice - This machine may have been shipped from the factory with the drawbar positioned upright. To convert from Shipping Position to Towing Position. . . . . . . . . . 2-2 SAFETY . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1-3 Safety Precautions. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p3_3",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 3,
+    "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1-4 General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1-4 WARRANTY . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2-13 General Warranty Information . . . . . .",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p3_4",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 3,
+    "text": ". . . . . . . . . . . . . . . 2-13 General Warranty Information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2-15 WARRANTY REGISTRATION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2-17 Complete Machine Registration . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2-17 NOISE EMISSION. . . . .",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p3_5",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 3,
+    "text": ". . . . . . . . . . . . . . . . . . 2-17 NOISE EMISSION. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3-29 Noise Emission . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3-30 This section pertains only to machines distributed within the United States. . . . . . . . . . . . . . . . . . . 3-30 Noise Emission Control Maintenance Log . . . . . . .",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p3_6",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 3,
+    "text": ". . . . . . . . . . . . 3-30 Noise Emission Control Maintenance Log . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3-31 Noise Emission Warranty . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3-31 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p3_7",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 3,
+    "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3-31 GENERAL DATA . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4-35 General Data. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4-36 Models: . . . . . . . . . . . . . . . . . . . . . . . . .",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p3_8",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 3,
+    "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4-36 COMPRESSOR . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4-36 ENGINE (DIESEL) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p3_9",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 3,
+    "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4-36 FLUID CAPACITIES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4-36 UNITS MEASUREMENTS WEIGHTS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4-36 Tire Size . . . . . . . . . . . . . . .",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p3_10",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 3,
+    "text": ". . . . . . . 4-36 Tire Size . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4-37 EXPENDABLE SERVICE PARTS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4-37 SECTION 5 - OPERATION. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p3_11",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 3,
+    "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5-39 BEFORE TOWING . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5-40",
+    "word_count": 92
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p4_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 4,
+    "text": "1 - 2 TABLE OF CONTENTS Manual-Name TITLE PAGE MAINTENANCE . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6-47 Maintenance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6-48 General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p4_2",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 4,
+    "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6-48 Scheduled Maintenance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6-48 Compressor Oil Level . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6-48 Air Cleaner . . . .",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p4_3",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 4,
+    "text": ". . . . . . . . . . . . . . . . . . 6-48 Air Cleaner . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6-48 Gauges . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6-49 Fuel Tank . . . . . . . . . . . . . . .",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p4_4",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 4,
+    "text": ". . . . . . . 6-49 Fuel Tank . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6-49 Battery. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6-49 Fasteners . . . . . . . . . . . . . . . . . . . . . . . . . .",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p4_5",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 4,
+    "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6-49 Radiator. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6-50 Hoses . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p4_6",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 4,
+    "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6-50 Compressor Oil Cooler . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6-51 Compressor Oil . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p4_7",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 4,
+    "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6-51 Receiver-Separator Systems . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6-51 Scavenge Line . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6-52 Exterior Finish Care . . . . . . . . . . . . . . . .",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p4_8",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 4,
+    "text": ". . . . . 6-52 Exterior Finish Care . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6-52 MAINTENANCE SCHEDULE . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6-54 LUBRICATION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p4_9",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 4,
+    "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . 7-55 Lubrication . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7-56 Portable Compressor Fluid Chart . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7-56 TROUBLE SHOOTING. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p4_10",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 4,
+    "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8-57 Trouble Shooting . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8-58 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8-58 Action Plan .",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p4_11",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 4,
+    "text": ". . . . . . . . . . . . . . . . . . . . . 8-58 Action Plan . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8-58 Trouble Shooting Chart. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8-59",
+    "word_count": 155
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p5_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 5,
+    "text": "1\nForeword",
+    "word_count": 2
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p6_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 6,
+    "text": "Foreword 2 Foreword Nothing contained in this document is intended to extend any promise, warranty or representation, expressed or implied, regarding the Ingersoll-Rand products described herein. Any such warranties or other terms and conditions of sale of products shall be in accordance with the standard terms and conditions of sale for such products, which are available upon request. This manual contains instructions and technical data to cover all routine operation and scheduled maintenance tasks by operation and maintenance staff. Major overhauls are outside the scope of this manual and should be referred to an authorized Ingersoll-Rand service department. All components, accessories, pipes and connectors added to the compressed air system should be: \u2022 of good quality, procured from a reputable manufacturer and, wherever possible, be of a type approved by Ingersoll-Rand. \u2022 clearly rated for a pressure at least equal to the machine maximum allowable working pressure. \u2022 compatible with the compressor lubricant/coolant. \u2022 accompanied with instructions for safe installation, operation and maintenance. Details of approved equipment are available from Ingersoll-Rand Service departments. The use of repair parts other than",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p6_2",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 6,
+    "text": "with instructions for safe installation, operation and maintenance. Details of approved equipment are available from Ingersoll-Rand Service departments. The use of repair parts other than those included within the Ingersoll-Rand approved parts list may create hazardous conditions over which Ingersoll-Rand has no control. Therefore, Ingersoll-Rand cannot be held responsible for equipment in which non-approved repair parts are installed. Ingersoll-Rand reserves the right to make changes and improvements to products without notice and without incurring any obligation to make such changes or add such improvements to products sold previously. The intended uses of this machine are outlined below and examples of unapproved usage are also given. However, Ingersoll-Rand cannot anticipate every application or work situation that may arise. If in doubt, consult supervision. This machine has been designed and supplied for above ground operation to be used for compression of normal ambient air containing no additional gases, vapors or particles within the ambient temperature range specified in the general data section of this manual. This machine should not be used: A. For direct or indirect human consumption of the compressed air.",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p6_3",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 6,
+    "text": "in the general data section of this manual. This machine should not be used: A. For direct or indirect human consumption of the compressed air. B. Outside the ambient temperature range of minus 20\u00b0F to 115\u00b0F. C. When an actual or foreseeable risk of hazardous levels of flammable gases or vapors exists. D. With other than Ingersoll-Rand approved components. E. With guards, or controls or switches missing or disabled. F. For storage or transportation of materials inside or on the enclosure. This company accepts no responsibility for errors in translation of this manual from the original English version.",
+    "word_count": 98
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p7_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 7,
+    "text": "Foreword\n \n3",
+    "word_count": 2
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p8_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 8,
+    "text": "1\nDrawbar Notice",
+    "word_count": 3
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p9_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 9,
+    "text": "Drawbar Notice 2 Drawbar Notice - This machine may have been shipped from the factory with the drawbar positioned upright. To convert from Shipping Position to Towing Position. The following tools are required: Ratchet and 13mm socket to fit ratchet Torque wrench set to 68 foot pounds (9.4 kg-meters) 16mm socket to fit torque wrench 5 inch extension for torque wrench Hardware included: (4) 12mm bolts with pre-applied thread lock, (2) 8mm Taptite bolts, (2) Washers, (2) Safety Chains 1. Remove hardware box from compressor toolbox. 2. Open box and remove the bag containing hardware, safety chains and assembly instructions. 3. Using the jack, raise the front of the unit so that the legs are approximately 1 inch above the ground. 4. Remove the temporary retaining bolts from both sides of the frame at the drawbar connection (See Fig. 1). 5. Carefully lower drawbar to the Level Position. 6. Install the four bolts (with pre-applied thread lock) to the four points inside the enclosure and torque to 68 ft. lbs. (9.4kg-m) (See Fig.2). 7. Install safety chains by sliding the",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p9_2",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 9,
+    "text": "thread lock) to the four points inside the enclosure and torque to 68 ft. lbs. (9.4kg-m) (See Fig.2). 7. Install safety chains by sliding the second link of one chain into the slot in drawbar plate. Fasten chain to plate using taptite and washer. Repeat for other chain.",
+    "word_count": 48
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p10_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 10,
+    "text": "3",
+    "word_count": 1
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p10_2",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 10,
+    "text": "- Safety",
+    "word_count": 2
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p11_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 11,
+    "text": "Operating & Maintenance Manual Safety 4 Safety Precautions General Ensure that the operator reads and understands the decals and consults the manuals before maintenance or operation. Ensure that the Operation and Maintenance manual, and manual holder if equipped, are not removed permanently from the machine. Ensure that maintenance personnel are adequately trained, competent and have read the manuals. Make sure that all protective covers are in place and that the canopy/doors are closed during operation. The specification of this machine is such that the machine is not suitable for use in flammable gas risk areas. If such an application is required then all local regulations, codes of practice and site rules must be observed. To ensure that machine can operate in a safe and reliable manner, additional equipment such as gas detection, exhaust spark arrestors, and intake (shut-off) valves may be required, dependent on local regulations or the degree of risk involved. Air discharged from this machine may contain carbon monoxide or other contaminants which will cause serious injury or death. Do not breathe this air. Compressed air can be",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p11_2",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 11,
+    "text": "this machine may contain carbon monoxide or other contaminants which will cause serious injury or death. Do not breathe this air. Compressed air can be dangerous if incorrectly handled. Before doing any work on the unit, ensure that all pressure is vented from the system and that the machine cannot be started accidentally. Ensure that the machine is operating at the rated pressure and that the rated pressure is known to all relevant personnel. All air pressure equipment installed in or connected to the machine must have safe working pressure ratings of at least the machine safety valve rating. If more than one compressor is connected to one common downstream plant, effective check valves and isolation valves must be fitted and controlled by work procedures, so that one machine cannot accidentally be pressurized or over pressurized by another. Compressed air must not be used for a feed to any form of breathing apparatus or mask. The discharged air contains a very small percentage of compressor lubricating oil and care should be taken to ensure that downstream equipment is compatible. If",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p11_3",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 11,
+    "text": "The discharged air contains a very small percentage of compressor lubricating oil and care should be taken to ensure that downstream equipment is compatible. If the discharged air is to be ultimately released into a confined space, adequate ventilation must be provided. When using compressed air, always use appropriate personal protective equipment. All pressure containing parts, especially flexible hoses and their couplings, must be regularly inspected, be free from defects and be replaced according to the Manual instructions. Avoid bodily contact with compressed air. The safety valve located in the separator tank must be checked periodically for correct operation. Never operate unit without first observing all safety warnings and carefully reading the operation and maintenance manual shipped from the factory with this machine. Never operate the engine of this machine inside a building without adequate ventilation. Avoid breathing exhaust fumes when working on or near the machine. Do not alter or modify this machine. A battery contains sulfuric acid and can give off gases which are corrosive and potentially explosive. Avoid contact with skin, eyes and clothing. In case of",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p11_4",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 11,
+    "text": "battery contains sulfuric acid and can give off gases which are corrosive and potentially explosive. Avoid contact with skin, eyes and clothing. In case of contact, flush area immediately with water. Exercise extreme caution when using booster battery. To jump battery, connect",
+    "word_count": 42
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p12_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 12,
+    "text": "Safety Operating & Maintenance Manual 5 ends of one booster cable to the positive (+) terminal of each battery. Connect one end of other cable to the negative (-) terminal of the booster battery and other end to a ground connection away from dead battery (to avoid a spark occurring near any explosive gases that may be present). After starting unit, always disconnect cables in reverse order. High Pressure Air can cause serious injury or death. Relieve pressure before removing filler plugs/caps, fittings or covers. Air pressure can remain trapped in air supply line which can result in serious injury or death. Always carefully vent air supply line at tool or vent valve before performing any service. This machine produces loud noise with doors open or service valve vented. Extended exposure to loud noise can cause hearing loss. Always wear hearing protection when doors are open or service valve is vented. Never inspect or service unit without first disconnecting battery cable(s) to prevent accidental starting. Do not remove the pressure cap from a HOT radiator. Allow radiator to cool down",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p12_2",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 12,
+    "text": "unit without first disconnecting battery cable(s) to prevent accidental starting. Do not remove the pressure cap from a HOT radiator. Allow radiator to cool down before removing pressure cap. Do not use petroleum products (solvents or fuels) under high pressure as this can penetrate the skin and result in serious illness. Wear eye protection while cleaning unit with compressed air to prevent debris from injuring eye(s). Disconnected air hoses whip and can cause serious injury or death. Always attach a safety flow restrictor to each hose at the source of supply or branch line in accordance with OSHA Regulation 29CFR Section",
+    "word_count": 101
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p12_3",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 12,
+    "text": "(b). Rotating fan blade can cause serious injury. Do not operate without guard in place. Use care to avoid contacting hot surfaces (engine exhaust manifold and piping, air receiver and air discharge piping, etc.). Ether is an extremely volatile, highly flammable gas. USE SPARINGLY! DO NOT use ETHER if unit has GLOW Plug starting aid. Engine damage will result. Never allow the unit to sit stopped with the pressure in receiver-separator system. As a precaution, open manual blowdown valve. Never operate unit with guards, covers or screens removed. Keep hands, hair, clothing, tools, blow gun tips, etc. well away from moving parts. Make sure wheels, tires and tow bar connectors are in safe operating condition and tow bar is properly connected before towing. Whenever the machine is stopped, air will flow back into the compressor system from devices or systems downstream of the machine unless the service valve is closed. Install a check valve at the machine service valve to prevent reverse flow in the event of an unexpected shutdown when the service valve is open. Stop machine to add",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p12_4",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 12,
+    "text": "the machine service valve to prevent reverse flow in the event of an unexpected shutdown when the service valve is open. Stop machine to add fuel. Hazardous Substance Precaution The following substances are used in the manufacture of this machine and may be hazardous to health if used incorrectly. Avoid ingestion, skin contact and breathing fumes for the following substances: Antifreeze, Compressor Oil, Engine Lubricating Oil, Preservative Grease, Rust Preventative, Diesel Fuel and Battery Electrolyte. :",
+    "word_count": 76
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p13_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 13,
+    "text": "Operating & Maintenance Manual\nSafety\n6\n \nLook for these signs on machines shipped to international markets outside North America, \nwhich point out potential hazards to the safety of you and others. Read and understand \nthoroughly. Heed warnings and follow instructions. If you do not understand, inform your \nsupervisor.",
+    "word_count": 48
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p14_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 14,
+    "text": "Safety\n\nOperating & Maintenance Manual\n\nRead the Operation and Maintenance\nmanual before operation or maintenance\nof this machine is undertaken.\n\nBia\n\nWARNING -\n\nWARNING: Consult the operation\n\nMaintain correct tire pressure.\n\n(Refer to the GENERAL INFORMATION section\nof this manual).\n\n@\nS\n\nand maintenance manual before\nperforming any maintenance.\n\n1,5\n\nDo not stack\n\nDo not use fork lift truck from this side\n\n-@- > \u00a9@\n\nDo not operate with the doors or enclosure\nopen.\n\n) Sim)\ny Ty\n\n|\n\nWARNING - Before connecting the tow bar or\nwhen preparing to tow, consult the operation\nand maintenance manual.\n\nm. 6 T 1P54 < /@\\\n\nRough Service Designation\nWet Location Operation\n\n| Replace any cracked\n\nprotective shield.\n\nEy\n\nEmergency stop.",
+    "word_count": 118
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p15_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 15,
+    "text": "Operating & Maintenance Manual Safety\n\nSA\n\nUy\n\nOil Drain\n\nWARNING - Do not undertake any\n\nDo not exceed the speed limit. maintenance on this machine until the\nelectrical supply is disconnected and the air\npressure is totally relieved.\n\nA Bia\n\n\u00a7\n\n@>e\n@>&\n\n6 Read the Operation and Maintenance manual\norc before operation or maintenance of this\nmachine is undertaken\n\n\u00a7\ngia\n\n<=\nDo not remove the Operating and Maintenance\nWARNING - For operating temperature below manual and manual holder from this machine.\n0\u00b0C, consult the operation and maintenance\n\nmanual.\n\nA @ &\n\nPressurized vessel. Use fork lift truck from this side only. Pressurized component or system.",
+    "word_count": 107
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p16_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 16,
+    "text": "Safety\nOperating & Maintenance Manual\n9\nLook for these signs on machines shipped to markets in North America, which point out \npotential hazards to the safety of you and others. Read and understand thoroughly. Heed \nwarnings and follow instructions. If you do not understand, inform your supervisor.\nDANGER\n!\nDANGER (Red Background) indicates an imminently hazardous situation\nwhich, if not avoided, will result in death or serious injury.\nWARNING\n!\nWARNING (Orange Background) indicates a potentially hazardous\nsituation which, if not avoided, could result in death or serious injury.\nCAUTION\n!\nCAUTION (Yellow Background) indicates a potentially hazardous\nsituation which, if not avoided, may result in minor or moderate injury.\nNOTICE\nNOTICE (Blue Background) indicates important set-up, operating or\nmaintenance information.",
+    "word_count": 121
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p17_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 17,
+    "text": "10\n\nOperating & Maintenance Manual\n\nSafety\n\nA\\_ DANGER |\n\n| Discharged air can contain carbon\n| monoxide or other contaminants.\n\nWill cause serious injury or death.\nl Do not breathe this air.\n\n__ A WARNING\n\nDisconnected air hoses whip.\n\nCan cause serious +\ninjury or death. &\nWhen using air tools\n| attach safety device\n| (OSHA Valve) at source of\n\nair supply for each tool\n\nCan cause serious 1? Jy\nburns. i\n\n| Do not open radiato!\nwhile hot.\n\n| AWARNING\n\nHigh pressure air,\n\nCan cause serious {ug\ninjury or death. ~\n\npeer\n| Relieve pressure before\n\nremoving filler plugs/caps,\n\nfittings or covers.\n\nA, WARNING\n\n| Combustible gas. |\n\nCan cause serious burns,\u2019\nblindness or death.\n\nKeep sparks and open\nflames away from batteries\n\nDoor under pressure. |\nCan cause serious injury. ic |\n\nt\n\nUse both hands to open d\nwhen machine is running.",
+    "word_count": 146
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p18_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 18,
+    "text": "Safety\n\nOperating & Maintenance Manual\n\na\n\nA\\ WARNING\n\nImproper operation of this equipment.\nCan cause serious injury or death.\nRead Operator's Manual supplied with\nthis machine before operation or\nservicing.\n\nModification or alteration of this machine.\nCan cause serious injury or death.\n\nDo not alter or modify this machine\n\nwithout the express written consent of\n\nthe manufacturer.\n\n\u00a9) \u00a9\n\nA. WARNING\n\nFalling off machine.\nCan cause serious injury\n\n| or death.\n\nAccess lifting bail from\ninside machine.\n\n/\\ WARNING\n\nCollapsing jackstand.\n\nnw\nExcessive towing speed.\n\n\u00a2\nCan cause serious injury ae\nor death. nee\n\nDo NOT exceed 65 mph \u201ca\n\n(105 km/hr.)\n\nCan cause serious injury. CS\nInsert locking pin completely.\n\nA. WARNING\n\n| Rotating fan blade.\n\n| Can cause serious ,\nInjury. \\\nDo not operate without \\\nguard in place. ~\n\nA, WARNING\n\ninjury or death.\n\nfittings or covers.\n\nir.\njous\n\nRelieve pressure before\nremoving filler plugs/caps,\n\na\n\n|\n\n11",
+    "word_count": 152
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p19_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 19,
+    "text": "Operating & Maintenance Manual\nSafety\n12\n \nTable 1: \nFREE SAFETY DECALS\nSafety Decals are available free of charge. Safety Decals are identified by the decal \nheading: DANGER, WARNING, or CAUTION. \nDecal part numbers are on the bottom of each decal and are also listed in the \ncompressor\u2019s parts manual. Submit orders for Safety Decals to the Mocksville Parts \nService Department. The no charge order should contain only Safety Decals. Help \npromote safety! Assure that decals are present on the machines. Replace decals that \nare not readable.",
+    "word_count": 86
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p20_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 20,
+    "text": "13",
+    "word_count": 1
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p20_2",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 20,
+    "text": "-  WARRANTY",
+    "word_count": 2
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p21_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 21,
+    "text": "Operating & Maintenance Manual WARRANTY 14 WARRANTY Ingersoll-Rand, through its distributors, warrants to the initial user that each portable air compressor manufactured by it, will be free of defects in material and workmanship for a period of the earlier of twelve (12) months from shipment to or the accumulation of 2,000 hours of service by the initial user. Portable compressor airends will be free of defects in material and workmanship for a period of the earlier of twenty four months from shipment to or the accumulation of 4,000 hours of service by the initial user. The warranty against defects will include replacement of the complete airend, provided the original airend is returned assembled and unopened. Portable Compressor Airend Limited Optional Warranty - The earlier of sixty (60) months from shipment to or the accumulation of 10,000 hours of service. The optional warranty is limited to defects in rotors, housings, bearings and gears and is automatically available when meeting the following conditions: The original air end is returned assembled and unopened. Continued use of genuine Ingersoll-Rand parts, fluids, oil and filters.",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p21_2",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 21,
+    "text": "available when meeting the following conditions: The original air end is returned assembled and unopened. Continued use of genuine Ingersoll-Rand parts, fluids, oil and filters. Maintenance is performed at prescribed intervals. Oil-Free airends are fee-based and may require a maintenance agreement. Formal enrollment is required. Ingersoll-Rand will provide a new part or repaired part, at its election, in place of any part, which is found upon its inspection to be defective in material and workmanship during the period prescribed above. Such part will be repaired or replaced without charge to the initial user during normal working hours at the place of business of an Ingersoll-Rand distributor authorized to sell the type of equipment involved or other establishment authorized by Ingersoll-Rand. User must present proof of purchase at the time of exercising warranty. The above warranty does not apply to failures occurring as a result of abuse; misuse, negligent repairs, corrosion, erosion and normal wear and tear, alterations or modifications made to the product without express written consent of Ingersoll-Rand; or failure to follow the recommended operating practices and maintenance procedures",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p21_3",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 21,
+    "text": "tear, alterations or modifications made to the product without express written consent of Ingersoll-Rand; or failure to follow the recommended operating practices and maintenance procedures as provided in the product\u2019s operating and maintenance publications. Accessories or equipment furnished by Ingersoll-Rand, but manufactured by others, including, but not limited to, engines, shall carry whatever warranty the manufacturers have conveyed to Ingersoll-Rand and which can be passed on to the initial user. THIS WARRANTY IS IN LIEU OF ALL OTHER WARRANTIES EXPRESSED OR IMPLIED, (EXCEPT THAT OF TITLE),AND THERE ARE NO WARRANTIES OF MERCHANTABILITY OR OF FITNESS FOR A PARTICULAR PURPOSE.",
+    "word_count": 99
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p22_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 22,
+    "text": "WARRANTY Operating & Maintenance Manual 15 General Warranty Information GENERAL WARRANTY Extended Coverage Portable Compressor Package 1 year/2000 hours None Airend 2 years/4000 hours 5 years/10,000 hours Limited warranty Portable Genset 8KW, 11KW, 20KVA thru 575KVA Package 1 year/2000 hours None Generator 2 years/4000 hours None Portable Genset 2 KW Package 2 months PARTS ONLY None Portable Genset 3,5,7 KW Package 1 year/1000 hrs PARTS ONLY None Light Tower Package 1 year/2000 hours Generator 1 year/2000 hours 2 years/4000 hours, for Lightsource ONLY. Light Concrete Products (power buggy, screeds, mixers, saws, vibrators) Package 1 year PARTS ONLY None Light Compaction Equipment (plate and drum compactors and rammers) Package 1 year PARTS and LABOR None Backhoe, Loaders, Wheel Loaders Package 1 year None ENGINES Months Hours Extended Coverage Caterpillar 12 No Limit Available at dealer Cummins 24 2000 Major components 3 yrs/10,000 hours - available at dealer John Deere (IN COMPRESSORS) (IN GENERATORS AS OF 1/1/01) 24 2000 5 yrs/5000 hours using JD fluids & filters with $250 deductible. 5 yrs/5000 hours using IR fluids and filters with $0 deductible. 24",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p22_2",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 22,
+    "text": "24 2000 5 yrs/5000 hours using JD fluids & filters with $250 deductible. 5 yrs/5000 hours using IR fluids and filters with $0 deductible. 24 2000 2 yrs/4000 hours using IR fluids & filters Deutz (Model 2011) 24 2000 Major components 3 yrs/3000 hours Deutz (Model 2012) 24 2000 Major components 3 yrs/3000 hours Ingersoll-Rand 24 4000 5 years/10,000 hours requires IR Fluids and Filters. Kubota (North America Only) 24 2000 Major components 36 months/3000 hrs - PARTS ONLY THROUGH DEALERS ONLY. (Western Europe & Oceania) 24 2000 None (Central & South America, Asia, Middle East & Africa) 12 1000 None Mitsubishi 24 2000 2 years/4000 hours requires IR fluids and filters, through IR dealers only. Volvo 24 2000 2 years/4000 hours requires IR fluids and filters, through IR dealers only. Honda 12 None",
+    "word_count": 134
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p23_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 23,
+    "text": "Operating & Maintenance Manual\nWARRANTY\n16\n \nNote: Actual warranty times may change. Consult the manufacturer\u2019s warranty policy as shipped with each new product.\nPARTS\nIngersoll-Rand\n6 months\nHours - No Limit\nCoverage - Parts Only\nAIREND EXCHANGE - Extended Coverage\nAirend\n12 months\n2000 hours\n5 yrs/10,000 hrs requires IR oil and filters.",
+    "word_count": 53
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p24_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 24,
+    "text": "WARRANTY\nOperating & Maintenance Manual\n17\nWARRANTY REGISTRATION\nComplete Machine Registration\nMachines shipped to locations within the United States do not require a warranty registration \nunless the machine status changes (i.e. change of ownership).\nMachines shipped outside the United States require notification be made to initiate the \nmachine warranty.\nFill out the Warranty Registration Form in this section, keep a copy for your records and \nmail form to:\nIngersoll-Rand Company \nPortable Compressor Division \nP.O. Box 868 \nMocksville, North Carolina 27028 \nAttn: Warranty Department\nNOTE: Completion of this form validates the warranty.",
+    "word_count": 91
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p25_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 25,
+    "text": "Operating & Maintenance Manual\nWARRANTY\n18",
+    "word_count": 6
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p26_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 26,
+    "text": "WARRANTY Operating & Maintenance Manual 19 Complete the Applicable Blocks Owner / User Type of Business (check one only) Selling Distributor Servicing Distributor WARRANTY REGISTRATION Name _________________ Address ________________ City ___________________ County _________________ State _________________ Zip Code _______________ Telephone ______________ Name _________________ Address ________________ City ___________________ County _________________ State ___________________ Zip Code _______________ Telephone ______________ Owner/User Name _________ Address _________________ City_____________________ County __________________ State __________________ Zip Code_________________ Telephone _______________ \ufffd Construction-Heavy (highway, excavation, etc.) \ufffd Asphalt Contractor \ufffd Coal Mining \ufffd Other Mining \ufffd Construction-Light (carpentry, plumbing, pools, mason, etc.) \ufffd Government (municipal, state, county, etc.) \ufffd Quarry \ufffd Shallow Oil & Gas \ufffd Rental (rental center, rental fleet, etc.) \ufffd Building Contractor \ufffd Waterwell \ufffd Utility Company \ufffd Industrial (plant use) \ufffd Other specify \ufffd Exploration \ufffd Utility Contractor Model Unit S/N Engine S/N Date Delivered Unit Hours Airend S/N Truck S/N Truck Engine S/N SERVICING DISTRIBUTOR/USER ACKNOWLEDGEMENT 1. The Purchaser has been instructed and/or has read the manual and understands proper preventative maintenance, general operation and safety precautions. 2. The warranty and limitation of liability has been reviewed",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p26_2",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 26,
+    "text": "and/or has read the manual and understands proper preventative maintenance, general operation and safety precautions. 2. The warranty and limitation of liability has been reviewed and understood by the owner/ user. 3. In the event that this unit is to be used within a nuclear facility, the owner/user shall notify Ingersoll-Rand of such use so that Ingersoll-Rand may arrange for appropriate nuclear liability protection from the owner-licensee of the facility. 4. Ingersoll-Rand reserves the right to make design changes or modifications of Ingersoll- Rand products at anytime without incurring any obligation to make similar changes or modifications on previously sold units.",
+    "word_count": 101
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p27_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 27,
+    "text": "20\n\nOperating & Maintenance Manual WARRANTY\n\njuawyedeg Ajueue\\, :uonuayy\n\n8ZOLZ BUljoseD YYON \u2018aj|!ASYOOW\n898 XOg \u2018Od\n\nUOISIAIG JOSSaJdWOD a|qeLOd\nAuedwog puey -|josue6u|",
+    "word_count": 22
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p28_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 28,
+    "text": "- Noise Emission\n\n29",
+    "word_count": 4
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p29_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 29,
+    "text": "Operating & Maintenance Manual Noise Emission 30 Noise Emission This section pertains only to machines distributed within the United States. WARNING ! Tampering with Noise Control System Prohibited Federal law prohibits the following acts or the causing thereof: 1. The removal or rendering inoperative by any persons, other than for purposes of maintenance, repair, or replacement, of any device or element of design incorporated into any new compressor for the purpose of noise control prior to its sale or delivery to the ultimate purchaser or while it is in use; or 2. the use of the compressor after such device or element of design has been removed or rendered inoperative by any person. Among those acts included in the prohibition against tampering are these: 3. Removal or rendering inoperative any of the following: a.the engine exhaust system or parts thereof b.the air intake system or parts thereof c.enclosure or parts thereof 4. Removal of any of the following: a.fan shroud b.vibration mounts c.sound absorption material 5. Operation of the compressor with any of the enclosure doors open. Compressor Noise Emission",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p29_2",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 29,
+    "text": "of the following: a.fan shroud b.vibration mounts c.sound absorption material 5. Operation of the compressor with any of the enclosure doors open. Compressor Noise Emission Control Information A. The removal or rendering inoperative, other than for the purpose of maintenance, repair, or replacement of any noise control device or element of design incorporated into this compressor in compliance with noise control act; B. The use of this compressor after such device or element of design has been removed or rendered inoperative. NOTE: The above information applies only to units that are built in compliance with the U.S. Environmental Protection Agency. Ingersoll-Rand Company reserves the right to make changes or add improvements without notice and without incurring any obligation to make such changes or add such improvements to products sold previously. The Purchaser is urged to include the above provisions in any agreement for any resale of this compressor.",
+    "word_count": 148
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p30_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 30,
+    "text": "Noise Emission Operating & Maintenance Manual 31 Noise Emission Control Maintenance Log The Noise Control Act of 1972 (86 Stat. 1234) prohibits tampering with the noise control system of any compressor manufactured and sold under the above regulations, specifically the following acts or the causing thereof: (1) the removal or rendering inoperative by any persons, other than for purposes of maintenance, repair, or replacement, of any device or element of design incorporated into new compressor for the purpose of noise control prior to its sale or delivery to the ultimate purchaser or while it is in use; or (2) the use of the compressor after such device or element of design has been removed or rendered inoperative by any person. Noise Emission Warranty The manufacturer warrants to the ultimate purchaser and each subsequent purchaser that this air compressor was designed, built and equipped to conform at the time of sale to the first retail purchaser, with all applicable U.S. EPA Noise Control Regulations. This warranty is not limited to any particular part, component, or system of the air compressor. Defects",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p30_2",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 30,
+    "text": "with all applicable U.S. EPA Noise Control Regulations. This warranty is not limited to any particular part, component, or system of the air compressor. Defects in the design, assembly or in any part, component, or system of the compressor which, at the time of sale to the first retail purchaser, caused noise emissions to exceed Federal Standards are covered by this warranty for the life of the air compressor. Introduction The unit for which this Maintenance Log is provided conforms to U.S. E.P.A. Regulations for Noise Emissions, applicable to Portable Air Compressors. The purpose of this book is to provide (1) the Maintenance Performance Schedule for all required noise emission controls and (2) space so that the purchaser or owner can record what maintenance was done, by whom, where and when. The Maintenance Schedule and detailed instructions on the maintenance items are given on following page. COMPRESSOR MODEL __________________________ SERIAL NO. ___________________________________ USER UNIT NO. ________________________________ UNIT IDENTIFICATION Engine Make & Model: ________________ Serial No.: _________________________ Purchaser or Owner: _________________ Address: __________________________ DEALER OR DISTRIBUTOR FROM WHOM PURCHASED: __________________________________ __________________________________",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p30_3",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 30,
+    "text": "________________________________ UNIT IDENTIFICATION Engine Make & Model: ________________ Serial No.: _________________________ Purchaser or Owner: _________________ Address: __________________________ DEALER OR DISTRIBUTOR FROM WHOM PURCHASED: __________________________________ __________________________________ __________________________________ Date Purchased: ____________________",
+    "word_count": 29
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p31_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 31,
+    "text": "Operating & Maintenance Manual Noise Emission 32 A. Compressed Air Leaks Correct all compressed air leaks during the first shutdown period after discovery. If severe enough to cause serious noise problems and efficiency loss, shut down immediately and correct the leak(s). B. Safety and Control Systems Repair or replace all safety and control systems or circuits as malfunction occurs. No compressor should be operated with either system bypassed, disabled, or nonfunctional. C. Acoustic Materials In daily inspections, observe these materials. Maintain all acoustic material as nearly as possible in its original condition. Repair or replace all sections that have: 1) sustained damage, 2) have partially separated from panels to which they were attached, 3) are missing, or have otherwise deteriorated due to severe operating or storage conditions. D. Fasteners All fasteners such as hinges, nuts, bolts, clamps, screws, rivets, and latches should be inspected for looseness after each 100 hours of operation. They should be retightened, repaired, or if missing, replaced immediately to prevent subsequent damage and noise emission increase. E. Enclosure Panels Enclosure panels should also be inspected at",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p31_2",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 31,
+    "text": "retightened, repaired, or if missing, replaced immediately to prevent subsequent damage and noise emission increase. E. Enclosure Panels Enclosure panels should also be inspected at 100 hour operational intervals. All panels that are warped, punctured, torn, or otherwise deformed, such that their noise containment function is reduced, should be repaired or replaced before the next operation interval. Doors, access panels, and hatch closures especially, should be checked and adjusted at this time to insure continuous seating between gasket or acoustic material and the mating frame. F. Air Intake and Engine Exhaust Engine and compressor air intake and engine exhaust systems should be inspected after each 100 hours of operation for loose, damaged, or deteriorated components. Repairs or replacements should be made before the next period of use. G. Cooling Systems All components of the cooling system for engine water and compressor oil should be inspected every 250 hours of use. Any discrepancies found should be corrected before placing the unit back in operation. Unrestricted airflow over the radiator and oil cooler must be maintained at all times during operation. H.",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p31_3",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 31,
+    "text": "corrected before placing the unit back in operation. Unrestricted airflow over the radiator and oil cooler must be maintained at all times during operation. H. Isolation Mounts Engine/airend isolation mounts should be inspected after each 250 hours of operation. Those mounts with cracks or splits in the molded rubber, or with bent or broken bolts due to operation or storage in severe environments, all should be replaced with equivalent parts. I. Engine Operation Inspect and maintain engine condition and operation as recommended in the manuals supplied by the engine manufacturer. J. Fuels and Lubricants Use only the types and grades of fuels and lubricants recommended in the Ingersoll- Rand Company and Engine Manufacturer\u2019s Operator and Maintenance Manuals. Maintenance Schedule Item Area Period A. B. C. D. E. F. G. H. I. J. Compressed Air Leaks Safety and Control Systems Acoustic Materials Fasteners Enclosure Panels Air Intake & Engine Exhaust Cooling Systems Isolation Mounts Engine Operation Fuels & Lubricants As Detected As Detected Daily 100 hours 100 hours 100 hours 250 hours 250 hours See Operator\u2019s Manual See Operator\u2019s Manual",
+    "word_count": 179
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p32_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 32,
+    "text": "Noise Emission\nOperating & Maintenance Manual\n33\nMaintenance Record For Noise Emission Control And Extended Warranty\nItem \nNo.\nDescription Of Work\nHourmeter\nReading\nMaint/inspect \nDate\nLocation \nCity/state\nWork Done \nBy (Name)",
+    "word_count": 31
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p33_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 33,
+    "text": "34\n\nOperating & Maintenance Manual\n\nNoise Emission",
+    "word_count": 7
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p34_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 34,
+    "text": "- General Data\n\n35",
+    "word_count": 4
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p35_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 35,
+    "text": "Operating & Maintenance Manual\nGeneral Data\n36\n \nGeneral Data\nModels:\nCOMPRESSOR\nRated Operating Pressure - psi (kPa).......................100 psi (689)\nSafety Valve Setting - psi (kPa) ................................150 psi (1034)\nNet Weight (less fuel) pounds...................................2265\nENGINE (DIESEL)\nManufacturer.............................................................John Deere\nModel ........................................................................4045D\nElectrical System ......................................................12 VDC\nFLUID CAPACITIES\nCompressor Lubricant...............................................12 quarts (11.4 litres)\nEngine Crankcase Lubricant.....................................10.8 quarts (10.2 litres)\nFuel Tank .................................................................27 U.S. gal. (103 litres)\nUNITS MEASUREMENTS WEIGHTS . . . . . . . . . . . . . . .\nOverall Length...........................................................11.5 (3.5 meters)\nOverall Height ...........................................................5.2 feet (1.46 meters)\nOverall Width ............................................................5.7 feet (1.74 meters)\nTrack Width...............................................................4.9 feet (1.49 meters)\nWeight (with fuel) ......................................................2325 lbs (1054 kgf)\nWeight (less fuel) ......................................................2130 lbs (966 kgf)\nUnit Model\nP185\nXP185\nAir Delivery (cfm (litres/sec)\n185 (87)\n185 (87)\nEngine Speed - RPM (Full Load)\n2500\n2500\nEngine Speed - RPM (No Load)\n1700\n1700",
+    "word_count": 144
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p36_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 36,
+    "text": "General Data\nOperating & Maintenance Manual\n37\nTire Size . . . . . . . . . . . . . . .\nTire Size....................................................................P215/75RX15\nInflation Pressure (cold) ............................................35 psi\nTowing Speed (maximum) ........................................65 mph (105 km/hr)\nEXPENDABLE SERVICE PARTS\nCompressor Oil Filter Element..................................36897353\nCompressor Oil Separator Element ..........................54625942\nAir Cleaner Element Primary (Compressor) .............35393685\nOptional Secondary (Compressor) ...........................35393651\nAir Cleaner Element (Engine) ...................................35393685\nOptional Secondary (Engine)....................................35393651\nEngine Oil Filter Element .........................................35308030\nEngine Fuel Filter Element........................................36534659\nWARNING\n!\nModification or alteration of this machine. Can result in severe injury or\ndeath. Do not modify or alter without the express written consent of\nIngersoll-Rand Co.",
+    "word_count": 105
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p37_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 37,
+    "text": "38\n\nOperating & Maintenance Manual\n\nGeneral Data",
+    "word_count": 7
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p38_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 38,
+    "text": "SECTION 5 - OPERATION\n\n39",
+    "word_count": 5
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p39_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 39,
+    "text": "Operating & Maintenance Manual SECTION 5 - OPERATION 40 BEFORE TOWING WARNING ! Failure to follow these instructions CAN cause severe injury or death. \u2022 Assure tow vehicle has towing capacity for weight of this unit as stated on general data decal. \u2022 Position the tow vehicle to align its hitch with the pintle eye or coupler of the compressor. \u2022 Engage the parking brake and chock the tires of the tow vehicle. \u2022 Stand to the side and ensure pin is FULLY inserted (secure) in tube of jack. . \u2022 Crank jack to seat pintle eye or coupler onto hitch. Latch and lock hitch. Cross safety chain(s) under drawbar. Attach to vehicle \u2022 Crank jack to raise pad off the ground. Pull pin from tube of jack. \u2022 Fold jack handle down and forward. Swing up jack tube and FULLY insert pin in tube. \u2022 Remove tire chocks. \u2022 Test brakes, if so equipped. \u2022 Test lights (running, stop, and turn signals). WARNING ! Always raise (or remove) jack for maximum ground clearance before towing. SETTING UP (ALL UNITS)",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p39_2",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 39,
+    "text": "\u2022 Test lights (running, stop, and turn signals). WARNING ! Always raise (or remove) jack for maximum ground clearance before towing. SETTING UP (ALL UNITS) \u2022 Position as level as possible. The design of these units permits a 15 degree sidewise limit on out-of-level operation. \u2022 When the unit is to be operated out- of-level, it is important: 1. To keep the engine crankcase oil level near the high level mark (with the unit level). 2. To have the compressor oil level gauge show no more than mid-scale. Do not overfill either the engine crankcase or the compressor lubricating oil system. 3. The side doors must be closed to maintain a cooling air path and to avoid recirculation hot air. TOWING WARNING ! Failure to follow these instructions CAN cause severe injury or death. \u2022 Ensure that tires, wheels and running gear are in good condition and secure. \u2022 Ensure that tires are inflated to 35 psi. \u2022 Do not tow this unit in excess of 65 mph. \u2022 Use a tow vehicle whose towing capacity is greater than the",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p39_3",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 39,
+    "text": "35 psi. \u2022 Do not tow this unit in excess of 65 mph. \u2022 Use a tow vehicle whose towing capacity is greater than the gross weight of this unit.",
+    "word_count": 30
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p40_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 40,
+    "text": "SECTION 5 - OPERATION\nOperating & Maintenance Manual\n41\nDISCONNECT\n\u2022 Engage tow vehicle parking brake.\n\u2022 Chock tires of compressor.\n\u2022 Set the vehicle parking brake. Chock\nwheels of unit.\n\u2022 Standing to the side, remove pin from\ntube of jack.\n\u2022 Disconnect safety chains. Crank jack\nto raise eye or coupler from hitch.\nTow vehicle can be moved.\nUTILITY PACKAGE SET-UP (no running \ngear)\nThis unit must be located on vehicle bed to \nallow access for normal servicing and \nmaintenance.\nThe air going into the inlet must be relatively \nfree of oil, dirt, soot and other debris. It must \nbe no more than 10 degrees F. (5 degrees C) \nover the ambient temperature.",
+    "word_count": 115
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p41_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 41,
+    "text": "Operating & Maintenance Manual SECTION 5 - OPERATION 42 CONTROL PANEL - Diagnostics/Auto Shutdown (Standard and Optional) Instruments & Controls (Optional) 1. High Engine Temperature - Coolant above 220\u00b0F (104\u00b0C). 2. Low Engine Oil Pressure - 12 psi or less. 3. High Compressor Temperature - 248\u00b0F (120\u00b0C) 4. Air Filters Restricted - Needs servicing. 5. Spare 6. Spare 7. Alternator Not Charging - Needs attention. 8. Low Fuel Level - Must add fuel to operate. 9. Hourmeter - Records running time for maintenance. (Standard) 10. Compressor Discharge Pressure Gauge - Indicates pressure in receiver tank, psi (kPa). (Standard) 11. Fuel Level Gauge - Indicates amount of fuel in tank. 12. Power Switch - Rotate \u201cON\u201d to activate system prior to starting. Rotate \u201cOFF\u201d to stop engine. (Standard) 13. Engine Speed Gauge - Indicates engine speed. 14. Discharge Air Temp. Gauge - Indicates in \u00b0F (82\u00b0C) to 210\u00b0F (99\u00b0C). 15. Engine Oil Pressure Gauge - Indicates engine oil pressure. 16. Engine Water Temp. Gauge - Indicates coolant temperature, with normal operating range from 180\u00b0F (82\u00b0C) to 210\u00b0F (99\u00b0C). 17. Voltmeter -",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p41_2",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 41,
+    "text": "engine oil pressure. 16. Engine Water Temp. Gauge - Indicates coolant temperature, with normal operating range from 180\u00b0F (82\u00b0C) to 210\u00b0F (99\u00b0C). 17. Voltmeter - Indicates battery condition. 18. Ether Inject Button - Injects a measured shot. USE SPARINGLY. 19. Service Air Button - After warm-up, PUSH. Provides full air pressure at the service outlet. Indicates engine speed. 20. Spare 21. Spare Note: 9, 10 and 12 are standard.",
+    "word_count": 69
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p42_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 42,
+    "text": "SECTION 5 - OPERATION Operating & Maintenance Manual 43 Before Starting \u2022 Open service valve(s) to ensure pressure is relieved in receiver-separator system. Close valve(s) in order to build up full air pressure and ensure proper oil circulation. \u2022 Check battery for proper connections and condition. \u2022 Check battery for proper connections and condition. \u2022 Check engine coolant level. WARNING ! Do not remove pressure cap from a HOT radiator. Allow radiator to cool down before removing pressure cap. Use extreme care when removing a pressure cap from a liquid cooling system for the engine. The sudden release of pressure from a heated cooling system can result in a loss of coolant and possible severe personal injury. \u2022 Check the engine oil level. Maintain per marks on dipstick. \u2022 Check the fuel level. Add only CLEAN DIESEL fuel for maximum service from the engine. \u2022 Check the compressor lubricating fluid level between bottom and midway of the sight glass on the separator tank. WARNING ! This machine produces loud noise with doors open. Extended exposure to loud noise can cause",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p42_2",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 42,
+    "text": "of the sight glass on the separator tank. WARNING ! This machine produces loud noise with doors open. Extended exposure to loud noise can cause hearing loss. Wear hearing protection when doors or valve (s) are open. \u2022 Close all doors to maintain a cooling air path and to avoid recirculation of hot air. This will maximize the life of the engine and compressor and protect the hearing of surrounding personnel. \u2022 Be sure no one is IN or ON the compressor unit. WARNING ! Unrestricted air flow from a hose will result in a whipping motion of the hose which can cause severe injury or death. A safety device must be attached to the hose at the source of supply to reduce pressure in case of hose failure or other sudden pressure release. Reference: OSHA regulation 29 CFR Section 1926.302 (b). Starting \u2022 Turn the POWER switch to \u201cON\u201d. \u2022 Turn Power switch to \u201cSTART\u201d position to crank engine. Hold switch in \u201cSTART\u201d position for approximately 5 seconds after engine starts.",
+    "word_count": 172
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p43_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 43,
+    "text": "Operating & Maintenance Manual SECTION 5 - OPERATION 44 NOTICE Do not operate the starter motor for more than 10 seconds without allowing at least 30 seconds cooling time between start attempts. Release Power Switch (it will automatically move to the \u201cON\u201d position) when the engine starts and sustains running. \u2022 Allow engine to warm up 5 to 10 minutes. \u2022 If so equipped, press the \u201cService Air Button\u201d. Open air service valve(s). Cold Weather Starting a. Turn power switch to the glow plug position and hold 10 seconds. Then turn to start. NOTICE Engine is equipped with glow plugs for cold starting aid. Do not use ETHER/ starting fluid. Engine damage can occur. NOTICE Exercise extreme caution when using a booster battery to start. To jump start: Connect the ends of one booster cable to the positive (+) terminals of each battery. Then connect one end of the other cable to the negative (-) terminal of the booster battery and the other end to the engine block. NOT TO THE NEGATIVE (-) TERMINAL OF THE WEAK BATTERY. Units With",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p43_2",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 43,
+    "text": "terminal of the booster battery and the other end to the engine block. NOT TO THE NEGATIVE (-) TERMINAL OF THE WEAK BATTERY. Units With Optional Diagnostics Lamps NOTICE None of the panel lamps should be glowing when machine is operating. If they are, shut unit down and refer to Trouble Shooting Section. Stopping NOTICE Whenever the machine is stopped, air will flow back into the compressor system from devices or systems downstream of the machine unless the service valve is closed. Install a check valve at the machine service valve to prevent reverse flow in the event of an unexpected shutdown when the service valve is open.",
+    "word_count": 108
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p44_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 44,
+    "text": "SECTION 5 - OPERATION Operating & Maintenance Manual 45 Close air service valves. \u2022 Allow the unit to run at idle for 3 to 5 minutes to reduce the engine temperatures. \u2022 Turn Power Switch to \u201cOFF\u201d position. \u2022 When the engine stops, automatic blowdown valve should relieve system air pressure. If automatic blow-down valve malfunction is suspected, open manual blowdown valve. \u2022 Never allow unit to sit under pressure when engine is not running. WARNING ! Since the service valve is closed, air downstream of the valve may be trapped. A vent hole in the service valve will slowly bleed air from the hose. Do not disconnect hoses until all pressure has been vented. NOTICE Do NOT wire around or bypass a shutdown sensor or switch. Machine has shutdown and sensors as follows: \u2022 Low Engine oil pressure, in the engine. \u2022 High engine coolant temperature, in the engine. Compressor Air/Oil Temperature: \u2022 At the airend outlet. \u2022 In separator tank. UNITS WITH DIAGNOSTIC LAMPS In a shutdown situation, the function of the panel lamps is to indicate what",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p44_2",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 44,
+    "text": "the airend outlet. \u2022 In separator tank. UNITS WITH DIAGNOSTIC LAMPS In a shutdown situation, the function of the panel lamps is to indicate what specific failure caused the unit to shut down. These lamps will remain illuminated until the Power Switch is turned \u201cOFF\u201d.",
+    "word_count": 45
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p45_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 45,
+    "text": "Operating & Maintenance Manual SECTION 5 - OPERATION 46 Speed and Pressure Regulator Adjusting Instructions The engine idle and full speed settings are set and sealed at the factory, and should not be adjusted. Serious injury may result if the full speed is increased. Removal of the seals without authorization could affect the warranty. If speed settings are lost due to engine fuel pump service or other repairs, the speed settings can be reset as follows: Before Starting 1. At the Pressure Regulator (on service pipe near receiver tank), remove the cover to expose the adjusting screw. Loosen the jam nut and turn screw counterclockwise until tension is no longer felt at the screw. Then, turn screw clockwise one full turn. 2. Close service valve(s). 3. Inspect throttle arm (G) on engine governor to see the arm is resting against the governor stop. Loosen jam nut on air actuating cylinder (A) and then turn cylinder rod (D) until throttle arm (G) is forced against the governor stop. After Starting Unit 4. If equipped, push the SERVICE AIR button on the",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p45_2",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 45,
+    "text": "rod (D) until throttle arm (G) is forced against the governor stop. After Starting Unit 4. If equipped, push the SERVICE AIR button on the control panel, making certain the button does not pop back out. The unit should speed up and then unload (and drop back to IDLE). With the unit unloaded, turn the adjusting screw on the pressure regulator clockwise until the discharge pressure gauge indicates 125-130 psi. Tighten the pressure regulator jam nut. Replace cover. 5. With the service valve closed, adjust IDLE speed (*). Adjust speed using adjusting rod (D). Tighten jam nut (H). 6. Open the service valve and adjust the discharge pressure to 100 psi (700 kPa). Now turn adjusting rod (C) until the proper engine FULL speed setting (*) is reached. Tighten jam nuts (B & J). 7. To obtain maximum CFM at any pressure between 80 psi (550kPa) and maximum pressure rating (*), make adjustment at the pressure regulator to obtain desired discharge pressure at FULL engine speed. Lock adjusting screw and replace cover. * See General Data Specifications.",
+    "word_count": 177
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p46_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 46,
+    "text": "SECTION 5 - OPERATION\n\nOperating & Maintenance Manual\n\n47",
+    "word_count": 9
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p47_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 47,
+    "text": "48\n\nOperating & Maintenance Manual\n\nSECTION 5 - OPERATION",
+    "word_count": 9
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p48_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 48,
+    "text": "- MAINTENANCE\n\n47",
+    "word_count": 3
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p49_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 49,
+    "text": "Operating & Maintenance Manual MAINTENANCE 48 Maintenance CAUTION ! Any unauthorized modification or failure to maintain this equipment may make it unsafe and out of factory warranty. If performing more than visual inspections, disconnect battery cables and open manual blowdown valve. Use extreme care to avoid contacting hot surfaces (engine exhaust manifold and piping, air receiver and air discharge piping, etc.). Never operate this machine with any guards removed. Inch and metric hardware was used in the design and assembly of this unit. Consult the parts manual for clarification of usage. NOTICE Disregard any maintenance pertaining to components not provided on your machine. General In addition to periodic inspections, many of the components in these units require periodic servicing to provide maximum output and performance. Servicing may consist of pre-operation and post-operation procedures to be performed by the operating or maintenance personnel. The primary function of preventive maintenance is to prevent failure, and consequently, the need for repair. Preventive maintenance is the easiest and the least expensive type of maintenance. Maintaining your unit and keeping it clean at all times",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p49_2",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 49,
+    "text": "need for repair. Preventive maintenance is the easiest and the least expensive type of maintenance. Maintaining your unit and keeping it clean at all times will facilitate servicing. Scheduled Maintenance The maintenance schedule is based on normal operation of the unit. This page can be reproduced and used as a checklist by the service personnel. In the event unusual environmental operating conditions exist, the schedule should be adjusted accordingly. Compressor Oil Level Check the compressor fluid level when the machine is not operating. Maintain the fluid level between bottom and midway of the sight glass on the separator tank. Air Cleaner If this unit is equipped with the Optional Diagnostic Panel, it has an AIR FILTERS RESTRICTED lamp on the instrument panel, covering both the engine and the compressor. This should be checked daily during operation. If the lamp glows (red) with the unit operating at full speed, servicing of the cleaner element is necessary. Also weekly squeeze the rubber valve (precleaner dirt dump) on each air cleaner housing to ensure that they are not clogged. The air filters restricted",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p49_3",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 49,
+    "text": "Also weekly squeeze the rubber valve (precleaner dirt dump) on each air cleaner housing to ensure that they are not clogged. The air filters restricted sensor will automatically reset after the main power switch is turned to \u201cOFF.\u201d To service the air cleaners on all units proceed as follows: 1. Loosen outer wing nut and remove with",
+    "word_count": 57
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p50_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 50,
+    "text": "Operating & Maintenance Manual MAINTENANCE 54 MAINTENANCE SCHEDULE R=replace, C=check (adjust if necessary) CBT = check before towing. * Applies only when using IR Protec\u2122 Engine Fluid Daily Weekly Monthly 3 MOS. 6 MOS. 12 MOS. 250 hours 500 hours 1000 hours Compressor Oil Level C Engine Oil Level C Radiator Coolant Level C Gauges/Lamps C Air Cleaner Service Indicators C Fuel Tank (fill at end of day) C DRAIN Fuel Water Separator (Drain) C Oil Leaks C Fuel Leaks C Drain Water From Fuel Filters DRAIN Coolant Leaks C Radiator Filler Cap C Air Cleaner PreCleaner Dumps C Fan/Alternator Belts C Battery Connections/Electrolyte C Tire Pressure and Surface C Wheel Lug Nuts C Hoses (oil, air, intake, etc) C Automatic Shutdown System Test C Air Cleaner System Visual C Compressor Oil Cooler Exterior C CLEAN Engine Radiator Exterior C CLEAN Fasteners, Guards C Air Cleaner Elements R Fuel/Water Separator Element R Compressor Oil Filter Element R Compressor Oil R Engine Oil Change (initial change @ 50 hrs) R -non IR fluids R* Engine Oil Filter (initial change @ 50",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p50_2",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 50,
+    "text": "Element R Compressor Oil R Engine Oil Change (initial change @ 50 hrs) R -non IR fluids R* Engine Oil Filter (initial change @ 50 hrs) R - non IR fluids R* Wheels (bearings, seals, etc) C Engine Coolant Test C R Fuel Filter Element R Shutdown Switch Settings Test C Scavenge Orifice & related parts CLEAN Oil Separator Element R Lights (running, brake, & turn) CBT Pintle Eye Bolts CBT",
+    "word_count": 71
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p51_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 51,
+    "text": "MAINTENANCE Operating & Maintenance Manual 49 cover. Remove Element. 2. Inspect air cleaner housing for any condition that might cause a leak and correct as necessary. 3. Wipe inside of air cleaner housing with a clean, damp cloth to remove any dirt accumulation, especially in the area where the element seals against the housing. 4. Install new elements in the reverse order to the above. Tighten wing nut firmly. 5. Inspect to ensure that end cap seals tightly 360\u00b0 around air cleaner body. In addition, the air cleaner system (housing and piping) should be inspected every month for any leakage paths or inlet obstructions. Make sure the air cleaner mounting bolts and clamps are tight. Check the air cleaner housing for dents or damage which could lead to a leak. Inspect the air transfer tubing from the air cleaner to the compressor and the engine for leaks. Make sure that all clamps and flange joints are tight. Gauges The instruments or gauges are essential for safety, maximum productivity and long service life of the machine. Inspect the gauges and test",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p51_2",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 51,
+    "text": "are tight. Gauges The instruments or gauges are essential for safety, maximum productivity and long service life of the machine. Inspect the gauges and test any diagnostic lamps prior to start-up. During operation observe the gauges and any lamps for proper functioning. Refer to Operating Controls, for the normal readings. Fuel Tank CLEAN fuel in the fuel tanks is vitally important and every precaution should be taken to ensure that only clean fuel is poured or pumped into the tank. When filling the fuel tank on this unit, by methods other than a pump and hose, use a CLEAN non-metallic funnel. Battery Keep the battery posts-to-cable connections clean, tight and lightly coated with a grease. Also the electrolyte level in each cell should cover the top of the plates. If necessary, top- up with clean distilled water. Tires A weekly inspection is recommended. Tires that have cuts or cracks or little tread should be repaired or replaced. Monthly check the wheel lug nuts for tightness. Fasteners Visually check entire unit in regard to bolts, nuts and screws being properly secured.",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p51_3",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 51,
+    "text": "or replaced. Monthly check the wheel lug nuts for tightness. Fasteners Visually check entire unit in regard to bolts, nuts and screws being properly secured. Spot check several capscrews and nuts for proper torque. If any are found loose, a more thorough inspection must be made. Take corrective action. Table 1: Wheel Torque Chart M12 bolts Torque (ft-Lbs) 13\u201d wheel 60-70 1/2\u201d lug nuts 13\u201d wheel 80-90 15\u201d wheel 105-115 16\u201d wheel 105-115",
+    "word_count": 73
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p51_4",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 51,
+    "text": "\u201d wheel\n105-115\n5/8\u201d lug nuts\n16\u201d wheel\n190-210",
+    "word_count": 9
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p51_5",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 51,
+    "text": "\u201d wheel\n190-210",
+    "word_count": 3
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p52_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 52,
+    "text": "Operating & Maintenance Manual MAINTENANCE 50 Radiator NOTICE The use of water alone in this engine can result in major engine failure. Refer to engine section for coolant recommendation. Hoses Each month it is recommended that all of the intake lines to and from the air cleaners, the engine cooling system hoses and all of the flexible hoses used for air, oil, and fuel be inspected. To ensure freedom from air leaks, all rubber hose joints and the screw-type hose clamps must be absolutely tight. Regular inspection of these connections for wear or deterioration is necessary. Premature wear of both the engine and compressor is ASSURED whenever dust- laden air is permitted to enter the engine\u2019s combustion chamber or compressor intake. The flexible hoses used in the fuel, oil and air lines on these units are primarily used for their ability to accommodate relative movement between components. It is important they be periodically inspected for wear and deterioration. It is also important the operator does not use the hoses as convenient hand hold or steps. Such use can cause early",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p52_2",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 52,
+    "text": "wear and deterioration. It is also important the operator does not use the hoses as convenient hand hold or steps. Such use can cause early cover wear and hose failure. NOTICE Some of the airlines are nylon tubing. The associated fittings are \u201cpush-in\u201d design. Features are as follows: Pulling on the tubing will cause the inner sleeve to withdraw and compress, thus tightening the connection. The tubing can be withdrawn only while holding the sleeve against the fitting. The tubing can be removed and replaced numerous times without losing its sealing ability. To install the nylon tubing, make a mark (with tape or grease pencil) approximately 7/8 inch from the end of the tubing. Insert the tubing into the sleeve and \u201cpush-in\u201d past the first resistance to the bottom. The mark should be approximately 1/16 inch from the sleeve, for the 3/8 inch O.D. tubing; 1/8 inch for the 0.25 inch O.D. tubing. This will ensure that tubing is fully engaged in the sealing mechanism. Compressor Oil Filters The oil filter must be replaced every 500 hours of operation or",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p52_3",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 52,
+    "text": "ensure that tubing is fully engaged in the sealing mechanism. Compressor Oil Filters The oil filter must be replaced every 500 hours of operation or six (6) months, whichever comes first. To service oil filters it will first be necessary to shut the unit down. Wipe off any external dirt and oil from the exterior of the filter to minimize any contamination from entering the lubrication system. Proceed as follows: WARNING ! High pressure air can cause severe injury or death from hot oil and flying parts. Always relieve pressure before removing caps, plugs, covers or other parts from pressurized air system. 1. Open the service air valve(s) to ensure that system is relieved of all pressure. Close the valve(s). 2. Turn the spin-on filter element counterclockwise to remove it from the filter housing. Inspect the filter.",
+    "word_count": 137
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p53_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 53,
+    "text": "MAINTENANCE Operating & Maintenance Manual 51 3. Inspect the oil filter head to be sure the gasket was removed with the oil filter element. Clean the gasket seal area on the oil filter head. NOTICE Installing a new oil filter element when the old gasket remains on the filter head, will cause an oil leak and can cause property damage. 4. Lubricate the new filter gasket with the same oil being used in the machine. 5. Install new filter by turning the element clockwise until gasket makes initial contact. Tighten an additional 1/2 to 3/ 4 turn. 6. Start unit and allow to build up to rated pressure. Check for leaks before placing unit back into service. Compressor Oil Cooler The compressor lubricating and cooling oil is cooled by means of the fin and tube-type oil cooler, located beside the radiator. The lubricating and cooling oil, flowing internally through the core section, is cooled by the air stream from the cooling fan flowing past the core section. When grease, oil and dirt accumulate on the exterior surfaces of the oil",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p53_2",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 53,
+    "text": "the air stream from the cooling fan flowing past the core section. When grease, oil and dirt accumulate on the exterior surfaces of the oil cooler, its efficiency is impaired. Each month it is recommended that the oil cooler be cleaned by directing compressed air which contains a nonflammable, non- caustic safety solvent through the core of the oil cooler. This should remove the accumulation of grease, oil and dirt from the exterior surfaces of the oil cooler core so that the entire cooling area can transmit the heat of the lubricating and cooling oil to air stream. In the event foreign deposits, such as sludge and lacquer, accumulate in the oil cooler to the extent that its cooling efficiency is impaired, a resulting high discharge air temperature is likely to occur, causing shut down of the unit. To correct this situation it will be necessary to clean it using a cleaning compound in accordance with the manufacturer\u2019s recommendations. Compressor Oil The lubricating and cooling oil must be replaced every 500 hours of operation or six (6) months, whichever comes",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p53_3",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 53,
+    "text": "with the manufacturer\u2019s recommendations. Compressor Oil The lubricating and cooling oil must be replaced every 500 hours of operation or six (6) months, whichever comes first. Refer to warranty section about extended warranty. Receiver-Separator Systems WARNING ! High pressure air can cause severe injury or death from hot oil and flying parts. Always relieve pressure before removing caps, plugs, covers or other parts from pressurized air system. \u2022 Open service valve at end of machine. \u2022 Ensure pressure is relieved, with BOTH: \u2014 Discharge air pressure gauge reads zero (0). \u2014 No air discharging from service valve. Remove plug in bottom of separator tank to drain compressor oil. When adding oil, remove and replace (make tight) plug on side of separator tank. In the compressor lubricating and cooling system, separation of the oil from the compressed air takes place in the receiver- separator tank. As the compressed air enters the tank, the change in velocity and direction drop out most of the oil from the air.",
+    "word_count": 166
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p54_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 54,
+    "text": "Operating & Maintenance Manual MAINTENANCE 52 Additional separation takes place in the oil separator element which is located in the top of the tank. Any oil accumulation in this separator element is continuously drained off by means of a scavenge tube which returns the accumulated oil to the system. The life of the oil separator element is dependent upon the operating environment (soot, dust, etc.) and should be replaced every twelve months or 1000 hours. Scavenge Line WARNING ! High pressure air can cause severe injury or death from hot oil and flying parts. Always relieve pressure before removing caps, plugs, covers or other parts from pressurized air system. The scavenge line originates at the receiver- separator tank cover and terminates at the compressor air-end near the oil filter element. An orifice check valve is located on the scavenge tube. Once a year or every 1000 hours of operation, whichever comes first, replace the separator element and clean the scavenge orifice/check valve. NOTE: Excessive oil carry-over may be caused by an oil-logged separator element. Do not replace element without first",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p54_2",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 54,
+    "text": "element and clean the scavenge orifice/check valve. NOTE: Excessive oil carry-over may be caused by an oil-logged separator element. Do not replace element without first performing the following maintenance procedure: 1. Check oil level. Maintain as indicated earlier in this section. 2. Thoroughly clean scavenge line, any orifice and check valve. 3. Assure minimum pressure valve/orifice is operational. 4. Run unit at rated operating pressure for 30 to 40 minutes to permit element to clear itself. Exterior Finish Care This unit was painted and heat cured at the factory with a high quality, thermoset polyester powder coating. The following care will ensure the longest possible life from this finish. 1. If necessary to remove dust, pollen, etc. from housing, wash with water and soap or dish washing liquid detergent. Do not scrub with a rough cloth, pad, etc. 2. If grease removal is needed, a fast evaporating alcohol or chlorinated solvent can be used. Note: This may cause some dulling of the paint finish. 3. If the paint has faded or chalked, the use of a commercial grade, non-abrasive car",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p54_3",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 54,
+    "text": "This may cause some dulling of the paint finish. 3. If the paint has faded or chalked, the use of a commercial grade, non-abrasive car wax may partially restore the color and gloss. Field Repair of Texture Paint 1. The sheet metal should be washed and clean of foreign material and then thoroughly dried. 2. Clean and remove all grease and wax from the area to be painted using Duponts 3900S Cleaner prior to sanding. 3. Use 320 grit sanding paper to repair any scratches or defects necessary. 4. Scuff sand the entire area to be painted with a red scotch brite pad. 5. Wipe the area clean using Duponts 3900S. 6. Blow and tack the area to be painted. 7. Apply a smooth coat of Duponts 1854S Tuffcoat Primer to all bare metal areas and allow to dry.",
+    "word_count": 139
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p55_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 55,
+    "text": "MAINTENANCE\nOperating & Maintenance Manual\n53\n8.\nApply 2 medium - wet coats of Duponts\n222S Adhesion Promoter over the entire\narea to be painted, with a 5 minute flash\nin between coats.\n9.\nTo apply the texture coat, use Duponts\n1854S Tuffcoat Primer. The proper\ntechnique to do this is to spray the\nTuffcoat Primer using a pressure pot and\nuse about 2-5 pounds of air pressure.\nThis will allow the primer to splatter\ncausing the textured look. \nNOTE: You must be careful not to put too \nmuch primer on at one time, this will effect \nthe amount of texture that you are trying to \nachieve. Allow the texture coat to flash for 20 \nminutes or until dry to touch.\n10. Apply any of Duponts Topcoat Finishes\nsuch as Imron\u2122 or Centari\u2122 according\nto the label instructions.\nNOTE: To re-topcoat the textured surfaces \nwhen sheet metal repairs are not necessary, \nfollow steps 1, 2, 4, 5, 6, 8 and 10.",
+    "word_count": 161
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p56_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 56,
+    "text": "- LUBRICATION\n\n55",
+    "word_count": 3
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p57_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 57,
+    "text": "Operating & Maintenance Manual LUBRICATION 56 Lubrication Portable Compressor Fluid Chart Refer to these charts for correct compressor fluid required. Note that the selection of fluid is dependent on the design operating pressure of the machine and the ambient temperature expected to be encountered before the next oil change. NOTE: Fluids listed as \u201cpreferred\u201d are required for extended warranty. Compressor oil carryover (oil consumption) may be greater with the use of alternative fluids. Preferred Ingersoll-Rand Fluids - Use of these fluids with original I-R filters can extend airend warranty. Refer to operator\u2019s manual warranty section for details or contact your IR representative. Design Operating Pressure Ambient Temperature Specification 100 psi to 300 psi -100F to 1250F (-230C to 520C) Preferred: IR Pro\u2022Tec\u2122 Alternate: ISO Viscosity Grade 46 with rust and oxidation inhibitors, designed for air compressor service. 350 psi (-230C to 520C) -100F to 1250F 650F to 1250F (-18\u00b0C to 52\u00b0C) Preferred: IR XHP 605 Alternate: IR XHP405 ISO Viscosity Grade 68 Group 3 or 5 with rust and oxidation inhibitors designed for air compressor service. Preferred: XHP605 IR XHP1001",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p57_2",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 57,
+    "text": "Alternate: IR XHP405 ISO Viscosity Grade 68 Group 3 or 5 with rust and oxidation inhibitors designed for air compressor service. Preferred: XHP605 IR XHP1001 Ingersoll-Rand Preferred Fluids 1 gal. (3.8 Litre) 5 gal. (19.0 Litre) 55 gal. (208.2 Litre) 220 gal. (836 Litre) Preferred: IR Pro-Tec\u2122 36899698 36899706 36899714 36899722 IR XHP605 - 22252076 22252050 22252068 IR XHP1001 - 35612738 35300516 - XHP405 - 22252126 22252100 22252118 Engine Oil 54480918 36875938 36866903",
+    "word_count": 73
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p58_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 58,
+    "text": "LUBRICATION\n\nOperating & Maintenance Manual\n\n57",
+    "word_count": 6
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p59_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 59,
+    "text": "58\n\nOperating & Maintenance Manual\n\nLUBRICATION",
+    "word_count": 6
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p60_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 60,
+    "text": "- Trouble Shooting\n\n57",
+    "word_count": 4
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p61_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 61,
+    "text": "Operating & Maintenance Manual Trouble Shooting 58 Trouble Shooting Introduction Trouble shooting for a portable air compressor is an organized study of a particular problem or series of problems and a planned method of procedure for investigation and correction. The trouble shooting chart that follows includes some of the problems that an operator may encounter during the operation of a portable compressor. The chart does not attempt to list all of the troubles that may occur, nor does it attempt to give all of the answers for correction of the problems. The chart does give those problems that are most apt to occur. To use the trouble shooting chart: A. Find the \u201ccomplaint\u201d depicted as a bold heading. B. Follow down that column to find the potential cause or causes. The causes are listed in order (1,2,3 etc.) to suggest an order to follow in trouble shooting. Action Plan A. Think Before Acting Study the problem thoroughly and ask yourself these questions: 1. What were the warning signals that preceded the trouble? 2. Has a similar trouble occurred before? 3.",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p61_2",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 61,
+    "text": "problem thoroughly and ask yourself these questions: 1. What were the warning signals that preceded the trouble? 2. Has a similar trouble occurred before? 3. What previous maintenance work has been done? 4. If the compressor will still operate, is it safe to continue operating it to make further checks? B. Do The Simplest Things First Most troubles are simple and easily corrected. For example, most complaints are \u201clow capacity\u201d which may be caused by too low an engine speed or \u201ccompressor over- heats\u201d which may be caused by low oil level. Always check the easiest and most obvious things first; following this simple rule will save time and trouble. NOTE: For trouble shooting electrical problems, refer to the Wiring Diagram Schematic found in Parts List Section. C. Double Check Before Disassembly The source of most compressor troubles can be traced not to one component alone, but to the relationship of one component with another. Too often, a compressor can be partially disassembled in search of the cause of a certain trouble and all evidence is destroyed during disassembly. Check",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p61_3",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 61,
+    "text": "Too often, a compressor can be partially disassembled in search of the cause of a certain trouble and all evidence is destroyed during disassembly. Check again to be sure an easy solution to the problem has not been overlooked. D. Find And Correct Basic Cause After a mechanical failure has been corrected, be sure to locate and correct the cause of the trouble so the same failure will not be repeated. A complaint of \u201cpremature breakdown\u201d may be corrected by repairing any improper wiring connections, but something caused the defective wiring. The cause may be excessive vibration.",
+    "word_count": 97
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p62_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 62,
+    "text": "Trouble Shooting Operating & Maintenance Manual 59 Trouble Shooting Chart Bold Headings depict the COMPLAINT - Subheadings indicate CAUSES NOTE: Subheadings suggest sequence to follow troubleshooting. Table 1: Unit Shutdown Table 2: Won\u2019t Start/Run: Cause Corrective Action Out of Fuel Add CLEAN diesel Fuel Compressor Oil Level Too Low Add correct oil Compressor Oil Temp. Too High See Table 10 Engine Water Temp. Too High Check coolant level. If necessary, Add. Loose Wire Connection Wiggle wires at switches & connector blocks. Make repairs. Low Fuel Level Shutdown Switch Replace switch. Defective Discharge Air Temp. Switch Replace switch. Defective Engine Oil Pressure Switch Replace switch. Broken Engine Fan Belt Replace fan belt. Engine Oil Pressure Too Low See Table 3 and Table 4. Defective Shutdown Solenoid Replace solenoid. Malfunctioning Relay Replace relay. Blown Fuse Replace fuse/Check for Short. * < 10 Volts at Shutdown Solenoid Check battery and alternator. Make repairs. Engine Malfunctioning See Trouble Shooting in Engine Section. Airend Malfunctioning See Table 10. Cause Corrective Action Out of Fuel Add CLEAN diesel Fuel Clogged Fuel Filters Service filters. Compressor Oil",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p62_2",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 62,
+    "text": "in Engine Section. Airend Malfunctioning See Table 10. Cause Corrective Action Out of Fuel Add CLEAN diesel Fuel Clogged Fuel Filters Service filters. Compressor Oil Level Too Low Add corrected oil Loose Wire Connection Repair or replace connection. Low Battery Voltage Check electrolyte level. Check connections. * <10 Volts at Shutdown Solenoid Charge battery and alternator. Make repairs. Defective Alternator Replace/Repair Alternator Out of Fuel Add CLEAN fuel. Engine Water Temp. Too High Check fluid level. If necessary, Add. Malfunctioning Start Switch Replace switch. Defective D2 Diode Replace D2 Diode. Blown Fuse Replace fuse/Check for Short. Engine Oil Pressure Too Low See Table 3 and Table 4. Compressor Oil Temp. Too High See Table 10. Defective Discharge Air Temp. Switch Replace switch. Defective Engine Oil Pressure Switch Replace switch.",
+    "word_count": 129
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p63_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 63,
+    "text": "Operating & Maintenance Manual Trouble Shooting 60 Table 3: Engine Temperature Lamps Stays On: Table 4: Engine Oil Pressure Lamp Stays On: Table 5: Engine Temperature Lamps Stays Off: Table 6: Engine Oil Pressure Lamp Stays Off: Defective Shutdown Solenoid Replace solenoid. Defective Engine Temp. Switch Replace Switch Defective Separator Tank Temp Switch Replace Switch Defective Low Fuel Shutdown Switch Replace Switch Malfunctioning Relay Replace relay. Engine Malfunctioning See Trouble Shooting in Engine Section. Airend Malfunctioning See Table 10. Complaint Corrective Action Dirty Cooler Clean exterior of cooler. Operating Pressure Too High Reduce pressure to spec. Recirculation of Cooling Air Close side doors. Dirty Operating Conditions Move unit to cleaner environment. * Out of Level >15 degrees Relocate or reposition unit. * Ambient Temp. >125\u00d7F (52\u00d7C) Above spec limit. Loose Wire Connection Repair or replace. Broken Engine Fan Belt Replace fan belt set. Malfunctioning Circuit Board Replace circuit board. Complaint Corrective Action Low Oil Level Add oil. Clogged Oil Filter Element(s) Replace element(s). Out of Level >15 degrees Relocate or reposition. Loose Wire Connection. Repair or replace. Wrong Lube Oil",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p63_2",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 63,
+    "text": "Add oil. Clogged Oil Filter Element(s) Replace element(s). Out of Level >15 degrees Relocate or reposition. Loose Wire Connection. Repair or replace. Wrong Lube Oil See Engine Oil Spec. Change oil. Malfunctioning circuit board Replace circuit. Engine Malfunctioning See Trouble Shooting in Engine Section. Complaint Corrective Action Bulb Burned Out Replace circuit board. Shorted Wire (Hot) Repair short. Malfunctioning circuit board Replace circuit board. Complaint Corrective Action Bulb Burned Out Replace circuit board. Shorted Wire (Hot) Repair short. Malfunctioning circuit board Replace circuit board.",
+    "word_count": 84
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p64_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 64,
+    "text": "Trouble Shooting Operating & Maintenance Manual 61 Table 7: Alternator Lamp Stays On: Table 8: Alternator Lamp Stays Off: Table 9: Unit Fails To Shutdown: Table 10: Excessive Compressor Oil Temperature: Complaint Corrective Action Low Battery Voltage Check electrolyte level. Add if necessary. Loose or Broken Belts Tighten or replace belt set. Check connectors. Clean & tighten. Recharge battery. Malfunctioning Alternator Repair or replace alternator. Shorted wire (ground) Repair short. Complaint Corrective Action Bulb Burned Out Replace circuit board. Loose Wire Connection Repair or replace connector. Malfunctioning circuit board Replace circuit board. Complaint Corrective Action Defective Low Fuel Shutdown Switch Pull wire off shutdown solenoid. Replace switch. Defective Discharge Air Temperature Switch Pull wire off. Replace switch. Defective Sep. Temp. Switch Replace switch. Defective Engine Temp. Switch Replace switch. Defective Engine Oil Pressure Switch Pull wire off. Replace switch. Defective Shutdown Solenoid Carefully block air inlet to stop engine. Malfunctioning Relay Replace relay. Defective Start Switch Pull wire off shutdown solenoid. Replace defective item. Wire Shorted Hot Repair short. Complaint Corrective Action Dirty Cooler Clean exterior surfaces. Low Oil Level",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p64_2",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 64,
+    "text": "Switch Pull wire off shutdown solenoid. Replace defective item. Wire Shorted Hot Repair short. Complaint Corrective Action Dirty Cooler Clean exterior surfaces. Low Oil Level Add oil. Look for any leaks. Clogged Oil Filter Elements Replace elements. Change oil. Operating Pressure Too High Reduce pressure to spec. Dirty Operating Conditions Move unit to cleaner environment. Ambient Temp. > 125\u00b0F (52\u00b0C) Above spec limit. Out of Level > 15 degrees Relocate or reposition unit. Wrong Lube Oil Check spec in this manual. Recirculation Of Cooling Air Close side doors. Replace belly pan. Malfunctioning Thermostat Replace thermostat in bypass valve. Loose or Broken Belts Tighten or replace belt set. Defective Oil Cooler Relief Valve Replace valve.",
+    "word_count": 114
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p65_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 65,
+    "text": "Operating & Maintenance Manual Trouble Shooting 62 Table 11: Engine RPM Down Table 12: Excessive Vibration Table 13: Low CFM Defective Minimum Pressure Valve Repair or replace valve. Malfunctioning Fan Check fan belt tension. Tighten or replace belt set. Blocked or Restricted Oil Lines Clean by flushing or replace. Airend Malfunctioning See Tables 11, 12, 13, 15, 16 or 18. Complaint Corrective Action Clogged Fuel Filter Clean primary filter. Replace final filter. Drain tanks. Add CLEAN fuel. Dirty Air Filter Clean or replace elements. Operating Pressure Too High Reduce pressure to spec limit. Incorrect Pressure Regulator Adjustment Adjust regulator. Incorrect Linkage Adjustment Adjust linkage. Wrong Air Filter Element Install correct element. Malfunctioning Pressure Regulator Replace regulator. Malfunctioning Air Cylinder Replace air cylinder and adjust. Defective Separator Element Install new element. Engine Malfunctioning See Trouble Shooting in Engine Section. Airend Malfunctioning Consult Dealer. Complaint Corrective Action Dirty Fuel/Filters Replace filters/fuel. Engine idle speed too low. Raise \u201cNo Load\u201d speed. Rubber Mounts, Loose or Damaged Tighten or replace. Anti-rumble valve not working. Repair or Replace. Drive Coupling Defective Replace coupling. Defective Fan",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p65_2",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 65,
+    "text": "\u201cNo Load\u201d speed. Rubber Mounts, Loose or Damaged Tighten or replace. Anti-rumble valve not working. Repair or Replace. Drive Coupling Defective Replace coupling. Defective Fan Replace fan. Engine Malfunctioning See Trouble Shooting in Engine Section. Airend Malfunctioning See Table 15 and 17. Complaint Corrective Action Engine RPM too Low Adjust RPM Malfunctioning Air Cylinder Replace air cylinder. Incorrect Linkage Adjustment Adjust linkage. Malfunctioning Inlet Unloader Inspect valve. Dirty Air Filter Clean or replace elements. Incorrect Pressure Regulator Adjustment Adjust linkage. Malfunctioning Pressure Regulator Replace regulator. Wrong Air Filter Element Install correct element. Defective Separator Element Install new element. Defective Minimum Pressure Valve Repair or replace valve.",
+    "word_count": 106
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p66_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 66,
+    "text": "Trouble Shooting Operating & Maintenance Manual 63 Table 14: Short Air Cleaner Life Table 15: Excessive Oil In Air Table 16: Oil Seal Leak Table 17: Will Not Unload Table 18: Oil In Air Cleaner Complaint Corrective Action Inadequate Element Cleaning Install new element. Dirty Operating Conditions Move unit to cleaner environment. Incorrect Stopping Procedure Read procedure in this manual. Wrong Air Filter Element Install proper element. Complaint Corrective Action High Oil Level Read procedure in this manual. Clogged Scavenge Orifice Remove scavenge orifice. Clean and Replace. Incorrect Oil Replace by spec. in this manual. Defective Scavenge Check Valve Remove check valve. Replace with new valve. Out of Level > 15 degrees Relocate or reposition unit. Defective Separator Element Remove element. Install new. Scavenge Tube Blocked Remove scavenge tube. Clean and Replace. Sep. Tank Blow Down Too Quickly Allow unit to blow down automatically. Defective Minimum Pressure Valve Remove valve. Repair valve and replace. Complaint Corrective Action Contaminated Lube Oil Drain and flush system. Add new CLEAN oil. Replace seal. Blocked or Restricted Oil Line(s) Remove, clean and replace line(s).",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p66_2",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 66,
+    "text": "Corrective Action Contaminated Lube Oil Drain and flush system. Add new CLEAN oil. Replace seal. Blocked or Restricted Oil Line(s) Remove, clean and replace line(s). Replace seal. Malfunctioning Seal Consult dealer. Replace seal. Scored Shaft See instructions in new seal kit. Complaint Corrective Action Incorrect Pressure Regulator Adjustment Adjust regulator. Leak in Regulator Piping Find and repair leak(s). Malfunctioning Pressure Regulator Replace regulator. Malfunctioning Inlet Valve Unloader Inspect valve. Repair/Replace. Defective Separator Element Remove element. Install new. Ice in Regulation Lines/Orifice Apply heat to line(s) and or orifice. Complaint Corrective Action Incorrect Stopping Procedure Read Procedure in this manual. Malfunctioning Unloader Repair/Replace.",
+    "word_count": 102
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p67_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 67,
+    "text": "Operating & Maintenance Manual\nTrouble Shooting\n64\n \nTable 19: Safety Valve Relieves\nComplaint\nCorrective Action\nOperating Pressure Too High\nReduce pressure to spec limit.\nIncorrect Pressure Regulator Adjustment\nRefer to Section 6 in this manual.\nMalfunctioning Pressure Regulator\nReplace regulator.\nLeak In Regulator Piping\nRepair leak(s).\nMalfunctioning Inlet Unloader\nInspect valve. Repair/Replace.\nDefective Separator Element\nRemove element. Install new.\nDefective Safety Valve\nReplace safety valve.\nIce in Regulation Lines/Orifice\nRemove ice.",
+    "word_count": 71
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p68_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 68,
+    "text": "WORD INDEX Manual-Name 9 - 1 A Air Cleaner . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6-48 B Battery . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6-49 Before Starting . . . . . . . . . . . . . . . . . . . . . . . . . . 5-43 BEFORE TOWING . . . . . . . . . . . . . . . . . . . . . . . 5-40 C Compressor Oil Filters . . . . . . . . . . . . . . . . . . . . 6-50 Compressor Oil Level . . . . . . . . . . . . . . . . . . . . . 6-48",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p68_2",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 68,
+    "text": "Compressor Oil Level . . . . . . . . . . . . . . . . . . . . . 6-48 CONTROL PANE . . . . . . . . . . . . . . . . . . . . . . . . 5-42 D DISCONNECT . . . . . . . . . . . . . . . . . . . . . . . . . . 5-41 E Exterior Finish Care . . . . . . . . . . . . . . . . . . . . . . 6-52 F Fasteners . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6-49 Fuel Tank . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6-49 G Gauges . . . .",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p68_3",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 68,
+    "text": ". . . . . . . . . . . . . . . . . . 6-49 G Gauges . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6-49 H Hazardous Substance Precaution . . . . . . . . . . . . 1-5 Hoses . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6-50 I Ingersoll-Rand Preferred Fluids . . . . . . . . . . . . . 7-56 L Lubrication . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7-56 M Maintenance . . . . . . . . . . . . . . . . . . . . . .",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p68_4",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 68,
+    "text": "7-56 M Maintenance . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6-48 MAINTENANCE SCHEDULE . . . . . . . . . . . . . . . 6-54 P Portable Compressor Airend Limited Optional Warranty . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2-14 Portable compressor airends . . . . . . . . . . . . . . . 2-14 Portable Compressor Fluid Chart . . . . . . . . . . . . 7-56 R Radiator . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6-50 Receiver-Separator Systems . . . . . . . . . . . . . . . 6-51 S Safety Precautions",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p68_5",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 68,
+    "text": ". . . 6-50 Receiver-Separator Systems . . . . . . . . . . . . . . . 6-51 S Safety Precautions . . . . . . . . . . . . . . . . . . . . . . . . 1-4 Scavenge Line . . . . . . . . . . . . . . . . . . . . . . . . . . 6-52 Scheduled Maintenance . . . . . . . . . . . . . . . . . . .6-48 SETTING UP (ALL UNITS) . . . . . . . . . . . . . . . . .5-40 Speed and Pressure Regulator Adjusting Instructions 5-46 Starting . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .5-43 Stopping . . . . . . . . . . . . . . . . . .",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p68_6",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 68,
+    "text": ". . . . . .5-43 Stopping . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .5-44 T Tires . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .6-49 TOWING . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .5-40 Trouble Shooting . . . . . . . . . . . . . . . . . . . . . . . . .8-58 Trouble Shooting Chart . . . . . . . . . . . . . . . . . . . .8-59 U UNITS WITH DIAGNOSTIC LAMPS . . . . . . . . . .5-45 Units With Optional Diagnostics Lamps . . . .",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p68_7",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 68,
+    "text": ".8-59 U UNITS WITH DIAGNOSTIC LAMPS . . . . . . . . . .5-45 Units With Optional Diagnostics Lamps . . . . . . .5-44 W WARRANTY . . . . . . . . . . . . . . . . . . . . . . . . . . . .2-14 WARRANTY REGISTRATION . . . . . . . . . . . . . .2-17 WATER COOLED ENGINE . . . . . . . . . . . . . . . .5-41",
+    "word_count": 93
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p69_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 69,
+    "text": "WORD INDEX\n9 - 2\nManual-Name",
+    "word_count": 6
+  },
+  {
+    "chunk_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28_p70_1",
+    "doc_id": "manuals_ingersoll_rand_compressor_operator_s_manual_811c1a28",
+    "filename": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "doc_type": "Ingersoll-Rand Compressor Operator's Manual.pdf",
+    "page": 70,
+    "text": "Portable Power Division\nIngersoll-Rand Company\nP.O.Box 868 - 501 Sanford Ave.\nMocksville, N.C. 27028\n\n\u00a92003 Ingersoll-Rand Company, Printed in the USA",
+    "word_count": 21
+  }
+]

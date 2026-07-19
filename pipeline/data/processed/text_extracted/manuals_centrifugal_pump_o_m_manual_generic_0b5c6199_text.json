@@ -1,0 +1,11 @@
+{
+  "doc_id": "manuals_centrifugal_pump_o_m_manual_generic_0b5c6199",
+  "filename": "Centrifugal Pump O&M Manual (generic).pdf",
+  "pages": [
+    {
+      "page": 1,
+      "text": "CENTRIFUGAL PUMPS OPERATION AND MAINTENANCE MANUAL \nBefore first use, the pump must be filled with liquid, otherwise  it will not be able to suction: \n- Open the bottom valve of the filled chamber \n- Use ejector to increase the flooding capacity of the pump (optional) \nTo prevent damage to the mechanical seals, the pump must not be operated without liquid.  \nWith the valve closed, the pump must not be operated at maximum speed for more than 1 minute.  \nWith the valve closed, the pump can be operated at idle speed and at maximum  \npressure of 3 bar for no more than 10 minutes. \nBETA-2 Pump: Integrated 3-Way Valve Pneumatic Control Switches (SA-SB)  \ncan only be used when the PTO is not included. \nMAINTENANCE CENTRIFUGAL PUMPS \nUnder normal conditions of use, the transmission oil should be changed every 6 months  \n(viscosity grade: SAE90 gear oil, hypoid). The plugs for filling, draining and checking the oil level are shown in the \nfigure below. Maintenance of the cardan shaft should be performed in accordance with the manufacturer's \nrecommendations.",
+      "extraction_method": "pymupdf"
+    }
+  ]
+}

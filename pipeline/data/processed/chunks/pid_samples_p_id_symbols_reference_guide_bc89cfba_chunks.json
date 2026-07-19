@@ -1,0 +1,821 @@
+[
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p1_1",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 1,
+    "text": "Guide to Piping Diagrams \n(P&ID's) \nDISCLAIMER: \nAll course materials available on this website are not to be construed as a representation or warranty on the part of Online-PDH, or other persons \nand/or organizations named herein. All course literature is for reference purposes only, and should not be used as a substitute for competent, \nprofessional engineering council. Use or application of any information herein, should be done so at the discretion of a licensed professional \nengineer in that given field of expertise. Any person(s) making use of this information, herein, does so at their own risk and assumes any and all \nliabilities arising therefrom. \nCopyright \u00a9 2009 Online-PDH - All Rights Reserved \n1265 San Juan Dr. - Merritt Island, FL 32952 \nPhone: 321-501-5601 \nOnline Continuing Education for Professional Engineers \nSince 2009 \nPDH Credits:  \n3 PDH \n \nCourse No.:  \nCFD101 \n \n \n \nPublication Source: \nUS Dept. of Energy \nFundamentals Handbook \u2013 Engineering Symbology, Prints, \nand Drawings \u2013 Module 2 \nPub. # DOE-HDBK-1016/1-93 \n  \nRelease Date: \nJan. 1993",
+    "word_count": 161
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p2_1",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 2,
+    "text": "Department of Energy\nFundamentals Handbook\n\nENGINEERING SYMBOLOGY, PRINTS,\nAND DRAWINGS\nModule 2\nEngineering Fluid\nDiagrams and Prints",
+    "word_count": 17
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p3_1",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 3,
+    "text": "Engineering Fluid Diagrams and Prints DOE-HDBK-1016/1-93 TABLE OF CONTENTS TABLE OF CONTENTS LIST OF FIGURES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . iii LIST OF TABLES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . v REFERENCES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . vi OBJECTIVES . . . . . . . . .",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p3_2",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 3,
+    "text": ". . . . . . . . . . . . . . vi OBJECTIVES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . vii ENGINEERING FLUIDS DIAGRAMS AND PRINTS . . . . . . . . . . . . . . . . . . . . . . . . 1 Symbology . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2 Valve Symbols . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p3_3",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 3,
+    "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3 Valve Actuators . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4 Control Valve Designations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6 Piping Systems . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p3_4",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 3,
+    "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7 Instrumentation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8 Sensing Devices and Detectors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10 Modifiers and Transmitters . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11 Indicators and Recorders . . . . . . . . . . . . . . . . . .",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p3_5",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 3,
+    "text": ". . . 11 Indicators and Recorders . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12 Controllers . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12 Examples of Simple Instrument Loops . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13 Components . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p3_6",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 3,
+    "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . 13 Miscellaneous P&ID Symbols . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15 READING ENGINEERING P&IDs . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16 Standards and Conventions for Valve Status . . . . . . . . . . . . . . . . .",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p3_7",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 3,
+    "text": ". 16 Standards and Conventions for Valve Status . . . . . . . . . . . . . . . . . . . . . . . . . . 16 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17 P&ID PRINT READING EXAMPLE . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18 Example . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18 Summary .",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p3_8",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 3,
+    "text": ". . . . . . . . . . . . . . . . . . . . . . 18 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22 Rev. 0 Page i PR-02",
+    "word_count": 79
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p4_1",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 4,
+    "text": "TABLE OF CONTENTS DOE-HDBK-1016/1-93 Engineering Fluid Diagrams and Prints TABLE OF CONTENTS FLUID POWER P&IDs . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23 Fluid Power Diagrams and Schematics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23 Pumps . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23 Reservoirs . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p4_2",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 4,
+    "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 24 Actuator . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 24 Piping . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 26 Valves . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p4_3",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 4,
+    "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27 Reading Fluid Power Diagrams . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30 Types of Fluid Power Diagrams . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 33 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35 PR-02 Page",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p4_4",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 4,
+    "text": ". . . . . . . . . . . . . . . . . . . . . . 35 PR-02 Page ii Rev. 0",
+    "word_count": 28
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p5_1",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 5,
+    "text": "Engineering Fluid Diagrams and Prints DOE-HDBK-1016/1-93 LIST OF FIGURES LIST OF FIGURES Figure 1 Valve Symbols . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3 Figure 2 Valve Actuator Symbols . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4 Figure 3 Remotely Controlled Valve . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4 Figure 4 Level Control Valve . . . . . . . . . . . . . . . . . . . . . . . .",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p5_2",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 5,
+    "text": "Valve . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5 Figure 5 Control Valves with Valve Positioners . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6 Figure 6 Control Valve Designations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6 Figure 7 Piping Symbols . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7 Figure 8 More Piping Symbols",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p5_3",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 5,
+    "text": ". . . . . . . . . . . . . . . . . . . 7 Figure 8 More Piping Symbols . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8 Figure 9 Detector and Sensing Device Symbols . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10 Figure 10 Transmitters and Instruments . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11 Figure 11 Indicators and Recorders . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p5_4",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 5,
+    "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12 Figure 12 Controllers . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12 Figure 13 Signal Conditioners . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12 Figure 14 Instrumentation System Examples . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13 Figure 15 Symbols for Major Components . . . . . . . .",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p5_5",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 5,
+    "text": ". . . . . . . . . . 13 Figure 15 Symbols for Major Components . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14 Figure 16 Miscellaneous Symbols . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15 Figure 17 Valve Status Symbols . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16 Figure 18 Exercise P&ID . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p5_6",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 5,
+    "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19 Figure 19 Fluid Power Pump and Compressor Symbols . . . . . . . . . . . . . . . . . . . . . . . 23 Figure 20 Fluid Power Reservoir Symbols . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 24 Figure 21 Symbols for Linear Actuators . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 25 Rev. 0 Page iii PR-02",
+    "word_count": 149
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p6_1",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 6,
+    "text": "LIST OF FIGURES DOE-HDBK-1016/1-93 Engineering Fluid Diagrams and Prints LIST OF FIGURES (Cont.) Figure 22 Symbols for Rotary Actuators . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 26 Figure 23 Fluid Power Line Symbols . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 26 Figure 24 Valve Operation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27 Figure 25 Valve Symbol Development . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p6_2",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 6,
+    "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 28 Figure 26 Fluid Power Valve Symbols . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 29 Figure 27 Simple Hydraulic Power System . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30 Figure 28 Line Diagram of Figure 27 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30 Figure 29 Typical Fluid Power Diagram . . . . . . . . . . . . . . . . . .",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p6_3",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 6,
+    "text": "30 Figure 29 Typical Fluid Power Diagram . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 31 Figure 30 Pictorial Fluid Power Diagram . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 33 Figure 31 Cutaway Fluid Power Diagram . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 34 Figure 32 Schematic Fluid Power Diagram . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 34 PR-02 Page iv Rev. 0",
+    "word_count": 165
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p7_1",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 7,
+    "text": "Engineering Fluid Diagrams and Prints\nDOE-HDBK-1016/1-93\nLIST OF TABLES\nLIST OF TABLES\nTable 1 Instrument Identifiers . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9\nRev. 0\nPage v\nPR-02",
+    "word_count": 64
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p8_1",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 8,
+    "text": "REFERENCES\nDOE-HDBK-1016/1-93\nEngineering Fluid Diagrams and Prints\nREFERENCES\n \nANSI Y14.5M - 1982, Dimensioning  and  Tolerancing, American National Standards\nInstitute.\n \nANSI Y32.2 - 1975, Graphic  Symbols  for  Electrical  and  Electronic  Diagrams, American\nNational Standards Institute.\n \nGasperini, Richard E., Digital   Troubleshooting, Movonics Company; Los Altos,\nCalifornia, 1976.\n \nJensen - Helsel, Engineering  Drawing  and  Design, Second Ed., McGraw-Hill Book\nCompany, New York, 1979.\n \nLenk, John D., Handbook   of   Logic   Circuits, Reston Publishing Company, Reston,\nVirginia, 1972.\n \nWickes, William E., Logic  Design  with  Integrated  Circuits, John Wiley & Sons, Inc,\n1968.\n \nNaval  Auxiliary  Machinery, United States Naval Institute, Annapolis, Maryland, 1951.\n \nTPC Training Systems, Reading Schematics and Symbols, Technical Publishing Company,\nBarrington, Illinois, 1974.\n \nArnell, Alvin, Standard  Graphical  Symbols, McGraw-Hill Book Company, 1963.\n \nGeorge Mashe, Systems   Summary   of   a   Westinghouse   Pressurized   Water   Reactor,\nWestinghouse Electric Corporation, 1971.\n \nZappe, R.W., Valve  Selection  Handbook, Gulf Publishing Company, Houston, Texas,\n1968.\nPR-02\nPage vi\nRev. 0",
+    "word_count": 149
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p9_1",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 9,
+    "text": "Engineering Fluid Diagrams and Prints\nDOE-HDBK-1016/1-93\nOBJECTIVES\nTERMINAL OBJECTIVE",
+    "word_count": 9
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p9_2",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 9,
+    "text": "Given an engineering print, READ and INTERPRET facility engineering Piping and\nInstrument Drawings.\nENABLING OBJECTIVES",
+    "word_count": 15
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p9_3",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 9,
+    "text": "IDENTIFY the symbols used on engineering P&IDs for the following types of valves: \na.\nGlobe valve\ng.\nRelief valve\nb.\nGate valve\nh.\nRupture disk\nc.\nBall valve\ni.\nThree-way valve\nd.\nCheck valve\nj.\nFour-way valve\ne.\nStop check valve\nk.\nThrottle (needle) valve\nf.\nButterfly valve\nl.\nPressure regulator",
+    "word_count": 51
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p9_4",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 9,
+    "text": "IDENTIFY the symbols used on engineering P&IDs for the following types of valve\noperators:\na.\nDiaphragm valve operator\nb.\nMotor valve operator\nc.\nSolenoid valve operator\nd.\nPiston (hydraulic) valve operator\ne.\nHand (manual) valve operator\nf.\nReach-rod valve operator",
+    "word_count": 40
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p9_5",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 9,
+    "text": "IDENTIFY the symbols used on engineering P&IDs for educators and ejectors.",
+    "word_count": 11
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p9_6",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 9,
+    "text": "IDENTIFY the symbols used on engineering P&IDs for the following lines:\na.\nProcess \nb.\nPneumatic\nc.\nHydraulic\nd.\nInert gas\ne.\nInstrument signal (electrical)\nf.\nInstrument capillary\ng.\nElectrical\nRev. 0\nPage vii\nPR-02",
+    "word_count": 34
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p10_1",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 10,
+    "text": "OBJECTIVES\nDOE-HDBK-1016/1-93\nEngineering Fluid Diagrams and Prints\nENABLING OBJECTIVES (cont.)",
+    "word_count": 10
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p10_2",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 10,
+    "text": "IDENTIFY the symbols used on engineering P&IDs for the following basic types of\ninstrumentation:\na.\nDifferential pressure cell\nb.\nTemperature element\nc.\nVenturi\nd.\nOrifice\ne.\nRotometer\nf.\nConductivity or salinity cell\ng.\nRadiation detector",
+    "word_count": 35
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p10_3",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 10,
+    "text": "IDENTIFY the symbols used on engineering P&IDs to denote the location, either local\nor board mounted, of instruments, indicators, and controllers.",
+    "word_count": 21
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p10_4",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 10,
+    "text": "IDENTIFY the symbols used on engineering P&IDs for the following types of instrument\nsignal controllers and modifiers:\na.\nProportional \nb.\nProportional-integral \nc.\nProportional-integral-differential\nd.\nSquare root extractors",
+    "word_count": 27
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p10_5",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 10,
+    "text": "IDENTIFY the symbols used on engineering P&IDs for the following types of system\ncomponents:\na.\nCentrifugal pumps\nb.\nPositive displacement pumps\nc.\nHeat exchangers\nd.\nCompressors\ne.\nFans\nf.\nTanks\ng.\nFilters/strainers\nPR-02\nPage viii\nRev. 0",
+    "word_count": 37
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p11_1",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 11,
+    "text": "Engineering Fluid Diagrams and Prints\nDOE-HDBK-1016/1-93\nOBJECTIVES\nENABLING OBJECTIVES (cont.)",
+    "word_count": 10
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p11_2",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 11,
+    "text": "STATE how the following valve conditions are depicted on an engineering P&ID:\na.\nOpen valve\nb.\nClosed valve\nc.\nThrottled valve\nd.\nCombination valves (3- or 4-way valve)\ne.\nLocked-closed valve\nf.\nLocked-open valve\ng.\nFail-open valve\nh.\nFail-closed valve\ni.\nFail-as-is valve",
+    "word_count": 43
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p11_3",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 11,
+    "text": "Given an engineering P&ID, IDENTIFY components and DETERMINE the flowpath(s)\nfor a given valve lineup.",
+    "word_count": 15
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p11_4",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 11,
+    "text": "IDENTIFY the symbols used on engineering fluid power drawings for the following\ncomponents:\na.\nPump\nb.\nCompressor\nc.\nReservoir\nd.\nActuators\ne.\nPiping and piping junctions\nf.\nValves",
+    "word_count": 28
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p11_5",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 11,
+    "text": "Given a fluid power type drawing, DETERMINE the operation or resultant action of the\nstated component when hydraulic pressure is applied/removed.\nRev. 0\nPage ix\nPR-02",
+    "word_count": 26
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p12_1",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 12,
+    "text": "DOE-HDBK-1016/1-93 Engineering Fluid Diagrams and Prints ENGINEERING FLUIDS DIAGRAMS AND PRINTS ENGINEERING FLUIDS DIAGRAMS AND PRINTS To read and understand engineering fluid diagrams and prints, usually referred to as P&IDs, an individual must be familiar with the basic symbols. EO 1.1 IDENTIFY the symbols used on engineering P&IDs for the following types of valves: a. Globe valve g. Relief valve b. Gate valve h. Rupture disk c. Ball valve i. Three-way valve d. Check valve j. Four-way valve e. Stop check valve k. Throttle (needle) valve f. Butterfly valve l. Pressure regulator EO 1.2 IDENTIFY the symbols used on engineering P&IDs for the following types of valve operators: a. Diaphragm valve operator b. Motor valve operator c. Solenoid valve operator d. Piston (hydraulic) valve operator e. Hand (manual) valve operator f. Reach rod valve operator EO 1.3 IDENTIFY the symbols used on engineering P&IDs for educators and ejectors. EO 1.4 IDENTIFY the symbols used on engineering P&IDs for the following lines: a. Process b. Pneumatic c. Hydraulic d. Inert gas e. Instrument signal (electrical) f. Instrument capillary g. Electrical Rev.",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p12_2",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 12,
+    "text": "engineering P&IDs for the following lines: a. Process b. Pneumatic c. Hydraulic d. Inert gas e. Instrument signal (electrical) f. Instrument capillary g. Electrical Rev. 0 PR-02 Page 1",
+    "word_count": 29
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p13_1",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 13,
+    "text": "DOE-HDBK-1016/1-93 ENGINEERING FLUIDS DIAGRAMS AND PRINTS Engineering Fluid Diagrams and Prints EO 1.5 IDENTIFY the symbols used on engineering P&IDs for the following basic types of instrumentation: a. Differential pressure cell b. Temperature element c. Venturi d. Orifice e. Rotometer f. Conductivity or salinity cell g. Radiation detector EO 1.6 IDENTIFY the symbols used on engineering P&IDs to denote the location, either local or board mounted, of instruments, indicators, and controllers. EO 1.7 IDENTIFY the symbols used on engineering P&IDs for the following types of instrument signal modifiers: a. Proportional b. Proportional-integral c. Proportional-integral-differential d. Square root extractors EO 1.8 IDENTIFY the symbols used on engineering P&IDs for the following types of system components: a. Centrifugal pumps b. Positive displacement pumps c. Heat exchangers d. Compressors e. Fans f. Tanks g. Filters/strainers Symbology To read and interpret piping and instrument drawings (P&IDs), the reader must learn the meaning of the symbols. This chapter discusses the common symbols that are used to depict fluid system components. When the symbology is mastered, the reader will be able to interpret most P&IDs. The",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p13_2",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 13,
+    "text": "common symbols that are used to depict fluid system components. When the symbology is mastered, the reader will be able to interpret most P&IDs. The reader should note that this chapter is only representative of fluid system symbology, rather than being all-inclusive. The symbols presented herein are those most commonly used in engineering P&IDs. The reader may expand his or her knowledge by obtaining and studying the appropriate drafting standards used at his or her facility. PR-02 Rev. 0 Page 2",
+    "word_count": 81
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p14_1",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 14,
+    "text": "DOE-HDBK-1016/1-93\nEngineering Fluid Diagrams and Prints\nENGINEERING FLUIDS DIAGRAMS AND PRINTS\nValve  Symbols\nValves are used to control the direction, flow rate, and pressure of fluids. Figure 1 shows the\nsymbols that depict the major valve types.\nIt shoud be noted that globe and gate valves will often be depicted by the same valve symbol.\nIn such cases, information concerning the valve type may be conveyed by the component\nidentification number or by the notes and legend section of the drawing; however, in many\ninstances even that may not hold true.\nFigure 1 Valve Symbols\nRev. 0\nPR-02\nPage 3",
+    "word_count": 100
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p15_1",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 15,
+    "text": "DOE-HDBK-1016/1-93 ENGINEERING FLUIDS DIAGRAMS AND PRINTS Engineering Fluid Diagrams and Prints Valve Actuators Some valves are provided with actuators to allow remote operation, to increase mechanical advantage, or both. Figure 2 shows the symbols for the common valve actuators. Note that although each is shown attached to a gate valve, an actuator can be attached to any type of valve body. If no actuator is shown on a valve symbol, it may be assumed the valve is equipped only with a handwheel for manual operation. The combination of a valve and an actuator is commonly called a control valve. Control valves Figure 2 Valve Actuator Symbols are symbolized by combining the appropriate valve symbol and actuator symbol, as illustrated in Figure 2. Control valves can be configured in many different ways. The most commonly found configurations are to manually control the actuator from a remote operating station, to automatically control the actuator from an instrument, or both. In many cases, remote control of a valve is accomplished Figure 3 Remotely Controlled Valve by using an intermediate, small control valve to",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p15_2",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 15,
+    "text": "or both. In many cases, remote control of a valve is accomplished Figure 3 Remotely Controlled Valve by using an intermediate, small control valve to operate the actuator of the process control valve. The intermediate control valve is placed in the line supplying motive force to the process control valve, as shown in Figure 3. In this example, air to the process air-operated control valve is controlled by the solenoid-operated, 3-way valve in the air supply line. The 3-way valve may supply air to the control valve's diaphragm or vent the diaphragm to the atmosphere. PR-02 Rev. 0 Page 4",
+    "word_count": 100
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p16_1",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 16,
+    "text": "DOE-HDBK-1016/1-93 Engineering Fluid Diagrams and Prints ENGINEERING FLUIDS DIAGRAMS AND PRINTS Note that the symbols alone in Figure 3 do not provide the reader with enough information to determine whether applying air pressure to the diaphragm opens or closes the process control valve, or whether energizing the solenoid pressurizes or vents the diaphragm. Further, Figure 3 is incomplete in that it does not show the electrical portion of the valve control system nor does it identify the source of the motive force (compressed air). Although Figure 3 informs the reader of the types of mechanical components in the control system and how they interconnect, it does not provide enough information to determine how those components react to a control signal. Control valves operated by an instrument signal are symbolized in the same manner as those shown previously, except the output of the controlling instrument goes to the valve actuator. Figure 4 shows a level instrument (designated \"LC\") that controls the level in the tank by positioning an air-operated diaphragm control valve. Again, note that Figure 4 does not contain enough",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p16_2",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 16,
+    "text": "(designated \"LC\") that controls the level in the tank by positioning an air-operated diaphragm control valve. Again, note that Figure 4 does not contain enough information to enable the reader to determine how the control valve responds to a change in level. Figure 4 Level Control Valve An additional aspect of some control valves is a valve positioner, which allows more precise control of the valve. This is especially useful when instrument signals are used to control the valve. An example of a valve positioner is a set of limit switches operated by the motion of the valve. A positioner is symbolized by a square box on the stem of the control valve actuator. The positioner may have lines attached for motive force, instrument signals, or both. Figure 5 shows two examples of valves equipped with positioners. Note that, although these examples are more detailed than those of Figure 3 and Figure 4, the reader still does not have sufficient information to fully determine response of the control valve to a change in control signal. Rev. 0 PR-02 Page 5",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p17_1",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 17,
+    "text": "DOE-HDBK-1016/1-93 ENGINEERING FLUIDS DIAGRAMS AND PRINTS Engineering Fluid Diagrams and Prints Figure 5 Control Valves with Valve Positioners In Example A of Figure 5, the reader can reasonably assume that opening of the control valve is in some way proportional to the level it controls and that the solenoid valve provides an override of the automatic control signals. However, the reader cannot ascertain whether it opens or closes the control valve. Also, the reader cannot determine in which direction the valve moves in response to a change in the control parameter. In Example B of Figure 5, the reader can make the same general assumptions as in Example A, except the control signal is unknown. Without additional information, the reader can only assume the air supply provides both the control signal and motive force for positioning the control valve. Even when valves are equipped with positioners, the positioner symbol may appear only on detailed system diagrams. Larger, overall system diagrams usually do not show this much detail and may only show the examples of Figure 5 as air-operated valves with",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p17_2",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 17,
+    "text": "diagrams. Larger, overall system diagrams usually do not show this much detail and may only show the examples of Figure 5 as air-operated valves with no special features. Control Valve Designations Figure 6 Control Valve Designations A control valve may serve any number of functions within a fluid system. To differentiate between valve uses, a balloon labeling system is used to identify the function of a control valve, as shown in Figure 6. The common convention is that the first letter used in the valve designator indicates the parameter to be controlled by the valve. For example: F = flow T = temperature L = level P = pressure H = hand (manually operated valve) The second letter is usually a \"C\" and identifies the valve as a controller, or active component, as opposed to a hand-operated valve. The third letter is a \"V\" to indicate that the piece of equipment is a valve. PR-02 Rev. 0 Page 6",
+    "word_count": 159
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p18_1",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 18,
+    "text": "DOE-HDBK-1016/1-93\nEngineering Fluid Diagrams and Prints\nENGINEERING FLUIDS DIAGRAMS AND PRINTS\nPiping  Systems\nFigure 7 Piping Symbols\nThe piping of a single system may\ncontain more than a single medium.\nFor example, although the main\nprocess flow line may carry water, the\nassociated auxiliary piping may carry\ncompressed air, inert gas, or hydraulic\nfluid. Also, a fluid system diagram\nmay also depict instrument signals and\nelectrical wires as well as piping.\nFigure 7 shows commonly used\nsymbols for indicating the medium\ncarried \nby the piping and \nfor\ndifferentiating \nbetween \npiping,\ninstrumentation signals, and electrical\nwires. \nNote that, although the\nauxiliary piping symbols identify their\nmediums, the symbol for the process\nflow line does not identify its medium.\nRev. 0\nPR-02\nPage 7",
+    "word_count": 122
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p19_1",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 19,
+    "text": "DOE-HDBK-1016/1-93 ENGINEERING FLUIDS DIAGRAMS AND PRINTS Engineering Fluid Diagrams and Prints The diagram may also depict Figure 8 More Piping Symbols the individual fittings comprising the piping runs depending on its intended use. Figure 8 shows symbols used to depict pipe fittings. Instrumentation One of the main purposes of a P&ID is to provide functional information about how instrumentation in a system or piece of equipment interfaces with the system or piece of equipment. Because of this, a large amount of the symbology appearing on P&IDs depicts instrumentation and instrument loops. The symbols used to represent instruments and their loops can be divided into four categories. Generally each of these four categories uses the component identifying (labeling) scheme identified in Table 1. The first column of Table 1 lists the letters used to identify the parameter being sensed or monitored by the loop or instrument. The second column lists the letters used to indicate the type of indicator or controller. The third column lists the letters used to indicate the type of component. The fourth column lists the letters used",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p19_2",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 19,
+    "text": "type of indicator or controller. The third column lists the letters used to indicate the type of component. The fourth column lists the letters used to indicate the type of signals that are being modified by a modifier. PR-02 Rev. 0 Page 8",
+    "word_count": 43
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p20_1",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 20,
+    "text": "DOE-HDBK-1016/1-93 Engineering Fluid Diagrams and Prints ENGINEERING FLUIDS DIAGRAMS AND PRINTS TABLE 1 Instrument Identifiers Sensed Parameter Type of Indicator or Controller Type of Component Type of signal F = flow T = temperature P = pressure I = current L = level V = voltage Z = position R = recorder I = indicator C = controller T = transmitter M = modifier E = element I = current V = voltage P = pneumatic The first three columns above are combined such that the resulting instrument identifier indicates its sensed parameter, the function of the instrument, and the type of instrument. The fourth column is used only in the case of an instrument modifier and is used to indicate the types of signals being modified. The following is a list of example instrument identifiers constructed from Table 1. FIC = flow indicating controller FM = flow modifier PM = pressure modifier TE = temperature element TR = temperature recorder LIC = level indicating controller TT = temperature transmitter PT = pressure transmitter FE = flow element FI =",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p20_2",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 20,
+    "text": "temperature element TR = temperature recorder LIC = level indicating controller TT = temperature transmitter PT = pressure transmitter FE = flow element FI = flow indicator TI = temperature indicator FC = flow controller Rev. 0 PR-02 Page 9",
+    "word_count": 40
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p21_1",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 21,
+    "text": "DOE-HDBK-1016/1-93\nENGINEERING FLUIDS DIAGRAMS AND PRINTS\nEngineering Fluid Diagrams and Prints\nSensing  Devices  and  Detectors\nThe parameters of any system are monitored for indication, control, or both. To create a usable\nsignal, a device must be inserted into the system to detect the desired parameter. In some cases,\na device is used to create special conditions so that another device can supply the necessary\nmeasurement. Figure 9 shows the symbols used for the various sensors and detectors.\nFigure 9 Detector and Sensing Device Symbols\nPR-02\nRev. 0\nPage 10",
+    "word_count": 89
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p22_1",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 22,
+    "text": "DOE-HDBK-1016/1-93 Engineering Fluid Diagrams and Prints ENGINEERING FLUIDS DIAGRAMS AND PRINTS Modifiers and Transmitters Sensors and detectors by themselves are not sufficient to create usable system indications. Each sensor or detector must be coupled with appropriate modifiers and/or transmitters. The exceptions are certain types of local instrumentation having mechanical readouts, such as bourdon tube pressure gages and bimetallic thermometers. Figure 10 illustrates various examples of modifiers and transmitters. Figure 10 also illustrates the common notations used to indicate the location of an instrument, i.e., local or board mounted. Transmitters are used to Figure 10 Transmitters and Instruments convert the signal from a sensor or detector to a form that can be sent to a r e m o t e p o i n t f o r processing, controlling, or monitoring. The output can be electronic (voltage or current), pneumatic, or hydraulic. Figure 10 illustrates symbols for several specific types of transmitters. The reader should note that modifiers may only be identified by the type of input and output signal (such as I/P for one that converts an electrical",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p22_2",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 22,
+    "text": "should note that modifiers may only be identified by the type of input and output signal (such as I/P for one that converts an electrical input to a pneumatic output) rather than by the monitored parameter (such as PM for pressure modifier). Rev. 0 PR-02 Page 11",
+    "word_count": 47
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p23_1",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 23,
+    "text": "DOE-HDBK-1016/1-93\nENGINEERING FLUIDS DIAGRAMS AND PRINTS\nEngineering Fluid Diagrams and Prints\nIndicators  and  Recorders\nFigure 11 Indicators and Recorders\nIndicators \nand \nrecorders \nare\ninstruments that convert the signal\ngenerated by an instrument loop\ninto a readable form. \nThe\nindicator or recorder may be\nlocally or board mounted, and like\nmodifiers and transmitters this\ninformation is indicated by the\ntype of symbol used. Figure 11\nprovides examples of the symbols\nused for indicators and recorders\nand how their location is denoted.\nControllers\nControllers process the signal from\nan instrument loop and use it to\nposition or manipulate some other\nsystem component. Generally they\nare denoted by placing a \"C\" in\nthe balloon after the controlling\nparameter as shown in Figure 12.\nThere are controllers that serve to\nprocess a signal and create a new\nsignal. These include proportional\ncontrollers, \nproportional-integral\ncontrollers, and proportional-integral-differential controllers. The symbols for these controllers\nare illustrated in Figure 13. \nNote that these types of controllers are also called signal\nconditioners.\nFigure 12 Controllers\nFigure 13 Signal Conditioners\nPR-02\nRev. 0\nPage 12",
+    "word_count": 176
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p24_1",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 24,
+    "text": "DOE-HDBK-1016/1-93 Engineering Fluid Diagrams and Prints ENGINEERING FLUIDS DIAGRAMS AND PRINTS Examples of Simple Instrument Loops Figure 14 shows two examples of Figure 14 Instrumentation System Examples simple instrument loops. Figure 14 (A) shows a temperature transmitter (TT), which generates two electrical signals. One signal goes to a board- mounted temperature recorder (TR) for display. The second signal is sent to a proportional-integral-derivative (PID) controller, the output of which is sent to a current-to-pneumatic modifier (I/P). In the I/P modifier, the electric signal is converted into a pneumatic signal, commonly 3 psi to 15 psi, which in turn operates the valve. The function of the complete loop is to modify flow based on process fluid temperature. Note that there is not enough information to determine how flow and temperature are related and what the setpoint is, but in some instances the setpoint is stated on a P&ID. Knowing the setpoint and purpose of the system will usually be sufficient to allow the operation of the instrument loop to be determined. The pneumatic level transmitter (LT) illustrated in Figure 14 (B)",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p24_2",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 24,
+    "text": "will usually be sufficient to allow the operation of the instrument loop to be determined. The pneumatic level transmitter (LT) illustrated in Figure 14 (B) senses tank level. The output of the level transmitter is pneumatic and is routed to a board-mounted level modifier (LM). The level modifier conditions the signal (possibly boosts or mathematically modifies the signal) and uses the modified signal for two purposes. The modifier drives a board-mounted recorder (LR) for indication, and it sends a modified pneumatic signal to the diaphragm-operated level control valve. Notice that insufficient information exists to determine the relationship between sensed tank level and valve operation. Components Within every fluid system there are major components such as pumps, tanks, heat exchangers, and fans. Figure 15 shows the engineering symbols for the most common major components. Rev. 0 PR-02 Page 13",
+    "word_count": 138
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p25_1",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 25,
+    "text": "DOE-HDBK-1016/1-93\nENGINEERING FLUIDS DIAGRAMS AND PRINTS\n\nEngineering Fluid Diagrams and Prints\n\nALTERNATIVES:\n\nALTERNATIVE:\n\nHEAT EXCHANGER:\n\nALTERNATIVES:\n\nCOMPRESSOR:\n\nALTERNATIVE:\n\nPOSITIVE DISPLACEMENT\nPUMP: OR\n\nCENTRIFUGAL PUMP: on\n\nO\n\nRECIPROCATING\n\nis\n\nROTARY\n\nGun\n\n{\n\n[ke\nVS\n\n\u00a9\nkh\n\nft a\n\nef\n\nSUBMERSIBLE\n\nFAN: Cy\n\nCENTRIFUGAL\n\nOR\n\nVANEAXIAL\n\nTANK: _ oR\n\nPROPELLER\n\n: 1Q1\nSTRAINER: 18 L- or\n\nFigure 15 Symbols for Major Components\n\nPR-02\n\nPage 14\n\nRev. 0",
+    "word_count": 65
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p26_1",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 26,
+    "text": "DOE-HDBK-1016/1-93\nEngineering Fluid Diagrams and Prints\nENGINEERING FLUIDS DIAGRAMS AND PRINTS\nMiscellaneous  P&ID  Symbols\nIn addition to the normal symbols used on P&IDs to represent specific pieces of equipment, there\nare miscellaneous symbols that are used to guide or provide additional information about the\ndrawing. Figure 16 lists and explains four of the more common miscellaneous symbols.\nFigure 16 Miscellaneous Symbols\nSummary\nThe important information in this chapter is summarized below.\nEngineering Fluids Diagrams and Prints Summary\n \nIn this chapter the common symbols found on P&IDs for valves, valve operators, process\npiping, instrumentation, and common system components were reviewed.\nRev. 0\nPR-02\nPage 15",
+    "word_count": 104
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p27_1",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 27,
+    "text": "READING ENGINEERING P&IDs DOE-HDBK-1016/1-93 Engineering Fluid Diagrams and Prints READING ENGINEERING P&IDs Standards and conventions have been developed to provide consistency from drawing to drawing. To accurately interpret a drawing, these standards and conventions must be understood. EO 1.9 STATE how the following valve conditions are depicted on an engineering P&ID drawing: a. Open valve b. Closed valve c. Throttled valve d. Combination valves (3- or 4- way valve) e. Locked-closed valve f. Locked-open valve g. Fail-open valves h. Fail-closed valve i. Fail-as-is valve Standards and Conventions for Valve Status Before a diagram or print can be Figure 17 Valve Status Symbols properly read and understood, the basic conventions used by P&IDs to denote valve positions and failure modes must be understood. The reader must be able to determine the valve position, know if this position is normal, know how the valve will fail, and in some cases know if the valve is normally locked in that position. Figure 17 illustrates the symbols used to indicate valve status. Unless otherwise stated, P&IDs indicate valves in their \"normal\" position. This is",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p27_2",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 27,
+    "text": "in that position. Figure 17 illustrates the symbols used to indicate valve status. Unless otherwise stated, P&IDs indicate valves in their \"normal\" position. This is usually interpreted as the normal or primary flowpath for the system. An exception is safety systems, which are normally shown in their standby or non-accident condition. 3-way valves are sometimes drawn in the position that they will fail to instead of always being drawn in their \"normal\" position. This will either be defined as the standard by the system of drawings or noted in some manner on the individual drawings. PR-02 Rev. 0 Page 16",
+    "word_count": 100
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p28_1",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 28,
+    "text": "Engineering Fluid Diagrams and Prints\nDOE-HDBK-1016/1-93\nREADING ENGINEERING P&IDs\nSummary\nThe important information in this chapter is summarized below.\n \nReading Engineering P&IDs Summary\n \nThis chapter reviewed the basic symbology, common standards, and conventions used on\nP&IDs, such as valve conditions and modes of failure. This information, with the\nsymbology learned in the preceding chapter, provides the information necessary to read\nand interpret most P&IDs.\nRev. 0\nPR-02\nPage 17",
+    "word_count": 69
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p29_1",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 29,
+    "text": "P&ID PRINT READING EXAMPLE\nDOE-HDBK-1016/1-93\nEngineering Fluid Diagrams and Prints\nP&ID PRINT READING EXAMPLE\nThe ability to read and understand prints is achieved through the repetitive\nreading of prints.\nEO 1.10\nGiven an engineering P&ID, IDENTIFY components and\nDETERMINE the flowpath(s) for a given valve lineup.\nExample\nAt this point, all the symbols for valves and major components have been presented, as have the\nconventions for identifying the condition of a system. Refer to Figure 18 as necessary to answer\nthe following questions. The answers are provided in the back of this section so that you may\njudge your own knowledge level.\nPR-02\nRev.0\nPage 18",
+    "word_count": 106
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p30_1",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 30,
+    "text": "Engineering Fluid Diagrams and Prints DOE-HDBK-1016/1-93 P&ID PRINT READING EXAMPLE\n\na oO =x _\noY Y Y oY\n\u2014 A L\\ \u00a3\\ NA\nNn WY Y Y + _V\n\u2014 ZA L\\ \u00a3\\ NA\n\n26\n\neS\nLs]\n\n[s}- 77\n>\n\n11\n23\n\n:\nN\n\na\n\n[re |\nV\nAN\nSt i\u2019\no>\n10\nFC\nW Cc)\nrx\nV\nAN\n\ni}\n\n'\nA\n19\n\n| 28\n\ni}\n\n32\n\nFigure 18 Exercise P&ID\n\nRev. 0 Page 19 PR-02",
+    "word_count": 76
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p31_1",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 31,
+    "text": "P&ID PRINT READING EXAMPLE\nDOE-HDBK-1016/1-93\nEngineering Fluid Diagrams and Prints\n1.\nIdentify the following components by letter or number.\n     \na.\nCentrifugal pump\n     \nb.\nHeat exchanger\n     \nc.\nTank\n     \nd.\nVenturi\n     \ne.\nRupture disc\n     \nf.\nRelief valve\n     \ng.\nMotor-operated valve\n     \nh.\nAir-operated valve\n     \ni.\nThrottle valve\n     \nj.\nConductivity cell\n     \nk.\nAir line\n     \nl.\nCurrent-to-pneumatic converter\n     \nm.\nCheck valve\n     \nn.\nA locked-closed valve\n     \no.\nA closed valve\n     \np.\nA locked-open valve\n     \nq.\nA solenoid valve\n2.\nWhat is the controlling parameter for Valves 10 and 21?\n3.\nWhich valves would need to change position in order for Pump B to supply flow to only\npoints G and H?\n4.\nWhich valves will fail open? Fail closed? Fail as is?\nPR-02\nRev.0\nPage 20",
+    "word_count": 120
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p32_1",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 32,
+    "text": "Engineering Fluid Diagrams and Prints\nDOE-HDBK-1016/1-93\nP&ID PRINT READING EXAMPLE\nAnswers for questions on Figure 18\n1.\na.\nA or B\nb.\nC or D\nc.\nE\nd.\n31\ne.\n1\nf.\n8 or 17\ng.\n2,3,7 or 16\nh.\n10, 21\ni.\n12 or 24\nj.\n26\nk.\n32\nl.\n28\nm.\n5 or 14\nn.\n18 or 19\no.\n18 or 19\np.\n4\nq.\n11 or 23\n2.\nTemperature as sensed by the temperature elements (TE)\n3.\nOpen 18 and/or 19\nShut 13 and 25\n4.\nFail Open:\n2 and 3\nFail Closed:\n10 and 21\nFail as is:\n7 and 16\nRev. 0\nPR-02\nPage 21",
+    "word_count": 110
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p33_1",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 33,
+    "text": "P&ID PRINT READING EXAMPLE\nDOE-HDBK-1016/1-93\nEngineering Fluid Diagrams and Prints\nSummary\nThe important information in this chapter is summarized below.\nP&ID Print Reading Example Summary\n \nThis chapter provided the student with examples in applying the material\nlearned in Chapters 1 and 2.\nPR-02\nRev.0\nPage 22",
+    "word_count": 46
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p34_1",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 34,
+    "text": "Engineering Fluid Diagrams and Prints DOE-HDBK-1016/1-93 FLUID POWER P&IDs FLUID POWER P&IDs Fluid power diagrams and schematics require an independent review because they use a unique set of symbols and conventions. EO 1.11 IDENTIFY the symbols used on engineering fluid power drawings for the following components: a. Pump d. Actuators b. Compressor e. Piping and piping junctions c. Reservoir f. Valves EO 1.12 Given a fluid power type drawing, DETERMINE the operation or resultant action of the stated component when hydraulic pressure is applied/removed. Fluid Power Diagrams and Schematics Different symbology is used when dealing with systems that operate with fluid power. Fluid power includes either gas (such as air) or hydraulic (such as water or oil) motive media. Some of the symbols used in fluid power systems are the same or similar to those already discussed, but many are entirely different. Figure 19 Fluid Power Pump and Compressor Symbols Fluid power systems are divided into five basic parts: pumps, reservoirs, actuators, valves, and lines. Pumps In the broad area of fluid power, two categories of pump symbols are used,",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p34_2",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 34,
+    "text": "into five basic parts: pumps, reservoirs, actuators, valves, and lines. Pumps In the broad area of fluid power, two categories of pump symbols are used, depending on the motive media being used (i.e., hydraulic or pneumatic). The basic symbol for the pump is a circle containing one or more arrow heads indicating the direction(s) of flow with the points of the arrows in contact with the circle. Hydraulic pumps are shown by solid arrow heads. Pneumatic compressors are represented by hollow arrow heads. Figure 19 provides common symbols used for pumps (hydraulic) and compressors (pneumatic) in fluid power diagrams. Rev. 0 PR-02 Page 23",
+    "word_count": 104
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p35_1",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 35,
+    "text": "FLUID POWER P&IDs\nDOE-HDBK-1016/1-93\nEngineering Fluid Diagrams and Prints\nReservoirs\nReservoirs provide a location for storage of the motive media (hydraulic fluid or compressed gas).\nAlthough the symbols used to represent reservoirs vary widely, certain conventions are used to\nindicate how a reservoir handles the fluid. Pneumatic reservoirs are usually simple tanks and\ntheir symbology is usually some variation of the cylinder shown in Figure 20. Hydraulic\nreservoirs can be much more complex in terms of how the fluid is admitted to and removed from\nthe tank. To convey this information, symbology conventions have been developed. These\nsymbols are in Figure 20.\nFigure 20 Fluid Power Reservoir Symbols\nActuator\nAn actuator in a fluid power system is any device that converts the hydraulic or pneumatic\npressure into mechanical work. Actuators are classified as linear actuators and rotary actuators.\nLinear actuators have some form of piston device. Figure 21 illustrates several types of linear\nactuators and their drawing symbols.\nPR-02\nRev. 0\nPage 24",
+    "word_count": 163
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p36_1",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 36,
+    "text": "Engineering Fluid Diagrams and Prints\nDOE-HDBK-1016/1-93\nFLUID POWER P&IDs\nRotary actuators are generally called motors and may be fixed or variable. Several of the more\nFigure 21 Symbols for Linear Actuators\ncommon rotary symbols are shown in Figure 22. Note the similarity between rotary motor\nsymbols in Figure 22 and the pump symbols shown in Figure 19. The difference between them\nis that the point of the arrow touches the circle in a pump and the tail of the arrow touches the\ncircle in a motor.\nRev. 0\nPR-02\nPage 25",
+    "word_count": 91
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p37_1",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 37,
+    "text": "FLUID POWER P&IDs\nDOE-HDBK-1016/1-93\nEngineering Fluid Diagrams and Prints\nFigure 22 Symbols for Rotary Actuators\nPiping\nThe sole purpose of piping in a fluid power system is to transport the working media, at pressure,\nfrom one point to another. The symbols for the various lines and termination points are shown\nin Figure 23.\nFigure 23 Fluid Power Line Symbols\nPR-02\nRev. 0\nPage 26",
+    "word_count": 64
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p38_1",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 38,
+    "text": "Engineering Fluid Diagrams and Prints DOE-HDBK-1016/1-93 FLUID POWER P&IDs Valves Valves are the most complicated symbols in fluid power systems. Valves provide the control that is required to ensure that the motive media is routed to the correct point when needed. Fluid power system diagrams require much more complex valve symbology than standard P&IDs due to the complicated valving used in fluid power systems. In a typical P&ID, a valve opens, closes, or throttles the process fluid, but is rarely required to route the process fluid in any complex manner (three- and four-way valves being the common exceptions). In fluid power systems it is common for a valve to have three to eight pipes attached to the valve body, with the valve being capable of routing the fluid, or several separate fluids, in any number of combinations of input and output flowpaths. The symbols used to represent fluid power valves must contain much more information than the standard P&ID valve symbology. To meet this need, the valve symbology shown in the following figures was developed for fluid power P&IDs. Figure",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p38_2",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 38,
+    "text": "than the standard P&ID valve symbology. To meet this need, the valve symbology shown in the following figures was developed for fluid power P&IDs. Figure 24, a cutaway view, provides an example of the internal complexity of a simple fluid power type valve. Figure 24 illustrates a four-way/three-position valve and how it operates to vary the flow of the fluid. Note that in Figure 24 the operator of the valve is not identified, but like a standard process fluid valve the valve could be operated by a diaphragm, motor, hydraulic, solenoid, or manual operator. Fluid power valves, when electrically operated by a solenoid, are drawn in the de-energized position. Energizing the solenoid will cause the valve to shift to the other port. If the valve is operated by other than a solenoid or is a multiport valve, the information necessary to determine how the valve operates will be provided on each drawing or on its accompanying legend print. Figure 24 Valve Operation Rev. 0 PR-02 Page 27",
+    "word_count": 167
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p39_1",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 39,
+    "text": "FLUID POWER P&IDs\nDOE-HDBK-1016/1-93\nEngineering Fluid Diagrams and Prints\nRefer to Figure 25 to see how the valve in Figure 24 is transformed into a usable symbol.\nFigure 25 Valve Symbol Development\nPR-02\nRev. 0\nPage 28",
+    "word_count": 37
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p40_1",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 40,
+    "text": "Engineering Fluid Diagrams and Prints\nDOE-HDBK-1016/1-93\nFLUID POWER P&IDs\nFigure 26 shows symbols for the various valve types used in fluid power systems.\nFigure 26 Fluid Power Valve Symbols\nRev. 0\nPR-02\nPage 29",
+    "word_count": 34
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p41_1",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 41,
+    "text": "FLUID POWER P&IDs\nDOE-HDBK-1016/1-93\nEngineering Fluid Diagrams and Prints\nReading Fluid Power Diagrams\nFigure 27 Simple Hydraulic Power System\nUsing \nthe symbology \npreviously\ndiscussed, a fluid power diagram can\nnow be read. But before reading some\ncomplex examples, let's look at a\nsimple hydraulic system and convert it\ninto a fluid power diagram.\nUsing the drawing in Figure 27, the\nleft portion of Figure 28 lists each part\nand its fluid power symbol. The right\nside of Figure 28 shows the fluid\npower diagram that represents the\ndrawing in Figure 27.\nFigure 28 Line Diagram of Simple Hydraulic Power System\nPR-02\nRev. 0\nPage 30",
+    "word_count": 105
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p42_1",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 42,
+    "text": "Engineering Fluid Diagrams and Prints\nDOE-HDBK-1016/1-93\nFLUID POWER P&IDs\nWith an understanding of the principles involved in reading fluid power diagram, any diagram\ncan be interpreted. Figure 29 shows the kind of diagram that is likely to be encountered in the\nengineering field. To read this diagram, a step-by-step interpretation of what is happening in the\nsystem will be presented.\nFigure 29 Typical Fluid Power Diagram\nThe first step is to get an overall view of what is happening. The arrows between A and B in\nthe lower right-hand corner of the figure indicate that the system is designed to press or clamp\nsome type of part between two sections of the machine. Hydraulic systems are often used in\npress work or other applications where the work piece must be held in place.\nRev. 0\nPR-02\nPage 31",
+    "word_count": 138
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p43_1",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 43,
+    "text": "FLUID POWER P&IDs DOE-HDBK-1016/1-93 Engineering Fluid Diagrams and Prints With the basic function understood, a detailed study of the diagram can be accomplished using a step-by-step analysis of each numbered local area in the diagram. LOCAL AREA NUMBER 1 Symbol for an open reservoir with a strainer. The strainer is used to clean the oil before it enters the system. LOCAL AREA NUMBER 2 Fixed displacement pump, electrically operated. This pump provides hydraulic pressure to the system. LOCAL AREA NUMBER 3 Symbol for a relief valve with separate pressure gage. The relief valve is spring operated and protects the system from over pressurization. It also acts as an unloader valve to relieve pressure when the cylinder is not in operation. When system pressure exceeds its setpoint, the valve opens and returns the hydraulic fluid back to the reservoir. The gage provides a reading of how much pressure is in the system. LOCAL AREA NUMBER 4 Composite symbol for a 4-way, 2-position valve. Pushbutton PB-1 is used to activate the valve by energizing the S-1 solenoid (note the valve is shown",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p43_2",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 43,
+    "text": "Composite symbol for a 4-way, 2-position valve. Pushbutton PB-1 is used to activate the valve by energizing the S-1 solenoid (note the valve is shown in the de-energized position). As shown, the high pressure hydraulic fluid is being routed from Port 1 to Port 3 and then to the bottom chamber of the piston. This drives and holds the piston in local area #5 in the retracted position. When the piston is fully retracted and hydraulic pressure builds, the unloader (relief) valve will lift and maintain the system's pressure at setpoint. When PB-1 is pushed and S-1 energized, the 1-2 ports are aligned and 3-4 ports are aligned. This allows hydraulic fluid to enter the top chamber of the piston and drive it down. The fluid in the bottom chamber drains though the 3-4 ports back into the reservoir. The piston will continue to travel down until either PB-1 is released or full travel is reached, at which point the unloader (relief) valve will lift. LOCAL AREA NUMBER 5 Actuating cylinder and piston. The cylinder is designed to receive fluid",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p43_3",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 43,
+    "text": "reached, at which point the unloader (relief) valve will lift. LOCAL AREA NUMBER 5 Actuating cylinder and piston. The cylinder is designed to receive fluid in either the upper or lower chambers. The system is designed so that when pressure is applied to the top chamber, the bottom chamber is aligned to drain back to the reservoir. When pressure is applied to the bottom chamber, the top chamber is aligned so that it drains back to the reservoir. PR-02 Rev. 0 Page 32",
+    "word_count": 83
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p44_1",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 44,
+    "text": "Engineering Fluid Diagrams and Prints DOE-HDBK-1016/1-93 FLUID POWER P&IDs Types of Fluid Power Diagrams Several kinds of diagrams can be used to show how systems work. With an understanding of how to interpret Figure 29, a reader will be able to interpret all of the diagrams that follow. A pictorial diagram shows the physical arrangement of the elements in a system. The components are outline drawings that show the external shape of each item. Pictorial drawings do not show the internal function of the elements and are not especially valuable for maintenance or troubleshooting. Figure 30 shows a pictorial diagram of a system. A cutaway diagram shows both the physical arrangement and the operation of the different Figure 30 Pictorial Fluid Power Diagram components. It is generally used for instructional purposes because it explains the functions while showing how the system is arranged. Because these diagrams require so much space, they are not usually used for complicated systems. Figure 31 shows the system represented in Figure 30 in cutaway diagram format and illustrates the similarities and differences between the two",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p44_2",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 44,
+    "text": "for complicated systems. Figure 31 shows the system represented in Figure 30 in cutaway diagram format and illustrates the similarities and differences between the two types of diagrams. Rev. 0 PR-02 Page 33",
+    "word_count": 33
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p45_1",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 45,
+    "text": "FLUID POWER P&IDs\nDOE-HDBK-1016/1-93\nEngineering Fluid Diagrams and Prints\nFigure 31 Cutaway Fluid Power Diagram \nA schematic diagram uses symbols to show the elements in a system. Schematics are designed\nto supply the functional information of the system. They do not accurately represent the relative\nlocation of the components. Schematics are useful in maintenance work, and understanding them\nis an important part of troubleshooting. Figure 32 is a schematic diagram of the system\nillustrated in Figure 30 and Figure 31.\nFigure 32 Schematic Fluid Power Diagram\nPR-02\nRev. 0\nPage 34",
+    "word_count": 91
+  },
+  {
+    "chunk_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba_p46_1",
+    "doc_id": "pid_samples_p_id_symbols_reference_guide_bc89cfba",
+    "filename": "P&ID Symbols Reference Guide.pdf",
+    "doc_type": "P&ID Symbols Reference Guide.pdf",
+    "page": 46,
+    "text": "Engineering Fluid Diagrams and Prints\nDOE-HDBK-1016/1-93\nFLUID POWER P&IDs\nSummary\nThe important information in this chapter is summarized below.\nFluid Power P&IDs Summary\n \nThis chapter reviewed the most commonly used symbols on fluid power\ndiagrams and the basic standards and conventions for reading and\ninterpreting fluid power diagrams. \nRev. 0\nPR-02\nPage 35",
+    "word_count": 53
+  }
+]

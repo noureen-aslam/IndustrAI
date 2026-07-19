@@ -1,0 +1,434 @@
+[
+  {
+    "chunk_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a_p1_1",
+    "doc_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a",
+    "filename": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "doc_type": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "page": 1,
+    "text": "PDH Academy\n\nPiping and Instrumentation\nDiagrams\n\nby\n\nMark Ludwigson, P.E., PMP\n\nCourse 462\n4 PDH (4 Hours)\n\nPO Box 449\nPewaukee, WI 53072\n(888) 564 - 9098\nsupport@pdhacademy.com\n\nPage 1 of 42",
+    "word_count": 32
+  },
+  {
+    "chunk_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a_p2_1",
+    "doc_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a",
+    "filename": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "doc_type": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "page": 2,
+    "text": "Piping and Instrumentation Diagrams \n \nCopyright\u00a9 2021 Mark Ludwigson \nPage 2 of 42 \nCourse Outline: \nOverview of P&IDs \nOther Types of Diagrams \nIndustry Standards \nLetter Designations \nSymbols \nControl Loops \nHelpful References \nExamination \n462.pdf",
+    "word_count": 32
+  },
+  {
+    "chunk_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a_p3_1",
+    "doc_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a",
+    "filename": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "doc_type": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "page": 3,
+    "text": "Piping and Instrumentation Diagrams Copyright\u00a9 2021 Mark Ludwigson Page 3 of 42 Overview of P&IDs Piping and Instrumentation Diagrams (P&IDs) are drawings showing piping and communications as schematic (unscaled) lines and control features as symbols. P&IDs illustrate the functional relationship of piping, instrumentation, equipment, and controllers. They are usually located in the instrumentation drawings in a project drawing set. P&IDs are commonly made by process engineers, controls engineers, and electrical engineers. The main purpose of a P&ID is to indicate if devices are automatically controlled, and if so, how they are interlocked with instruments. P&IDs convey the interconnectivity of automated components. See Figure 1 for an example in which there is interconnectivity between a pump (P-4-3) and a solenoid valve (FV-4-3) for controlling seal water to the mechanical seals on the pump. To conserve water, the seal water should only flow when the pump is operating. The wiring from the motor starter (MS) to the solenoid (S) allows for the automated control of the seal water. Figure 1: Example P&ID for a pump and a valve. For Figure 1, the",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a_p3_2",
+    "doc_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a",
+    "filename": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "doc_type": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "page": 3,
+    "text": "solenoid (S) allows for the automated control of the seal water. Figure 1: Example P&ID for a pump and a valve. For Figure 1, the control description is as follows: Valve FV-4-3 shall open when pump P-4-3 turns on. Valve FV-4-3 shall close when pump P-4-3 turns off. SEAL WATER MCC-1 P-4-3 462.pdf",
+    "word_count": 53
+  },
+  {
+    "chunk_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a_p4_1",
+    "doc_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a",
+    "filename": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "doc_type": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "page": 4,
+    "text": "Piping and Instrumentation Diagrams Copyright\u00a9 2021 Mark Ludwigson Page 4 of 42 P&IDs are helpful for the following reasons, organized by project phase: \u2022 Design: o Helps coordinate instrumentation, controls, and wiring details between process engineers, controls engineers, and electrical engineers. o Helps to create detailed control descriptions and control loops. o Used to develop Hazard and Operability Studies (HAZOP). \u2022 Procurement: o Specifies instrumentation and controls details needed for obtaining quotes. o Provides control details needed for estimating programming costs. \u2022 Construction: o Specifies details needed for purchasing and installing instruments, electrical devices, and controls components. o Provides details needed for the programming of controllers. o Helps confirm that communication wires have been terminated correctly. o Field changes can be easily recorded on as-built drawings. o Utilized during startup and training to understand the function of the system or process. \u2022 Operation: o As-built P&IDs provide control details needed for making operation decisions. o P&ID format is easy to understand compared to programing code or written descriptions. o Operators can read the P&IDs and understand operations options. o Helpful",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a_p4_2",
+    "doc_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a",
+    "filename": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "doc_type": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "page": 4,
+    "text": "P&ID format is easy to understand compared to programing code or written descriptions. o Operators can read the P&IDs and understand operations options. o Helpful for a Job Hazard Analysis (JHA). o Helps when preparing for system modifications as part of Management of Change (MOC). 462.pdf",
+    "word_count": 46
+  },
+  {
+    "chunk_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a_p5_1",
+    "doc_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a",
+    "filename": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "doc_type": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "page": 5,
+    "text": "Piping and Instrumentation Diagrams \n \nCopyright\u00a9 2021 Mark Ludwigson \nPage 5 of 42 \nTypical steps to create a P&ID are as follows: \n1. Block flow diagram is created.\n2. Process flow diagram (PFD) is created.\n3. High-level control descriptions are written.\n4. Draft P&IDs are created using process flow diagrams as backgrounds.\n5. Areas are drawn at the top of P&IDs for controllers, MCCs (motor control\ncenters), and/or SCADA (supervisory control and data acquisition).\n6. Symbols and labels are added to P&IDs for control features.\n7. Wiring is drawn on P&IDs to connect electrical devices with controllers, MCCs,\nand/or SCADA.\n8. Detailed control descriptions are completed.\n9. Control loops are defined, typically in a table format.\n10. Identification numbers on P&IDs are matched with control descriptions and\ncontrol loops.\n11. Quality review performed and corrections made.\n462.pdf",
+    "word_count": 136
+  },
+  {
+    "chunk_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a_p6_1",
+    "doc_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a",
+    "filename": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "doc_type": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "page": 6,
+    "text": "Piping and Instrumentation Diagrams \n \nCopyright\u00a9 2021 Mark Ludwigson \nPage 6 of 42 \nOther Types of Diagrams \nPiping and Instrumentation Diagrams are also called Process and Instrumentation \nDiagrams since the focus is more on the process than the piping. Both are referred to \nas P&IDs. P&IDs are related to the following other types of engineering diagrams.  \nBlock Flow Diagram \nIn the planning stage or early in design, a block flow diagram is commonly made by a \nprocess engineer. Block flow diagrams show the main processes as rectangles or \ncircles with lines and arrows for the main flow paths. See Figure 2 for an example of a \nblock flow diagram for a water treatment system. \nFigure 2: Example of a block flow diagram \nSource: \u201cArsenic Removal from Drinking Water by Ion Exchange and Activated Alumina Plants\u201d, EPA 600/R-00/088 \nDISINFECTION \n462.pdf",
+    "word_count": 138
+  },
+  {
+    "chunk_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a_p7_1",
+    "doc_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a",
+    "filename": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "doc_type": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "page": 7,
+    "text": "Copyright\u00a9 2021 Mark Ludwigson \nPage 7 of 42 \nPiping and Instrumentation Diagrams \n \nProcess Flow Diagram \nProcess flow diagrams (PFDs) are created by process or mechanical engineers early in \nthe design stage. A PFD is a drawing with lines for piping and symbols for major \ncomponents such as pumps, tanks, mixers, and flow meters. Ideally, all major \ncomponents should be identified, including instrumentation. See Figures 3 and 4 for \nexamples.  \nPFDs are often given to electrical and controls engineers to create P&IDs. PFDs are \noften used as the background in CAD for creating the P&IDs. Control and \ncommunication details are added to the PFD backgrounds to make P&IDs.  \nFigure 3: Example PFD with basic features. This drawing could be a starting point for \ncreating a P&ID with control and communication details. \nSource: www.epa.gov/sites/default/files/2019-07/documents/wbs-ixclo4-documentation-june-2019.pdf (public domain) \nBackwash to Waste \n462.pdf",
+    "word_count": 138
+  },
+  {
+    "chunk_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a_p8_1",
+    "doc_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a",
+    "filename": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "doc_type": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "page": 8,
+    "text": "Piping and Instrumentation Diagrams \n \nCopyright\u00a9 2021 Mark Ludwigson \nPage 8 of 42 \nFigure 4: Example PFD with details such as pipe size, fluid type and \nmotorized/automated valves shown with an \u201cM\u201d in a box. \nIt is common for a legend drawing to be included with a drawing set to define the \nsymbols, abbreviations, line types, shading, etc., utilized on the PFDs and P&IDs. \nSometimes there are common legend drawings and sometimes there are separate \nlegend drawings for PFDs and P&IDs. \n3\u201d Air \n3\u201d Air \n3\u201d Reg. Inf. \n3\u201d Reg. Inf. \n10\u201d Treated \n8\u201d Influent \n8\u201d Backwash \n8\u201d Backwash \n6\u201d Reg. Inf. \n6\u201d Reg. Eff. \n\u00bc\u201d Sample \n8\u201d Treated \n\u00bc\u201d Sample \n\u00bd\u201d Sample \nTo Vessel No. 2 \nFrom Vessel No. 2 \nTo Waste \nFrom Brine Dilution Panel \nFlow Meter \nTo Disinfection \n462.pdf",
+    "word_count": 131
+  },
+  {
+    "chunk_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a_p9_1",
+    "doc_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a",
+    "filename": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "doc_type": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "page": 9,
+    "text": "Piping and Instrumentation Diagrams \n \nCopyright\u00a9 2021 Mark Ludwigson \nPage 9 of 42 \nInstrument Schematic \nInstrument schematics (or diagrams) are detailed drawings for particular instruments. \nThey show wiring details with some control logic notes that pertain only to that \ninstrument. See Figure 5 for an example. Instrument schematics differ from a P&ID \nwhich shows the interconnectivity of various instruments, equipment, and panels. \nFigure 5: Example instrument schematic for a flow meter. \n462.pdf",
+    "word_count": 71
+  },
+  {
+    "chunk_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a_p10_1",
+    "doc_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a",
+    "filename": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "doc_type": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "page": 10,
+    "text": "Piping and Instrumentation Diagrams \n \nCopyright\u00a9 2021 Mark Ludwigson \nPage 10 of 42 \nWiring Diagram \nA wiring diagram shows circuit components as simplified shapes with power and signal \nwiring between the devices, terminal blocks, and input/output (I/O) cards. See Figure 6 \nfor an example. This differs from P&IDs which show pipes and the relative locations of \ninstruments and equipment. \nFigure 6: Example wiring diagram for a pressure transmitter (PIT-3),  \na 24-volt level transmitter (LIT-6), and a 120-volt level transmitter (LIT-7). \n462.pdf",
+    "word_count": 80
+  },
+  {
+    "chunk_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a_p11_1",
+    "doc_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a",
+    "filename": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "doc_type": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "page": 11,
+    "text": "Copyright\u00a9 2021 Mark Ludwigson \nPage 11 of 42 \nPiping and Instrumentation Diagrams \n \nSCADA Network Diagram \nA SCADA (supervisory control and data acquisition) network diagram, also called a \nSCADA architecture diagram, is a block diagram showing the basic SCADA architecture \nand communication channels between devices, controllers, and computers. This differs \nfrom a P&ID because it lacks the locations of instruments on the piping network and it \ndoes not indicate control details. See Figure 7 for an example. \nFigure 7: Example SCADA Network Diagram. \nSource: https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-82r2.pdf \n462.pdf",
+    "word_count": 85
+  },
+  {
+    "chunk_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a_p12_1",
+    "doc_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a",
+    "filename": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "doc_type": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "page": 12,
+    "text": "Piping and Instrumentation Diagrams \n \nCopyright\u00a9 2021 Mark Ludwigson \nPage 12 of 42 \nLogic Diagram \nTypes of logic diagrams included ladder logic diagrams, binary logic diagrams, and \nBoolean logic diagrams (also called relay logic diagrams). See Figures 8 and 9 for \nexamples. Logic diagrams convey control descriptions pictorially. This differs from a \nP&ID because it does not show the location of instruments on the piping and does not \nshow communications wiring. \nFigure 8: Example Ladder Logic Diagram \nSource: https://www.osti.gov/servlets/purl/1468198 \nFigure 9: Boolean (or relay) logic diagrams showing alternate A or B (left), \nand alternate A and B (right). \nhttps://commons.wikimedia.org/wiki/File:Switch_alternate_and_or.png, Copyright \u00a9 Dysprosia \n462.pdf",
+    "word_count": 102
+  },
+  {
+    "chunk_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a_p13_1",
+    "doc_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a",
+    "filename": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "doc_type": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "page": 13,
+    "text": "Piping and Instrumentation Diagrams Copyright\u00a9 2021 Mark Ludwigson Page 13 of 42 Industry Standards There are numerous standards developed for creating P&IDs. The most common standard is ANSI/ISA 5.1 entitled \u201cInstrumentation Symbols and Identification\u201d. A summary of common standards is provided in Table 1. Table 1: Summary of Standards for P&IDs Standard No. Title Pages Sector Topics Covered ANSI/ISA 5.1 Instrumentation Symbols and Identification 128 All Identification Letters Table Graphic Symbols Symbol Dimensions ISA 5.3 Graphic Symbols for Distributed Control / Shared Display Instrumentation, Logic and Computer Systems 79 Computer SCADA Symbols Identification Alarms Computer Symbols and Logic IEC 60617 Graphical Symbols for Diagrams 1900 All Database of Symbols ISO 10628 Diagrams for the Chemical and Petrochemical Industry 22 Chemical Petro Letter Symbols ISO 14617 Parts 1 to 15 Graphical Symbols for Diagrams 300 All Functional Links Control Loops Processing Functions Logic Functions ISO 15519 Parts 1 & 2 Specification for Diagrams for Process Industry 25 Process Block Diagrams, PFDs, P&ID Layout Connecting Lines Inscription, Scale, Limits PIP PIC001 Piping and Instrumentation Diagram Documentation Criteria 79 All Industry Standards Equipment,",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a_p13_2",
+    "doc_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a",
+    "filename": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "doc_type": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "page": 13,
+    "text": "25 Process Block Diagrams, PFDs, P&ID Layout Connecting Lines Inscription, Scale, Limits PIP PIC001 Piping and Instrumentation Diagram Documentation Criteria 79 All Industry Standards Equipment, Piping, Instrumentation, Controls EN 62424 Representation of Process Control Engineering 175 All P&ID Software and Controls Interfaces It is common for companies to have their own library of standard symbols and abbreviations. These unique libraries typically include many symbols from reference standards, but also have unique symbols and abbreviations based on the unique systems being designed. 462.pdf",
+    "word_count": 82
+  },
+  {
+    "chunk_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a_p14_1",
+    "doc_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a",
+    "filename": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "doc_type": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "page": 14,
+    "text": "Piping and Instrumentation Diagrams Copyright\u00a9 2021 Mark Ludwigson Page 14 of 42 Letter Designations P&IDs are busy drawings without a lot of space for lengthy descriptions and specifications. Therefore, letter abbreviations (called letter designations) are used for device labels, control loops, and device functions. See Figure 10 for an example of a P&ID with the letter designations defined in a legend. Figure 10: Example P&ID with a legend defining letter designations. The level sensor 0011 sends a discrete signal to start pump P001 when a high level is reached. Source: https://commons.wikimedia.org/wiki/File:Pump_with_tank_pid_en.svg, modified, Con-struct, CC-BY-SA-3.0 In Figure 10, \u201cM\u201d could mean Motor or Manway. Based on the context, the M1 on the side of the tank is the Manway, and the M in the circle is a Motor for a pump. It is up to the design engineer to make sure any letters used for multiple designations are sufficiently clear on the drawings. Notes can be added to clarify any unclear letter designations. It is common to utilize a table format for identifying the letter designations for instrument functions (the two",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a_p14_2",
+    "doc_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a",
+    "filename": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "doc_type": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "page": 14,
+    "text": "added to clarify any unclear letter designations. It is common to utilize a table format for identifying the letter designations for instrument functions (the two or three letters shown inside circles). Table 2 provides the letter designations per ISA 5.1. Many companies develop a standard letter designation table based on common usage. This table can be included with the symbol definitions on a common legend drawing for the P&IDs. Legend AL = Alarm Low D = Discrete L = Level M = Motor or Manway N = Nozzle T = Tank PA = Pressure Action PI = Pressure Indicator SH = Signal High D 462.pdf",
+    "word_count": 105
+  },
+  {
+    "chunk_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a_p15_1",
+    "doc_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a",
+    "filename": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "doc_type": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "page": 15,
+    "text": "Piping and Instrumentation Diagrams Copyright\u00a9 2021 Mark Ludwigson Page 15 of 42 Table 2: Common Letter Designations in P&IDs for Instrument Functions Letter First Letter Additional Letter(s) Measured Value Modifier Readout or Passive Function Output or Active Function Function Modifier A Analysis Alarm B Burner, combustion User choice User choice User choice C User's choice (usually conductivity) Control Close D User's choice (usually density) Difference, Differential Deviation E Voltage Sensor F Flow rate Ratio G User's choice (usually gauging) Gas Glass/gauge H Hand High I Current Interlock Indicate J Power Scan K Time, time schedule Time rate of change Control station L Level Light Low M User's choice Middle / intermediate N User's choice (usually torque) User choice User choice User choice O User's choice Orifice Open P Pressure Point/test connection Q Quantity Totalize/integrate Totalize/integrate R Radiation Record Run S Speed, frequency Safety Switch Stop T Temperature Transmit U Multivariable Multifunction Multifunction V Vibration, mech. analysis Valve or damper W Weight, force Well or probe X User's choice (on- off valve as XV) X-axis Accessory devices Unclassified Unclassified Y Event,",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a_p15_2",
+    "doc_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a",
+    "filename": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "doc_type": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "page": 15,
+    "text": "analysis Valve or damper W Weight, force Well or probe X User's choice (on- off valve as XV) X-axis Accessory devices Unclassified Unclassified Y Event, state, presence, status Y-axis Auxiliary devices Z Position, dimension Z-axis or Safety Instrumented System Actuator, driver, or control element 462.pdf",
+    "word_count": 45
+  },
+  {
+    "chunk_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a_p16_1",
+    "doc_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a",
+    "filename": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "doc_type": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "page": 16,
+    "text": "Copyright\u00a9 2021 Mark Ludwigson \nPage 16 of 42 \nPiping and Instrumentation Diagrams \n \nFor additional clarity, instrument tag abbreviations can be defined as shown in Figure \n11. The first letter is from the row (measured variable) and subsequent letters are from \nthe columns (instrument function). For example, LS means \u201cLevel Switch\u201d in Figure 11, \nwhile LS could mean \u201cLevel Switch\u201d or \u201cLevel Stop\u201d in Table 2.\nFigure 11: Example Instrument Tag Abbreviations Table from a P&ID legend drawing. \n462.pdf",
+    "word_count": 78
+  },
+  {
+    "chunk_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a_p17_1",
+    "doc_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a",
+    "filename": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "doc_type": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "page": 17,
+    "text": "Copyright\u00a9 2021 Mark Ludwigson \nPage 17 of 42 \nPiping and Instrumentation Diagrams \n \nInstrument control abbreviations are shown to the upper right of instrument tags. These \ncan also be defined in a P&ID legend, as shown in Figure 12.  \nFigure 12: Example abbreviations for instrument control functions. These letter \ndesignations are commonly placed to the upper right of instrument tag circles, where \nthe (XXX) is shown. \nThe simplest control device is the O/O (On/Off) switch, as shown in Figure 13. \nFigure 13: O/O hand switch (HS) on a control panel, with On and Off functions. \nSource: https://commons.wikimedia.org/wiki/File:On-Off_Switch.jpg, Jszack, CC-BY-SA-2.5 \n462.pdf",
+    "word_count": 99
+  },
+  {
+    "chunk_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a_p18_1",
+    "doc_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a",
+    "filename": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "doc_type": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "page": 18,
+    "text": "Copyright\u00a9 2021 Mark Ludwigson \nPage 18 of 42 \nPiping and Instrumentation Diagrams \n \nHOA stands for Hand/Off/Auto, which is common for a switch that controls equipment \nwith a motor. See Figure 14 for an example of an HOA selector switch. This is similar to \nHOR (Hand/Off/Remote) in which the device can be controlled remotely (either \nautomatically or by a remote user through a control panel or HMI (Human-Machine \nInterface) software. \nFigure 14: Selector/hand switch with HOA functions: \n1) HAND means the device will be on with no automated controls,\n2) OFF means the device will be off with no automated controls, and\n3) AUTO means the device will be turned on and off through automated controls.\n462.pdf",
+    "word_count": 116
+  },
+  {
+    "chunk_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a_p19_1",
+    "doc_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a",
+    "filename": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "doc_type": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "page": 19,
+    "text": "Copyright\u00a9 2021 Mark Ludwigson \nPage 19 of 42 \nPiping and Instrumentation Diagrams \n \nExample Problem 1 \nEngineer Phelix is reading a P&ID drawing to understand the functions available at the \nlocal control panel (LCP) for ball valve VLV-311, as shown below. Help Phelix by writing \nout the letter designations based on Figures 11 and 12. \nSolution: \nLetter designations have been spelled out in red in the below diagram. \nNote that the \u201cI\u201d could mean Current or Interlock. Based on the context of being in a \nlocal control panel with switches, the term interlock is a better fit. An interlock is an \nelectrical device for connecting the function of different components. For example, when \nthe hand switch is set to \u201cOpen\u201d, electrical power is sent to the valve motor via an \ninterlock. \nLCP-311 \nVLV-311 \nVLV-311 \nLCP-311 \nHand Switch \nOpen/Close \nHand Switch \nLocal/Open/Remote \nOpen/Close \nStatus Light \nInterlock",
+    "word_count": 144
+  },
+  {
+    "chunk_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a_p20_1",
+    "doc_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a",
+    "filename": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "doc_type": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "page": 20,
+    "text": "Piping and Instrumentation Diagrams \n \nCopyright\u00a9 2021 Mark Ludwigson \nPage 20 of 42 \nSymbols \nP&IDs are full of symbols. See Figures 15 to 17 for example P&IDs with various \nsymbols.  \nCommon items that have symbols on a P&ID include: \n\u2022\nInstruments (flow, level, pressure, temperature, weight, pH, chlorine, etc.)\n\u2022\nControl functions (field, panel front, panel rear, SCADA, etc.)\n\u2022\nInterfaces to and from external processes (large arrows are common)\n\u2022\nValves\n\u2022\nActuators\n\u2022\nMotors\n\u2022\nPumps\n\u2022\nFans, Blowers, and Compressors\n\u2022\nMiscellaneous devices (tanks, mixers, strainer, gate, injection, seal water, etc.)\n\u2022\nCommunications wiring (discrete, analog, ethernet, fiber optic, etc.)\nThese symbols should be defined on a legend drawing. \nFigures 18a and 18b show common P&ID symbols for piping, valves, and equipment, \nper ISO 10628 and ISO 14617.  \n462.pdf",
+    "word_count": 131
+  },
+  {
+    "chunk_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a_p21_1",
+    "doc_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a",
+    "filename": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "doc_type": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "page": 21,
+    "text": "OPERATOR\nVENTRY RATIO\noe\n\nOPERATOR\nENTRY RATIO\n\nOPERATOR\nVENTRY RATIO\n\n\\\n\n'\n\n{\n\n'\n\n!\n\n!\n\n'\n\n!\n\n'\n\n!\n\n'\n\n'\n\n'\n\n!\n\n'\n\nVAPORIZATION\n\nFigure 15: Example P&ID for cryogenic oxygen generation.\n\nSource: EPA-600/8-80-028 (Public Domain)\n\nPage 21 of 42\n\nCopyright\u00ae 2021 Mark Ludwigson",
+    "word_count": 46
+  },
+  {
+    "chunk_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a_p22_1",
+    "doc_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a",
+    "filename": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "doc_type": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "page": 22,
+    "text": "BURNER COMBUSTION\nAIR FANS\nFROM SCRUBBER\nTO ASH LAGOON\n\n&D>- -------- powcr r ior-7\n1 !\n\n1 1 ! 1\n\n(| ()I \u00a9) !\n\nTO PRESSURE\n\u201c\n\n2\nz\na\n3\n\u00b0\n\u00b0\nt\no\n<\nx\na\n\n2\nz\nz\n\u00a3\n<\n\nFURNACE\nOF;\n\nr\ni}\n1\n!\n|\n|\n|\n1\nI\n!\n1\ni]\n|\ni]\n|\n|\n|\n|\n1\nI\n|\nI\n\\\n\nSLUDGE COMBUSTION\n\nAIR FANS\n\nOpOROUS\nAIR\n\nFigure 16: Example P&ID for an incinerator.\n\nSource: EPA-600/8-80-028 (Public Domain)\n\nPage 22 of 42\n\nCopyright\u00ae 2021 Mark Ludwigson",
+    "word_count": 93
+  },
+  {
+    "chunk_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a_p23_1",
+    "doc_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a",
+    "filename": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "doc_type": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "page": 23,
+    "text": "scoz\n\nn evaporative crystallizer.\n\nFigure 17: Example P&ID drawing for a\n\nces Limited\n\nOF Bere Tse\n\n(istaizatars Nain NSC]\n\nES\n\ni 12-1 1904.1.002 [a]\n\nPage 23 of 42\n\nCopyright\u00ae 2021 Mark Ludwigson",
+    "word_count": 32
+  },
+  {
+    "chunk_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a_p24_1",
+    "doc_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a",
+    "filename": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "doc_type": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "page": 24,
+    "text": "Piping and Instrumentation Diagrams\n\n\u2014\u2014___|Pipe ZZ | Thermally insulated pipe\nWu Flexible connection O Hydraulic pump\nS) Fan eS Axial fan, MK,\nO Jacketed mixing vessel (autoclave) an Half pipe mixing vessel\ni Packed column Plate column\n) Heat exchanger Gr Coil heat exchanger\n= Double pipe heat exchanger ==] Fixed straight tubes heat exchanger\n\u201cwy Covered gas vent f Curved gas vent\n(7) Steam trap [0] Viewing glass\nCK Gate valve ky Control valve\nbY Needle valve Butterfly valve\n4Nt+ Check valve SW Back draft damper\n\nFigure 18a: Common P&ID symbols.\n\nCopyright\u00ae 2021 Mark Ludwigson\n\nPage 24 of 42\n\n462.pdf",
+    "word_count": 101
+  },
+  {
+    "chunk_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a_p25_1",
+    "doc_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a",
+    "filename": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "doc_type": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "page": 25,
+    "text": "Piping and Instrumentation Diagrams\n\n\u2014 |_| Jacketed pipe \u2014===\u2014 | Cooled or heated pipe\neo Pump eo) Vacuum pump or compressor\neS) Radial fan a Dryer\n\n(__) Pressurized horizontal vessel [| Pressurized vertical vessel\nFurnace [\\ Cooling tower\n( Cooler i Plate & frame heat exchanger\nU shaped tubes heat exchanger (9) Spiral heat exchanger\n\nis (Air) fiter Y Funnel or tundish\na] Pressure reducing valve P<] Valve\n\npe Manual valve Se) Check valve\nba Diaphragm valve pod Ball valve\n\nff Bag i Gas bottle\n\nFigure 18b: Common P&ID symbols.\n\nCopyright\u00ae 202\n\nMark Ludwigson\n\nPage 25 of 42\n\n462.pdf",
+    "word_count": 99
+  },
+  {
+    "chunk_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a_p26_1",
+    "doc_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a",
+    "filename": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "doc_type": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "page": 26,
+    "text": "Copyright\u00a9 2021 Mark Ludwigson \nPage 26 of 42 \nPiping and Instrumentation Diagrams \n \nFigure 19 shows typical symbols for the location and function of instruments and control \ndevices. For example, a switch may be accessible at the instrument, on the front of the \npanel next to the instrument, inside the locked panel, or remotely (auxiliary location) at a \ndifferent panel, MCC, or through SCADA. Defining these details on the P&ID helps \nensure the system is constructed as intended during design. \nFigure 19: Typical symbols for indicating the location and function of instruments and \ncontrol devices. Primary location often means at a control panel. Auxiliary location often \nmeans in an electrical room, remote/offsite location, or SCADA. \nOR DEVICES \n462.pdf",
+    "word_count": 117
+  },
+  {
+    "chunk_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a_p27_1",
+    "doc_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a",
+    "filename": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "doc_type": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "page": 27,
+    "text": "Piping and Instrumentation Diagrams \n \nCopyright\u00a9 2021 Mark Ludwigson \nPage 27 of 42 \nExample Problem 2 \nEngineer Nels is struggling to \nunderstand the P&ID shown on the \nright, with are control features for an  \nexhaust fan. Help Nels by describing the \nsymbols and abbreviations. \nTC \nTC \n462.pdf",
+    "word_count": 46
+  },
+  {
+    "chunk_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a_p28_1",
+    "doc_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a",
+    "filename": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "doc_type": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "page": 28,
+    "text": "Piping and Instrumentation Diagrams \n \nCopyright\u00a9 2021 Mark Ludwigson \nPage 28 of 42 \nSolution: \nThe below P&ID has notes in red to help explain the symbols and abbreviations. All \ndevices are normally accessible to operators since the symbols have solid horizontal \nlines in the middle (instead of dashed).  \nRun Status Light \nInterlocks in the PLC Program \nHand/Off/Auto Hand Switch \nTemperature Switch \nFail Alarm \nStart/Stop Hand Switch \nTC \nMCC Bucket with Switches \nand Lights on the Front \nDiscrete Inputs/Outputs \nInternal System Link via Software \nAuto Status Light \nTemperature Controller \nComputer Function \nRun Status Alarm \nFail Alarm \nTC \nTemperature Controller \nExhaust Fan \n462.pdf",
+    "word_count": 100
+  },
+  {
+    "chunk_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a_p29_1",
+    "doc_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a",
+    "filename": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "doc_type": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "page": 29,
+    "text": "Piping and Instrumentation Diagrams \n \nCopyright\u00a9 2021 Mark Ludwigson \nPage 29 of 42 \nControl Loops \nA control loop maintains a process condition at a set value by adjusting devices (i.e. \npump speed, valve position, etc.) based on feedback from instruments (i.e. flow meters, \nlevel sensors, etc.). Control loops are described in written control descriptions and \nshown in P&IDs with communications paths/wiring and interlock notes. \nFor example, a common control loop to maintain flow through a pipe is by adjusting a \nvalve position based on flow meter readings. See Figures 20, 21, and 22 for example \nflow control P&IDs and an explanation of the control loop. \nFigure 20: P&ID for a flow control loop. The flow meter is labeled \u201cFLOW XMTR\u201d. The \ncontroller can be a local control panel with a programable logic controller (PLC). The \ncommunications paths/wiring are the dashed lines labeled as signals. \nSource: EPA-600/8-80-028 (Public Domain) \n462.pdf",
+    "word_count": 148
+  },
+  {
+    "chunk_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a_p30_1",
+    "doc_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a",
+    "filename": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "doc_type": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "page": 30,
+    "text": "Controller FIC 001 Signal - \u201cFlow rate\u201d Remote Process SP Value s (PV) Set Point Local A (SP) inputs manual SP i \u201c sas Controller output Signal - \u201cValve position (CO) ==> Flow transmitter Fcv 001 Flow control valve Process fluid flow (manipulated variable \u2014 MV) The basic building block of industrial process control systems is the \u201ccontrol loop\u201d which contains all the elements to measure and controla process value at a desired setpoint. The controller may be a discrete piece of hardware, or a function within a large computerised DCS, SCADA or PLC system. Set points can be manually set locally or cascaded from another source. An example is shown of a flow controller, with a flow transmitter and a control valve. The green text are \u201ctags\u201d, which describe the function and identify the equipment. As each loop has a unique number the tags are unique within a plant to prevent confusion. In this case: FIC = Flow indicating controller, FCV = Flow Control Valve, FTX = flow transmitter. Standard practical control nomenclature is: SP = process set point,",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a_p30_2",
+    "doc_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a",
+    "filename": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "doc_type": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "page": 30,
+    "text": "case: FIC = Flow indicating controller, FCV = Flow Control Valve, FTX = flow transmitter. Standard practical control nomenclature is: SP = process set point, PV = process value, CO = controller output, FCE = final control element, MV = manipulated variable. Figure 21: Control Loop Explanation Source: https://commons.wikimedia.org/wiki/File:Industrial_control_loop.jpg, Dougsim, CC-BY-SA-4.0 Copyright\u00ae 2021 Mark Ludwigson Page 30 of 42",
+    "word_count": 59
+  },
+  {
+    "chunk_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a_p31_1",
+    "doc_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a",
+    "filename": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "doc_type": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "page": 31,
+    "text": "Piping and Instrumentation Diagrams \n \nCopyright\u00a9 2021 Mark Ludwigson \nPage 31 of 42 \nFigure 22: P&ID for a flow control loop to equally divide flow between three tanks. The \ncontroller (MVC) receives flow rates from each flow meter (FE & FT) and sends \ncommands to adjust the valve positions. Valve position transmitters (ZT) send current \nvalve position signals back to the controller to help decide which valves to open and \nclose to maintain equal flow with minimal headloss. \nSource: EPA-600/8-80-028 (Public Domain) \n462.pdf",
+    "word_count": 82
+  },
+  {
+    "chunk_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a_p32_1",
+    "doc_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a",
+    "filename": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "doc_type": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "page": 32,
+    "text": "Piping and Instrumentation Diagrams \n \nCopyright\u00a9 2021 Mark Ludwigson \nPage 32 of 42 \nAdditional control loops are shown and explained in Figures 23 to 32. \nFigure 23: P&ID for a pressure control loop. A controller (PIC) receives pressure \ntransmitter readings (PT) and gives commands to adjust the control valve position to \nmaintain the pressure in the tank outlet pipe. \nSource: EPA-600/8-80-028 (Public Domain) \n462.pdf",
+    "word_count": 63
+  },
+  {
+    "chunk_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a_p33_1",
+    "doc_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a",
+    "filename": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "doc_type": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "page": 33,
+    "text": "Piping and Instrumentation Diagrams \n \nCopyright\u00a9 2021 Mark Ludwigson \nPage 33 of 42 \nFigure 24: P&ID for a dissolved oxygen control loop. A controller (AIC) receives \ndissolved oxygen transmitter readings (AT) and gives commands to adjust the control \nvalve position to maintain the dissolved oxygen setpoint in the tank. \nSource: EPA-600/8-80-028 (Public Domain) \n462.pdf",
+    "word_count": 53
+  },
+  {
+    "chunk_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a_p34_1",
+    "doc_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a",
+    "filename": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "doc_type": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "page": 34,
+    "text": "Piping and Instrumentation Diagrams \n \nCopyright\u00a9 2021 Mark Ludwigson \nPage 34 of 42 \nFigure 25: P&ID for a dissolved oxygen control loop with cascade control, meaning \nthere are two controllers. In this case, the dissolved oxygen controller (AIC) provides \noutput to the flow controller (FC), which sends the commands to adjust the valve \nposition. The flow controller takes into account the current air flow rate which helps to \navoid overfeeding or underfeeding of air. \nSource: EPA-600/8-80-028 (Public Domain) \n462.pdf",
+    "word_count": 78
+  },
+  {
+    "chunk_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a_p35_1",
+    "doc_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a",
+    "filename": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "doc_type": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "page": 35,
+    "text": "Piping and Instrumentation Diagrams \n \nCopyright\u00a9 2021 Mark Ludwigson \nPage 35 of 42 \nFigure 26: P&ID for a blower speed control loop (left) and a dissolved oxygen control \nloop (right), both with cascade control. The blower speeds are adjusted based on the \ninlet and outlet pressures and the air flow rates, with the goal of maintaining the desired \nheader pressure while keeping the blowers within an efficient operating range. The \ndissolved oxygen control is the same as Figure 25. \nSource: EPA-600/8-80-028 (Public Domain) \n462.pdf",
+    "word_count": 83
+  },
+  {
+    "chunk_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a_p36_1",
+    "doc_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a",
+    "filename": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "doc_type": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "page": 36,
+    "text": "Piping and Instrumentation Diagrams \n \nCopyright\u00a9 2021 Mark Ludwigson \nPage 36 of 42 \nFigure 27: P&ID for a chemical feed control loop. The controller adjusts the chemical \npump speed based on the water flow rate readings to achieve a set dosage  \n(5 mg/L for example). This is called flow pacing. \nSource: EPA-600/8-80-028 (Public Domain) \nMixing \n462.pdf",
+    "word_count": 55
+  },
+  {
+    "chunk_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a_p37_1",
+    "doc_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a",
+    "filename": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "doc_type": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "page": 37,
+    "text": "Piping and Instrumentation Diagrams \n \nCopyright\u00a9 2021 Mark Ludwigson \nPage 37 of 42 \nFigure 28: P&ID for a chlorination control loop. The chlorinator feeds chlorine into the \nprocess water. Like the controller in Figure 27, the chlorinator adjusts the chlorine feed \nbased on the process flow rate to achieve a set dosage (5 mg/L for example). This is \ncalled feedforward control (or ratio control) since the controller only uses upstream \nreadings to control the feed rate.  \nThe chlorine level is measured at the discharge but does not influence the controller. If it \nwere to influence the controller, it would be called feedback control instead of \nfeedforward control, since it uses downstream readings. \nA chlorine analyzer can also be added upstream of the contact chamber (shown in \ndashed) with an additional feedback control for adjusting the chlorine feed.  \nSource: EPA-600/8-80-028 (Public Domain) \nCHLORINE ANALYZER \nCAN BE ADDED HERE \nFOR FEEDBACK \n462.pdf",
+    "word_count": 149
+  },
+  {
+    "chunk_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a_p38_1",
+    "doc_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a",
+    "filename": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "doc_type": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "page": 38,
+    "text": "Piping and Instrumentation Diagrams \n \nCopyright\u00a9 2021 Mark Ludwigson \nPage 38 of 42 \nFigure 29: P&ID for a pump station control loop with level control. There is a desired \nwater level in the wet well, which is often a setting on the HMI screen. The number of \npumps in operation and the pump speeds are adjusted to maintain the water level. If the \nhigh-level switch (LSH) is triggered, pump speeds are increased. If the low-level switch \n(LJL) is triggered, pumps are turned off. These level switches act as a backup in case \nthe level transmitter (LT) malfunctions. In this case, the flow meter readings are not \nutilized in the control loop. However, flow readings can be utilized to keep the pumps \noperating within the efficient operating range. \nSource: EPA-600/8-80-028 (Public Domain) \n462.pdf",
+    "word_count": 131
+  },
+  {
+    "chunk_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a_p39_1",
+    "doc_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a",
+    "filename": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "doc_type": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "page": 39,
+    "text": "Piping and Instrumentation Diagrams \n \nCopyright\u00a9 2021 Mark Ludwigson \nPage 39 of 42 \nFigure 30: P&ID for a clarifier sludge pumping control loop. Sludge is withdrawn from \nthe bottom of the clarifiers by control valves (by gravity) or with pumps. Often the \nwithdrawal is based on a timer, such as 10 minutes of withdrawal every hour. In this \ncase, the valves will open for 10 minutes, then close for 50 minutes, and repeat. The \nsludge blanket level (LS) and the sludge density (DE) can be monitored to adjust the \ntimer settings and/or the pump speed. \nSource: EPA-600/8-80-028 (Public Domain) \n462.pdf",
+    "word_count": 99
+  },
+  {
+    "chunk_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a_p40_1",
+    "doc_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a",
+    "filename": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "doc_type": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "page": 40,
+    "text": "Piping and Instrumentation Diagrams \n \nCopyright\u00a9 2021 Mark Ludwigson \nPage 40 of 42 \nFigure 31: P&ID for a return activated sludge (RAS) pumping control loop. This is similar \nto Figure 27 with the following additions: \n1) The RAS WET WELL collects the sludge by gravity. Sludge flow from the\nclarifiers is adjusted by the control valves. The wet well has high- and low-level\nswitches (LSH and LSL) for pump control. A level transmitter is common for \nredundancy. \n2) The RAS flow rate should be proportional to the mixed liquor flow, called the flow\nratio set point. This ratio is achieved by adjusting the pump speeds. \nSource: EPA-600/8-80-028 (Public Domain) \nMIXED \nLIQUOR \n462.pdf",
+    "word_count": 111
+  },
+  {
+    "chunk_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a_p41_1",
+    "doc_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a",
+    "filename": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "doc_type": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "page": 41,
+    "text": "Piping and Instrumentation Diagrams \n \nCopyright\u00a9 2021 Mark Ludwigson \nPage 41 of 42 \nFigure 32: P&ID for a flow equalization control loop. When influent flow rates are higher \nthan average (above desired plant flow), the excess flow is diverted to the equalization \nbasin through an adjustable weir-type slide gate (HIK). A pump or control valve could \nalso be used. When flows are below average, make-up flow is pumped out of the \nequalization (EQ) basin and mixed with the influent. The goal of the flow controller (FIC) \nis to maintain a consistent flow rate. The level in the EQ basin needs to be monitored to \nensure the basin is brought back to a low level before the next high flow period begins. \nThe volume of equalization needs to be large enough to handle the volume of flow that \nis in excess of the average flow. \nSource: EPA-600/8-80-028 (Public Domain) \n462.pdf",
+    "word_count": 148
+  },
+  {
+    "chunk_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a_p42_1",
+    "doc_id": "pid_samples_p_id_standards_course_with_example_diagrams_pdh_academy_928a8f6a",
+    "filename": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "doc_type": "P&ID Standards Course (with example diagrams, PDH Academy).pdf",
+    "page": 42,
+    "text": "Piping and Instrumentation Diagrams \n \nCopyright\u00a9 2021 Mark Ludwigson \nPage 42 of 42 \nHelpful References \nAmerican National Standard (2009) \u201cInstrumentation Symbols and Identification\u201d. \nANSI/ISA-5.1-2009. \nBaldwin, K.M., et al. (2018) \u201cA Novel Framework for Control System Safety Interlock \nDesign and Implementation\u201d. ISA Power Industry Division. \nEnvironmental Protection Agency (1980) \u201cDesign Handbook for Automation of Activated \nSludge Wastewater Treatment Plants\u201d. EPA-600/8-80-028. \nInternational Electrotechnical Commission (2005) \u201cGraphical Symbols for Diagrams\u201d. \nIEC 60617. \nInternational Standards (2014) \u201cDiagrams for the Chemical and Petrochemical Industry\u201d. \nISO 10628. \nInternational Standards (2002) \u201cGraphical Symbols for Diagrams\u201d. ISO 14617, Parts 1 \nto 15. \nInternational Standards (2015) \u201cSpecification for Diagrams for Process Industry\u201d. ISO \n15519. \nProcess Industry Practices (2018) \u201cPiping and Instrumentation Diagram Documentation \nCriteria\u201d. PIP PIC001. \n462.pdf",
+    "word_count": 117
+  }
+]

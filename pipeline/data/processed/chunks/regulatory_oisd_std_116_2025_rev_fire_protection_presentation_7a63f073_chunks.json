@@ -1,0 +1,506 @@
+[
+  {
+    "chunk_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073_p1_1",
+    "doc_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073",
+    "filename": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "doc_type": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "page": 1,
+    "text": "REVISED STANDARD OISD-STD-116\n(JUNE-2025)",
+    "word_count": 4
+  },
+  {
+    "chunk_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073_p1_2",
+    "doc_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073",
+    "filename": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "doc_type": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "page": 1,
+    "text": "Amit Sharma\nJoint Director, OISD Noida",
+    "word_count": 6
+  },
+  {
+    "chunk_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073_p2_1",
+    "doc_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073",
+    "filename": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "doc_type": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "page": 2,
+    "text": "FLOW OF PRESENTATION\nFL\nO\nW\n\u2022 SCOPE\nFL\nO\nW\n\u2022 DEFINITIONS\nFL\nO\nW\n\u2022 DESIGN ASPECT OF FIRE PROTECTION SYSTEM\nFL\nO\nW\n\u2022 FIRE WATER SYSTEM\nFL\nO\nW\n\u2022 FOAM SYSTEM\nFL\nO\nW\nFL \u2022 BATTERY FIRE\nO\nW\n\u2022 MODERNIZATION PLAN FOR FIRE FIGHTING EQUIPMENT\nFL\nO\nW\n\u2022 MOBILE FIRE FIGHTING EQUIPMENT\nFL\nO\nW\n\u2022 TOXIC GAS DETECTION\nCHANGES IN OISD-STD-116",
+    "word_count": 70
+  },
+  {
+    "chunk_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073_p3_1",
+    "doc_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073",
+    "filename": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "doc_type": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "page": 3,
+    "text": "CHANGE IN SCOPE (CLAUSE 2.0) \nThis standard also covers the facilities located within the \nrefineries and oil/ gas processing plants which includes:\n\u2022 Petrochemical complexes\nAddition of Petrochemical \ncomplexes",
+    "word_count": 29
+  },
+  {
+    "chunk_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073_p4_1",
+    "doc_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073",
+    "filename": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "doc_type": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "page": 4,
+    "text": "Definition (CLAUSE 3.0) \n\u2022 Definition of \u201cClassification of fire\u201d has been \nrevised.\n\u2022 Definition of Oil and gas processing plants has \nbeen revised.\n\u2022 Some other new definitions like auto ignition \ntemperature, Tank, water spray system, water \nsprinkler system, control room & petrochemical \ncomplexes have been added.\nDefinitions\n(Clause 3.0)",
+    "word_count": 50
+  },
+  {
+    "chunk_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073_p5_1",
+    "doc_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073",
+    "filename": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "doc_type": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "page": 5,
+    "text": "FIRE PROTECTION PHILOSOPHY (CLAUSE 4.0)",
+    "word_count": 5
+  },
+  {
+    "chunk_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073_p5_2",
+    "doc_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073",
+    "filename": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "doc_type": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "page": 5,
+    "text": "FIXED WATER SPRAY SYSTEM ON STORAGE TANKS\nClass \u2018A\u2019 Petroleum in above ground tanks (floating or fixed roof) shall have fixed water spray system, having \ncapacity larger than 190 m3 or diameter greater than 6 m.",
+    "word_count": 36
+  },
+  {
+    "chunk_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073_p5_3",
+    "doc_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073",
+    "filename": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "doc_type": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "page": 5,
+    "text": "SEMI-FIXED FOAM SYSTEM FOR STORAGE TANKS\nFixed roof tanks storing Class 'A' and class 'B' petroleum products, of diameter \u2265 9 m.",
+    "word_count": 22
+  },
+  {
+    "chunk_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073_p5_4",
+    "doc_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073",
+    "filename": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "doc_type": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "page": 5,
+    "text": "AUTOMATIC WATER SPRAY FOR STORAGE AND HANDLING OF LPG /C4 AND LIGHTER ENDS/ \nHYDROGEN \nAutomatic Water Spray shall be provided for the following areas:\nI.\nLPG/C4 and lighter ends and hydrogen, pressure storage vessels shall be provided with automatic water \nspray system.\nII.\nLPG bottling stations, C4 & Lighter ends - loading or unloading gantries, pumps, and compressors.\nIII.\nHydrogen compressors associated with storage facilities.",
+    "word_count": 65
+  },
+  {
+    "chunk_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073_p6_1",
+    "doc_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073",
+    "filename": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "doc_type": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "page": 6,
+    "text": "FIRE PROTECTION PHIOLOSOPHY (CLAUSE 4.0)",
+    "word_count": 5
+  },
+  {
+    "chunk_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073_p6_2",
+    "doc_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073",
+    "filename": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "doc_type": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "page": 6,
+    "text": "WATER SPRAY SYSTEM IN PROCESS UNIT \nI.\nUn-insulated vessels having maximum design liquid holdup capacity larger than 50 m3 \ncontaining class A or B flammable liquid in process unit along with offsite area. \nII.\nAutomatic water spray system for pumps handling LPG or hydrocarbons above auto-\nignition temperature.\nIII.\nProcess compressors of C4 or lighter and Hydrogen. \nIV.\nWater spray rings for columns of height more than 45 M (above grade level) shall be \nprovided. As an alternate, remote operated elevated monitors (at least two, positioned \ndiagonally opposite sides) shall be installed at suitable elevation or high-capacity trolley \nmounted monitors shall be available, such that they should cover topmost potential source \nof leakage of column.\nNote:- In case there is variance with the recommendations of licensor, then more stringent shall \nbe prevailing.",
+    "word_count": 132
+  },
+  {
+    "chunk_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073_p7_1",
+    "doc_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073",
+    "filename": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "doc_type": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "page": 7,
+    "text": "FIRE PROTECTION PHIOLOSOPHY (CLAUSE 4.0)",
+    "word_count": 5
+  },
+  {
+    "chunk_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073_p7_2",
+    "doc_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073",
+    "filename": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "doc_type": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "page": 7,
+    "text": "WATER SPRINKLER SYSTEM\nA water sprinkler system should be provided in polymer extruder buildings, pelletizing building, \npolymer bagging & its warehouse of a petrochemical complex excluding water reactive/sensitive \nmaterial storage area. Car parking in the basement of any refinery or petrochemical complex \nshould also be protected with a sprinkler system. For application density & other design aspects \nof any fire sprinkler system, NFPA-13/IS 15105 may be referred.",
+    "word_count": 67
+  },
+  {
+    "chunk_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073_p7_3",
+    "doc_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073",
+    "filename": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "doc_type": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "page": 7,
+    "text": "WATER CURTAIN SYSTEM FOR NAPHTHA & GAS CRACKER FURNACES\nThe water curtain shall be provided in cases where hydrocarbon gases are being handled in the \nvicinity of the cracker furnace in the process unit. The water curtain shall be actuated using \nHydrocarbon (HC) detectors placed in the vicinity of the cracker furnace. The water curtain shall \nbe designed as per NFPA 15 or equivalent at a design flow rate of 37 lpm/m. The water curtain \ncoverage should extend a minimum of 1 m above the flame box of a furnace.",
+    "word_count": 90
+  },
+  {
+    "chunk_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073_p8_1",
+    "doc_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073",
+    "filename": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "doc_type": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "page": 8,
+    "text": "FIRE PROTECTION PHIOLOSOPHY (CLAUSE 4.0)",
+    "word_count": 5
+  },
+  {
+    "chunk_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073_p8_2",
+    "doc_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073",
+    "filename": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "doc_type": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "page": 8,
+    "text": "CLEAN AGENT FIRE SUPPRESSION SYSTEM FOR CONTROL ROOM, INSTRUMENT \nPANEL ROOM & SATELLITE RACK ROOM (SRR)\nClean Agent System along with all equipment, software for hydraulic calculations and \ncorresponding design concentration of clean agent shall be listed or approved by national or \ninternational standards such as BIS/UL/FM/VdS/LPCB etc. Cylinder along with cylinder valve \nassembly shall have regulatory approval.\"",
+    "word_count": 58
+  },
+  {
+    "chunk_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073_p8_3",
+    "doc_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073",
+    "filename": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "doc_type": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "page": 8,
+    "text": "DRY CHEMICAL FIRE SUPPRESSION SYSTEM\nWater reactive material (e.g. TEAL) handling areas including pumps shall be protected with an  \nautomatic DCP flooding system. Suitable DCP/metal firefighting DCP shall be used in DCP \nflooding system for TEAL area. DCP flooding system shall be designed as per NFPA-17.",
+    "word_count": 46
+  },
+  {
+    "chunk_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073_p9_1",
+    "doc_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073",
+    "filename": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "doc_type": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "page": 9,
+    "text": "FIRE PROTECTION PHIOLOSOPHY (CLAUSE 4.0)",
+    "word_count": 5
+  },
+  {
+    "chunk_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073_p9_2",
+    "doc_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073",
+    "filename": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "doc_type": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "page": 9,
+    "text": "FIRE PROTECTION FOR COAL HANDLING AND CONVEYOR SYSTEM \nRefinery/Petchem facilities where Coal based Captive Power plant available for power and steam \ngeneration. Following Fire protection system shall be installed for the protection of facilities:\nFire Hydrants, wet risers, and Hose reels\nFire water Monitors \u2013 For structures having height more than 15 m.\nAutomatic High Velocity Water spray system for Boiler burner fronts\nManual medium velocity water spray system with proportioner to mix water with suitable UL \napproved wetting agent for Coal silos. \nWater sprinkler system for open type coke/coal conveyor.\nSuitable fire detection system.",
+    "word_count": 95
+  },
+  {
+    "chunk_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073_p10_1",
+    "doc_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073",
+    "filename": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "doc_type": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "page": 10,
+    "text": "FIRE PROTECTION PHIOLOSOPHY (CLAUSE 4.0)",
+    "word_count": 5
+  },
+  {
+    "chunk_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073_p10_2",
+    "doc_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073",
+    "filename": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "doc_type": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "page": 10,
+    "text": "FIRE PROTECTION FOR STORAGE / HANDLING OF FLAMMABLE CRYOGENIC LIQUIDS\nCryogenic liquids are liquefied gases that are maintained at very low temperatures (typically less than -\n150\u00b0C). These liquids are gases at ambient temperatures and pressures. Since these liquids are extremely \ncold and can expand to very large volumes of gases, they are a safety hazard. \nFire measures required for the same are as below.\n\u2022 Portable Fire Extinguisher as per Section 12.1\n\u2022 Suitable type of PPEs \n\u2022 Fire water network / Hydrants & Monitors: as per section 5.6.1 & 5.6.2\n\u2022 Foam system: Portable / fixed High expansion foam generator shall be provided for protection of :\nI.\nDWST (double walled storage tank) dykes for handling spills. \nII.\nUnderground (Pit) liquid transfer pumps.",
+    "word_count": 125
+  },
+  {
+    "chunk_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073_p11_1",
+    "doc_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073",
+    "filename": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "doc_type": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "page": 11,
+    "text": "FIRE WATER SYSTEM (CLAUSE 5.0)",
+    "word_count": 5
+  },
+  {
+    "chunk_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073_p11_2",
+    "doc_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073",
+    "filename": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "doc_type": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "page": 11,
+    "text": "FIRE WATER SYSTEM\nWater is a universal fire extinguishing agent and meets most ideal properties required for fire \nextinguishment. The ideal fire extinguishing agent should have the following characteristics: -\na. \nIt must be non-flammable\nb. \nIt should have a high heat of vaporization\nc. \nIt should be mobile liquid at normal ambient temperature.\nd. \nIt should be non-toxic and should not decompose to form toxic products. \nThus, water is the best available option and can be used for fire extinguishment, fire control, \ncooling of equipment and protection of equipment as well as protection of personnel from heat \nradiation. Water should be used such as straight jet, water fog, water mist, water curtain, water \nspray, deluge/ sprinkler, for foam making etc. \nThe firewater system shall comprise fire water storage, fire water pumps and distribution piping \nnetwork along with hydrants and monitors, as the main components.",
+    "word_count": 145
+  },
+  {
+    "chunk_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073_p12_1",
+    "doc_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073",
+    "filename": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "doc_type": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "page": 12,
+    "text": "FIRE WATER SYSTEM (CLAUSE 5.0)",
+    "word_count": 5
+  },
+  {
+    "chunk_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073_p12_2",
+    "doc_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073",
+    "filename": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "doc_type": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "page": 12,
+    "text": "FIRE WATER FLOW RATE\nFire Water flow rate for tank farm shall be aggregated of the following:\na. Water flow calculated for all other tanks situated in the same dyke area a rate of 3 Ipm/m2 of \ntank shell area",
+    "word_count": 40
+  },
+  {
+    "chunk_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073_p12_3",
+    "doc_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073",
+    "filename": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "doc_type": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "page": 12,
+    "text": "HEADER PRESSURE\nThe fire water system shall be designed for a minimum pressure of 7.0 kg/cm2 at the hydraulically \nremotest point of application at grade level and minimum residual pressure of 5.25 kg/cm2 at \nlanding valve at elevated structure on designed flow rate at that point.",
+    "word_count": 46
+  },
+  {
+    "chunk_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073_p12_4",
+    "doc_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073",
+    "filename": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "doc_type": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "page": 12,
+    "text": "STANDBY PUMPS\n\u2022 In case total number working pumps are up to 2, standby pumps shall be at least one.\n\u2022 In case number of working pumps are 3 to 4, the number of standby pumps shall be at least 2. \nFor more than 4 working pumps, the number of standby pumps shall be at least 3.",
+    "word_count": 57
+  },
+  {
+    "chunk_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073_p13_1",
+    "doc_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073",
+    "filename": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "doc_type": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "page": 13,
+    "text": "FIRE WATER SYSTEM (CLAUSE 5.0)",
+    "word_count": 5
+  },
+  {
+    "chunk_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073_p13_2",
+    "doc_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073",
+    "filename": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "doc_type": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "page": 13,
+    "text": "JOCKEY PUMPS\nThe capacity of jockey pumps shall be minimum 1% of the design fire water rate. Its head shall be \nhigher than the main fire water pumps. Auto cut-in / cut-off facility should be provided for jockey \npumps.",
+    "word_count": 39
+  },
+  {
+    "chunk_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073_p13_3",
+    "doc_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073",
+    "filename": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "doc_type": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "page": 13,
+    "text": "POWER SUPPLY FOR FIRE WATER PUMPS\nThe power supply to the electric motor driven pumps should be distributed from a switchboard \nhaving two separate incomers such that failure of any one incomer source does not disrupt the \npower supply to all the electric motor driven pumps.",
+    "word_count": 46
+  },
+  {
+    "chunk_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073_p13_4",
+    "doc_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073",
+    "filename": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "doc_type": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "page": 13,
+    "text": "PROTECTION FOR UNDERGROUND PIPELINES\nThe mains shall be provided with protection against soil corrosion by suitable coating/wrapping. \nWhere pipes are coming out/going in from/into the ground, the underground anticorrosion \ncoating on the pipe will continue for a length of at least 300 mm above ground.",
+    "word_count": 45
+  },
+  {
+    "chunk_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073_p14_1",
+    "doc_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073",
+    "filename": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "doc_type": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "page": 14,
+    "text": "FIRE WATER SYSTEM (CLAUSE 5.0)",
+    "word_count": 5
+  },
+  {
+    "chunk_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073_p14_2",
+    "doc_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073",
+    "filename": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "doc_type": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "page": 14,
+    "text": "FIXED REMOTE / MANUAL OPERATED, MOBILE HIGH-VOLUME LONG-RANGE \nWATER OR WATER CUM FOAM  MONITORS\nI.\nThe number and capacity of monitors shall be provided in such a way that cumulative foam  \napplication rate from the designated monitors meet the application rate of 9.75 lpm/m2 for \ntotal burning surface of the affected tank to extinguish the full surface tank fire. Additional \nmonitors shall be provided in such a way that each tank is in the coverage area of at least \ntwo monitors.  Due consideration has been given to compensate for the losses (50%) due to \nwind and other factors.\nII.\nMonitors should be located to achieve the foam discharge preferably close to tank center \nfrom upwind direction of tank on fire.\nIII.\nA suitable connections for water supply to portable trailer mounted HVLR should be made \navailable.",
+    "word_count": 136
+  },
+  {
+    "chunk_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073_p15_1",
+    "doc_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073",
+    "filename": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "doc_type": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "page": 15,
+    "text": "FIRE WATER SYSTEM (CLAUSE 5.0)",
+    "word_count": 5
+  },
+  {
+    "chunk_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073_p15_2",
+    "doc_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073",
+    "filename": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "doc_type": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "page": 15,
+    "text": "FIXED REMOTE / MANUAL OPERATED, MOBILE HIGH-VOLUME LONG-RANGE \nWATER OR WATER CUM FOAM  MONITORS\nThe basic water cum foam monitors shall be listed or approved by national or international \nagencies such as BIS, UL and FM etc. or certified by the approved Third-Party Inspection (TPI) \n(only in case of high-volume mobile trailer mounted monitors) agency of the entity. The \nelectrical or hydraulic remote-control mechanism shall be conforming to Hazardous Area \nClassification.",
+    "word_count": 71
+  },
+  {
+    "chunk_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073_p16_1",
+    "doc_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073",
+    "filename": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "doc_type": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "page": 16,
+    "text": "FOAM SYSTEM(CLAUSE 6.0)",
+    "word_count": 3
+  },
+  {
+    "chunk_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073_p16_2",
+    "doc_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073",
+    "filename": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "doc_type": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "page": 16,
+    "text": "FIXED ROOF TANK PROTECTION USING FOAM\nFoam conveying system shall have same features as of floating roof tank excepting that a vapour \nseal chamber is required before the foam discharge outlet.\nFeatures of the foam system for fixed roof protection for class A &B shall be as follows:\nThe vapour seal chamber shall be provided with an effective and durable seal, fragile under low \npressure (at an inlet pressure of not less than 10 psi (69 kPa) and not greater than 25 psi (172 \nkPa), to prevent entrance of vapour into the foam conveying piping system.",
+    "word_count": 96
+  },
+  {
+    "chunk_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073_p17_1",
+    "doc_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073",
+    "filename": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "doc_type": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "page": 17,
+    "text": "FOAM SYSTEM(CLAUSE 6.0)",
+    "word_count": 3
+  },
+  {
+    "chunk_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073_p17_2",
+    "doc_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073",
+    "filename": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "doc_type": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "page": 17,
+    "text": "FIXED ROOF TANK PROTECTION USING FOAM\nTanks should be provided with foam discharge outlets/ vapour seal chambers as indicated below:\n  Tank Diameter in m. \nMinimum number of foam discharge outlet\n\u2022  \u2265  9 upto 20                              2\n\u2022  >20 upto 25                              3\n\u2022  >25 upto 30                              4\n\u2022  >30 upto 35                              5\n\u2022  >35 upto 40                              6\n\u2022  >40 upto 45                              8\n\u2022  >45 upto 50                             10\n                                       Plus 1 outlet for\n                                      each additional 465 m2 of area",
+    "word_count": 76
+  },
+  {
+    "chunk_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073_p18_1",
+    "doc_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073",
+    "filename": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "doc_type": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "page": 18,
+    "text": "FOAM SYSTEM(CLAUSE 6.0) =\n\nAmrit Mahotsav",
+    "word_count": 6
+  },
+  {
+    "chunk_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073_p18_2",
+    "doc_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073",
+    "filename": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "doc_type": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "page": 18,
+    "text": "FULL SURFACE STORAGE TANK FIREFIGHTING & LOGISTICS\n\nNew chapter in details on scenario basis.",
+    "word_count": 14
+  },
+  {
+    "chunk_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073_p19_1",
+    "doc_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073",
+    "filename": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "doc_type": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "page": 19,
+    "text": "FOAM SYSTEM (CLAUSE 6.0)",
+    "word_count": 4
+  },
+  {
+    "chunk_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073_p19_2",
+    "doc_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073",
+    "filename": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "doc_type": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "page": 19,
+    "text": "FOAM APPLICATION RATE\nFor cone roof tanks containing liquid hydrocarbons, the foam solution delivery rate shall be at least 5 \nIpm/m2 of liquid surface area of the tank to be protected. \nFor floating roof tanks containing liquid hydrocarbons, foam solution delivery rate shall be at least 12 \nIpm/m2 of seal area with foam dam height of 600 mm of the tank to be protected. In case of floating roof \nsinking, the rate considered should be 9.75 Ipm/m2 of liquid surface areas for 65 minutes.\nDURATION OF FOAM DISCHARGE\nThe equipment shall be capable of providing primary protection at the specified delivery rates for the \nfollowing minimum period of time.\ni)   Tanks containing liquid hydrocarbons - Class 'C' Petroleum             - 30 minutes.\nii)  Tanks containing Class 'A' & 'B' Petroleum or liquids heated            - 65 minutes.\n      above their flash points\niii) Where the system's primary purpose is for spill fire protection          - 30 minutes.\nNote:- It is advised to keep foam compound stock for extended 30 minutes for full surface tank fire \nscenario.",
+    "word_count": 172
+  },
+  {
+    "chunk_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073_p20_1",
+    "doc_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073",
+    "filename": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "doc_type": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "page": 20,
+    "text": "FOAM SYSTEM (CLAUSE 6.0)",
+    "word_count": 4
+  },
+  {
+    "chunk_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073_p20_2",
+    "doc_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073",
+    "filename": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "doc_type": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "page": 20,
+    "text": "FOAM QUANTITY REQUIREMENT\nThe aggregate quantity of foam solution for a single largest tank fire should be calculated as the sum of \nfoam quantity requirement in clause 6.8 and total indicated below under items (i) & (ii) for a minimum \nperiod of 65 minutes. The quantity of foam compound required should be calculated based on 1%, 3% or \n6% concentrate. Necessary changes in the equipment shall be made accordingly.",
+    "word_count": 69
+  },
+  {
+    "chunk_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073_p20_3",
+    "doc_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073",
+    "filename": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "doc_type": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "page": 20,
+    "text": "FOAM COMPOUND STORAGE\nFoam compound should be stored in containers of suitable capacity, in case of protein, fluoro protein or \nAFFF or AR-AFFF or FFFP. Alcohol Resistant Foam (AR-AFFF) shall be used for handling methanol/ ethanol \nfires. Alcohol Resistant Foam (AR-AFFF) can be used for all type of hydrocarbon fire and polar solvent fire \neffectively. Foam compound can also be stored in overhead storage tank of suitable capacity for quick \nfilling of foam tender / nurser during emergency.\nCautionary: Alcohol Resistant Foam (AR-AFFF) is preferred for Ethanol Blended Petrol (EBP) fire.\nNote: Alcohol Resistant Synthetic Fluorine Free Foam (AR-SFFF) are environmentally friendly foam may \nbe used.",
+    "word_count": 106
+  },
+  {
+    "chunk_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073_p21_1",
+    "doc_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073",
+    "filename": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "doc_type": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "page": 21,
+    "text": "BATTERY FIRE (CLAUSE 8.0)",
+    "word_count": 4
+  },
+  {
+    "chunk_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073_p21_2",
+    "doc_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073",
+    "filename": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "doc_type": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "page": 21,
+    "text": "FIRE PROTECTION\nFor fire protection of Li ion battery, Encapsulator Agent (EA) based on spherical micelle \ntechnology should be used in line with NFPA 18A & NFPA 855 (latest edition).",
+    "word_count": 30
+  },
+  {
+    "chunk_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073_p22_1",
+    "doc_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073",
+    "filename": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "doc_type": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "page": 22,
+    "text": "MODERNIZATION PLAN FOR FIREFIGHTING EQUIPMENT \n(CLAUSE 11.0)\nTurbine Based Water Mist System\nTurbine based water mist system is a compact, high flow water/ fog generator. The entire system \nis of modular design which includes turbine system, fuel tank and water/ foam supply. By \ninjecting water, in the exhaust stream of the gas turbine a fog is produced. Due to the power of \nturbine, this fog can travel a large distance and can be controlled and influenced by the turbine \nspeed, water nozzle configuration and water pressure. The fog stream can be pointed to the \nobject (fire, tank, gas cloud) with a joystick which hydraulically controls the angle of the turbine, \nup or down and left or right.\nFire extinguisher of HDPE / Composite material body\nThis will ensure less weight and claimed to have longer shelf life. This will be more useful in \ncorrosion prone area like offshore.",
+    "word_count": 148
+  },
+  {
+    "chunk_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073_p23_1",
+    "doc_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073",
+    "filename": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "doc_type": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "page": 23,
+    "text": "MOBILE FIRE FIGHTING EQUIPMENT (CLAUSE 13.0)",
+    "word_count": 6
+  },
+  {
+    "chunk_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073_p23_2",
+    "doc_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073",
+    "filename": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "doc_type": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "page": 23,
+    "text": "FIRE TENDERS The exact number of fire tenders shall be higher of the items (a) or (b): (a) The quantities firmed up in each case based on two simultaneous major fire taking into consideration the size, location of the plant and statutory requirements. (b) The quantities indicated below. i) 3 nos. of foam tenders out of which two are for firefighting, one for spill /standby. The foam tender should have a foam tank capacity of at least 3000 Liter and the pump capacity of minimum 4000 Ipm at 8.5 kg/cm2. ii) DCP tender(s) having aggregate 4000 kg capacity, with Nitrogen as expellant gas. These are required for fighting LPG/Gas fire. A monitor should have a variable throw of 15/25/40 kg/sec. The throw of the monitor shall be 40 to 50 M for the DCP charge. Minimum 1 number of Foam Nurser with foam compound tank of minimum 8000-liter capacity, with suitable pump for foam transfer. Entity shall ensure the continuous availability of foam nurser. For Gas Processing Units a minimum of 2 nos. of multipurpose fire tender shall be provided.",
+    "word_count": 180
+  },
+  {
+    "chunk_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073_p23_3",
+    "doc_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073",
+    "filename": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "doc_type": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "page": 23,
+    "text": "Entity shall ensure the continuous availability of foam nurser. For Gas Processing Units a minimum of 2 nos. of multipurpose fire tender shall be provided. Note:- For small petrochemical follow (a) clause of this section.",
+    "word_count": 35
+  },
+  {
+    "chunk_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073_p24_1",
+    "doc_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073",
+    "filename": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "doc_type": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "page": 24,
+    "text": "MOBILE FIRE FIGHTING EQUIPMENT (CLAUSE 13.0)",
+    "word_count": 6
+  },
+  {
+    "chunk_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073_p24_2",
+    "doc_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073",
+    "filename": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "doc_type": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "page": 24,
+    "text": "FIRE TENDERS\nFor Gas processing plants, in addition to fixed monitors provided in the tank farm, following   \nadditional mobile equipment should be provided; namely:- \n(i) Minimum 2 nos. of Trolley mounted water cum foam monitors of capacity of minimum 2000  \nGPM (456 m3/hr) with field adjustable variable flow which are listed or approved by national or \ninternational standards such as BIS, UL and FM etc. Foam induction to the monitor shall be \npossible from a minimum 60 m distance from the monitor. \n(ii) 1 to 2 numbers. of portable monitor of capacity ranging from 1800 to 2250 lpm at discharge \npressure of 7 kg/cm2.",
+    "word_count": 104
+  },
+  {
+    "chunk_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073_p24_3",
+    "doc_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073",
+    "filename": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "doc_type": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "page": 24,
+    "text": "TOXIC GAS DETECTION: \ni) Toxic gas detectors shall be installed if the risk is applicable. Toxic gas detectors shall be \nmounted considering the prevailing wind direction and wind speed.\nii) Additionally, Toxic gas sensors shall be installed in HVAC air intake duct of buildings that could \nbe affected in the event of flammable or toxic release in the surrounding area.",
+    "word_count": 60
+  },
+  {
+    "chunk_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073_p25_1",
+    "doc_id": "regulatory_oisd_std_116_2025_rev_fire_protection_presentation_7a63f073",
+    "filename": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "doc_type": "OISD-STD-116 (2025 rev.) \u2014 Fire Protection Presentation.pdf",
+    "page": 25,
+    "text": "det Gey Geer Freeney\n\nOi Industry Safety Directorate",
+    "word_count": 8
+  }
+]
