@@ -3,7 +3,8 @@ import { supabaseAdmin } from "@/lib/supabase-admin";
 
 const COHERE_API_KEY = process.env.COHERE_API_KEY;
 const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY;
-const SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL;
+const SUPABASE_URL = process.env.SUPABASE_URL ?? process.env.NEXT_PUBLIC_SUPABASE_URL;
+const SUPABASE_SERVICE_ROLE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY;
 
 interface RequestBody {
   question: string;
@@ -11,7 +12,7 @@ interface RequestBody {
 }
 
 interface CohereEmbeddingResponse {
-  data: Array<{ embedding: number[] }>;
+  data: Array<{ embedding?: number[] } | number[]>;
 }
 
 interface MatchChunkRow {
@@ -31,9 +32,6 @@ interface ClaudeMessagesResponse {
   content: ClaudeContentBlock[];
 }
 
-// NOTE: The Python pipeline uses sentence-transformers all-MiniLM-L6-v2 (384-dim).
-// The frontend query route must use a runtime embedding model that produces compatible 384-dim vectors.
-// If you switch embedding providers, re-run embed_and_upload.py with the same vector model for consistency.
 async function createEmbedding(text: string): Promise<number[]> {
   const response = await fetch("https://api.cohere.com/v1/embed", {
     method: "POST",
@@ -43,29 +41,61 @@ async function createEmbedding(text: string): Promise<number[]> {
     },
     body: JSON.stringify({
       model: "embed-english-light-v3.0",
-      input: [text],
-       input_type: "search_query",
+      inputs: [text],
     }),
   });
-  if (!response.ok) {
-    const errText = await response.text();
-    throw new Error(`Failed to create embedding: ${errText}`);
-  }
+
   const body = (await response.json()) as CohereEmbeddingResponse;
-  if (!body.data?.[0]?.embedding) {
+
+  console.log("Cohere Response:", JSON.stringify(body, null, 2));
+
+  if (!response.ok) {
+    throw new Error(`Failed to create embedding: ${JSON.stringify(body)}`);
+  }
+
+  if (!body.data || body.data.length === 0) {
     throw new Error("Invalid embedding response.");
   }
-  return body.data[0].embedding;
+
+  const maybeArray = body.data[0];
+  if (Array.isArray(maybeArray)) {
+    return maybeArray as number[];
+  }
+  if (maybeArray && typeof maybeArray === "object" && Array.isArray(maybeArray.embedding)) {
+    return maybeArray.embedding;
+  }
+
+  throw new Error("Invalid embedding response format.");
 }
 
 function buildContext(chunks: MatchChunkRow[]): string {
   return chunks
-    .map((chunk) => `[Source: ${chunk.doc_id}, page ${chunk.page}]\n${chunk.text}`)
+    .map(
+      (chunk) =>
+        `[Source: ${chunk.doc_id}, page ${chunk.page}]\n${chunk.text}`
+    )
     .join("\n\n");
 }
 
-async function callClaude(context: string, question: string): Promise<string> {
-  const prompt = `You are a private industrial document assistant. Answer only from the provided context, never hallucinate, cite sources in brackets as [Source: doc_id, page X], and return "I don't have enough information" if the context is insufficient.\n\nCONTEXT:\n${context}\n\nQUESTION: ${question}`;
+async function callClaude(
+  context: string,
+  question: string
+): Promise<string> {
+  const prompt = `You are a private industrial document assistant.
+
+Answer ONLY from the provided context.
+Never hallucinate.
+Always cite sources like [Source: doc_id, page X].
+
+If the context does not contain the answer, reply:
+
+"I don't have enough information."
+
+CONTEXT:
+${context}
+
+QUESTION:
+${question}`;
 
   const response = await fetch("https://api.anthropic.com/v1/messages", {
     method: "POST",
@@ -75,10 +105,15 @@ async function callClaude(context: string, question: string): Promise<string> {
       "anthropic-version": "2023-06-01",
     },
     body: JSON.stringify({
-      model: "claude-sonnet-5",
+      model: "claude-sonnet-4-20250514",
       max_tokens: 500,
       temperature: 0,
-      messages: [{ role: "user", content: prompt }],
+      messages: [
+        {
+          role: "user",
+          content: prompt,
+        },
+      ],
     }),
   });
 
@@ -88,89 +123,103 @@ async function callClaude(context: string, question: string): Promise<string> {
   }
 
   const body = (await response.json()) as ClaudeMessagesResponse;
-  const textBlock = body.content?.find((block) => block.type === "text");
-  return (textBlock?.text ?? "").trim();
+
+  const textBlock = body.content.find((c) => c.type === "text");
+
+  return textBlock?.text?.trim() ?? "";
 }
 
 export async function POST(request: Request) {
   try {
-    if (!COHERE_API_KEY || !ANTHROPIC_API_KEY || !SUPABASE_URL) {
+    if (!COHERE_API_KEY || !ANTHROPIC_API_KEY || !SUPABASE_URL || !SUPABASE_SERVICE_ROLE_KEY) {
       return NextResponse.json(
-        { error: "Server misconfiguration: missing required environment variables." },
+        {
+          error: "Server misconfiguration: missing environment variables.",
+        },
+        { status: 500 }
+      );
+    }
+
+    if (!supabaseAdmin) {
+      return NextResponse.json(
+        {
+          error: "Server misconfiguration: supabaseAdmin client is unavailable.",
+        },
         { status: 500 }
       );
     }
 
     const payload = (await request.json()) as RequestBody;
+
     const question = payload.question?.trim();
+
     if (!question) {
-      return NextResponse.json({ error: "Question is required." }, { status: 400 });
+      return NextResponse.json(
+        { error: "Question is required." },
+        { status: 400 }
+      );
     }
 
     const embedding = await createEmbedding(question);
 
-    const rpcResult = await supabaseAdmin.rpc("match_chunks", {
+    console.log("Embedding dimension:", embedding.length);
+
+    const { data, error } = await supabaseAdmin.rpc("match_chunks", {
       query_embedding: embedding,
       match_count: 5,
       filter_doc_type: payload.doc_type_filter ?? null,
     });
 
-    if (rpcResult.error) {
-      throw new Error(rpcResult.error.message);
+    if (error) {
+      throw new Error(error.message);
     }
 
-    const rawChunks = (rpcResult.data ?? []) as MatchChunkRow[];
-    const chunks = rawChunks.filter(
-      (chunk) => typeof chunk.similarity === "number" && chunk.similarity >= 0.25
-    );
+    const chunks: MatchChunkRow[] = ((data ?? []) as MatchChunkRow[]).filter(
+  (chunk) =>
+    typeof chunk.similarity === "number" &&
+    chunk.similarity >= 0.25
+);
 
-    // Short-circuit: no relevant chunks means no point paying for a Claude call.
     if (chunks.length === 0) {
-      await supabaseAdmin.from("query_log").insert({
-        user_id: "web_user",
-        question,
-        answer: "I don't have enough information.",
-        cited_chunk_ids: [],
-        confidence_score: 0,
-      });
-
       return NextResponse.json({
         answer: "I don't have enough information.",
-        sources: [],
         confidence: 0,
+        sources: [],
       });
     }
 
     const context = buildContext(chunks);
-    const answer = await callClaude(context, question);
-    const confidence =
-      chunks.reduce((sum, chunk) => sum + chunk.similarity, 0) / chunks.length;
 
-    const { error: logError } = await supabaseAdmin.from("query_log").insert({
+    const answer = await callClaude(context, question);
+
+    const confidence =
+      chunks.reduce((sum, c) => sum + c.similarity, 0) / chunks.length;
+
+    await supabaseAdmin.from("query_log").insert({
       user_id: "web_user",
       question,
       answer,
-      cited_chunk_ids: chunks.map((chunk) => chunk.chunk_id),
+      cited_chunk_ids: chunks.map((c) => c.chunk_id),
       confidence_score: confidence,
     });
 
-    if (logError) {
-      // Don't fail the whole request just because logging failed.
-      console.error("query_log insert failed:", logError.message);
-    }
-
     return NextResponse.json({
       answer,
-      sources: chunks.map((chunk) => ({
-        doc_id: chunk.doc_id,
-        page: chunk.page,
-        similarity: chunk.similarity,
-      })),
       confidence,
+      sources: chunks.map((c) => ({
+        doc_id: c.doc_id,
+        page: c.page,
+        similarity: c.similarity,
+      })),
     });
-  } catch (error: unknown) {
-    const message = error instanceof Error ? error.message : "Unknown error occurred.";
-    console.error("Query route error:", message);
-    return NextResponse.json({ error: message }, { status: 500 });
+  } catch (err) {
+    console.error(err);
+
+    return NextResponse.json(
+      {
+        error: err instanceof Error ? err.message : "Unknown error",
+      },
+      { status: 500 }
+    );
   }
 }
