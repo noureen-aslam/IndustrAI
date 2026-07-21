@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 import { supabaseAdmin } from "@/lib/supabase-admin";
 
 const COHERE_API_KEY = process.env.COHERE_API_KEY;
-const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY;
+const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 const SUPABASE_URL = process.env.SUPABASE_URL ?? process.env.NEXT_PUBLIC_SUPABASE_URL;
 const SUPABASE_SERVICE_ROLE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY;
 
@@ -23,13 +23,14 @@ interface MatchChunkRow {
   similarity: number;
 }
 
-interface ClaudeContentBlock {
-  type: string;
-  text?: string;
+interface GeminiCandidate {
+  content?: {
+    parts?: Array<{ text?: string }>;
+  };
 }
 
-interface ClaudeMessagesResponse {
-  content: ClaudeContentBlock[];
+interface GeminiGenerateResponse {
+  candidates?: GeminiCandidate[];
 }
 
 async function createEmbedding(text: string): Promise<number[]> {
@@ -70,7 +71,7 @@ function buildContext(chunks: MatchChunkRow[]): string {
     .join("\n\n");
 }
 
-async function callClaude(
+async function callGemini(
   context: string,
   question: string
 ): Promise<string> {
@@ -90,41 +91,43 @@ ${context}
 QUESTION:
 ${question}`;
 
-  const response = await fetch("https://api.anthropic.com/v1/messages", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      "x-api-key": ANTHROPIC_API_KEY as string,
-      "anthropic-version": "2023-06-01",
-    },
-    body: JSON.stringify({
-      model: "claude-sonnet-4-20250514",
-      max_tokens: 500,
-      temperature: 0,
-      messages: [
-        {
-          role: "user",
-          content: prompt,
+  const response = await fetch(
+    `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_API_KEY}`,
+    {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        contents: [
+          {
+            role: "user",
+            parts: [{ text: prompt }],
+          },
+        ],
+        generationConfig: {
+          temperature: 0,
+          maxOutputTokens: 500,
         },
-      ],
-    }),
-  });
+      }),
+    }
+  );
 
   if (!response.ok) {
     const errText = await response.text();
-    throw new Error(`Claude API request failed: ${errText}`);
+    throw new Error(`Gemini API request failed: ${errText}`);
   }
 
-  const body = (await response.json()) as ClaudeMessagesResponse;
+  const body = (await response.json()) as GeminiGenerateResponse;
 
-  const textBlock = body.content.find((c) => c.type === "text");
+  const text = body.candidates?.[0]?.content?.parts?.[0]?.text?.trim();
 
-  return textBlock?.text?.trim() ?? "";
+  return text ?? "";
 }
 
 export async function POST(request: Request) {
   try {
-    if (!COHERE_API_KEY || !ANTHROPIC_API_KEY || !SUPABASE_URL || !SUPABASE_SERVICE_ROLE_KEY) {
+    if (!COHERE_API_KEY || !GEMINI_API_KEY || !SUPABASE_URL || !SUPABASE_SERVICE_ROLE_KEY) {
       return NextResponse.json(
         {
           error: "Server misconfiguration: missing environment variables.",
@@ -183,7 +186,7 @@ export async function POST(request: Request) {
 
     const context = buildContext(chunks);
 
-    const answer = await callClaude(context, question);
+    const answer = await callGemini(context, question);
 
     const confidence =
       chunks.reduce((sum, c) => sum + c.similarity, 0) / chunks.length;
