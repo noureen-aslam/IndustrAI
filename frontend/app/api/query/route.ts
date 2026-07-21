@@ -33,33 +33,51 @@ interface GeminiGenerateResponse {
   candidates?: GeminiCandidate[];
 }
 
+function sleep(ms: number): Promise<void> {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
 async function createEmbedding(text: string): Promise<number[]> {
-  const response = await fetch("https://api.cohere.com/v1/embed", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      Authorization: `Bearer ${COHERE_API_KEY}`,
-    },
-    body: JSON.stringify({
-      model: "embed-english-light-v3.0",
-      texts: [text],
-      input_type: "search_query",
-    }),
-  });
+  const maxRetries = 3;
 
-  const body = (await response.json()) as CohereEmbeddingResponse;
+  for (let attempt = 1; attempt <= maxRetries; attempt++) {
+    const response = await fetch("https://api.cohere.com/v1/embed", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: `Bearer ${COHERE_API_KEY}`,
+      },
+      body: JSON.stringify({
+        model: "embed-english-light-v3.0",
+        texts: [text],
+        input_type: "search_query",
+      }),
+    });
 
-  console.log("Cohere Response:", JSON.stringify(body, null, 2));
+    const body = (await response.json()) as CohereEmbeddingResponse;
 
-  if (!response.ok) {
-    throw new Error(`Failed to create embedding: ${JSON.stringify(body)}`);
+    if (response.ok) {
+      if (!body.embeddings || body.embeddings.length === 0) {
+        throw new Error("Invalid embedding response.");
+      }
+      return body.embeddings[0];
+    }
+
+    const message = JSON.stringify(body);
+    const isRateLimit =
+      response.status === 429 || message.toLowerCase().includes("rate limit");
+
+    if (isRateLimit && attempt < maxRetries) {
+      const waitMs = 3000 * attempt;
+      console.warn(`Cohere rate limited, retrying in ${waitMs}ms (attempt ${attempt}/${maxRetries})`);
+      await sleep(waitMs);
+      continue;
+    }
+
+    throw new Error(`Failed to create embedding: ${message}`);
   }
 
-  if (!body.embeddings || body.embeddings.length === 0) {
-    throw new Error("Invalid embedding response.");
-  }
-
-  return body.embeddings[0];
+  throw new Error("Failed to create embedding after retries.");
 }
 
 function buildContext(chunks: MatchChunkRow[]): string {
@@ -92,7 +110,7 @@ QUESTION:
 ${question}`;
 
   const response = await fetch(
-    `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_API_KEY}`,
+    `https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent?key=${GEMINI_API_KEY}`,
     {
       method: "POST",
       headers: {

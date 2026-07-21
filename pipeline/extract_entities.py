@@ -1,25 +1,33 @@
 import json
 import os
 import re
+import time
 from pathlib import Path
 from typing import Any, Dict, List
 
-from anthropic import Anthropic
+import requests
+from dotenv import load_dotenv
 from supabase import Client, create_client
+
+load_dotenv()
 
 DATA_DIR = Path(__file__).resolve().parent / "data"
 PROCESSED_CHUNKS_PATH = DATA_DIR / "processed" / "processed_chunks.json"
 CHUNKS_DIR = DATA_DIR / "processed" / "chunks"
 
+GEMINI_MODEL = "gemini-3.5-flash"
+GEMINI_URL = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent"
+MAX_RETRIES = 5
+
 SYSTEM_PROMPT = (
     "You are an industrial knowledge extraction system. Extract entities and relationships from the provided industrial document chunk. "
     "Respond ONLY with valid JSON, no markdown, no explanation, no preamble. Use this exact schema:\n"
-    "{\n"
-    "  'entities': [{'name': 'string', 'type': 'equipment|regulation_clause|procedure|location|personnel', 'canonical_key': 'string'}],\n"
-    "  'relationships': [{'source': 'canonical_key', 'target': 'canonical_key', 'type': 'governed_by|inspected_in|maintained_by|references|located_in|requires'}]\n"
-    "}\n"
+    '{\n'
+    '  "entities": [{"name": "string", "type": "equipment|regulation_clause|procedure|location|personnel", "canonical_key": "string"}],\n'
+    '  "relationships": [{"source": "canonical_key", "target": "canonical_key", "type": "governed_by|inspected_in|maintained_by|references|located_in|requires"}]\n'
+    '}\n'
     "canonical_key must be lowercase, underscores only, no special characters. Example: 'pump_cp_450', 'oisd_std_118_clause_4_2'. "
-    "Only extract entities explicitly mentioned. If no entities found, return {'entities': [], 'relationships': []}."
+    "Only extract entities explicitly mentioned. If no entities found, return {\"entities\": [], \"relationships\": []}."
 )
 
 
@@ -40,19 +48,15 @@ def save_processed_chunks(data: Dict[str, Any]) -> None:
 
 
 def safe_parse_json(raw: str) -> Dict[str, Any]:
+    cleaned = raw.strip()
+    if cleaned.startswith("```"):
+        cleaned = re.sub(r"^```(json)?", "", cleaned).strip()
+        cleaned = re.sub(r"```$", "", cleaned).strip()
     try:
-        cleaned = raw.strip()
-        if cleaned.startswith("```") and cleaned.endswith("```"):
-            cleaned = cleaned.strip("`\n")
         return json.loads(cleaned)
     except json.JSONDecodeError:
-        # Some Claude responses use single quotes; normalize to double quotes safely when possible.
-        normalized = re.sub(r"(?<!\\)'", '"', raw)
-        normalized = normalized.replace("\"\"", '"')
-        try:
-            return json.loads(normalized)
-        except json.JSONDecodeError:
-            raise
+        normalized = re.sub(r"(?<!\\)'", '"', cleaned)
+        return json.loads(normalized)
 
 
 def get_env_variable(name: str) -> str:
@@ -82,18 +86,6 @@ def read_chunk_files() -> List[Dict[str, Any]]:
     return chunks
 
 
-def extract_entities_from_text(anthropic: Anthropic, chunk_text: str) -> Dict[str, Any]:
-    response = anthropic.completions.create(
-        model="claude-sonnet-4-6",
-        prompt=f"{SYSTEM_PROMPT}\n\n{chunk_text}",
-        max_tokens_to_sample=600,
-        temperature=0.0,
-        stop_sequences=["\n\n"],
-    )
-    content = response.get("completion", "").strip()
-    return safe_parse_json(content)
-
-
 def read_chunks_for_doc(doc_id: str) -> List[Dict[str, Any]]:
     chunks = []
     for chunk_file in sorted(CHUNKS_DIR.glob("*_chunks.json")):
@@ -107,64 +99,42 @@ def read_chunks_for_doc(doc_id: str) -> List[Dict[str, Any]]:
     return chunks
 
 
-def extract_entities_single_doc(doc_id: str) -> None:
-    anthropic_api_key = get_env_variable("ANTHROPIC_API_KEY")
-    anthropic = Anthropic(api_key=anthropic_api_key)
-    supabase = create_supabase_client()
-    chunks = read_chunks_for_doc(doc_id)
-    processed = load_processed_chunks()
-    processed_ids = set(processed.get("processed_chunk_ids", []))
-    extracted_entities = 0
-    mapped_relationships = 0
+def extract_entities_from_text(chunk_text: str, api_key: str) -> Dict[str, Any]:
+    prompt = f"{SYSTEM_PROMPT}\n\nDOCUMENT CHUNK:\n{chunk_text}"
 
-    for index, chunk in enumerate(chunks, start=1):
-        chunk_id = chunk.get("chunk_id")
-        if not chunk_id or chunk_id in processed_ids:
-            continue
-        print(
-            f"Processing chunk {index}/{len(chunks)}... [doc_id: {chunk.get('doc_id')}, page: {chunk.get('page')}]"
+    for attempt in range(1, MAX_RETRIES + 1):
+        response = requests.post(
+            f"{GEMINI_URL}?key={api_key}",
+            headers={"Content-Type": "application/json"},
+            json={
+                "contents": [{"role": "user", "parts": [{"text": prompt}]}],
+                "generationConfig": {"temperature": 0, "maxOutputTokens": 600},
+            },
+            timeout=60,
         )
-        chunk_text = chunk.get("text", "")
-        if not chunk_text.strip():
-            processed_ids.add(chunk_id)
-            save_processed_chunks({"processed_chunk_ids": list(processed_ids)})
-            continue
-        try:
-            parsed = extract_entities_from_text(anthropic, chunk_text)
-        except Exception as exc:
-            print(f"Warning: failed to parse chunk {chunk_id}: {exc}")
-            continue
-        entities = parsed.get("entities", []) or []
-        relationships = parsed.get("relationships", []) or []
-        for entity in entities:
-            entity_payload = {
-                "name": entity.get("name"),
-                "type": entity.get("type"),
-                "canonical_key": entity.get("canonical_key"),
-                "source_doc_id": chunk.get("doc_id"),
-                "source_chunk_id": chunk_id,
-                "metadata": {
-                    "page": chunk.get("page"),
-                    "doc_type": chunk.get("doc_type"),
-                },
-            }
-            try:
-                ensure_entity_exists(supabase, entity_payload)
-                extracted_entities += 1
-            except Exception as exc:
-                print(f"Warning: entity insert skipped for chunk {chunk_id}: {exc}")
-        for relationship in relationships:
-            try:
-                insert_relationship(supabase, relationship, chunk_id)
-                mapped_relationships += 1
-            except Exception as exc:
-                print(f"Warning: relationship insert skipped for chunk {chunk_id}: {exc}")
-        processed_ids.add(chunk_id)
-        save_processed_chunks({"processed_chunk_ids": list(processed_ids)})
+        body = response.json()
 
-    print(
-        f"Done. {extracted_entities} entities extracted, {mapped_relationships} relationships mapped for document {doc_id}."
-    )
+        if response.ok:
+            text = (
+                body.get("candidates", [{}])[0]
+                .get("content", {})
+                .get("parts", [{}])[0]
+                .get("text", "")
+            )
+            return safe_parse_json(text)
+
+        message = json.dumps(body)
+        is_rate_limit = response.status_code == 429 or "rate" in message.lower() or "quota" in message.lower()
+
+        if is_rate_limit and attempt < MAX_RETRIES:
+            wait_seconds = min(60, 5 * attempt)
+            print(f"    Rate limited (attempt {attempt}/{MAX_RETRIES}). Waiting {wait_seconds}s...")
+            time.sleep(wait_seconds)
+            continue
+
+        raise RuntimeError(f"Gemini request failed: {message}")
+
+    raise RuntimeError("Gemini request failed after max retries.")
 
 
 def ensure_entity_exists(supabase: Client, entity: Dict[str, Any]) -> None:
@@ -178,8 +148,8 @@ def ensure_entity_exists(supabase: Client, entity: Dict[str, Any]) -> None:
         .limit(1)
         .execute()
     )
-    if existing.error:
-        raise RuntimeError(f"Supabase query failed: {existing.error.message}")
+    if getattr(existing, "error", None):
+        raise RuntimeError(f"Supabase query failed: {existing.error}")
     if existing.data:
         return
     insert_payload = {
@@ -190,13 +160,9 @@ def ensure_entity_exists(supabase: Client, entity: Dict[str, Any]) -> None:
         "source_chunk_id": entity.get("source_chunk_id"),
         "metadata": entity.get("metadata", {}),
     }
-    upsert_result = (
-        supabase.table("entities")
-        .insert(insert_payload)
-        .execute()
-    )
-    if upsert_result.error:
-        raise RuntimeError(f"Supabase insert failed: {upsert_result.error.message}")
+    result = supabase.table("entities").insert(insert_payload).execute()
+    if getattr(result, "error", None):
+        raise RuntimeError(f"Supabase insert failed: {result.error}")
 
 
 def insert_relationship(supabase: Client, relationship: Dict[str, Any], chunk_id: str) -> None:
@@ -204,27 +170,18 @@ def insert_relationship(supabase: Client, relationship: Dict[str, Any], chunk_id
     target_key = relationship.get("target")
     if not source_key or not target_key:
         return
+
     source_entity = (
-        supabase.table("entities")
-        .select("entity_id")
-        .eq("canonical_key", source_key)
-        .limit(1)
-        .execute()
+        supabase.table("entities").select("entity_id").eq("canonical_key", source_key).limit(1).execute()
     )
     target_entity = (
-        supabase.table("entities")
-        .select("entity_id")
-        .eq("canonical_key", target_key)
-        .limit(1)
-        .execute()
+        supabase.table("entities").select("entity_id").eq("canonical_key", target_key).limit(1).execute()
     )
-    if source_entity.error or target_entity.error:
-        raise RuntimeError(
-            f"Supabase lookup failed: {source_entity.error.message if source_entity.error else ''} "
-            f"{target_entity.error.message if target_entity.error else ''}"
-        )
+    if getattr(source_entity, "error", None) or getattr(target_entity, "error", None):
+        raise RuntimeError("Supabase lookup failed for relationship endpoints.")
     if not source_entity.data or not target_entity.data:
         return
+
     payload = {
         "source_entity_id": source_entity.data[0]["entity_id"],
         "target_entity_id": target_entity.data[0]["entity_id"],
@@ -232,24 +189,15 @@ def insert_relationship(supabase: Client, relationship: Dict[str, Any], chunk_id
         "confidence": 1.0,
         "source_chunk_id": chunk_id,
     }
-    upsert_result = (
-        supabase.table("relationships")
-        .insert(payload)
-        .execute()
-    )
-    if upsert_result.error:
-        raise RuntimeError(f"Supabase insert failed: {upsert_result.error.message}")
+    result = supabase.table("relationships").insert(payload).execute()
+    if getattr(result, "error", None):
+        raise RuntimeError(f"Supabase insert failed: {result.error}")
 
 
-def main() -> None:
-    anthropic_api_key = get_env_variable("ANTHROPIC_API_KEY")
-    anthropic = Anthropic(api_key=anthropic_api_key)
-    supabase = create_supabase_client()
+def process_chunks(chunks: List[Dict[str, Any]], api_key: str, supabase: Client) -> None:
     processed = load_processed_chunks()
     processed_ids = set(processed.get("processed_chunk_ids", []))
-    chunks = read_chunk_files()
-
-    total_chunks = len(chunks)
+    total = len(chunks)
     extracted_entities = 0
     mapped_relationships = 0
     skipped_chunks = 0
@@ -260,9 +208,7 @@ def main() -> None:
             skipped_chunks += 1
             continue
 
-        print(
-            f"Processing chunk {index}/{total_chunks}... [doc_id: {chunk.get('doc_id')}, page: {chunk.get('page')}]"
-        )
+        print(f"Processing chunk {index}/{total}... [doc_id: {chunk.get('doc_id')}, page: {chunk.get('page')}]")
         chunk_text = chunk.get("text", "")
         if not chunk_text.strip():
             processed_ids.add(chunk_id)
@@ -270,9 +216,9 @@ def main() -> None:
             continue
 
         try:
-            parsed = extract_entities_from_text(anthropic, chunk_text)
+            parsed = extract_entities_from_text(chunk_text, api_key)
         except Exception as exc:
-            print(f"Warning: failed to parse chunk {chunk_id}: {exc}")
+            print(f"  Warning: failed to parse chunk {chunk_id}: {exc}")
             continue
 
         entities = parsed.get("entities", []) or []
@@ -285,30 +231,43 @@ def main() -> None:
                 "canonical_key": entity.get("canonical_key"),
                 "source_doc_id": chunk.get("doc_id"),
                 "source_chunk_id": chunk_id,
-                "metadata": {
-                    "page": chunk.get("page"),
-                    "doc_type": chunk.get("doc_type"),
-                },
+                "metadata": {"page": chunk.get("page"), "doc_type": chunk.get("doc_type")},
             }
             try:
                 ensure_entity_exists(supabase, entity_payload)
                 extracted_entities += 1
             except Exception as exc:
-                print(f"Warning: entity insert skipped for chunk {chunk_id}: {exc}")
+                print(f"  Warning: entity insert skipped for chunk {chunk_id}: {exc}")
 
         for relationship in relationships:
             try:
                 insert_relationship(supabase, relationship, chunk_id)
                 mapped_relationships += 1
             except Exception as exc:
-                print(f"Warning: relationship insert skipped for chunk {chunk_id}: {exc}")
+                print(f"  Warning: relationship insert skipped for chunk {chunk_id}: {exc}")
 
         processed_ids.add(chunk_id)
         save_processed_chunks({"processed_chunk_ids": list(processed_ids)})
+        time.sleep(4)  # keep well under free-tier RPM
 
     print(
-        f"Done. {extracted_entities} entities extracted, {mapped_relationships} relationships mapped, {skipped_chunks} chunks skipped (already processed)."
+        f"Done. {extracted_entities} entities extracted, {mapped_relationships} relationships mapped, "
+        f"{skipped_chunks} chunks skipped (already processed)."
     )
+
+
+def extract_entities_single_doc(doc_id: str) -> None:
+    api_key = get_env_variable("GEMINI_API_KEY")
+    supabase = create_supabase_client()
+    chunks = read_chunks_for_doc(doc_id)
+    process_chunks(chunks, api_key, supabase)
+
+
+def main() -> None:
+    api_key = get_env_variable("GEMINI_API_KEY")
+    supabase = create_supabase_client()
+    chunks = read_chunk_files()
+    process_chunks(chunks, api_key, supabase)
 
 
 if __name__ == "__main__":
