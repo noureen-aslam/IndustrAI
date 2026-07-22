@@ -328,11 +328,11 @@ export function ChatInterface({ documents }: ChatInterfaceProps) {
                         <Sparkles className="h-5 w-5 text-accent-blue" />
                       </div>
                       <div className="mt-4 grid gap-3 md:grid-cols-2">
-                        {message.sources.map((source) => {
+                        {message.sources.map((source, index) => {
                           const document = documentMap[source.doc_id];
                           return (
                             <SourceCard
-                              key={`${source.doc_id}-${source.page}`}
+                              key={`${source.doc_id}-${source.page}-${index}`}
                               docId={source.doc_id}
                               page={source.page}
                               similarity={source.similarity}

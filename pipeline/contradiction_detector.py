@@ -1,34 +1,42 @@
 import hashlib
 import json
 import os
+import time
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
-from anthropic import Anthropic
+import requests
+from dotenv import load_dotenv
 from supabase import Client, create_client
 
 ROOT_DIR = Path(__file__).resolve().parent
+load_dotenv(dotenv_path=ROOT_DIR / ".env")
+
 DATA_DIR = ROOT_DIR / "data"
 CONTRA_PATH = DATA_DIR / "processed" / "contradictions.json"
+
+GEMINI_MODEL = "gemini-3.5-flash"
+GEMINI_URL = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent"
+MAX_RETRIES = 5
 
 PROMPT = (
     "You are a safety-critical industrial document analysis system. You will be given multiple text excerpts about the same piece of equipment from different source documents. "
     "Identify any contradictions or conflicts between them — especially regarding maintenance intervals, pressure/temperature thresholds, inspection frequencies, operating limits, or safety procedures.\n\n"
     "Respond ONLY with valid JSON, no markdown:\n"
-    "{\n"
-    "  'contradictions': [\n"
-    "    {\n"
-    "      'entity': 'equipment name',\n"
-    "      'claim_type': 'maintenance interval|pressure threshold|temperature limit|inspection frequency|operating procedure|safety requirement',\n"
-    "      'source_a': {'doc_id': '...', 'page': 0, 'claim': 'exact relevant quote'},\n"
-    "      'source_b': {'doc_id': '...', 'page': 0, 'claim': 'exact relevant quote'},\n"
-    "      'severity': 'high|medium|low',\n"
-    "      'reason': 'one sentence explaining why this is a contradiction'\n"
-    "    }\n"
-    "  ]\n"
-    "}\n\n"
+    '{\n'
+    '  "contradictions": [\n'
+    '    {\n'
+    '      "entity": "equipment name",\n'
+    '      "claim_type": "maintenance interval|pressure threshold|temperature limit|inspection frequency|operating procedure|safety requirement",\n'
+    '      "source_a": {"doc_id": "...", "page": 0, "claim": "exact relevant quote"},\n'
+    '      "source_b": {"doc_id": "...", "page": 0, "claim": "exact relevant quote"},\n'
+    '      "severity": "high|medium|low",\n'
+    '      "reason": "one sentence explaining why this is a contradiction"\n'
+    '    }\n'
+    '  ]\n'
+    '}\n\n'
     "Severity guide: high = directly contradicts a safety-critical value (pressure limit, evacuation threshold); medium = contradicts maintenance timing or inspection frequency; low = ambiguous or minor procedural difference.\n"
-    "If no contradictions found, return {'contradictions': []}.\n"
+    'If no contradictions found, return {"contradictions": []}.\n'
     "Do not invent contradictions. Only flag genuine conflicts."
 )
 
@@ -47,13 +55,15 @@ def create_supabase_client() -> Client:
 
 
 def safe_parse_json(raw: str) -> Dict[str, Any]:
+    cleaned = raw.strip()
+    if cleaned.startswith("```"):
+        cleaned = cleaned.strip("`\n")
+        if cleaned.startswith("json"):
+            cleaned = cleaned[4:].strip()
     try:
-        cleaned = raw.strip()
-        if cleaned.startswith("```") and cleaned.endswith("```"):
-            cleaned = cleaned.strip("`\n")
         return json.loads(cleaned)
     except json.JSONDecodeError:
-        normalized = raw.replace("'", '"')
+        normalized = cleaned.replace("'", '"')
         return json.loads(normalized)
 
 
@@ -63,30 +73,40 @@ def hash_uuid(value: str) -> str:
 
 
 def load_equipment_entities(supabase: Client) -> List[Dict[str, Any]]:
-    response = supabase.table("entities").select("entity_id,name,canonical_key").eq("entity_type", "equipment").execute()
-    if response.error:
-        raise RuntimeError(f"Failed to fetch equipment entities: {response.error.message}")
+    response = (
+        supabase.table("entities")
+        .select("entity_id,name,canonical_key")
+        .eq("entity_type", "equipment")
+        .execute()
+    )
+    if getattr(response, "error", None):
+        raise RuntimeError(f"Failed to fetch equipment entities: {response.error}")
     return response.data or []
 
 
 def load_chunk_texts(supabase: Client, chunk_ids: List[str]) -> List[Dict[str, Any]]:
     if not chunk_ids:
         return []
-    response = supabase.table("chunks").select("chunk_id,doc_id,page,text").in_("chunk_id", chunk_ids).execute()
-    if response.error:
-        raise RuntimeError(f"Failed to fetch chunk texts: {response.error.message}")
+    response = (
+        supabase.table("chunks")
+        .select("chunk_id,doc_id,page,text")
+        .in_("chunk_id", chunk_ids)
+        .execute()
+    )
+    if getattr(response, "error", None):
+        raise RuntimeError(f"Failed to fetch chunk texts: {response.error}")
     return response.data or []
 
 
-def fetch_conflicting_chunks(supabase: Client, entity_id: str) -> List[Dict[str, Any]]:
+def fetch_conflicting_chunks(supabase: Client, entity_id: str) -> List[str]:
     response = (
         supabase.table("relationships")
         .select("source_chunk_id")
         .or_(f"source_entity_id.eq.{entity_id},target_entity_id.eq.{entity_id}")
         .execute()
     )
-    if response.error:
-        raise RuntimeError(f"Failed to fetch relationship chunk ids: {response.error.message}")
+    if getattr(response, "error", None):
+        raise RuntimeError(f"Failed to fetch relationship chunk ids: {response.error}")
     return [row["source_chunk_id"] for row in (response.data or []) if row.get("source_chunk_id")]
 
 
@@ -96,17 +116,42 @@ def build_context(chunks: List[Dict[str, Any]]) -> str:
     )
 
 
-def call_claude(anthropic: Anthropic, context: str, entity_name: str) -> Dict[str, Any]:
+def call_gemini(context: str, entity_name: str, api_key: str) -> Dict[str, Any]:
     prompt = f"{PROMPT}\n\nEQUIPMENT: {entity_name}\n\nEXCERPTS:\n{context}\n"
-    response = anthropic.completions.create(
-        model="claude-sonnet-4-6",
-        prompt=prompt,
-        max_tokens_to_sample=700,
-        temperature=0.0,
-        stop_sequences=["\n\n"],
-    )
-    content = response.get("completion", "").strip()
-    return safe_parse_json(content)
+
+    for attempt in range(1, MAX_RETRIES + 1):
+        response = requests.post(
+            f"{GEMINI_URL}?key={api_key}",
+            headers={"Content-Type": "application/json"},
+            json={
+                "contents": [{"role": "user", "parts": [{"text": prompt}]}],
+                "generationConfig": {"temperature": 0, "maxOutputTokens": 700},
+            },
+            timeout=60,
+        )
+        body = response.json()
+
+        if response.ok:
+            text = (
+                body.get("candidates", [{}])[0]
+                .get("content", {})
+                .get("parts", [{}])[0]
+                .get("text", "")
+            )
+            return safe_parse_json(text)
+
+        message = json.dumps(body)
+        is_rate_limit = response.status_code == 429 or "rate" in message.lower() or "quota" in message.lower()
+
+        if is_rate_limit and attempt < MAX_RETRIES:
+            wait_seconds = min(60, 5 * attempt)
+            print(f"  Rate limited (attempt {attempt}/{MAX_RETRIES}). Waiting {wait_seconds}s...")
+            time.sleep(wait_seconds)
+            continue
+
+        raise RuntimeError(f"Gemini request failed: {message}")
+
+    raise RuntimeError("Gemini request failed after max retries.")
 
 
 def upsert_contradictions(supabase: Client, contradictions: List[Dict[str, Any]]) -> None:
@@ -115,7 +160,8 @@ def upsert_contradictions(supabase: Client, contradictions: List[Dict[str, Any]]
     rows: List[Dict[str, Any]] = []
     for contradiction in contradictions:
         unique_input = (
-            f"{contradiction['entity_name']}|{contradiction['claim_type']}|{contradiction['claim_a']}|{contradiction['claim_b']}"
+            f"{contradiction['entity_name']}|{contradiction['claim_type']}|"
+            f"{contradiction['claim_a']}|{contradiction['claim_b']}"
         )
         rows.append({
             "contradiction_id": hash_uuid(unique_input),
@@ -131,8 +177,8 @@ def upsert_contradictions(supabase: Client, contradictions: List[Dict[str, Any]]
             "reason": contradiction["reason"],
         })
     response = supabase.table("contradictions").upsert(rows, on_conflict="contradiction_id").execute()
-    if response.error:
-        raise RuntimeError(f"Failed to upsert contradictions: {response.error.message}")
+    if getattr(response, "error", None):
+        raise RuntimeError(f"Failed to upsert contradictions: {response.error}")
 
 
 def save_contradictions_file(contradictions: List[Dict[str, Any]]) -> None:
@@ -161,8 +207,7 @@ def normalize_contradiction(raw: Dict[str, Any], entity_name: str) -> Optional[D
 
 
 def main() -> None:
-    anthropic_api_key = get_env_variable("ANTHROPIC_API_KEY")
-    anthropic = Anthropic(api_key=anthropic_api_key)
+    gemini_api_key = get_env_variable("GEMINI_API_KEY")
     supabase = create_supabase_client()
 
     equipment_entities = load_equipment_entities(supabase)
@@ -183,8 +228,9 @@ def main() -> None:
             continue
         context = build_context(chunks)
         try:
-            parsed = call_claude(anthropic, context, entity_name)
-        except Exception:
+            parsed = call_gemini(context, entity_name, gemini_api_key)
+        except Exception as exc:
+            print(f"  Warning: skipping entity {entity_name}: {exc}")
             continue
         raw_contradictions = parsed.get("contradictions", []) or []
         for raw in raw_contradictions:
@@ -194,6 +240,7 @@ def main() -> None:
                 severity = normalized["severity"]
                 if severity in severity_counts:
                     severity_counts[severity] += 1
+        time.sleep(4)  # keep well under free-tier RPM
 
     upsert_contradictions(supabase, contradictions)
     save_contradictions_file(contradictions)

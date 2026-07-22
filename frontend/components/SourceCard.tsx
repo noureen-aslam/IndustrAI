@@ -16,10 +16,21 @@ const BADGE_COLORS: Record<string, string> = {
   default: "bg-slate-500",
 };
 
+// Must match sanitize_filename() in pipeline/upload_pdfs_to_storage.py exactly,
+// so generated URLs match the actual Storage object keys.
+function sanitizeFilename(filename: string): string {
+  return filename
+    .replace(/\u2014/g, "-") // em dash
+    .replace(/\u2013/g, "-") // en dash
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
 export function SourceCard({ docId, page, similarity, docType, filename }: SourceCardProps) {
   const badgeClass = BADGE_COLORS[docType] ?? BADGE_COLORS.default;
   const sourceUrl = useMemo(() => {
-    return `https://${process.env.NEXT_PUBLIC_SUPABASE_URL?.replace(/^https?:\/\//, "")}/storage/v1/object/public/documents/${encodeURIComponent(docType)}/${encodeURIComponent(filename)}`;
+    const safeName = sanitizeFilename(filename);
+    return `https://${process.env.NEXT_PUBLIC_SUPABASE_URL?.replace(/^https?:\/\//, "")}/storage/v1/object/public/documents/${encodeURIComponent(docType)}/${encodeURIComponent(safeName)}`;
   }, [docType, filename]);
 
   return (

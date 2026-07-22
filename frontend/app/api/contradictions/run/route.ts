@@ -5,7 +5,9 @@ import fs from "fs";
 
 export async function POST() {
   try {
-    const scriptPath = path.resolve(process.cwd(), "../pipeline/contradiction_detector.py");
+    const pipelineDir = path.resolve(process.cwd(), "../pipeline");
+    const scriptPath = path.join(pipelineDir, "contradiction_detector.py");
+
     if (!fs.existsSync(scriptPath)) {
       return NextResponse.json({
         success: false,
@@ -13,13 +15,20 @@ export async function POST() {
       });
     }
 
-    const result = spawnSync("python", [scriptPath], { encoding: "utf-8" });
+    const result = spawnSync("python", [scriptPath], {
+      encoding: "utf-8",
+      cwd: pipelineDir,
+      timeout: 10 * 60 * 1000, // 10 minutes — this can call the LLM many times
+      maxBuffer: 10 * 1024 * 1024, // 10MB, in case of a large stdout
+    });
+
     if (result.error) {
       throw result.error;
     }
     if (result.status !== 0) {
       throw new Error(result.stderr || "Contradiction detector failed.");
     }
+
     return NextResponse.json({ success: true, output: result.stdout });
   } catch (error: unknown) {
     return NextResponse.json({ error: (error as Error).message }, { status: 500 });
