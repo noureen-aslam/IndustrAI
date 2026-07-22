@@ -109,38 +109,56 @@ ${context}
 QUESTION:
 ${question}`;
 
-  const response = await fetch(
-    `https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent?key=${GEMINI_API_KEY}`,
-    {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        contents: [
-          {
-            role: "user",
-            parts: [{ text: prompt }],
-          },
-        ],
-        generationConfig: {
-          temperature: 0,
-          maxOutputTokens: 500,
-        },
-      }),
-    }
-  );
+  const maxRetries = 4;
 
-  if (!response.ok) {
+  for (let attempt = 1; attempt <= maxRetries; attempt++) {
+    const response = await fetch(
+      `https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent?key=${GEMINI_API_KEY}`,
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          contents: [
+            {
+              role: "user",
+              parts: [{ text: prompt }],
+            },
+          ],
+          generationConfig: {
+            temperature: 0,
+            maxOutputTokens: 500,
+          },
+        }),
+      }
+    );
+
+    if (response.ok) {
+      const body = (await response.json()) as GeminiGenerateResponse;
+      const text = body.candidates?.[0]?.content?.parts?.[0]?.text?.trim();
+      return text ?? "";
+    }
+
     const errText = await response.text();
+    const isRetryable =
+      response.status === 503 ||
+      response.status === 429 ||
+      errText.toLowerCase().includes("unavailable") ||
+      errText.toLowerCase().includes("high demand") ||
+      errText.toLowerCase().includes("rate limit");
+
+    if (isRetryable && attempt < maxRetries) {
+      const waitMs = 2000 * attempt;
+      console.warn(`Gemini transient error (attempt ${attempt}/${maxRetries}), retrying in ${waitMs}ms`);
+      await new Promise((resolve) => setTimeout(resolve, waitMs));
+      continue;
+    }
+
     throw new Error(`Gemini API request failed: ${errText}`);
   }
 
-  const body = (await response.json()) as GeminiGenerateResponse;
-
-  const text = body.candidates?.[0]?.content?.parts?.[0]?.text?.trim();
-
-  return text ?? "";
+  throw new Error("Gemini API request failed after retries.");
 }
 
 export async function POST(request: Request) {
@@ -204,7 +222,14 @@ export async function POST(request: Request) {
 
     const context = buildContext(chunks);
 
-    const answer = await callGemini(context, question);
+    let answer: string;
+    try {
+      answer = await callGemini(context, question);
+    } catch (geminiError) {
+      console.error("Gemini generation failed, returning sources without a synthesized answer:", geminiError);
+      answer =
+        "The answer generation model is temporarily unavailable, but here are the most relevant source documents retrieved for this question:";
+    }
 
     const confidence =
       chunks.reduce((sum, c) => sum + c.similarity, 0) / chunks.length;

@@ -6,6 +6,26 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
+    "/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/page.js"
+    ],
+    "/chat/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/chat/page.js"
+    ],
+    "/api/documents/route": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/api/documents/route.js"
+    ],
+    "/api/query/route": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/api/query/route.js"
+    ],
     "/graph/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -36,10 +56,15 @@
       "static/chunks/main-app.js",
       "static/chunks/app/admin/page.js"
     ],
-    "/api/documents/route": [
+    "/api/ingest/route": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/api/documents/route.js"
+      "static/chunks/app/api/ingest/route.js"
+    ],
+    "/api/documents/reingest/route": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/api/documents/reingest/route.js"
     ]
   }
 }
