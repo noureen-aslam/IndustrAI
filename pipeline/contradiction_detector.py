@@ -99,15 +99,29 @@ def load_chunk_texts(supabase: Client, chunk_ids: List[str]) -> List[Dict[str, A
 
 
 def fetch_conflicting_chunks(supabase: Client, entity_id: str) -> List[str]:
-    response = (
+    as_source = (
         supabase.table("relationships")
         .select("source_chunk_id")
-        .or_(f"source_entity_id.eq.{entity_id},target_entity_id.eq.{entity_id}")
+        .eq("source_entity_id", entity_id)
         .execute()
     )
-    if getattr(response, "error", None):
-        raise RuntimeError(f"Failed to fetch relationship chunk ids: {response.error}")
-    return [row["source_chunk_id"] for row in (response.data or []) if row.get("source_chunk_id")]
+    if getattr(as_source, "error", None):
+        raise RuntimeError(f"Failed to fetch relationship chunk ids (source): {as_source.error}")
+
+    as_target = (
+        supabase.table("relationships")
+        .select("source_chunk_id")
+        .eq("target_entity_id", entity_id)
+        .execute()
+    )
+    if getattr(as_target, "error", None):
+        raise RuntimeError(f"Failed to fetch relationship chunk ids (target): {as_target.error}")
+
+    chunk_ids = set()
+    for row in (as_source.data or []) + (as_target.data or []):
+        if row.get("source_chunk_id"):
+            chunk_ids.add(row["source_chunk_id"])
+    return list(chunk_ids)
 
 
 def build_context(chunks: List[Dict[str, Any]]) -> str:

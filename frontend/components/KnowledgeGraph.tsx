@@ -1,8 +1,12 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import ForceGraph2D, { type ForceGraphMethods } from "react-force-graph-2d";
+import dynamic from "next/dynamic";
 import { GraphData } from "@/lib/types";
+
+const ForceGraph2D = dynamic(() => import("react-force-graph-2d"), {
+  ssr: false,
+});
 
 interface KnowledgeGraphProps {
   data: GraphData;
@@ -26,7 +30,7 @@ const TYPE_COLORS: Record<string, string> = {
 };
 
 export function KnowledgeGraph({ data }: KnowledgeGraphProps) {
-  const fgRef = useRef<ForceGraphMethods<GraphNodeWithValue, { source: string; target: string }> | undefined>(undefined);
+  const fgRef = useRef<any>(undefined);
   const containerRef = useRef<HTMLDivElement | null>(null);
   const [dimensions, setDimensions] = useState({ width: 800, height: 600 });
   const [searchTerm, setSearchTerm] = useState("");
@@ -100,19 +104,21 @@ export function KnowledgeGraph({ data }: KnowledgeGraphProps) {
           ref={fgRef}
           graphData={{ nodes: visibleNodes, links: links.filter((link) => visibleNodes.some((node) => node.id === link.source || node.id === link.target)) }}
           nodeAutoColorBy="type"
-          nodeCanvasObject={(node: GraphNodeWithValue, ctx, globalScale) => {
-            const label = node.name;
-            const fontSize = 10 + node.val * 0.7;
-            ctx.fillStyle = TYPE_COLORS[node.type] ?? "#94a3b8";
+          nodeCanvasObject={(node: any, ctx: CanvasRenderingContext2D) => {
+            const typedNode = node as GraphNodeWithValue;
+            const label = typedNode.name;
+            const fontSize = 10 + typedNode.val * 0.7;
+            ctx.fillStyle = TYPE_COLORS[typedNode.type] ?? "#94a3b8";
             ctx.beginPath();
-            ctx.arc(node.x ?? 0, node.y ?? 0, Math.max(4, node.val), 0, 2 * Math.PI, false);
+            ctx.arc(typedNode.x ?? 0, typedNode.y ?? 0, Math.max(4, typedNode.val), 0, 2 * Math.PI, false);
             ctx.fill();
             ctx.font = `${fontSize}px Sans-Serif`;
             ctx.fillStyle = "#f8fafc";
             ctx.textAlign = "center";
-            ctx.fillText(label, node.x ?? 0, (node.y ?? 0) - Math.max(8, node.val));
+            ctx.fillText(label, typedNode.x ?? 0, (typedNode.y ?? 0) - Math.max(8, typedNode.val));
           }}
-          linkDirectionalArrowLength={3}
+          linkColor={() => "rgba(148, 163, 184, 0.6)"}
+          linkDirectionalArrowLength={4}
           linkDirectionalArrowRelPos={1}
           linkWidth={1.5}
           nodeRelSize={4}

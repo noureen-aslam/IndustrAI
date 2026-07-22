@@ -27,7 +27,15 @@ SYSTEM_PROMPT = (
     '  "relationships": [{"source": "canonical_key", "target": "canonical_key", "type": "governed_by|inspected_in|maintained_by|references|located_in|requires"}]\n'
     '}\n'
     "canonical_key must be lowercase, underscores only, no special characters. Example: 'pump_cp_450', 'oisd_std_118_clause_4_2'. "
-    "Only extract entities explicitly mentioned. If no entities found, return {\"entities\": [], \"relationships\": []}."
+    "Only extract entities explicitly mentioned. If no entities found, return {\"entities\": [], \"relationships\": []}.\n\n"
+    "STRICT EXCLUSIONS — do NOT extract as entities:\n"
+    "- Manufacturer or distributor company addresses, mailing addresses, or ZIP/postal codes\n"
+    "- Cities, states, or countries that only appear as part of a company's contact/mailing address (e.g. corporate headquarters)\n"
+    "- Website URLs, phone numbers, fax numbers, or email addresses\n"
+    "- Copyright notices, document revision numbers, or publisher boilerplate\n"
+    "- Generic document titles (e.g. do not extract 'Operation and Maintenance Manual' as a 'procedure' entity — only extract SPECIFIC named procedures described within the text, like 'Weekly Bearing Lubrication Procedure')\n\n"
+    "Only extract 'location' entities when the location is operationally relevant — e.g. an installation site, a hazardous zone, an inspection point, or a physical location referenced in a safety or maintenance instruction. A company's return-mail address is never operationally relevant.\n"
+    "Only extract 'equipment' entities that are specific, named pieces of equipment or equipment models actually discussed in the text (e.g. 'S200 Series Centrifugal Pump', 'Bearing Housing Assembly') — not generic category words alone."
 )
 
 
@@ -47,15 +55,43 @@ def save_processed_chunks(data: Dict[str, Any]) -> None:
         json.dump(data, handle, indent=2)
 
 
+def extract_json_object(raw: str) -> str:
+    """Find the first complete {...} JSON object in a string, ignoring
+    any surrounding markdown fences, prose, or trailing text."""
+    start = raw.find("{")
+    if start == -1:
+        raise ValueError("No JSON object found in response.")
+
+    depth = 0
+    in_string = False
+    escape = False
+    for index in range(start, len(raw)):
+        char = raw[index]
+        if in_string:
+            if escape:
+                escape = False
+            elif char == "\\":
+                escape = True
+            elif char == '"':
+                in_string = False
+            continue
+        if char == '"':
+            in_string = True
+        elif char == "{":
+            depth += 1
+        elif char == "}":
+            depth -= 1
+            if depth == 0:
+                return raw[start:index + 1]
+    raise ValueError("No complete JSON object found in response.")
+
+
 def safe_parse_json(raw: str) -> Dict[str, Any]:
-    cleaned = raw.strip()
-    if cleaned.startswith("```"):
-        cleaned = re.sub(r"^```(json)?", "", cleaned).strip()
-        cleaned = re.sub(r"```$", "", cleaned).strip()
+    json_str = extract_json_object(raw)
     try:
-        return json.loads(cleaned)
+        return json.loads(json_str)
     except json.JSONDecodeError:
-        normalized = re.sub(r"(?<!\\)'", '"', cleaned)
+        normalized = re.sub(r"(?<!\\)'", '"', json_str)
         return json.loads(normalized)
 
 
@@ -108,19 +144,25 @@ def extract_entities_from_text(chunk_text: str, api_key: str) -> Dict[str, Any]:
             headers={"Content-Type": "application/json"},
             json={
                 "contents": [{"role": "user", "parts": [{"text": prompt}]}],
-                "generationConfig": {"temperature": 0, "maxOutputTokens": 600},
+                "generationConfig": {
+                    "temperature": 0,
+                    "maxOutputTokens": 1200,
+                    "thinkingConfig": {"thinkingBudget": 0},
+                },
             },
             timeout=60,
         )
         body = response.json()
 
         if response.ok:
-            text = (
+            parts = (
                 body.get("candidates", [{}])[0]
                 .get("content", {})
-                .get("parts", [{}])[0]
-                .get("text", "")
+                .get("parts", [])
             )
+            text = "".join(part.get("text", "") for part in parts if not part.get("thought"))
+            if not text.strip():
+                print(f"    Warning: empty response text. Raw body: {json.dumps(body)[:500]}")
             return safe_parse_json(text)
 
         message = json.dumps(body)
@@ -194,7 +236,9 @@ def insert_relationship(supabase: Client, relationship: Dict[str, Any], chunk_id
         raise RuntimeError(f"Supabase insert failed: {result.error}")
 
 
-def process_chunks(chunks: List[Dict[str, Any]], api_key: str, supabase: Client) -> None:
+def process_chunks(chunks: List[Dict[str, Any]], api_key: str, supabase: Client, limit: int = None) -> None:
+    if limit is not None:
+        chunks = chunks[:limit]
     processed = load_processed_chunks()
     processed_ids = set(processed.get("processed_chunk_ids", []))
     total = len(chunks)
@@ -256,11 +300,11 @@ def process_chunks(chunks: List[Dict[str, Any]], api_key: str, supabase: Client)
     )
 
 
-def extract_entities_single_doc(doc_id: str) -> None:
+def extract_entities_single_doc(doc_id: str, limit: int = None) -> None:
     api_key = get_env_variable("GEMINI_API_KEY")
     supabase = create_supabase_client()
     chunks = read_chunks_for_doc(doc_id)
-    process_chunks(chunks, api_key, supabase)
+    process_chunks(chunks, api_key, supabase, limit=limit)
 
 
 def main() -> None:

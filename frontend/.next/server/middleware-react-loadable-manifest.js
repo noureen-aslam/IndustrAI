@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST="{}"
+self.__REACT_LOADABLE_MANIFEST="{\"components\\\\KnowledgeGraph.tsx -> react-force-graph-2d\":{\"id\":\"components\\\\KnowledgeGraph.tsx -> react-force-graph-2d\",\"files\":[\"static/chunks/_app-pages-browser_node_modules_react-force-graph-2d_dist_react-force-graph-2d_mjs.js\"]}}"
