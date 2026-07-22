@@ -18,7 +18,7 @@ pip install -r requirements.txt
 cp .env.example .env
 ```
 
-Fill in `SUPABASE_URL`, `SUPABASE_KEY`, and `ANTHROPIC_API_KEY` in `pipeline/.env`.
+Fill in `SUPABASE_URL`, `SUPABASE_KEY`, and `GEMINI_API_KEY` in `pipeline/.env`.
 
 ### Frontend
 
